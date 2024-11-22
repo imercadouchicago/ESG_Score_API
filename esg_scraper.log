@@ -1,0 +1,69 @@
+2024-11-19 21:36:01,295 - INFO - Script started
+2024-11-19 21:36:01,295 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-19 21:41:09,188 - INFO - Script started
+2024-11-19 21:41:09,188 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-19 21:50:40,110 - INFO - Script started
+2024-11-19 21:50:40,111 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-19 22:07:22,933 - INFO - Script started
+2024-11-19 22:07:22,933 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-19 22:07:22,933 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-20 02:17:12,769 - INFO - Script started
+2024-11-20 02:17:12,769 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-20 02:17:12,769 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-20 02:17:16,527 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-20 02:17:18,528 - INFO - Reading input data from: /app/src/esg_app/utils/esg_app/api/data/SP500.csv
+2024-11-20 02:17:18,533 - ERROR - Input file not found. Error: [Errno 2] No such file or directory: '/app/src/esg_app/utils/esg_app/api/data/SP500.csv'
+2024-11-20 02:17:18,533 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-20 02:47:16,468 - INFO - Script started
+2024-11-20 02:47:16,468 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-20 02:47:16,468 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-20 02:47:21,217 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-20 02:47:23,220 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-20 02:47:23,277 - INFO - Data loaded successfully. Number of records: 1
+2024-11-20 02:47:23,278 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-20 02:47:24,501 - INFO - Cookies accepted successfully.
+2024-11-20 02:47:26,505 - INFO - Starting to scrape data for companies.
+2024-11-20 02:47:26,566 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-20 02:47:44,699 - WARNING - Timeout while waiting for element: //*[@id="esg-score"]
+2024-11-20 02:47:45,244 - INFO - Appending data for company: 0
+2024-11-20 02:47:56,169 - WARNING - Timeout while waiting for element: //*[@id="esg-score"]
+2024-11-20 03:02:19,476 - INFO - Script started
+2024-11-20 03:02:19,476 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-20 03:02:19,476 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-20 03:02:22,682 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-20 03:02:24,684 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-20 03:02:24,721 - INFO - Data loaded successfully. Number of records: 1
+2024-11-20 03:02:24,721 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-20 03:02:25,940 - INFO - Cookies accepted successfully.
+2024-11-20 03:02:27,942 - INFO - Starting to scrape data for companies.
+2024-11-20 03:02:27,995 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-20 03:02:36,324 - INFO - Appending data for company: 0
+2024-11-20 03:02:38,008 - INFO - Saving data for company index: 0
+2024-11-20 03:02:38,009 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-20 03:02:38,024 - INFO - New CSV created at: esg_app/api/data/SP500_esg_scores.csv
+2024-11-20 03:02:38,025 - INFO - Script execution completed.
+2024-11-20 04:06:33,362 - INFO - Script started
+2024-11-20 04:06:33,362 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
+2024-11-20 04:06:33,362 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
+2024-11-20 04:14:03,797 - INFO - Script started
+2024-11-20 04:14:03,797 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
+2024-11-20 04:14:03,797 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
+2024-11-20 04:14:08,277 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-20 04:14:10,281 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-20 04:14:10,334 - INFO - Data loaded successfully. Number of records: 1
+2024-11-20 04:17:52,454 - INFO - Script started
+2024-11-20 04:17:52,455 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
+2024-11-20 04:17:52,455 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
+2024-11-20 04:17:55,699 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-20 04:17:57,705 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-20 04:17:57,731 - INFO - Data loaded successfully. Number of records: 1
+2024-11-20 04:17:57,759 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-21 19:46:27,941 - INFO - Script started
+2024-11-21 19:46:27,941 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-21 19:46:27,942 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-21 19:56:31,165 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-21 19:56:33,172 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-21 19:56:33,220 - INFO - Data loaded successfully. Number of records: 1
+2024-11-21 19:56:33,221 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
