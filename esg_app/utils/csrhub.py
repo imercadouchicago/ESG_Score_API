@@ -1,83 +1,59 @@
-""" CSR HUB website Scrape
-
-This script allows the user to scrape the companies' CSR ratings from
-the CSR HUB website. Website link: "https://www.csrhub.com/search/name/"
-
-This tool accepts Company's names list in comma separated value
-file (.csv) format as input.
-
-This script requires that `pandas` be installed within the Python
-environment you are running this script in.
-
-The output is a .csv file with Company name and its corresponding CSR ratings
-"""
+"""SustainAnalytics website Scrape"""
 
 import pandas as pd
-from time import sleep
-from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from time import sleep
 from tqdm import tqdm
-from .scraper import WebScraper
+from esg_app.utils.scraper import WebScraper
+import logging
 
+# Configure logging
+logging.basicConfig(
+    filename='esg_scraper.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
 
-def _append_dict() -> dict:
-    ''' Append the CSR dictionary with Company Name and its CSR score
-    Returns
-    -------
-    dict
-        The CSR dictionary
-    '''
-    try:
-        csr_score = bot.find_element(
-            '//*[@id="wrapper"]/div[3]/section[3]/div[2]/table/tbody/tr[2]/td[2]')
-        csr['CSR_Ratings'].append(csr_score.text)
-        company = bot.find_element(
-            '//*[@id="wrapper"]/div[3]/section[3]/div[2]/table/tbody/tr[2]/td[1]/a')
-        csr['CSR_Company'].append(company.text)
+logging.info("Script started")
 
-    except NoSuchElementException:
-        bot.append_empty_values(csr)
-    return csr
-
-
-# Read input companies dataset
-
-companies_filename = WebScraper._get_filename()
-header_name = WebScraper._get_headername()
-export_path = WebScraper._get_exportpath()
-df = pd.read_csv(companies_filename)
-data_length = len(df)
-
-
-# Set up driver
-URL = "https://www.csrhub.com/search/name/"
+# Set up the webdriver
+URL = "https://www.sustainalytics.com/esg-ratings"
+logging.info("Starting WebScraper for URL: %s", URL)
 bot = WebScraper(URL)
 
-# Accept cookies
-cookies_xpath = '//*[@id="body-content-holder"]/div[2]/div/span[2]/button'
-bot.accept_cookies(cookies_xpath)
+try:
+    # Find search bar and type NVIDIA
+    search_bar = bot.driver.find_element(By.ID, "searchInput")
+    search_bar.clear()
+    search_bar.send_keys("NVIDIA")
+    sleep(3)
 
-# Scrape the website. Extract company names and their respective CSR score
-i = 0
-progress_bar = tqdm(total=data_length)
-while i < data_length:
-    csr = {'CSR_Company': [], 'CSR_Ratings': []}
-    delay = 2  # seconds
+    # Let's print all elements we find to see what's available
+    print("Looking for NVIDIA in dropdown...")
+    
+    # Try different XPaths and print what we find
+    xpaths_to_try = [
+        "//span[contains(text(), 'NVIDIA')]",
+        "//span[@class='companyTicker'][contains(text(), 'NAS:NVDA')]",
+        "//div[@class='companyName']/span[contains(text(), 'NVIDIA')]",
+        "//a[@class='search-link js-fix-path']"
+    ]
+    
+    for xpath in xpaths_to_try:
+        try:
+            elements = bot.driver.find_elements(By.XPATH, xpath)
+            print(f"\nTrying xpath: {xpath}")
+            print(f"Found {len(elements)} elements")
+            for elem in elements:
+                print(f"Element text: {elem.text}")
+                print(f"Element HTML: {elem.get_attribute('outerHTML')}")
+        except Exception as e:
+            print(f"Error with xpath {xpath}: {str(e)}")
 
-    try:
-        search_bar = bot.send_request_to_search_bar(
-            header_name, df, i, xpath='//*[@id="search_company_names_0"]')
-        search_bar.send_keys(Keys.RETURN)
-        sleep(1)
-        csr = _append_dict()
-        # Save the data into a csv file
-        df1 = bot.convert_dict_to_csv(csr, export_path)
-        i += 1
-    # If no element found, the page is restarted
-    except NoSuchElementException:
-        bot = bot.restart_driver(cookies_xpath)
+except Exception as e:
+    logging.error(f"Error: {str(e)}")
+    print(f"Error: {str(e)}")
 
-    sleep(0.1)
-    progress_bar.update(1)
-
-progress_bar.close()
+logging.info("Script completed")

@@ -1,105 +1,80 @@
-"""SustainAnalytics website Scrape
-
-This script allows the user to scrape the companies' ESG ratings from the
-SustainAnalytics website
-Website link: "https://www.sustainalytics.com/esg-ratings"
-
-This tool accepts Company's names list in comma separated value
-file (.csv) format as input.
-
-This script requires that `pandas` be installed within the Python
-environment you are running this script in.
-
-The output is a .csv file with Company name and its corresponding ESG ratings
-"""
-
-import pandas as pd
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from time import sleep
-from tqdm import tqdm
-from esg_app.utils.scraper import  WebScraper
-import logging
+from esg_app.utils.scraper import WebScraper
 
-# Configure logging
-logging.basicConfig(
-    filename='esg_scraper.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-)
+# Initialize scraper and dictionary
+URL = "https://www.sustainalytics.com/esg-ratings"
+bot = WebScraper(URL)
+san = {'SA_Company': [], 'SA_ESG_Risk': [], 'SA_Industry': []}
 
-
-def append_dict(temp: str) -> str:
-    ''' Append the SustainAnalytics dictionary with Company name, Industry\
-        Name, and its ESG Risk rating
-
-    Parameters
-    ----------
-    temp : str
-    The previous company name appended to the dictionary
-
-    Returns
-    -------
-    str
-        The latest company name appended to the dictionary
-    '''
-    logging.info("Appending data for company: %s", temp)
-
-    if temp == company:
-        bot.append_empty_values(san)
-
-    else:
+try:
+    # Search for NVIDIA
+    search_bar = bot.driver.find_element(By.ID, "searchInput")
+    search_bar.clear()
+    search_bar.send_keys("NVDA")
+    print("Searching for NVIDIA...")
+    sleep(10)
+    
+    # Find and get the NVIDIA link
+    nvidia_link = bot.driver.find_element(
+        By.CSS_SELECTOR, 
+        "a.search-link.js-fix-path"
+    )
+    
+    target_url = nvidia_link.get_attribute('href')
+    print(f"\nFound NVIDIA link:")
+    print(f"URL: {target_url}")
+    
+    bot.driver.get(target_url)
+    print(f"\nNavigated to: {bot.driver.current_url}")
+    
+    sleep(5)
+    
+    try:
+        company = bot.locate_element(class_name="company-name")
+        esg_score = bot.locate_element(class_name="risk-rating-score")
+        industry = bot.locate_element(class_name="industry-group")
+        
+        # Store the data
         san['SA_Company'].append(company.text)
         san['SA_ESG_Risk'].append(esg_score.text)
         san['SA_Industry'].append(industry.text)
-        temp = company
-    return temp
-
-logging.info("Script started")
-
-# Set up the webdriver
-URL = "https://www.sustainalytics.com/esg-ratings"
-logging.info("Starting WebScraper for URL: %s", URL)
-bot = WebScraper(URL)
-
-# Read input companies dataset
-logging.info("Reading input data from: %s", bot.filepath)
-try:
-    df = pd.read_csv(bot.filepath)
-    df = df.head(1)
-    data_length = len(df)
-    logging.info("Data loaded successfully. Number of records: %d", data_length)
-except FileNotFoundError as e:
-    logging.error("Input file not found. Error: %s", e)
-
-# Set export path for csv output
-export_path = bot.export_path
-
-# Scrape the website. Extract company names and their respective ESG score
-#  and store it in the dictionary
-temp = 0
-for i in tqdm(range(data_length)):
-    san = {'SA_Company': [], 'SA_ESG_Risk': [], 'SA_Industry': []}
-    # Starting the search by finding the search bar and searching for the
-    #  company
-
-    try:
-        logging.debug("Processing company index: %d", i)
-        search_bar = bot.send_request_to_search_bar(
-            bot.headername, df, i, xpath='//*[@id="searchInput"]')
-        key = bot.locate_element(class_name="list-group-item")
-        key.click()
-        sleep(3)
-        company = bot.locate_element(class_name="col")
-        esg_score = bot.locate_element(class_name="col-6 risk-rating-score")
-        industry = bot.locate_element(class_name="industry-group")
-        temp = append_dict(temp)
-
-    except NoSuchElementException:
-        logging.warning("Element not found for company index: %d. Error: %s", i)
-        bot.append_empty_values(san)
-
-    # Save the data into a csv file
-    logging.info("Saving data for company index: %d", i)
-    df1 = bot.convert_dict_to_csv(san, export_path)
-
-logging.info("Script execution completed.")
+        
+        print("\nExtracted ESG Data:")
+        print(f"Company: {company.text}")
+        print(f"ESG Score: {esg_score.text}")
+        print(f"Industry: {industry.text}")
+        
+    except NoSuchElementException as e:
+        print(f"\nError finding ESG elements: {e}")
+        # Try alternative approach with full XPath
+        try:
+            print("\nTrying alternative approach...")
+            company = bot.driver.find_element(By.CLASS_NAME, "company-name")
+            esg_score = bot.driver.find_element(By.CLASS_NAME, "risk-rating-explicit")
+            industry = bot.driver.find_element(By.CLASS_NAME, "industry-group")
+            
+            san['SA_Company'].append(company.text)
+            san['SA_ESG_Risk'].append(esg_score.text)
+            san['SA_Industry'].append(industry.text)
+            
+            print("\nExtracted ESG Data (alternative method):")
+            print(f"Company: {company.text}")
+            print(f"ESG Score: {esg_score.text}")
+            print(f"Industry: {industry.text}")
+            
+        except NoSuchElementException as e2:
+            print(f"Alternative approach also failed: {e2}")
+            bot.append_empty_values(san)
+        
+except NoSuchElementException as e:
+    print(f"Error: Could not find NVIDIA - {e}")
+    bot.append_empty_values(san)
+except Exception as e:
+    print(f"Error: {e}")
+    bot.append_empty_values(san)
+finally:
+    df = bot.convert_dict_to_csv(san, bot.export_path)
+    print("\nFinal scraped data:", san)
+    bot.driver.quit()
