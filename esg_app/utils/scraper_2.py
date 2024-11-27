@@ -61,7 +61,7 @@ class WebScraper():
             logging.info("WebDriver initialized and URL accessed successfully.")
         except Exception as e:
             logging.error("Failed to initialize WebDriver or access URL. Error: %s", e)
-        sleep(2)
+            return None
 
     def wait_element_to_load(self, xpath: str):
         '''

@@ -20,10 +20,10 @@ import_path = 'esg_app/api/data/SP500.csv'
 headername = 'Shortname'
 export_path = 'esg_app/api/data/SP500_esg_scores.csv'
 USER_AGENTS = [
-    # Windows Browsers - Chrome, Edge, Firefox, Opera 
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0",
+    # Chrome versions derived from historical Chrome releases
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
     ]
 
 def scrape_company(company_data: pd.DataFrame, user_agents: Queue) -> list[dict]:
@@ -85,7 +85,7 @@ def main():
     logging.info("Reading input data from: %s", import_path)
     try:
         df = pd.read_csv(import_path)
-        df = df.head(3)  # For testing
+        df = df.head(2)  # For testing
         logging.info("Data loaded successfully. Number of records: %d", len(df))
     except FileNotFoundError as e:
         logging.error("Input file not found. Error: %s", e)
@@ -103,6 +103,11 @@ def main():
 
     try:
         with ThreadPoolExecutor(max_workers=num_threads) as executor:
+            # If you want to add a delay between submissions:
+            # futures = []
+            # for i, chunk in enumerate(df_chunks):
+            #     sleep(3 * i)  
+            #     futures.append(executor.submit(scrape_company, chunk, user_agents))
             futures = [executor.submit(scrape_company, chunk, user_agents) 
                       for chunk in df_chunks]
             
