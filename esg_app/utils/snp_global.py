@@ -52,7 +52,7 @@ bot = WebScraper(URL)
 logging.info("Reading input data from: %s", bot.filepath)
 try:
     df = pd.read_csv(bot.filepath)
-    df = df.head(1)
+    df = df.head(2)
     data_length = len(df)
     logging.info("Data loaded successfully. Number of records: %d", data_length)
 except FileNotFoundError as e:
