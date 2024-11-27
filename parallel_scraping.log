@@ -452,3 +452,143 @@
 2024-11-27 13:22:47,072 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 2024-11-27 13:22:47,073 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0
 2024-11-27 13:22:47,073 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 13:54:14,511 - INFO - ESG Scraping Script Started
+2024-11-27 13:54:14,527 - ERROR - Main process error: name 'concurrent' is not defined
+2024-11-27 13:54:14,527 - INFO - Script completed
+2024-11-27 13:56:31,914 - INFO - ESG Scraping Script Started
+2024-11-27 13:56:31,928 - ERROR - Main process error: scrape_company() missing 1 required positional argument: 'user_agents'
+2024-11-27 13:56:31,928 - INFO - Script completed
+2024-11-27 14:02:41,970 - INFO - ESG Scraping Script Started
+2024-11-27 14:02:42,037 - INFO - Starting scrape for company NVIDIA Corporation (index: 0)
+2024-11-27 14:02:42,039 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 14:02:42,037 - INFO - Starting scrape for company Microsoft Corporation (index: 2)
+2024-11-27 14:02:42,040 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-11-27 14:02:42,037 - INFO - Starting scrape for company Apple Inc. (index: 1)
+2024-11-27 14:02:42,041 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0
+2024-11-27 14:02:42,038 - INFO - Starting scrape for company Alphabet Inc. (index: 3)
+2024-11-27 14:02:42,039 - INFO - Starting scrape for company Alphabet Inc. (index: 4)
+2024-11-27 14:02:42,042 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 14:02:42,041 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+2024-11-27 14:12:44,109 - ERROR - Failed to initialize browser: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-27 14:12:44,110 - ERROR - Could not create driver for company {'Exchange': 'NMS', 'Symbol': 'AAPL', 'Shortname': 'Apple Inc.', 'Longname': 'Apple Inc.', 'Sector': 'Technology', 'Industry': 'Consumer Electronics', 'Currentprice': 224.23, 'Marketcap': 3389415751680, 'Ebitda': 134660997120.0, 'Revenuegrowth': 0.061, 'City': 'Cupertino', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 164000.0, 'Longbusinesssummary': 'Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.', 'Weight': 0.06061359836964}
+2024-11-27 14:12:44,111 - ERROR - Failed to initialize browser: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-27 14:12:44,111 - ERROR - Could not create driver for company {'Exchange': 'NMS', 'Symbol': 'GOOG', 'Shortname': 'Alphabet Inc.', 'Longname': 'Alphabet Inc.', 'Sector': 'Communication Services', 'Industry': 'Internet Content & Information', 'Currentprice': 183.32, 'Marketcap': 2233076023296, 'Ebitda': 123469996032.0, 'Revenuegrowth': 0.151, 'City': 'Mountain View', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 181269.0, 'Longbusinesssummary': 'Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in the Google Play and YouTube; and devices, as well as in the provision of YouTube consumer subscription services. The Google Cloud segment offers infrastructure, cybersecurity, databases, analytics, AI, and other services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Gmail, Docs, Drive, Calendar, and Meet; and other services for enterprise customers. The Other Bets segment sells healthcare-related and internet services. The company was incorporated in 1998 and is headquartered in Mountain View, California.', 'Weight': 0.0399345442169042}
+2024-11-27 14:12:44,120 - ERROR - Failed to initialize browser: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-27 14:12:44,120 - ERROR - Could not create driver for company {'Exchange': 'NMS', 'Symbol': 'GOOGL', 'Shortname': 'Alphabet Inc.', 'Longname': 'Alphabet Inc.', 'Sector': 'Communication Services', 'Industry': 'Internet Content & Information', 'Currentprice': 181.62, 'Marketcap': 2232236900352, 'Ebitda': 123469996032.0, 'Revenuegrowth': 0.151, 'City': 'Mountain View', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 181269.0, 'Longbusinesssummary': 'Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in the Google Play and YouTube; and devices, as well as in the provision of YouTube consumer subscription services. The Google Cloud segment offers infrastructure, cybersecurity, databases, analytics, AI, and other services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Gmail, Docs, Drive, Calendar, and Meet; and other services for enterprise customers. The Other Bets segment sells healthcare-related and internet services. The company was incorporated in 1998 and is headquartered in Mountain View, California.', 'Weight': 0.0399195380138189}
+2024-11-27 14:12:44,129 - ERROR - Failed to initialize browser: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-27 14:12:44,129 - ERROR - Failed to initialize browser: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-27 14:12:44,129 - ERROR - Could not create driver for company {'Exchange': 'NMS', 'Symbol': 'NVDA', 'Shortname': 'NVIDIA Corporation', 'Longname': 'NVIDIA Corporation', 'Sector': 'Technology', 'Industry': 'Semiconductors', 'Currentprice': 148.29, 'Marketcap': 3637553397760, 'Ebitda': 61184000000.0, 'Revenuegrowth': 1.224, 'City': 'Santa Clara', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 29600.0, 'Longbusinesssummary': "NVIDIA Corporation provides graphics and compute and networking solutions in the United States, Taiwan, China, Hong Kong, and internationally. The Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; virtual GPU or vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building and operating metaverse and 3D internet applications. The Compute & Networking segment comprises Data Center computing platforms and end-to-end networking platforms, including Quantum for InfiniBand and Spectrum for Ethernet; NVIDIA DRIVE automated-driving platform and automotive development agreements; Jetson robotics and other embedded platforms; NVIDIA AI Enterprise and other software; and DGX Cloud software and services. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, consumer internet companies, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.", 'Weight': 0.0650510934194657}
+2024-11-27 14:12:44,129 - ERROR - Could not create driver for company {'Exchange': 'NMS', 'Symbol': 'MSFT', 'Shortname': 'Microsoft Corporation', 'Longname': 'Microsoft Corporation', 'Sector': 'Technology', 'Industry': 'Software - Infrastructure', 'Currentprice': 423.03, 'Marketcap': 3145177235456, 'Ebitda': 136551997440.0, 'Revenuegrowth': 0.16, 'City': 'Redmond', 'State': 'WA', 'Country': 'United States', 'Fulltimeemployees': 228000.0, 'Longbusinesssummary': 'Microsoft Corporation develops and supports software, services, devices and solutions worldwide. The Productivity and Business Processes segment offers office, exchange, SharePoint, Microsoft Teams, office 365 Security and Compliance, Microsoft viva, and Microsoft 365 copilot; and office consumer services, such as Microsoft 365 consumer subscriptions, Office licensed on-premises, and other office services. This segment also provides LinkedIn; and dynamics business solutions, including Dynamics 365, a set of intelligent, cloud-based applications across ERP, CRM, power apps, and power automate; and on-premises ERP and CRM applications. The Intelligent Cloud segment offers server products and cloud services, such as azure and other cloud services; SQL and windows server, visual studio, system center, and related client access licenses, as well as nuance and GitHub; and enterprise services including enterprise support services, industry solutions, and nuance professional services. The More Personal Computing segment offers Windows, including windows OEM licensing and other non-volume licensing of the Windows operating system; Windows commercial comprising volume licensing of the Windows operating system, windows cloud services, and other Windows commercial offerings; patent licensing; and windows Internet of Things; and devices, such as surface, HoloLens, and PC accessories. Additionally, this segment provides gaming, which includes Xbox hardware and content, and first- and third-party content; Xbox game pass and other subscriptions, cloud gaming, advertising, third-party disc royalties, and other cloud services; and search and news advertising, which includes Bing, Microsoft News and Edge, and third-party affiliates. The company sells its products through OEMs, distributors, and resellers; and directly through digital marketplaces, online, and retail stores. The company was founded in 1975 and is headquartered in Redmond, Washington.', 'Weight': 0.0562458322372438}
+2024-11-27 14:12:44,130 - WARNING - No results to save
+2024-11-27 14:12:44,130 - INFO - Script completed
+2024-11-27 14:17:28,590 - INFO - ESG Scraping Script Started
+2024-11-27 14:17:28,604 - INFO - Starting scrape for company NVIDIA Corporation (index: 0)
+2024-11-27 14:17:28,604 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 14:17:29,063 - INFO - Browser initialized successfully
+2024-11-27 14:17:34,151 - INFO - Cookies accepted successfully
+2024-11-27 14:17:37,162 - INFO - Search bar found successfully
+2024-11-27 14:17:40,626 - INFO - Successfully processed company: NVIDIA Corporation ESG Score
+2024-11-27 14:17:40,636 - INFO - Successfully saved 1 results
+2024-11-27 14:17:40,636 - INFO - Script completed
+2024-11-27 16:10:08,417 - INFO - Script started
+2024-11-27 16:10:08,418 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-27 16:10:08,429 - INFO - Data loaded successfully. Number of records: 2
+2024-11-27 16:10:08,430 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:10:08,430 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 16:10:08,430 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:10:08,430 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-11-27 16:10:11,961 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-27 16:10:13,963 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:10:14,674 - INFO - Cookies accepted successfully.
+2024-11-27 16:10:16,679 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-27 16:10:24,999 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-27 16:13:18,314 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-27 16:13:20,321 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:13:20,823 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0: 'WebScraper' object has no attribute 'driver'
+2024-11-27 16:16:46,875 - INFO - Script started
+2024-11-27 16:16:46,876 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-27 16:16:46,887 - INFO - Data loaded successfully. Number of records: 2
+2024-11-27 16:16:46,887 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:16:46,887 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 16:16:46,887 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:16:46,888 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0
+2024-11-27 16:16:49,539 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-27 16:16:49,956 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-27 16:16:51,541 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:16:51,959 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:16:52,259 - INFO - Cookies accepted successfully.
+2024-11-27 16:16:52,762 - INFO - Cookies accepted successfully.
+2024-11-27 16:16:54,266 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-27 16:16:54,765 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-27 16:17:02,603 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-27 16:17:03,157 - INFO - Successfully scraped data for Apple Inc.
+2024-11-27 16:17:03,229 - INFO - Successfully saved 2 results
+2024-11-27 16:17:03,229 - INFO - Script completed
+2024-11-27 16:18:01,995 - INFO - Script started
+2024-11-27 16:18:01,996 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-27 16:18:02,007 - INFO - Data loaded successfully. Number of records: 3
+2024-11-27 16:18:02,007 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:18:02,007 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 16:18:02,007 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:18:02,008 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:18:02,008 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 16:18:02,008 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0
+2024-11-27 16:18:03,673 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-27 16:18:04,831 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-27 16:18:05,674 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:18:06,389 - INFO - Cookies accepted successfully.
+2024-11-27 16:18:06,832 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:18:07,577 - INFO - Cookies accepted successfully.
+2024-11-27 16:18:08,394 - INFO - Search Bar Request for Company:Microsoft Corporation
+2024-11-27 16:18:09,578 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-27 16:18:16,731 - INFO - Successfully scraped data for Microsoft Corporation
+2024-11-27 16:18:17,916 - INFO - Successfully scraped data for Apple Inc.
+2024-11-27 16:19:13,294 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-27 16:19:15,305 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:19:15,809 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0: 'WebScraper' object has no attribute 'driver'
+2024-11-27 16:21:01,021 - INFO - Script started
+2024-11-27 16:21:01,021 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-27 16:21:01,033 - INFO - Data loaded successfully. Number of records: 3
+2024-11-27 16:21:01,034 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:21:01,034 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0
+2024-11-27 16:21:01,034 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:21:01,034 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 16:21:01,034 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:21:01,035 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 16:22:31,616 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-27 16:22:31,618 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-27 16:22:31,621 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-27 16:22:33,621 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:22:33,622 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:22:33,623 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:22:34,125 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0: 'WebScraper' object has no attribute 'driver'
+2024-11-27 16:22:34,126 - ERROR - Error with user agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: 'WebScraper' object has no attribute 'driver'
+2024-11-27 16:22:34,126 - ERROR - Error with user agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0: 'WebScraper' object has no attribute 'driver'
+2024-11-27 16:23:18,520 - INFO - Script started
+2024-11-27 16:23:18,520 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-27 16:23:18,531 - INFO - Data loaded successfully. Number of records: 3
+2024-11-27 16:23:18,531 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:23:18,531 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0
+2024-11-27 16:23:18,531 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:23:18,532 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:23:18,532 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 16:23:18,532 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 16:28:31,653 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-27 16:28:31,659 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-27 16:28:31,661 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-27 16:28:33,655 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:28:33,659 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:28:33,663 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:28:34,161 - ERROR - Error with user agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: 'WebScraper' object has no attribute 'driver'
+2024-11-27 16:28:34,161 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0: 'WebScraper' object has no attribute 'driver'
+2024-11-27 16:28:34,164 - ERROR - Error with user agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0: 'WebScraper' object has no attribute 'driver'

@@ -1,5 +1,4 @@
 import pandas as pd
-from multiprocessing import Pool, Manager
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -9,6 +8,9 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import logging
 import random
 from time import sleep
+import concurrent.futures
+from concurrent.futures import ThreadPoolExecutor
+from queue import Queue
 
 # Configure logging
 logging.basicConfig(
@@ -154,30 +156,23 @@ def main():
     
     try:
         df = pd.read_csv("esg_app/api/data/SP500.csv")
-        df = df.head(7)
-        logging.info(f"Total companies to process: {len(df)}")
-        
-        # Prepare data and user agents for multiprocessing
+        df = df.head(1)
         company_data = list(enumerate(df.to_dict(orient='records')))
-        user_agents = Manager().Queue()  # Shared queue
-        for agent in USER_AGENTS:
-            user_agents.put(agent)  # Populate the queue
         
-        # Use multiprocessing
-        with Pool(processes=min(len(company_data), user_agents.qsize())) as pool:
+        # Create queue of user agents
+        user_agents = Queue()
+        for agent in USER_AGENTS:
+            user_agents.put(agent)
+        
+        # Use ThreadPoolExecutor instead of Pool
+        with ThreadPoolExecutor(max_workers=min(len(company_data), user_agents.qsize())) as executor:
             results = []
-            for result in pool.starmap(scrape_company, [(data, user_agents) for data in company_data]):
+            futures = [executor.submit(scrape_company, data, user_agents) for data in company_data]
+            for future in concurrent.futures.as_completed(futures):
+                result = future.result()
                 if result is not None:
                     results.append(result)
                     logging.info(f"Successfully processed company: {result['SnP_ESG_Company']}")
-        
-        # # Use multiprocessing
-        # with Pool(processes=10) as pool:
-        #     results = []
-        #     for result in pool.imap_unordered(scrape_company, company_data):
-        #         if result is not None:
-        #             results.append(result)
-        #             logging.info(f"Successfully processed company: {result['SnP_ESG_Company']}")
         
         # Clean and save results
         if results:

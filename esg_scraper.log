@@ -353,3 +353,34 @@ from chrome not reachable
 2024-11-27 02:29:20,927 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'NVDA', 'Shortname': 'NVIDIA Corporation', 'Longname': 'NVIDIA Corporation', 'Sector': 'Technology', 'Industry': 'Semiconductors', 'Currentprice': 148.29, 'Marketcap': 3637553397760, 'Ebitda': 61184000000.0, 'Revenuegrowth': 1.224, 'City': 'Santa Clara', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 29600.0, 'Longbusinesssummary': "NVIDIA Corporation provides graphics and compute and networking solutions in the United States, Taiwan, China, Hong Kong, and internationally. The Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; virtual GPU or vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building and operating metaverse and 3D internet applications. The Compute & Networking segment comprises Data Center computing platforms and end-to-end networking platforms, including Quantum for InfiniBand and Spectrum for Ethernet; NVIDIA DRIVE automated-driving platform and automotive development agreements; Jetson robotics and other embedded platforms; NVIDIA AI Enterprise and other software; and DGX Cloud software and services. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, consumer internet companies, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.", 'Weight': 0.0650510934194657}: 'WebScraper' object has no attribute 'driver'
 2024-11-27 02:29:20,947 - WARNING - No results to save.
 2024-11-27 02:29:20,947 - INFO - Scraping completed.
+2024-11-27 15:59:20,997 - INFO - Script started
+2024-11-27 15:59:20,997 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-27 15:59:21,007 - INFO - Data loaded successfully. Number of records: 1
+2024-11-27 15:59:21,008 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 15:59:21,009 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 15:59:25,653 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-27 15:59:27,657 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 15:59:28,325 - INFO - Cookies accepted successfully.
+2024-11-27 15:59:30,328 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-27 15:59:38,688 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-27 15:59:38,690 - ERROR - Main process error: 'WebScraper' object has no attribute 'quit'
+2024-11-27 15:59:38,690 - INFO - Script completed
+2024-11-27 16:00:23,056 - INFO - Script started
+2024-11-27 16:00:23,057 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-27 16:00:23,067 - INFO - Data loaded successfully. Number of records: 2
+2024-11-27 16:00:23,068 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:00:23,068 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 16:00:23,068 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-11-27 16:00:23,068 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 16:00:29,905 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-27 16:00:30,939 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-27 16:00:31,906 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:00:32,610 - INFO - Cookies accepted successfully.
+2024-11-27 16:00:32,940 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 16:00:33,618 - INFO - Cookies accepted successfully.
+2024-11-27 16:00:34,626 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-27 16:00:35,621 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-27 16:00:42,994 - INFO - Successfully scraped data for Apple Inc.
+2024-11-27 16:00:43,952 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-27 16:00:43,952 - ERROR - Main process error: 'WebScraper' object has no attribute 'quit'
+2024-11-27 16:00:43,952 - INFO - Script completed
