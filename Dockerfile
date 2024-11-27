@@ -1,24 +1,21 @@
 FROM python:3.13.0-alpine AS base
 WORKDIR /app/src
 
-RUN apk update && apk add --no-cache \
+RUN apk add --no-cache \
     chromium \
     chromium-chromedriver \
-    harfbuzz \
-    ttf-freefont \
-    fontconfig \
     libx11 \
     libxcomposite \
     libxrandr \
     libxi \
-    libxtst \
     libxdamage \
     libxfixes \
     mesa-dri-gallium \
     mesa-egl \
-    udev \
-    cups-libs \
-    nss 
+    ttf-freefont \
+    fontconfig \
+    harfbuzz \
+    nss
     # \
     # xvfb \
     # xvfb-run
