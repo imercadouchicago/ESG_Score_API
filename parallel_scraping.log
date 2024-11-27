@@ -908,3 +908,37 @@
 2024-11-27 20:58:29,368 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
 2024-11-27 20:58:29,875 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36: 'WebScraper' object has no attribute 'driver'
 2024-11-27 20:58:29,875 - ERROR - Error with user agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36: 'WebScraper' object has no attribute 'driver'
+2024-11-27 22:11:49,741 - INFO - Script started
+2024-11-27 22:11:49,741 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-27 22:11:49,751 - INFO - Data loaded successfully. Number of records: 10
+2024-11-27 22:11:49,753 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 22:11:49,753 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 22:11:49,753 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 22:11:49,754 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 22:11:54,056 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-27 22:11:54,056 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 22:11:54,057 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-27 22:11:54,057 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 22:11:54,803 - INFO - Cookies accepted successfully.
+2024-11-27 22:11:54,806 - INFO - Cookies accepted successfully.
+2024-11-27 22:11:56,832 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-27 22:11:56,833 - INFO - Search Bar Request for Company:Amazon.com, Inc.
+2024-11-27 22:12:06,797 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-27 22:12:06,797 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-27 22:12:06,800 - INFO - Successfully scraped data for Amazon.com, Inc.
+2024-11-27 22:12:06,800 - INFO - Search Bar Request for Company:Meta Platforms, Inc.
+2024-11-27 22:12:16,746 - INFO - Successfully scraped data for Apple Inc.
+2024-11-27 22:12:16,747 - INFO - Search Bar Request for Company:Microsoft Corporation
+2024-11-27 22:12:16,752 - INFO - Successfully scraped data for Meta Platforms, Inc.
+2024-11-27 22:12:16,752 - INFO - Search Bar Request for Company:Tesla, Inc.
+2024-11-27 22:12:26,668 - INFO - Successfully scraped data for Microsoft Corporation
+2024-11-27 22:12:26,668 - INFO - Search Bar Request for Company:Alphabet Inc.
+2024-11-27 22:12:26,668 - INFO - Successfully scraped data for Tesla, Inc.
+2024-11-27 22:12:26,669 - INFO - Search Bar Request for Company:Berkshire Hathaway Inc. New
+2024-11-27 22:12:36,600 - INFO - Successfully scraped data for Alphabet Inc.
+2024-11-27 22:12:36,601 - INFO - Successfully scraped data for Berkshire Hathaway Inc. New
+2024-11-27 22:12:36,601 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-27 22:12:36,601 - INFO - Search Bar Request for Company:Broadcom Inc.
+2024-11-27 22:12:46,592 - INFO - Successfully scraped data for Broadcom Inc.
+2024-11-27 22:12:46,660 - INFO - Successfully saved 8 results
+2024-11-27 22:12:46,660 - INFO - Script completed

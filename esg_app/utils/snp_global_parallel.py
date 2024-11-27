@@ -23,9 +23,10 @@ headername = 'Shortname'
 export_path = 'esg_app/api/data/SP500_esg_scores.csv'
 USER_AGENTS = [
     # Chrome versions derived from historical Chrome releases
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
-    ]
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+]
+
 
 def scrape_company(company_data: pd.DataFrame, user_agents: Queue, processed_tickers: set, lock: Lock) -> list[dict]:
     try:
@@ -64,6 +65,10 @@ def scrape_company(company_data: pd.DataFrame, user_agents: Queue, processed_tic
                 ESG_Country = bot.locate_element('//*[@id="company-country"]')
                 ESG_Industry = bot.locate_element('//*[@id="company-industry"]')
                 ESG_Ticker = bot.locate_element('//*[@id="company-ticker"]')
+
+                ESG_environment = bot.locate_element(xpath="/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[1]/div[2]/ul/li[1]/span")
+                ESG_social = bot.locate_element(xpath="/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[2]/div[2]/ul/li[1]/span")
+                ESG_governance = bot.locate_element(xpath="/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[3]/div[2]/ul/li[1]/span")
                 
                 results.append({
                     "SnP_ESG_Company": ESG_Company.text,
@@ -71,6 +76,9 @@ def scrape_company(company_data: pd.DataFrame, user_agents: Queue, processed_tic
                     "SnP_ESG_Country": ESG_Country.text,
                     "SnP_ESG_Industry": ESG_Industry.text,
                     "SnP_ESG_Ticker": ESG_Ticker.text,
+                    "ESG_environment": ESG_environment.text,
+                    "ESG_social": ESG_social.text,
+                    "ESG_governance": ESG_governance.text
                 })
                 logging.info(f"Successfully scraped data for {row[headername]}")
             

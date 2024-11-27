@@ -1,2 +1,9 @@
-SnP_ESG_Company,SnP_ESG_Score,SnP_ESG_Country,SnP_ESG_Industry,SnP_ESG_Ticker
-NVIDIA Corporation ESG Score,61,Location: United States of America,Industry: SEM Semiconductors & Semiconductor Equipment,Ticker: NVDA
+SnP_ESG_Company,SnP_ESG_Score,SnP_ESG_Country,SnP_ESG_Industry,SnP_ESG_Ticker,ESG_environment,ESG_social,ESG_governance
+NVIDIA Corporation ESG Score,61,Location: United States of America,Industry: SEM Semiconductors & Semiconductor Equipment,Ticker: NVDA,57,64,64
+Apple Inc. ESG Score,45,Location: United States of America,Industry: THQ Computers & Peripherals and Office Electronics,Ticker: AAPL,54,44,37
+Microsoft Corporation ESG Score,56,Location: United States of America,Industry: SOF Software,Ticker: MSFT,73,44,58
+Alphabet Inc. ESG Score,47,Location: United States of America,"Industry: IMS Interactive Media, Services & Home Entertainment",Ticker: GOOGL,66,51,31
+"Amazon.com, Inc. ESG Score",24,Location: United States of America,Industry: RTS Retailing,Ticker: AMZN,34,17,23
+"Meta Platforms, Inc. ESG Score",30,Location: United States of America,"Industry: IMS Interactive Media, Services & Home Entertainment",Ticker: META,58,18,28
+"Tesla, Inc. ESG Score",37,Location: United States of America,Industry: AUT Automobiles,Ticker: TSLA,52,23,36
+Broadcom Inc. ESG Score,36,Location: United States of America,Industry: SEM Semiconductors & Semiconductor Equipment,Ticker: AVGO,32,40,38
