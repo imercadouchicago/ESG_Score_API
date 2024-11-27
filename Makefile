@@ -2,7 +2,7 @@ IMAGE_NAME = project_image
 LOCAL_HOST_DIR = $(shell pwd)
 CONTAINER_SRC_DIR = /app/src
 
-.PHONY = build interactive flask
+.PHONY = build interactive snpglobal flask
 
 build:
 	docker build . -t $(IMAGE_NAME)
@@ -12,6 +12,13 @@ interactive: build
 	-e PYTHONPATH='/app/src' \
 	-v $(LOCAL_HOST_DIR):$(CONTAINER_SRC_DIR) \
 	$(IMAGE_NAME) /bin/sh
+
+# snpglobal: build
+# 	docker run -it --rm \
+# 	-e PYTHONPATH='/app/src' \
+# 	-v $(LOCAL_HOST_DIR):$(CONTAINER_SRC_DIR) \
+# 	$(IMAGE_NAME) /bin/sh -c \
+# 	"xvfb-run -a python esg_app/utils/parallel_scraper.py"
 
 flask: build
 	docker run -p 5001:5001 \

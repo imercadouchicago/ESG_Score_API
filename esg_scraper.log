@@ -1,938 +1,343 @@
-2024-11-19 21:36:01,295 - INFO - Script started
-2024-11-19 21:36:01,295 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-19 21:41:09,188 - INFO - Script started
-2024-11-19 21:41:09,188 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-19 21:50:40,110 - INFO - Script started
-2024-11-19 21:50:40,111 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-19 22:07:22,933 - INFO - Script started
-2024-11-19 22:07:22,933 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-19 22:07:22,933 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-20 02:17:12,769 - INFO - Script started
-2024-11-20 02:17:12,769 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-20 02:17:12,769 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-20 02:17:16,527 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-20 02:17:18,528 - INFO - Reading input data from: /app/src/esg_app/utils/esg_app/api/data/SP500.csv
-2024-11-20 02:17:18,533 - ERROR - Input file not found. Error: [Errno 2] No such file or directory: '/app/src/esg_app/utils/esg_app/api/data/SP500.csv'
-2024-11-20 02:17:18,533 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
-2024-11-20 02:47:16,468 - INFO - Script started
-2024-11-20 02:47:16,468 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-20 02:47:16,468 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-20 02:47:21,217 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-20 02:47:23,220 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-20 02:47:23,277 - INFO - Data loaded successfully. Number of records: 1
-2024-11-20 02:47:23,278 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
-2024-11-20 02:47:24,501 - INFO - Cookies accepted successfully.
-2024-11-20 02:47:26,505 - INFO - Starting to scrape data for companies.
-2024-11-20 02:47:26,566 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-20 02:47:44,699 - WARNING - Timeout while waiting for element: //*[@id="esg-score"]
-2024-11-20 02:47:45,244 - INFO - Appending data for company: 0
-2024-11-20 02:47:56,169 - WARNING - Timeout while waiting for element: //*[@id="esg-score"]
-2024-11-20 03:02:19,476 - INFO - Script started
-2024-11-20 03:02:19,476 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-20 03:02:19,476 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-20 03:02:22,682 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-20 03:02:24,684 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-20 03:02:24,721 - INFO - Data loaded successfully. Number of records: 1
-2024-11-20 03:02:24,721 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
-2024-11-20 03:02:25,940 - INFO - Cookies accepted successfully.
-2024-11-20 03:02:27,942 - INFO - Starting to scrape data for companies.
-2024-11-20 03:02:27,995 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-20 03:02:36,324 - INFO - Appending data for company: 0
-2024-11-20 03:02:38,008 - INFO - Saving data for company index: 0
-2024-11-20 03:02:38,009 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-20 03:02:38,024 - INFO - New CSV created at: esg_app/api/data/SP500_esg_scores.csv
-2024-11-20 03:02:38,025 - INFO - Script execution completed.
-2024-11-20 04:06:33,362 - INFO - Script started
-2024-11-20 04:06:33,362 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-20 04:06:33,362 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-20 04:14:03,797 - INFO - Script started
-2024-11-20 04:14:03,797 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-20 04:14:03,797 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-20 04:14:08,277 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-20 04:14:10,281 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-20 04:14:10,334 - INFO - Data loaded successfully. Number of records: 1
-2024-11-20 04:17:52,454 - INFO - Script started
-2024-11-20 04:17:52,455 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-20 04:17:52,455 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-20 04:17:55,699 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-20 04:17:57,705 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-20 04:17:57,731 - INFO - Data loaded successfully. Number of records: 1
-2024-11-20 04:17:57,759 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-21 19:46:27,941 - INFO - Script started
-2024-11-21 19:46:27,941 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-21 19:46:27,942 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-21 19:56:31,165 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: timeout: Timed out receiving message from renderer: 600.000
-  (Session info: chrome=131.0.6778.69)
+2024-11-26 20:36:08,043 - INFO - Script started.
+2024-11-26 20:36:08,053 - INFO - Successfully loaded input data.
+2024-11-26 20:36:08,053 - INFO - Starting parallel scraping...
+2024-11-26 20:36:08,154 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,154 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,156 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,155 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,155 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,157 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,160 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,157 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,164 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,157 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,174 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,165 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,161 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,185 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,158 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,162 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,195 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,162 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,208 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,164 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,168 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,179 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,226 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,191 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,230 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,241 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,199 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,200 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,223 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,233 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,267 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,229 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,327 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,233 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,253 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,245 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,360 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,276 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,366 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,259 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,294 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,301 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,313 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,321 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,344 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,335 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,376 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,381 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,382 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:36:08,394 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:36,870 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-26 20:37:36,853 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
 
-2024-11-21 19:56:33,172 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-21 19:56:33,220 - INFO - Data loaded successfully. Number of records: 1
-2024-11-21 19:56:33,221 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
-2024-11-25 18:19:39,571 - INFO - Script started
-2024-11-25 18:19:39,571 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-25 18:19:39,571 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-25 18:29:41,372 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: timeout: Timed out receiving message from renderer: 600.000
+2024-11-26 20:37:36,965 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:37,415 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:37,467 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:37,427 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:37,539 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:38,023 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:38,263 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:38,028 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:38,275 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:38,733 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:38,785 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:39,178 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:39,171 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:39,329 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:39,439 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:39,501 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:40,026 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'META', 'Shortname': 'Meta Platforms, Inc.', 'Longname': 'Meta Platforms, Inc.', 'Sector': 'Communication Services', 'Industry': 'Internet Content & Information', 'Currentprice': 584.82, 'Marketcap': 1476372201472, 'Ebitda': 79208996864.0, 'Revenuegrowth': 0.189, 'City': 'Menlo Park', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 72404.0, 'Longbusinesssummary': 'Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality headsets, and wearables worldwide. It operates in two segments, Family of Apps and Reality Labs. The Family of Apps segment offers Facebook, which enables people to share, discuss, discover, and connect with interests; Instagram, a community for sharing photos, videos, and private messages, as well as feed, stories, reels, video, live, and shops; Messenger, a messaging application for people to connect with friends, family, communities, and businesses across platforms and devices through text, audio, and video calls; and WhatsApp, a messaging application that is used by people and businesses to communicate and transact privately. The Reality Labs segment provides augmented and virtual reality related products comprising consumer hardware, software, and content that help people feel connected, anytime, and anywhere. The company was formerly known as Facebook, Inc. and changed its name to Meta Platforms, Inc. in October 2021. The company was incorporated in 2004 and is headquartered in Menlo Park, California', 'Weight': 0.0264022587431976}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:40,074 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'MS', 'Shortname': 'Morgan Stanley', 'Longname': 'Morgan Stanley', 'Sector': 'Financial Services', 'Industry': 'Capital Markets', 'Currentprice': 132.31, 'Marketcap': 213156691968, 'Ebitda': nan, 'Revenuegrowth': 0.165, 'City': 'New York', 'State': 'NY', 'Country': 'United States', 'Fulltimeemployees': 80000.0, 'Longbusinesssummary': 'Morgan Stanley, a financial holding company, provides various financial products and services to corporations, governments, financial institutions, and individuals in the Americas, Europe, the Middle East, Africa, and Asia. It operates through Institutional Securities, Wealth Management, and Investment Management segments. The Institutional Securities segment offers capital raising and financial advisory services, including services related to the underwriting of debt, equity, and other securities, as well as advice on mergers and acquisitions, restructurings, real estate, and project finance. This segment also provides equity and fixed income products comprising sales, financing, prime brokerage, and market-making services; foreign exchange and commodities; corporate and commercial real estate loans, commercial mortgage and secured lending facilities, and financing for sales and trading customers, and asset-backed and mortgage lending; and wealth management services, investment, and research services. The Wealth Management segment offers financial advisor-led brokerage, custody, administrative, and investment advisory services; self-directed brokerage services; financial and wealth planning services; workplace services, including stock plan administration; annuity and insurance products; securities-based lending, residential real estate loans, and other lending products; banking; and retirement plan services to individual investors and small to medium-sized businesses and institutions. The Investment Management segment provides equity, fixed income, alternatives and solutions, and liquidity and overlay services to benefit/defined contribution plans, foundations, endowments, government entities, sovereign wealth funds, insurance companies, third-party fund sponsors, corporations, and individuals through institutional and intermediary channels. The company was founded in 1924 and is headquartered in New York, New York.', 'Weight': 0.0038119236657071}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:40,026 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'JNJ', 'Shortname': 'Johnson & Johnson', 'Longname': 'Johnson & Johnson', 'Sector': 'Healthcare', 'Industry': 'Drug Manufacturers - General', 'Currentprice': 152.64, 'Marketcap': 367499116544, 'Ebitda': 30051999744.0, 'Revenuegrowth': 0.052, 'City': 'New Brunswick', 'State': 'NJ', 'Country': 'United States', 'Fulltimeemployees': 131900.0, 'Longbusinesssummary': "Johnson & Johnson, together with its subsidiaries, researches, develops, manufactures, and sells various products in the healthcare field worldwide. The company's Innovative Medicine segment offers products for various therapeutic areas, such as immunology, including rheumatoid arthritis, psoriatic arthritis, inflammatory bowel disease, and psoriasis; infectious diseases comprising HIV/AIDS; neuroscience, consisting of mood disorders, neurodegenerative disorders, and schizophrenia; oncology, such as prostate cancer, hematologic malignancies, lung cancer, and bladder cancer; cardiovascular and metabolism, including thrombosis, diabetes, and macular degeneration; and pulmonary hypertension comprising pulmonary arterial hypertension through retailers, wholesalers, distributors, hospitals, and healthcare professionals for prescription use. Its MedTech segment provides Interventional Solutions, including electrophysiology products to treat heart rhythm disorders; the heart recovery portfolio, which includes technologies to treat severe coronary artery disease requiring high-risk PCI or AMI cardiogenic shock; and neurovascular care that treats hemorrhagic and ischemic stroke. this segment also offers an orthopaedics portfolio that includes products and enabling technologies that support hips, knees, trauma, spine, sports, and other; surgery portfolios comprising advanced and general surgery technologies, as well as solutions for breast aesthetics, ear, nose, and throat procedures; contact lenses under the ACUVUE Brand; and TECNIS intraocular lenses for cataract surgery. It distributes its products to wholesalers, hospitals, and retailers, as well as physicians, nurses, hospitals, eye care professionals, and clinics. The company has a collaboration agreement with Stand Up To Cancer for research testing a combination of teclistamab and daratumumab to treat a rare disease AL amyloidosis. Johnson & Johnson was founded in 1886 and is based in New Brunswick, New Jersey.", 'Weight': 0.0065720600490968}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:40,061 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:40,048 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'CVX', 'Shortname': 'Chevron Corporation', 'Longname': 'Chevron Corporation', 'Sector': 'Energy', 'Industry': 'Oil & Gas Integrated', 'Currentprice': 155.29, 'Marketcap': 276869611520, 'Ebitda': 38942998528.0, 'Revenuegrowth': -0.064, 'City': 'San Ramon', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 45600.0, 'Longbusinesssummary': 'Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations in the United States and internationally. The company operates in two segments, Upstream and Downstream. The Upstream segment is involved in the exploration, development, production, and transportation of crude oil and natural gas; processing, liquefaction, transportation, and regasification of liquefied natural gas; transportation of crude oil through pipelines; transportation, storage, and marketing of natural gas; and carbon capture and storage, as well as a gas-to-liquids plant. The Downstream segment refines crude oil into petroleum products; markets crude oil, refined products, and lubricants; manufactures and markets renewable fuels, commodity petrochemicals, plastics for industrial uses, and fuel and lubricant additives; and transports crude oil and refined products by pipeline, marine vessel, motor equipment, and rail car. The company was formerly known as ChevronTexaco Corporation and changed its name to Chevron Corporation in 2005. Chevron Corporation was founded in 1879 and is headquartered in San Ramon, California.', 'Weight': 0.0049513145223076}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:40,063 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'ABBV', 'Shortname': 'AbbVie Inc.', 'Longname': 'AbbVie Inc.', 'Sector': 'Healthcare', 'Industry': 'Drug Manufacturers - General', 'Currentprice': 171.09, 'Marketcap': 302339981312, 'Ebitda': 25629999104.0, 'Revenuegrowth': 0.038, 'City': 'North Chicago', 'State': 'IL', 'Country': 'United States', 'Fulltimeemployees': 50000.0, 'Longbusinesssummary': "AbbVie Inc. discovers, develops, manufactures, and sells pharmaceuticals worldwide. The company offers Humira, an injection for autoimmune and intestinal Behçet's diseases, and pyoderma gangrenosum; Skyrizi to treat moderate to severe plaque psoriasis, psoriatic disease, and Crohn's disease; Rinvoq to treat rheumatoid and psoriatic arthritis, ankylosing spondylitis, atopic dermatitis, axial spondyloarthropathy, ulcerative colitis, and Crohn's disease; Imbruvica for the treatment of adult patients with blood cancers; Epkinly to treat lymphoma; Elahere to treat cancer; and Venclexta/Venclyxto to treat blood cancers. It also provides facial injectables, plastics and regenerative medicine, body contouring, and skincare products; botox therapeutic; Vraylar for depressive disorder; Duopa and Duodopa to treat advanced Parkinson's disease; Ubrelvy for the acute treatment of migraine in adults; and Qulipta for episodic and chronic migraine. In addition, the company offers Ozurdex for eye diseases; Lumigan/Ganfort and Alphagan/Combigan for the reduction of elevated intraocular pressure in patients with open angle glaucoma or ocular hypertension; Restasis to increase tear production; and other eye care products. Further, it provides Mavyret/Maviret to treat chronic hepatitis C virus genotype 1-6 infection; Creon, a pancreatic enzyme therapy; Lupron to treat advanced prostate cancer, endometriosis and central precocious puberty, and patients with anemia caused by uterine fibroids; Linzess/Constella to treat irritable bowel syndrome with constipation and chronic idiopathic constipation; and Synthroid for hypothyroidism. It has collaborations with Calico Life Sciences LLC; REGENXBIO Inc.; Janssen Biotech, Inc.; Evolveimmune Therapeutics, Inc.; Genentech, Inc.; and Tentarix Biotherapeutics, LP. The company was incorporated in 2012 and is headquartered in North Chicago, Illinois.", 'Weight': 0.0054068062288453}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:39,834 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:40,165 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:40,426 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:40,491 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:40,178 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:40,823 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'JPM', 'Shortname': 'JP Morgan Chase & Co.', 'Longname': 'JPMorgan Chase & Co.', 'Sector': 'Financial Services', 'Industry': 'Banks - Diversified', 'Currentprice': 239.56, 'Marketcap': 674442838016, 'Ebitda': nan, 'Revenuegrowth': 0.03, 'City': 'New York', 'State': 'NY', 'Country': 'United States', 'Fulltimeemployees': 316043.0, 'Longbusinesssummary': 'JPMorgan Chase & Co. operates as a financial services company worldwide. It operates through four segments: Consumer & Community Banking (CCB), Corporate & Investment Bank (CIB), Commercial Banking (CB), and Asset & Wealth Management (AWM). The CCB segment offers deposit, investment and lending products, cash management, and payments and services; mortgage origination and servicing activities; residential mortgages and home equity loans; and credit cards, auto loans, leases, and travel services to consumers and small businesses through bank branches, ATMs, and digital and telephone banking. The CIB segment provides investment banking products and services, including corporate strategy and structure advisory, and equity and debt market capital-raising services, as well as loan origination and syndication; payments; and cash and derivative instruments, risk management solutions, prime brokerage, and research. This segment also offers securities services, including custody, fund accounting and administration, and securities lending products for asset managers, insurance companies, and public and private investment funds. The CB segment provides financial solutions, including lending, payments, investment banking, and asset management to small and midsized companies, local governments, nonprofit clients, and large corporations, as well as investors, developers, and owners of multifamily, office, retail, industrial, and affordable housing properties. The AWM segment offers multi-asset investment management solutions in equities, fixed income, alternatives, and money market funds to institutional clients and retail investors; and retirement products and services, brokerage, custody, estate planning, lending, deposits, and investment management products to high net worth clients. JPMorgan Chase & Co. was founded in 1799 and is headquartered in New York, New York.', 'Weight': 0.0120611958820688}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:40,817 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:40,918 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:40,905 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'WFC', 'Shortname': 'Wells Fargo & Company', 'Longname': 'Wells Fargo & Company', 'Sector': 'Financial Services', 'Industry': 'Banks - Diversified', 'Currentprice': 72.6, 'Marketcap': 241720967168, 'Ebitda': nan, 'Revenuegrowth': -0.018, 'City': 'San Francisco', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 220167.0, 'Longbusinesssummary': 'Wells Fargo & Company, a financial services company, provides diversified banking, investment, mortgage, and consumer and commercial finance products and services in the United States and internationally. The company operates through four segments: Consumer Banking and Lending; Commercial Banking; Corporate and Investment Banking; and Wealth and Investment Management. The Consumer Banking and Lending segment offers diversified financial products and services for consumers and small businesses. Its financial products and services include checking and savings accounts, and credit and debit cards, as well as home, auto, personal, and small business lending services. The Commercial Banking segment provides financial solutions to private, family owned, and certain public companies. Its products and services include banking and credit products across various industry sectors and municipalities, secured lending and lease products, and treasury management services. The Corporate and Investment Banking segment offers a suite of capital markets, banking, and financial products and services, such as corporate banking, investment banking, treasury management, commercial real estate lending and servicing, equity, and fixed income solutions, as well as sales, trading, and research capabilities services to corporate, commercial real estate, government, and institutional clients. The Wealth and Investment Management segment provides personalized wealth management, brokerage, financial planning, lending, private banking, and trust and fiduciary products and services to affluent, high-net worth, and ultra-high-net worth clients. It also operates through financial advisors in brokerage and wealth offices, consumer bank branches, independent offices, and digitally through WellsTrade and Intuitive Investor. The company was founded in 1852 and is headquartered in San Francisco, California.', 'Weight': 0.0043227443001584}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:41,033 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'ABT', 'Shortname': 'Abbott Laboratories', 'Longname': 'Abbott Laboratories', 'Sector': 'Healthcare', 'Industry': 'Medical Devices', 'Currentprice': 116.44, 'Marketcap': 201960538112, 'Ebitda': 10824999936.0, 'Revenuegrowth': 0.049, 'City': 'North Chicago', 'State': 'IL', 'Country': 'United States', 'Fulltimeemployees': 114000.0, 'Longbusinesssummary': "Abbott Laboratories, together with its subsidiaries, discovers, develops, manufactures, and sells health care products worldwide. It operates in four segments: Established Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Medical Devices. The company provides generic pharmaceuticals for the treatment of pancreatic exocrine insufficiency, irritable bowel syndrome or biliary spasm, intrahepatic cholestasis or depressive symptoms, gynecological disorder, hormone replacement therapy, dyslipidemia, hypertension, hypothyroidism, Ménière's disease and vestibular vertigo, pain, fever, inflammation, and migraine, as well as provides anti-infective clarithromycin, influenza vaccine, and products to regulate physiological rhythm of the colon. It also offers laboratory and transfusion medicine systems in the areas of immunoassay, clinical chemistry, hematology, and transfusion; molecular diagnostics polymerase chain reaction instrument systems that automate the extraction, purification, and preparation of DNA and RNA from patient samples, and detect and measure infectious agents; point of care systems; cartridges for testing blood gas, chemistry, electrolytes, coagulation, and immunoassay; rapid diagnostics lateral flow testing products; molecular point-of-care testing for HIV, SARS-CoV-2, influenza A and B, RSV, and strep A; cardiometabolic test systems; drug and alcohol test, and remote patient monitoring and consumer self-test systems; and informatics and automation solutions for laboratories. In addition, the company provides pediatric and adult nutritional products; rhythm management, electrophysiology, heart failure, vascular, and structural heart devices for the treatment of cardiovascular diseases; diabetes care products, such as glucose and blood glucose monitoring systems; and neuromodulation devices for the management of chronic pain and movement disorders. Abbott Laboratories was founded in 1888 and is based in North Chicago, Illinois.", 'Weight': 0.0036117006116967}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:41,161 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'INTU', 'Shortname': 'Intuit Inc.', 'Longname': 'Intuit Inc.', 'Sector': 'Technology', 'Industry': 'Software - Application', 'Currentprice': 699.47, 'Marketcap': 196055842816, 'Ebitda': 4496000000.0, 'Revenuegrowth': 0.41, 'City': 'Mountain View', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 18800.0, 'Longbusinesssummary': 'Intuit Inc. provides financial management, compliance, and marketing products and services in the United States. The company operates in four segments: Small Business & Self-Employed, Consumer, Credit Karma, and ProTax. The Small Business & Self-Employed segment provides QuickBooks services, that includes financial and business management online services, desktop software, payroll solutions, time tracking, merchant payment processing and bill pay solutions, checking accounts, and financing services for small and mid-market businesses; and Mailchimp, a marketing automation and customer relationship management. This segment also offers QuickBooks online services and desktop software solutions comprising QuickBooks Online, QuickBooks Live, QuickBooks Online Advanced, QuickBooks Self-Employed, QuickBooks Solopreneur financial and business management offerings, QuickBooks Online Payroll QuickBooks Checking, QuickBooks Desktop software subscriptions, QuickBooks Basic Payroll, QuickBooks Assisted Payroll, and QuickBooks Enhanced Payroll. The Consumer segment provides do-it-yourself and assisted TurboTax income tax preparation products and services. The Credit Karma segment offers consumers with a personal finance platform that provides personalized recommendations of credit card, home, auto, and personal loan, and insurance product; online savings and checking accounts; and access to its credit scores and reports, credit and identity monitoring, credit report dispute, credit building tools, and tools. The ProTax segment provides Lacerte, ProSeries, and ProFile desktop tax-preparation software products; and ProConnect Tax Online bill pay tax products, electronic tax filing service, and bank products and related services. It sells products and services through direct sales channels, multi-channel shop-and-buy experiences, mobile application stores, and partner and other channels. The company was incorporated in 1984 and is headquartered in Mountain View, California.', 'Weight': 0.0035061057672196}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:41,178 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'CRM', 'Shortname': 'Salesforce, Inc.', 'Longname': 'Salesforce, Inc.', 'Sector': 'Technology', 'Industry': 'Software - Application', 'Currentprice': 341.15, 'Marketcap': 326139379712, 'Ebitda': 9345000448.0, 'Revenuegrowth': 0.084, 'City': 'San Francisco', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 72682.0, 'Longbusinesssummary': "Salesforce, Inc. provides Customer Relationship Management (CRM) technology that brings companies and customers together worldwide. The company's service includes sales to store data, monitor leads and progress, forecast opportunities, gain insights through analytics and artificial intelligence, and deliver quotes, contracts, and invoices; and service that enables companies to deliver trusted and highly personalized customer support at scale. In addition, its platform offering comprise a flexible platform that enables companies of various sizes, locations, and industries to build business workflow and apps with customer; online learning platform that allows anyone to learn in-demand Salesforce skills; and Slack, an intelligent productivity platform. The company's marketing services enables companies to plan, personalize, automate, and optimize customer marketing journey, connecting interaction, and connected products; and commerce services, which empowers shopping experience across various customer touchpoint, such as mobile, web, social, and stores and provides click-to-code tools that offers customers to build and deploy solutions. Further, its analytics offering includes Tableau, an end-to-end analytics solution for range of enterprise use cases and intelligent analytics with AI models, spot trends, predict outcomes, creates summaries, timely recommendations, and take action from any device; and integration service including MuleSoft, which provides building blocks to deliver end-to-end and connected experiences. Additionally, the company provides data cloud, a hyperscale data engine native to Salesforce; vertical services to meet the needs of customers in industries, such as financial services, healthcare and life sciences, manufacturing and automotive and government; and offers salesforce starter for small and medium-sized businesses. Salesforce, Inc. was incorporated in 1999 and is headquartered in San Francisco, California.", 'Weight': 0.0058324156204762}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:41,193 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:41,637 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'IBM', 'Shortname': 'International Business Machines', 'Longname': 'International Business Machines Corporation', 'Sector': 'Technology', 'Industry': 'Information Technology Services', 'Currentprice': 210.86, 'Marketcap': 194970648576, 'Ebitda': 14675999744.0, 'Revenuegrowth': 0.015, 'City': 'Armonk', 'State': 'NY', 'Country': 'United States', 'Fulltimeemployees': 282200.0, 'Longbusinesssummary': "International Business Machines Corporation, together with its subsidiaries, provides integrated solutions and services worldwide. The company operates through Software, Consulting, Infrastructure, and Financing segments. The Software segment offers a hybrid cloud and AI platforms that allows clients to realize their digital and AI transformations across the applications, data, and environments in which they operate. The Consulting segment focuses on skills integration for strategy, experience, technology, and operations by domain and industry. The Infrastructure segment provides on-premises and cloud based server, and storage solutions, as well as life-cycle services for hybrid cloud infrastructure deployment. The Financing segment offers client and commercial financing, facilitates IBM clients' acquisition of hardware, software, and services. The company has a strategic partnership to various companies including hyperscalers, service providers, global system integrators, and software and hardware vendors that includes Adobe, Amazon Web services, Microsoft, Oracle, Salesforce, Samsung Electronics and SAP, and others. The company was formerly known as Computing-Tabulating-Recording Co. International Business Machines Corporation was incorporated in 1911 and is headquartered in Armonk, New York.", 'Weight': 0.0034866990220353}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:41,739 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'PEP', 'Shortname': 'Pepsico, Inc.', 'Longname': 'PepsiCo, Inc.', 'Sector': 'Consumer Defensive', 'Industry': 'Beverages - Non-Alcoholic', 'Currentprice': 164.34, 'Marketcap': 225472839680, 'Ebitda': 16913000448.0, 'Revenuegrowth': -0.006, 'City': 'Purchase', 'State': 'NY', 'Country': 'United States', 'Fulltimeemployees': 318000.0, 'Longbusinesssummary': "PepsiCo, Inc. engages in the manufacture, marketing, distribution, and sale of various beverages and convenient foods worldwide. The company operates through seven segments: Frito-Lay North America; Quaker Foods North America; PepsiCo Beverages North America; Latin America; Europe; Africa, Middle East and South Asia; and Asia Pacific, Australia and New Zealand and China Region. It provides dips, cheese-flavored snacks, and spreads, as well as corn, potato, and tortilla chips; cereals, rice, pasta, mixes and syrups, granola bars, grits, oatmeal, rice cakes, and side dishes; beverage concentrates, fountain syrups, and finished goods; ready-to-drink tea, coffee, and juices; dairy products; and sparkling water makers and related products, as well as distributes alcoholic beverages under Hard MTN Dew brand. The company offers its products primarily under the Lay's, Doritos, Fritos, Tostitos, BaiCaoWei, Cheetos, Cap'n Crunch, Life, Pearl Milling Company, Gatorade, Pepsi-Cola, Mountain Dew, Quaker, Rice-A-Roni, Aquafina, Bubly, Emperador, Diet Mountain Dew, Diet Pepsi, Gatorade Zero, Crush, Propel, Dr Pepper, Schweppes, Marias Gamesa, Ruffles, Sabritas, Saladitas, Tostitos, 7UP, Diet 7UP, H2oh!, Manzanita Sol, Mirinda, Pepsi Black, Pepsi Max, San Carlos, Toddy, Walkers, Chipsy, Kurkure, Sasko, Spekko, White Star, Smith's, Sting, SodaStream, Lubimyj Sad, Agusha, Chudo, Domik v Derevne, Lipton, and other brands. It serves wholesale and other distributors, foodservice customers, grocery stores, drug stores, convenience stores, discount/dollar stores, mass merchandisers, membership stores, hard discounters, e-commerce retailers and authorized independent bottlers, and others through a network of direct-store-delivery, customer warehouse, and distributor networks, as well as directly to consumers through e-commerce platforms and retailers. The company was founded in 1898 and is based in Purchase, New York.", 'Weight': 0.0040321757933802}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:42,041 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'GE', 'Shortname': 'GE Aerospace', 'Longname': 'GE Aerospace', 'Sector': 'Industrials', 'Industry': 'Aerospace & Defense', 'Currentprice': 182.64, 'Marketcap': 197669453824, 'Ebitda': 8935000064.0, 'Revenuegrowth': 0.058, 'City': 'Evendale', 'State': 'OH', 'Country': 'United States', 'Fulltimeemployees': 125000.0, 'Longbusinesssummary': 'General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric power, and mechanical aircraft systems. It also offers aftermarket services to support its products. The company operates in the United States, Europe, China, Asia, the Americas, the Middle East, and Africa. General Electric Company was incorporated in 1892 and is based in Evendale, Ohio.', 'Weight': 0.003534962294931}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:42,099 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:42,107 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:42,103 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:42,110 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:42,131 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:42,146 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:42,151 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:41,845 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:42,093 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:42,646 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:42,750 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:42,772 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:42,643 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:42,633 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created
+from chrome not reachable
+
+2024-11-26 20:37:42,799 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:43,435 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:43,392 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'TMUS', 'Shortname': 'T-Mobile US, Inc.', 'Longname': 'T-Mobile US, Inc.', 'Sector': 'Communication Services', 'Industry': 'Telecom Services', 'Currentprice': 239.0, 'Marketcap': 277357101056, 'Ebitda': 30663999488.0, 'Revenuegrowth': 0.047, 'City': 'Bellevue', 'State': 'WA', 'Country': 'United States', 'Fulltimeemployees': 67000.0, 'Longbusinesssummary': 'T-Mobile US, Inc., together with its subsidiaries, provides mobile communications services in the United States, Puerto Rico, and the United States Virgin Islands. The company offers voice, messaging, and data services to customers in the postpaid, prepaid, and wholesale and other services. It also provides wireless devices, including smartphones, wearables, tablets, home broadband routers, and other mobile communication devices, as well as wireless devices and accessories; financing through equipment installment plans; reinsurance for device insurance policies and extended warranty contracts; leasing through JUMP! On Demand; and High Speed Internet services. In addition, the company offers services, devices, and accessories under the T-Mobile and Metro by T-Mobile brands through its owned and operated retail stores, T-Mobile app and customer care channels, and its websites. It also sells its devices to dealers and other third-party distributors for resale through independent third-party retail outlets and various third-party websites. The company was founded in 1994 and is headquartered in Bellevue, Washington. T-Mobile US, Inc. operate as a subsidiary Deutsche Telekom AG', 'Weight': 0.0049600323949763}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:43,580 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:44,447 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:44,729 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:44,866 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:45,187 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:37:45,164 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'AVGO', 'Shortname': 'Broadcom Inc.', 'Longname': 'Broadcom Inc.', 'Sector': 'Technology', 'Industry': 'Semiconductors', 'Currentprice': 176.22, 'Marketcap': 823049650176, 'Ebitda': 22958000128.0, 'Revenuegrowth': 0.164, 'City': 'Palo Alto', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 20000.0, 'Longbusinesssummary': 'Broadcom Inc. designs, develops, and supplies various semiconductor devices with a focus on complex digital and mixed signal complementary metal oxide semiconductor based devices and analog III-V based products worldwide. The company operates in two segments, Semiconductor Solutions and Infrastructure Software. It provides set-top box system-on-chips (SoCs); cable, digital subscriber line, and passive optical networking central office/consumer premise equipment SoCs; wireless local area network access point SoCs; Ethernet switching and routing custom silicon solutions; serializer/deserializer application specific integrated circuits; optical and copper, and physical layer devices; and fiber optic components and RF semiconductor devices. The company also offers RF front end modules and filter; Wi-Fi, Bluetooth, and global positioning system/global navigation satellite system SoCs; custom touch controllers; inductive charging; attached small computer system interface, and redundant array of independent disks controllers and adapters; peripheral component interconnect express; fiber channel host bus adapters; read channel based SoCs; custom flash controllers; preamplifiers; optocouplers, industrial fiber optics, and motion control encoders and subsystems; light emitting diode, ethernet PHYs, switch ICs, and camera microcontrollers. Its products are used in various applications, including enterprise and data center networking, home connectivity, set-top boxes, broadband access, telecommunication equipment, smartphones and base stations, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Broadcom Inc. was founded in 1961 and is headquartered in Palo Alto, California.', 'Weight': 0.0147187611638711}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:45,339 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'LLY', 'Shortname': 'Eli Lilly and Company', 'Longname': 'Eli Lilly and Company', 'Sector': 'Healthcare', 'Industry': 'Drug Manufacturers - General', 'Currentprice': 818.86, 'Marketcap': 777356836864, 'Ebitda': 16566500352.0, 'Revenuegrowth': 0.204, 'City': 'Indianapolis', 'State': 'IN', 'Country': 'United States', 'Fulltimeemployees': 43000.0, 'Longbusinesssummary': "Eli Lilly and Company discovers, develops, and markets human pharmaceuticals worldwide. The company offers Basaglar, Humalog, Humalog Mix 75/25, Humalog U-100, Humalog U-200, Humalog Mix 50/50, insulin lispro, insulin lispro protamine, insulin lispro mix 75/25, Humulin, Humulin 70/30, Humulin N, Humulin R, and Humulin U-500 for diabetes; Jardiance, Mounjaro, and Trulicity for type 2 diabetes; and Zepbound for obesity. It also provides oncology products, including Alimta, Cyramza, Erbitux, Jaypirca, Retevmo, Tyvyt, and Verzenio. In addition, the company offers Olumiant for rheumatoid arthritis, atopic dermatitis, severe alopecia areata, and COVID-19; Taltz for plaque psoriasis, psoriatic arthritis, ankylosing spondylitis, and non-radiographic axial spondylarthritis; Omvoh for ulcerative colitis; Cymbalta for depressive disorder, diabetic peripheral neuropathic pain, generalized anxiety disorder, fibromyalgia, and chronic musculoskeletal pain; Ebglyss for severe atopic dermatitis; and Emgality for migraine prevention and episodic cluster headache. Further, it provides Cialis for erectile dysfunction and benign prostatic hyperplasia; and Forteo for osteoporosis. The company operates Lilly Seaport Innovation Center (LSC), a research and development facility in the Boston Seaport to advancing Lilly's efforts in RNA and DNA-based therapies as well as discovering new drug targets to create life-changing medicines across several disease states, including diabetes, obesity, cardiovascular diseases, neurodegeneration, and chronic pain. It has collaborations with Incyte Corporation; Boehringer Ingelheim Pharmaceuticals, Inc.; F. Hoffmann-La Roche Ltd and Genentech, Inc.; Biologics, Inc., AbCellera Biologics Inc.; and Chugai Pharmaceutical Co., Ltd, as well as development collaboration with Eli Lilly and Company for developing QIAstat-Dx IVD panel, for the detection of various APOE genotypes. The company was founded in 1876 and is headquartered in Indianapolis, Indiana.", 'Weight': 0.0139016274637343}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:45,834 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'GOOGL', 'Shortname': 'Alphabet Inc.', 'Longname': 'Alphabet Inc.', 'Sector': 'Communication Services', 'Industry': 'Internet Content & Information', 'Currentprice': 181.62, 'Marketcap': 2232236900352, 'Ebitda': 123469996032.0, 'Revenuegrowth': 0.151, 'City': 'Mountain View', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 181269.0, 'Longbusinesssummary': 'Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in the Google Play and YouTube; and devices, as well as in the provision of YouTube consumer subscription services. The Google Cloud segment offers infrastructure, cybersecurity, databases, analytics, AI, and other services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Gmail, Docs, Drive, Calendar, and Meet; and other services for enterprise customers. The Other Bets segment sells healthcare-related and internet services. The company was incorporated in 1998 and is headquartered in Mountain View, California.', 'Weight': 0.0399195380138189}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:37:45,968 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:46,050 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:37:46,079 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:52,154 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:52,422 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:52,512 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:52,460 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:52,635 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:52,698 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:52,492 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:52,603 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:52,459 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:52,595 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:52,692 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:52,819 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:53,482 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:54,358 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:54,556 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:54,452 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
+
+2024-11-26 20:38:54,649 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:54,748 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:54,808 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:54,803 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:54,852 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:54,850 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:54,873 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:54,960 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'GS', 'Shortname': 'Goldman Sachs Group, Inc. (The)', 'Longname': 'The Goldman Sachs Group, Inc.', 'Sector': 'Financial Services', 'Industry': 'Capital Markets', 'Currentprice': 592.59, 'Marketcap': 186019938304, 'Ebitda': nan, 'Revenuegrowth': 0.042, 'City': 'New York', 'State': 'NY', 'Country': 'United States', 'Fulltimeemployees': 46400.0, 'Longbusinesssummary': 'The Goldman Sachs Group, Inc., a financial institution, provides a range of financial services for corporations, financial institutions, governments, and individuals worldwide. It operates through Global Banking & Markets, Asset & Wealth Management, and Platform Solutions segments. The Global Banking & Markets segment provides financial advisory services, including strategic advisory assignments related to mergers and acquisitions, divestitures, corporate defense activities, restructurings, and spin-offs; and relationship lending, and acquisition financing, as well as secured lending, through structured credit and asset-backed lending and involved in financing under securities to resale agreements. This segment also offers client execution activities for cash and derivative instruments; credit and interest rate products; and provision of mortgages, currencies, commodities, and equities related products, as well as underwriting services. The Asset & Wealth Management segment manages assets across various classes, including equity, fixed income, hedge funds, credit funds, private equity, real estate, currencies, and commodities; and provides customized investment advisory solutions, wealth advisory services, personalized financial planning, and private banking services, as well as invests in corporate equity, credit, real estate, and infrastructure assets. The Platform Solutions segment offers credit cards and point-of-sale financing for purchase of goods or services. This segment also provides cash management services, such as deposit-taking and payment solutions for corporate and institutional clients. The Goldman Sachs Group, Inc. was founded in 1869 and is headquartered in New York, New York.', 'Weight': 0.0033266316837983}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:55,116 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:55,156 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'PGR', 'Shortname': 'Progressive Corporation (The)', 'Longname': 'The Progressive Corporation', 'Sector': 'Financial Services', 'Industry': 'Insurance - Property & Casualty', 'Currentprice': 262.34, 'Marketcap': 153681903616, 'Ebitda': 10823199744.0, 'Revenuegrowth': 0.267, 'City': 'Mayfield Village', 'State': 'OH', 'Country': 'United States', 'Fulltimeemployees': 61432.0, 'Longbusinesssummary': "The Progressive Corporation, an insurance holding company, provides personal and commercial auto, personal residential and commercial property, business related general liability, and other specialty property-casualty insurance products and related services in the United States. It operates in three segments: Personal Lines, Commercial Lines, and Property. The Personal Lines segment writes insurance for personal autos and recreational vehicles (RV). This segment's products include personal auto insurance; and special lines products, including insurance for motorcycles, ATVs, RVs, watercrafts, snowmobiles, and related products. The Commercial Lines segment provides auto-related liability and physical damage insurance, and business-related general liability and property insurance for autos, vans, and pick-up trucks used by small businesses, as well as non-fleet taxis, black-car services, and airport taxis; tractors, trailers, and straight trucks primarily used by regional general freight and expeditor-type businesses, and long-haul operators; dump trucks used by light contractors and heavy constructions; log trucks and garbage trucks used by dirt, sand and gravel, logging, garbage/debris removal, and coal-type businesses; and tow trucks and wreckers used in towing services and gas/service station businesses. The Property segment writes residential property insurance for homeowners, other property owners, and renters, as well as offers manufactured homes, personal umbrella insurance, and primary and excess flood insurance. The company offers policy issuance and claims adjusting services; acts as an agent to homeowners, general liability, workers' compensation insurance, and other products; and reinsurance services. It sells its products through independent insurance agencies, as well as through mobile applications and over the phone. The Progressive Corporation was founded in 1937 and is headquartered in Mayfield Village, Ohio.", 'Weight': 0.0027483241552308}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:55,208 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'T', 'Shortname': 'AT&T Inc.', 'Longname': 'AT&T Inc.', 'Sector': 'Communication Services', 'Industry': 'Telecom Services', 'Currentprice': 22.15, 'Marketcap': 158932664320, 'Ebitda': 42773000192.0, 'Revenuegrowth': -0.005, 'City': 'Dallas', 'State': 'TX', 'Country': 'United States', 'Fulltimeemployees': 143630.0, 'Longbusinesssummary': 'AT&T Inc. provides telecommunications and technology services worldwide. The company operates through two segments, Communications and Latin America. The Communications segment offers wireless voice and data communications services; and sells handsets, wireless data cards, wireless computing devices, carrying cases/protective covers, and wireless chargers through its own company-owned stores, agents, and third-party retail stores. It also provides Virtual Private Networks, AT&T Dedicated Internet, Ethernet, data services, cloud solutions, outsourcing, and managed professional services, as well as customer premises equipment for multinational corporations, small and mid-sized businesses, governmental, and wholesale customers. In addition, this segment offers broadband services, including fiber connections, legacy telephony voice communication services, and other VoIP services and equipment to residential customers. This segment markets its communications services and products under the AT&T, AT&T Business, Cricket, AT&T PREPAID, and AT&T Fiber brand names. The Latin America segment provides postpaid and prepaid wireless services in Mexico under the AT&T and Unefon brand names, as well as sells smartphones through its owned stores, agents and third-party retail stores. The company was formerly known as SBC Communications Inc. and changed its name to AT&T Inc. in 2005. AT&T Inc. was incorporated in 1983 and is based in Dallas, Texas.', 'Weight': 0.0028422245568825}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:55,107 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:55,285 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:55,354 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:55,378 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:55,442 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'BLK', 'Shortname': 'BlackRock, Inc.', 'Longname': 'BlackRock, Inc.', 'Sector': 'Financial Services', 'Industry': 'Asset Management', 'Currentprice': 1036.35, 'Marketcap': 153512443904, 'Ebitda': 7624000000.0, 'Revenuegrowth': 0.149, 'City': 'New York', 'State': 'NY', 'Country': 'United States', 'Fulltimeemployees': 20400.0, 'Longbusinesssummary': 'BlackRock, Inc. is a publicly owned investment manager. The firm primarily provides its services to institutional, intermediary, and individual investors including corporate, public, union, and industry pension plans, insurance companies, third-party mutual funds, endowments, public institutions, governments, foundations, charities, sovereign wealth funds, corporations, official institutions, and banks. It also provides global risk management and advisory services. The firm manages separate client-focused equity, fixed income, and balanced portfolios. It also launches and manages open-end and closed-end mutual funds, offshore funds, unit trusts, and alternative investment vehicles including structured funds. The firm launches equity, fixed income, balanced, and real estate mutual funds. It also launches equity, fixed income, balanced, currency, commodity, and multi-asset exchange traded funds. The firm also launches and manages hedge funds. It invests in the public equity, fixed income, real estate, currency, commodity, and alternative markets across the globe. The firm primarily invests in growth and value stocks of small-cap, mid-cap, SMID-cap, large-cap, and multi-cap companies. It also invests in dividend-paying equity securities. The firm invests in investment grade municipal securities, government securities including securities issued or guaranteed by a government or a government agency or instrumentality, corporate bonds, and asset-backed and mortgage-backed securities. It employs fundamental and quantitative analysis with a focus on bottom-up and top-down approach to make its investments. The firm employs liquidity, asset allocation, balanced, real estate, and alternative strategies to make its investments. In real estate sector, it seeks to invest in Poland and Germany. The firm benchmarks the performance of its portfolios against various S&P, Russell, Barclays, MSCI, Citigroup, and Merrill Lynch indices. BlackRock, Inc. was founded in 1988 and is based in New York City with additional offices in Boston, Massachusetts; London, United Kingdom; Gurgaon, India; Hong Kong; Greenwich, Connecticut; Princeton, New Jersey; Edinburgh, United Kingdom; Sydney, Australia; Taipei, Taiwan; Singapore; Sao Paulo, Brazil; Philadelphia, Pennsylvania; Washington, District of Columbia; Toronto, Canada; Wilmington, Delaware; and San Francisco, California.', 'Weight': 0.0027452936733792}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:55,499 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'DHR', 'Shortname': 'Danaher Corporation', 'Longname': 'Danaher Corporation', 'Sector': 'Healthcare', 'Industry': 'Diagnostics & Research', 'Currentprice': 239.6, 'Marketcap': 173057097728, 'Ebitda': 7511000064.0, 'Revenuegrowth': 0.031, 'City': 'Washington', 'State': 'DC', 'Country': 'United States', 'Fulltimeemployees': 61000.0, 'Longbusinesssummary': "Danaher Corporation designs, manufactures, and markets professional, medical, industrial, and commercial products and services worldwide. The Biotechnology segments offers bioprocess technologies, consumables, and services that advance, accelerate, and integrate the development and manufacture of therapeutics; cell line and cell culture media development services; cell culture media, process liquids and buffers for manufacturing, chromatography resins, filtration technologies, aseptic fill finish; single-use hardware and consumables and services, such as the design and installation of full manufacturing suites; lab filtration, separation, and purification; lab-scale protein purification and analytical tools; reagents, membranes, and services; and healthcare filtration solutions. The Life Sciences segment provides mass spectrometers; flow cytometry, genomics, lab automation, centrifugation, liquid handling automation instruments, antibodies and reagents, and particle counting and characterization; microscopes; protein consumables; industrial filtration products; and genomic medicines, such as custom nucleic acid products, plasmid DNA, RNA, and proteins under the ABCAM, ALDEVRON, BECKMAN COULTER, IDT, LEICA MICROSYSTEMS, MOLECULAR DEVICES, PALL, PHENOMENEX and SCIEX brands. The Diagnostics segment offers chemistry, immunoassay, microbiology, and automation systems; and molecular, acute care, and pathology diagnostics products. This segment also provides clinical instruments, reagents, consumables, software, and services for hospitals, physicians' offices, reference laboratories, and other critical care settings. The company has a research  collaboration  with Stanford  University's Department  of  Bioengineering for cancer drug development. The company was formerly known as Diversified Mortgage Investors, Inc. and changed its name to Danaher Corporation in 1984. Danaher Corporation was founded in 1969 and is based in Washington, the District of Columbia.", 'Weight': 0.003094814618567}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:55,592 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:55,531 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'QCOM', 'Shortname': 'QUALCOMM Incorporated', 'Longname': 'QUALCOMM Incorporated', 'Sector': 'Technology', 'Industry': 'Semiconductors', 'Currentprice': 163.41, 'Marketcap': 181548531712, 'Ebitda': 11959000064.0, 'Revenuegrowth': 0.187, 'City': 'San Diego', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 49000.0, 'Longbusinesssummary': 'QUALCOMM Incorporated engages in the development and commercialization of foundational technologies for the wireless industry worldwide. It operates through three segments: Qualcomm CDMA Technologies (QCT); Qualcomm Technology Licensing (QTL); and Qualcomm Strategic Initiatives (QSI). The QCT segment develops and supplies integrated circuits and system software with advanced connectivity and high-performance, and low-power computing technologies for use in mobile devices; automotive systems for connectivity, digital cockpit, and ADAS/AD; and IoT, including consumer electronic devices, industrial devices, and edge networking products. The QTL segment grants licenses or provides rights to use portions of its intellectual property portfolio, which include various patent rights useful in the manufacture and sale of wireless products comprising products implementing CDMA2000, WCDMA, LTE and/or OFDMA-based 5G products. The QSI segment invests in early-stage companies in various industries, including 5G, artificial intelligence, automotive, consumer, enterprise, cloud, IoT, and extended reality, and investments, including non-marketable equity securities and, to a lesser extent, marketable equity securities, and convertible debt instruments. It also provides development, and other services and sells related products to the United States government agencies and their contractors. The company was incorporated in 1985 and is headquartered in San Diego, California.', 'Weight': 0.0032466686272802}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:55,578 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'AMGN', 'Shortname': 'Amgen Inc.', 'Longname': 'Amgen Inc.', 'Sector': 'Healthcare', 'Industry': 'Drug Manufacturers - General', 'Currentprice': 298.84, 'Marketcap': 160636354560, 'Ebitda': 12247000064.0, 'Revenuegrowth': 0.232, 'City': 'Thousand Oaks', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 26700.0, 'Longbusinesssummary': "Amgen Inc. discovers, develops, manufactures, and delivers human therapeutics worldwide. The company's principal products include Enbrel to treat plaque psoriasis, rheumatoid arthritis, and psoriatic arthritis; Otezla for the treatment of adult patients with plaque psoriasis, psoriatic arthritis, and oral ulcers associated with Behçet's disease; Prolia to treat postmenopausal women with osteoporosis; XGEVA for skeletal-related events prevention; Repatha, which reduces the risks of myocardial infarction, stroke, and coronary revascularization; Nplate for the treatment of patients with immune thrombocytopenia; KYPROLIS to treat patients with relapsed or refractory multiple myeloma; Aranesp to treat a lower-than-normal number of red blood cells and anemia; EVENITY for the treatment of osteoporosis in postmenopausal for men and women; Vectibix to treat patients with wild-type RAS metastatic colorectal cancer; BLINCYTO for the treatment of patients with acute lymphoblastic leukemia; TEPEZZA to treat thyroid eye disease; and KRYSTEXXA for the treatment of chronic refractory gout. It also markets other products, including Neulasta, MVASI, AMJEVITA/AMGEVITA, TEZSPIRE, Parsabiv, Aimovig, LUMAKRAS/LUMYKRAS, EPOGEN, KANJINTI, TAVNEOS, RAVICTI, UPLIZNA and PROCYSBI. The company serves healthcare providers, including physicians or their clinics, dialysis centers, hospitals, and pharmacies. It distributes its products through pharmaceutical wholesale distributors, as well as direct-to-consumer channels. The company has collaboration agreements with AstraZeneca plc for the development and commercialization of TEZSPIRE; Novartis Pharma AG to develop and commercialize Aimovig; UCB for the development and commercialization of EVENITY; Kyowa Kirin Co., Ltd. for rocatinlimab development and commercialization; and BeiGene, Ltd. for oncology products expansion and development. Amgen Inc. was incorporated in 1980 and is headquartered in Thousand Oaks, California.", 'Weight': 0.0028726919894783}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:55,581 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'DIS', 'Shortname': 'Walt Disney Company (The)', 'Longname': 'The Walt Disney Company', 'Sector': 'Communication Services', 'Industry': 'Entertainment', 'Currentprice': 100.99, 'Marketcap': 183154458624, 'Ebitda': 16750999552.0, 'Revenuegrowth': 0.037, 'City': 'Burbank', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 173250.0, 'Longbusinesssummary': 'The Walt Disney Company operates as an entertainment company worldwide. It operates through three segments: Entertainment, Sports, and Experiences. The company produces and distributes film and television video streaming content under the ABC Television Network, Disney, Freeform, FX, Fox, National Geographic, and Star brand television channels, as well as ABC television stations and A+E television networks; and produces original content under the ABC Signature, Disney Branded Television, FX Productions, Lucasfilm, Marvel, National Geographic Studios, Pixar, Searchlight Pictures, Twentieth Century Studios, 20th Television, and Walt Disney Pictures banners. It also offers direct-to-consumer streaming services through Disney+, Disney+ Hotstar, Hulu, and Star+; sports-related entertainment services through ESPN, ESPN on ABC, ESPN+ DTC, and Star; sale/licensing of film and episodic content to third-party television and VOD services; theatrical, home entertainment, and music distribution services; DVD and Blu-ray discs, electronic home video licenses, and VOD rental services; staging and licensing of live entertainment events; and post-production services. In addition, the company operates theme parks and resorts comprising Walt Disney World Resort, Disneyland Resort, Disneyland Paris, Hong Kong Disneyland Resort, Shanghai Disney Resort, Disney Cruise Line, Disney Vacation Club, National Geographic Expeditions, and Adventures by Disney, as well as Aulani, a Disney resort and spa in Hawaii. It also licenses its intellectual property to a third party for operations of the Tokyo Disney Resort; licenses trade names, characters, visual, literary, and other IP for use on merchandise, published materials, and games; operates a direct-to-home satellite distribution platform; sells branded merchandise through retail, online, and wholesale businesses; and develops and publishes books, comic books, and magazines. The company was founded in 1923 and is based in Burbank, California.', 'Weight': 0.0032753877387692}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:55,692 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:55,641 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'CMCSA', 'Shortname': 'Comcast Corporation', 'Longname': 'Comcast Corporation', 'Sector': 'Communication Services', 'Industry': 'Telecom Services', 'Currentprice': 44.04, 'Marketcap': 168520826880, 'Ebitda': 37285998592.0, 'Revenuegrowth': 0.065, 'City': 'Philadelphia', 'State': 'PA', 'Country': 'United States', 'Fulltimeemployees': 186000.0, 'Longbusinesssummary': "Comcast Corporation operates as a media and technology company worldwide. It operates through Residential Connectivity & Platforms, Business Services Connectivity, Media, Studios, and Theme Parks segments. The Residential Connectivity & Platforms segment provides residential broadband and wireless connectivity services, residential and business video services, sky-branded entertainment television networks, and advertising. The Business Services Connectivity segment offers connectivity services for small business locations, which include broadband, wireline voice, and wireless services, as well as solutions for medium-sized customers and larger enterprises; and small business connectivity services in the United Kingdom. The Media segment operates NBCUniversal's television and streaming business, including national and regional cable networks; the NBC and Telemundo broadcast networks and owned local broadcast television stations; and Peacock, a direct-to-consumer streaming services. It also operates international television networks comprising the Sky Sports networks, as well as other digital properties. The Studios segment operates NBCUniversal and Sky film and television studio production and distribution operations. The Theme Parks segment operates Universal theme parks in Orlando, Florida; Hollywood, California; Osaka, Japan; and Beijing, China. The company also offers a consolidated streaming platforms under the Philadelphia Flyers and the Wells Fargo Center arena in Philadelphia, Pennsylvania; and Xumo. Comcast Corporation was founded in 1963 and is headquartered in Philadelphia, Pennsylvania.", 'Weight': 0.0030136915816128}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:55,718 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:55,745 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:55,734 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:55,791 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'BKNG', 'Shortname': 'Booking Holdings Inc. Common St', 'Longname': 'Booking Holdings Inc.', 'Sector': 'Consumer Cyclical', 'Industry': 'Travel Services', 'Currentprice': 5022.92, 'Marketcap': 166242074624, 'Ebitda': 7183000064.0, 'Revenuegrowth': 0.089, 'City': 'Norwalk', 'State': 'CT', 'Country': 'United States', 'Fulltimeemployees': 24200.0, 'Longbusinesssummary': 'Booking Holdings Inc., together with its subsidiaries, provides online and traditional travel and restaurant reservations and related services in the United States, the Netherlands, and internationally. The company operates Booking.com, which offers online accommodation reservations; and Priceline, which provides online travel reservation services, as well as consumers hotel, flight, activity, rental car reservation, vacation packages, cruises, and hotel distribution services. It also operates Agoda that offers online accommodation reservation, flight, ground transportation, and activities reservation services. In addition, the company operates KAYAK, an online meta-search service that allows consumers to search and compare travel itineraries and prices; OpenTable for booking online restaurant reservations, as well as reservation management services to restaurants; and Rentalcars.com. Further, it offers travel-related insurance products and restaurant management services to consumers, travel service providers, and restaurants; and advertising services. The company was formerly known as The Priceline Group Inc. and changed its name to Booking Holdings Inc. in February 2018. Booking Holdings Inc. was founded in 1997 and is headquartered in Norwalk, Connecticut.', 'Weight': 0.0029729402002101}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:55,849 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'NEE', 'Shortname': 'NextEra Energy, Inc.', 'Longname': 'NextEra Energy, Inc.', 'Sector': 'Utilities', 'Industry': 'Utilities - Regulated Electric', 'Currentprice': 74.26, 'Marketcap': 152708268032, 'Ebitda': 14577999872.0, 'Revenuegrowth': 0.055, 'City': 'Juno Beach', 'State': 'FL', 'Country': 'United States', 'Fulltimeemployees': 16800.0, 'Longbusinesssummary': 'NextEra Energy, Inc., through its subsidiaries, generates, transmits, distributes, and sells electric power to retail and wholesale customers in North America. The company generates electricity through wind, solar, nuclear,natural gas, and other clean energy. It also develops, constructs, and operates long-term contracted assets that consists of clean energy solutions, such as renewable generation facilities, battery storage projects, and electric transmission facilities; sells energy commodities; and owns, develops, constructs, manages and operates electric generation facilities in wholesale energy markets. The company had approximately 33,276 megawatts of net generating capacity; approximately 90,000 circuit miles of transmission and distribution lines; and 883 substations. It serves approximately 12 million people through approximately 5.9 million customer accounts in the east and lower west coasts of Florida. The company was formerly known as FPL Group, Inc. and changed its name to NextEra Energy, Inc. in 2010. NextEra Energy, Inc. was founded in 1925 and is headquartered in Juno Beach, Florida.', 'Weight': 0.0027309124357574}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:55,746 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:55,929 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:55,990 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:56,000 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'LOW', 'Shortname': "Lowe's Companies, Inc.", 'Longname': "Lowe's Companies, Inc.", 'Sector': 'Consumer Cyclical', 'Industry': 'Home Improvement Retail', 'Currentprice': 269.9, 'Marketcap': 153112657920, 'Ebitda': 12433000448.0, 'Revenuegrowth': -0.055, 'City': 'Mooresville', 'State': 'NC', 'Country': 'United States', 'Fulltimeemployees': 300000.0, 'Longbusinesssummary': "Lowe's Companies, Inc., together with its subsidiaries, operates as a home improvement retailer in the United States. The company offers a line of products for construction, maintenance, repair, remodeling, and decorating. It also provides home improvement products, such as appliances, seasonal and outdoor living, lawn and garden, lumber, kitchens and bath, tools, paint, millwork, hardware, flooring, rough plumbing, building materials, décor, and electrical. In addition, the company offers installation services through independent contractors in various product categories; and extended protection plans and repair services. It sells its national brand-name merchandise and private brand products to professional customers, homeowners, renters, businesses, and government. The company also sells its products through Lowes.com website; and through mobile applications. Lowe's Companies, Inc. was founded in 1921 and is based in Mooresville, North Carolina.", 'Weight': 0.0027381442208353}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:56,089 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:56,112 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:56,212 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:56,116 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'VZ', 'Shortname': 'Verizon Communications Inc.', 'Longname': 'Verizon Communications Inc.', 'Sector': 'Communication Services', 'Industry': 'Telecom Services', 'Currentprice': 40.4, 'Marketcap': 170069049344, 'Ebitda': 48428998656.0, 'Revenuegrowth': nan, 'City': 'New York', 'State': 'NY', 'Country': 'United States', 'Fulltimeemployees': 101200.0, 'Longbusinesssummary': 'Verizon Communications Inc., through its subsidiaries, engages in the provision of communications, technology, information, and entertainment products and services to consumers, businesses, and governmental entities worldwide. It operates in two segments, Verizon Consumer Group (Consumer) and Verizon Business Group (Business). The Consumer segment provides wireless services across the wireless networks in the United States under the Verizon and TracFone brands and through wholesale and other arrangements; and fixed wireless access (FWA) broadband through its wireless networks, as well as related equipment and devices, such as smartphones, tablets, smart watches, and other wireless-enabled connected devices. The segment also offers wireline services in the Mid-Atlantic and Northeastern United States, as well as Washington D.C. through its fiber-optic network, Verizon Fios product portfolio, and a copper-based network. The Business segment provides wireless and wireline communications services and products, including FWA broadband, data, video and conferencing, corporate networking, security and managed network, local and long-distance voice, and network access services to deliver various IoT services and products to businesses, government customers, and wireless and wireline carriers in the United States and internationally. The company was formerly known as Bell Atlantic Corporation and changed its name to Verizon Communications Inc. in June 2000. Verizon Communications Inc. was incorporated in 1983 and is headquartered in New York, New York.', 'Weight': 0.0030413787529411}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:56,714 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:56,765 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:38:57,417 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'SPGI', 'Shortname': 'S&P Global Inc.', 'Longname': 'S&P Global Inc.', 'Sector': 'Financial Services', 'Industry': 'Financial Data & Stock Exchanges', 'Currentprice': 503.47, 'Marketcap': 156226748416, 'Ebitda': 6645000192.0, 'Revenuegrowth': 0.159, 'City': 'New York', 'State': 'NY', 'Country': 'United States', 'Fulltimeemployees': 40450.0, 'Longbusinesssummary': "S&P Global Inc., together with its subsidiaries, provides credit ratings, benchmarks, analytics, and workflow solutions in the global capital, commodity, and automotive markets. It operates through S&P Global Market Intelligence, S&P Global Ratings, S&P Global Commodity Insights, S&P Global Mobility, and S&P Dow Jones Indices segments. The S&P Global Market Intelligence segment offers multi-asset-class data and analytics integrated with purpose-built workflow solutions. This segment offers Desktop, a product suite that provides data, analytics, and third-party research; Data and Advisory Solutions for research, reference data, market data, derived analytics, and valuation services; Enterprise Solutions, software and workflow solutions; and Credit & Risk Solutions for selling Ratings' credit ratings and related data and research. The S&P Global Ratings segment operates as an independent provider of credit ratings, research, and analytics, offering investors and other market participants information, ratings, and benchmarks. The S&P Global Commodity Insights segment provides information and benchmark prices for the commodity and energy markets. The S&P Global Mobility segment provides solutions serving the full automotive value chain, including vehicle manufacturers (OEMs), automotive suppliers, mobility service providers, retailers, consumers, and finance and insurance companies. The S&P Dow Jones Indices segment is an index provider that maintains various valuation and index benchmarks for investment advisors, wealth managers, and institutional investors. S&P Global Inc. was founded in 1860 and is headquartered in New York, New York.", 'Weight': 0.0027938341227064}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:38:57,682 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:38:59,878 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: tab crashed
   (Session info: chrome=131.0.6778.85)
 
-2024-11-25 18:29:43,378 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 18:29:43,400 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 18:29:43,400 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
-2024-11-25 13:31:04,397 - INFO - Script started
-2024-11-25 13:31:04,397 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-25 13:31:04,397 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-25 13:32:15,948 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 13:32:17,951 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 13:32:17,992 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 13:32:17,992 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
-2024-11-25 13:32:36,667 - INFO - Cookies accepted successfully.
-2024-11-25 13:32:38,672 - INFO - Starting to scrape data for companies.
-2024-11-25 13:32:38,746 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 13:33:38,190 - INFO - Appending data for company: 0
-2024-11-25 13:33:40,752 - INFO - Saving data for company index: 0
-2024-11-25 13:33:40,752 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-25 13:33:40,757 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-25 13:33:40,758 - INFO - Script execution completed.
-2024-11-25 13:36:53,550 - INFO - Script started
-2024-11-25 13:36:53,550 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-25 13:36:53,550 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-25 13:37:43,843 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 13:37:45,843 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 13:37:45,860 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 13:37:45,860 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
-2024-11-25 13:38:05,162 - INFO - Cookies accepted successfully.
-2024-11-25 13:38:07,167 - INFO - Starting to scrape data for companies.
-2024-11-25 13:38:07,193 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 13:39:18,034 - INFO - Appending data for company: 0
-2024-11-25 13:39:21,714 - INFO - Saving data for company index: 0
-2024-11-25 13:39:21,714 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-25 13:39:21,717 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-25 13:39:21,717 - INFO - Script execution completed.
-2024-11-25 13:48:39,221 - INFO - Script started
-2024-11-25 13:48:39,221 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-25 13:48:39,221 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
-2024-11-25 13:49:28,449 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 13:49:30,454 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 13:49:30,470 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 13:49:30,470 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
-2024-11-25 13:49:46,054 - INFO - Cookies accepted successfully.
-2024-11-25 13:49:48,059 - INFO - Starting to scrape data for companies.
-2024-11-25 13:49:48,087 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 13:50:58,574 - INFO - Appending data for company: 0
-2024-11-25 13:51:01,136 - INFO - Saving data for company index: 0
-2024-11-25 13:51:01,136 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-25 13:51:01,139 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-25 13:51:01,139 - INFO - Script execution completed.
-2024-11-25 13:55:53,193 - INFO - Script started
-2024-11-25 13:55:53,194 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 13:55:53,194 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 13:56:41,090 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 13:56:43,095 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 13:56:43,111 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 13:56:43,137 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 14:02:51,847 - INFO - Script started
-2024-11-25 14:02:51,847 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 14:02:51,847 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 14:03:39,848 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 14:03:41,853 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 14:03:41,870 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 14:03:41,895 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 19:05:12,457 - INFO - Script started
-2024-11-25 19:05:12,457 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:05:12,457 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:05:16,472 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 19:05:18,476 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 19:05:18,503 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 19:05:18,527 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 19:06:59,521 - INFO - Script started
-2024-11-25 19:06:59,521 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:06:59,522 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:07:02,791 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 19:07:04,798 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 19:07:04,822 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 19:07:04,840 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 19:14:56,659 - INFO - Script started
-2024-11-25 19:14:56,659 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:14:56,659 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:14:59,533 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 19:15:01,534 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 19:15:01,550 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 19:15:01,565 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 19:18:20,434 - INFO - Script started
-2024-11-25 19:18:20,435 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:18:20,435 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:18:23,338 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 19:18:25,339 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 19:18:25,352 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 19:18:25,365 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 19:20:27,738 - INFO - Script started
-2024-11-25 19:20:27,738 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:20:27,738 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:20:31,071 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 19:20:33,071 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 19:20:33,082 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 19:20:33,096 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 19:21:36,384 - INFO - Script started
-2024-11-25 19:21:36,384 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:21:36,385 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:21:39,324 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 19:21:41,324 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 19:21:41,335 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 19:21:41,349 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 19:38:17,596 - INFO - Script started
-2024-11-25 19:38:17,596 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:38:17,596 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:38:20,814 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 19:38:22,819 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 19:38:22,836 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 19:38:22,853 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 19:41:03,984 - INFO - Script started
-2024-11-25 19:41:03,984 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:41:03,984 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:41:07,353 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 19:41:09,357 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 19:41:09,372 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 19:41:09,387 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 19:41:23,923 - INFO - Script started
-2024-11-25 19:41:23,923 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:41:23,924 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 19:41:27,259 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 19:41:29,264 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 19:41:29,281 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 19:41:29,297 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 21:28:03,683 - INFO - Script started
-2024-11-25 21:28:03,683 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:28:03,683 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:28:07,310 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 21:28:09,313 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 21:28:09,336 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 21:28:09,354 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 21:30:28,420 - INFO - Script started
-2024-11-25 21:30:28,421 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:30:28,421 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:30:31,933 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 21:30:33,937 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 21:30:33,962 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 21:30:33,980 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 21:32:52,848 - INFO - Script started
-2024-11-25 21:32:52,848 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:32:52,848 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:32:55,768 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 21:32:57,770 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 21:32:57,783 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 21:32:57,799 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 21:34:05,099 - INFO - Script started
-2024-11-25 21:34:05,099 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:34:05,099 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:34:08,124 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 21:34:10,127 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 21:34:10,142 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 21:34:10,158 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 21:35:23,080 - INFO - Script started
-2024-11-25 21:35:23,081 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:35:23,081 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:35:26,508 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 21:35:28,511 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 21:35:28,531 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 21:35:28,547 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 21:37:07,679 - INFO - Script started
-2024-11-25 21:37:07,680 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:37:07,680 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:37:10,820 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 21:37:12,826 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 21:37:12,839 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 21:37:12,852 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 21:38:56,474 - INFO - Script started
-2024-11-25 21:38:56,474 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:38:56,475 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:38:59,495 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 21:39:01,501 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 21:39:01,513 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 21:39:01,526 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 21:42:19,530 - INFO - Script started
-2024-11-25 21:42:19,530 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:42:19,530 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:42:22,554 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 21:42:24,558 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 21:42:24,576 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 21:42:24,592 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 21:44:29,756 - INFO - Script started
-2024-11-25 21:44:29,756 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:44:29,756 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:44:32,799 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 21:44:34,805 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 21:44:34,816 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 21:44:34,830 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 21:52:29,996 - INFO - Script started
-2024-11-25 21:52:29,997 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:52:29,997 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 21:52:33,157 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 21:52:35,163 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 21:52:35,179 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 21:52:35,196 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 22:14:39,786 - INFO - Script started
-2024-11-25 22:14:39,786 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:14:39,786 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:14:42,741 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:14:44,743 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 22:14:44,755 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 22:14:44,769 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 22:16:49,437 - INFO - Script started
-2024-11-25 22:16:49,437 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:16:49,438 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:16:52,297 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:16:54,301 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 22:16:54,326 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 22:16:54,347 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 22:26:58,852 - INFO - Script started
-2024-11-25 22:26:58,852 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:26:58,852 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:27:02,090 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:27:04,097 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 22:27:04,111 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 22:27:04,124 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 22:30:01,541 - INFO - Script started
-2024-11-25 22:30:01,542 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:30:01,542 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:30:05,228 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:30:07,229 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-25 22:30:07,256 - INFO - Data loaded successfully. Number of records: 1
-2024-11-25 22:30:07,274 - INFO - Search Bar Request for Company:NVIDIA Corporation
-2024-11-25 22:33:20,548 - INFO - Script started
-2024-11-25 22:33:20,548 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:33:20,548 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:33:23,373 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:33:28,704 - INFO - Script completed
-2024-11-25 22:35:20,952 - INFO - Script started
-2024-11-25 22:35:20,952 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:35:20,952 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:35:24,616 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:35:29,828 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='search-link js-fix-path'][@data-href='/nvidia-corp/1007910553']"}
-  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+2024-11-26 20:39:00,026 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: tab crashed
+  (Session info: chrome=131.0.6778.85)
 
-2024-11-25 22:35:29,829 - INFO - Script completed
-2024-11-25 22:37:14,132 - INFO - Script started
-2024-11-25 22:37:14,133 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:37:14,133 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:37:17,701 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:37:29,521 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".col-6 risk-rating-score"}
-  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+2024-11-26 20:39:02,166 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:39:02,201 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:39:03,032 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'TMO', 'Shortname': 'Thermo Fisher Scientific Inc', 'Longname': 'Thermo Fisher Scientific Inc.', 'Sector': 'Healthcare', 'Industry': 'Diagnostics & Research', 'Currentprice': 540.75, 'Marketcap': 206836875264, 'Ebitda': 10581999616.0, 'Revenuegrowth': 0.002, 'City': 'Waltham', 'State': 'MA', 'Country': 'United States', 'Fulltimeemployees': 122000.0, 'Longbusinesssummary': "Thermo Fisher Scientific Inc. provides life sciences solutions, analytical instruments, specialty diagnostics, and laboratory products and biopharma services in the North America, Europe, Asia-Pacific, and internationally. The company's Life Sciences Solutions segment offers reagents, instruments, and consumables for biological and medical research, discovery, and production of drugs and vaccines, as well as diagnosis of infections and diseases; and solutions include biosciences, genetic sciences, and bio production to pharmaceutical, biotechnology, agricultural, clinical, healthcare, academic, and government markets. Its Analytical Instruments segment provides instruments, consumables, software, and services for pharmaceutical, biotechnology, academic, government, environmental, and other research and industrial markets, as well as clinical laboratories. The company's Specialty Diagnostics segment offers liquid, ready-to-use, and lyophilized immunodiagnostic reagent kits, as well as calibrators, controls, protein detection assays, and instruments; immunodiagnostics develops, manufactures and markets complete bloodtest systems to support the clinical diagnosis and monitoring of allergy, asthma and autoimmune diseases; dehydrated and prepared culture media, collection and transport systems, instrumentation, and consumables; human leukocyte antigen typing and testing for organ transplant market; and healthcare products. Its Laboratory Products and Biopharma Services segment provides laboratory products, research and safety market channel, and pharma services and clinical research. It offers products and services through a direct sales force, customer-service professionals, electronic commerce, and third-party distributors under Thermo Scientific; Applied Biosystems; Invitrogen; Fisher Scientific; Unity Lab Services; and Patheon and PPD. Thermo Fisher Scientific Inc. was founded in 1956 and is headquartered in Waltham, Massachusetts.", 'Weight': 0.003698905122238}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:39:03,030 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'AAPL', 'Shortname': 'Apple Inc.', 'Longname': 'Apple Inc.', 'Sector': 'Technology', 'Industry': 'Consumer Electronics', 'Currentprice': 224.23, 'Marketcap': 3389415751680, 'Ebitda': 134660997120.0, 'Revenuegrowth': 0.061, 'City': 'Cupertino', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 164000.0, 'Longbusinesssummary': 'Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.', 'Weight': 0.06061359836964}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:39:04,451 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:39:04,449 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:39:08,494 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
 
-2024-11-25 22:37:29,522 - INFO - Script completed
-2024-11-25 22:40:57,318 - INFO - Script started
-2024-11-25 22:40:57,318 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:40:57,318 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:41:00,671 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:41:12,084 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".col-6 risk-rating-score"}
-  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+2024-11-26 20:39:08,728 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
 
-2024-11-25 22:41:12,084 - INFO - Script completed
-2024-11-25 22:42:46,443 - INFO - Script started
-2024-11-25 22:42:46,443 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:42:46,443 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:42:49,365 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:43:00,794 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".col-6 risk-rating-score"}
-  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+2024-11-26 20:39:09,231 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: session not created: DevToolsActivePort file doesn't exist
 
-2024-11-25 22:43:00,795 - INFO - Script completed
-2024-11-25 22:45:34,452 - INFO - Script started
-2024-11-25 22:45:34,452 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:45:34,452 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:45:37,531 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:45:48,985 - ERROR - Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".col-6 risk-rating-score"}
-  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+2024-11-26 20:39:10,544 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:39:10,768 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 20:39:11,047 - ERROR - Error processing company {'Exchange': 'NYQ', 'Symbol': 'RTX', 'Shortname': 'RTX Corporation', 'Longname': 'RTX Corporation', 'Sector': 'Industrials', 'Industry': 'Aerospace & Defense', 'Currentprice': 123.37, 'Marketcap': 164207951872, 'Ebitda': 12570999808.0, 'Revenuegrowth': 0.492, 'City': 'Arlington', 'State': 'VA', 'Country': 'United States', 'Fulltimeemployees': 185000.0, 'Longbusinesssummary': 'RTX Corporation, an aerospace and defense company, provides systems and services for the commercial, military, and government customers in the United States and internationally. It operates through three segments: Collins Aerospace, Pratt & Whitney, and Raytheon. The Collins Aerospace Systems segment offers aerospace and defense products, and aftermarket service solutions for civil and military aircraft manufacturers and commercial airlines, as well as regional, business, and general aviation, defense, and commercial space operations. This segment also designs, produces, and supports cabin interior, including oxygen systems, food and beverage preparation, storage and galley systems, and lavatory and wastewater management systems; battlespace, test and training range systems, crew escape systems, and simulation and training solutions; information management services; and aftermarket services that include spare parts, overhaul and repair, engineering and technical support, training and fleet management solutions, and asset and information management services. Its Pratt & Whitney segment supplies aircraft engines for commercial, military, business jet, and general aviation customers; and produces, sells, and services military and commercial auxiliary power units. The Raytheon segment provides defensive and offensive threat detection, tracking, and mitigation capabilities for U.S., foreign government, and commercial customers. The company was formerly known as Raytheon Technologies Corporation and changed its name to RTX Corporation in July 2023. RTX Corporation was incorporated in 1934 and is headquartered in Arlington, Virginia.', 'Weight': 0.0029365635770522}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 20:58:24,483 - INFO - Script started.
+2024-11-26 20:58:24,496 - INFO - Successfully loaded input data.
+2024-11-26 20:58:24,496 - INFO - Starting parallel scraping...
+2024-11-26 20:58:24,523 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:58:24,523 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:58:24,523 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:58:24,523 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 20:58:24,524 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 21:08:25,294 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.85)
 
-2024-11-25 22:45:48,985 - INFO - Script completed
-2024-11-25 22:47:46,630 - INFO - Script started
-2024-11-25 22:47:46,631 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:47:46,631 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:47:50,206 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:47:55,443 - INFO - Script completed
-2024-11-25 22:50:32,816 - INFO - Script started
-2024-11-25 22:50:32,816 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:50:32,817 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:50:35,629 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:50:40,862 - INFO - Script completed
-2024-11-25 22:53:53,714 - INFO - Script started
-2024-11-25 22:53:53,714 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:53:53,715 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:53:57,099 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:54:02,331 - INFO - Script completed
-2024-11-25 22:55:39,149 - INFO - Script started
-2024-11-25 22:55:39,149 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:55:39,149 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 22:55:42,325 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 22:55:47,565 - INFO - Script completed
-2024-11-25 23:10:24,408 - INFO - Script started
-2024-11-25 23:10:24,408 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:10:24,408 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:10:27,467 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:10:32,675 - INFO - Script completed
-2024-11-25 23:11:55,019 - INFO - Script started
-2024-11-25 23:11:55,019 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:11:55,020 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:11:58,214 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:12:03,442 - INFO - Script completed
-2024-11-25 23:17:31,076 - INFO - Script started
-2024-11-25 23:17:31,077 - INFO - Starting WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:17:31,077 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:17:33,994 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:17:39,198 - INFO - Script completed
-2024-11-25 23:21:19,843 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:21:22,903 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:22:08,020 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:22:11,100 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:22:58,689 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:23:02,000 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:23:22,450 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:23:25,163 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:24:39,731 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:24:42,799 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:33:16,432 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:33:19,672 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:48:34,804 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:48:38,022 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:49:45,806 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:49:48,756 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:54:45,494 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:54:48,771 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:58:31,198 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:58:34,687 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-25 23:59:03,833 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-25 23:59:06,609 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:01:12,265 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:01:15,304 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:01:23,575 - ERROR - Error during scraping: Message: no such element: Unable to locate element: {"method":"css selector","selector":".col-6 risk-rating-score"}
-  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+2024-11-26 21:08:25,294 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.85)
 
-2024-11-26 00:01:23,575 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:01:23,582 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:02:04,815 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:02:07,694 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:02:24,807 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:02:24,810 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:05:38,770 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:05:42,147 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:05:48,404 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:05:48,410 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:06:13,330 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:06:16,909 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:06:33,264 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:06:33,266 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:09:51,368 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:09:54,573 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:10:10,998 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:10:11,000 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:13:18,547 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:13:21,495 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:13:38,473 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:13:38,475 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:17:03,634 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:17:07,007 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:17:23,532 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:17:23,534 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:22:10,456 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:22:13,617 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:22:24,966 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:22:24,968 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:23:28,426 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:23:31,492 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:23:49,051 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:23:49,054 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:26:19,681 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:26:23,025 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:28:13,839 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:28:17,286 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:28:28,832 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:28:28,836 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:31:08,909 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:31:13,075 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:31:23,609 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:31:27,233 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:31:37,833 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:31:41,136 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:33:48,764 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:33:52,199 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:36:06,620 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:36:09,550 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:37:39,548 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:37:42,293 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:42:38,915 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:42:42,041 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:42:59,399 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:42:59,402 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:46:47,652 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:46:50,727 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:47:02,319 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:47:02,321 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:48:32,448 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:48:35,804 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:48:47,469 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:48:47,472 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:52:05,476 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:52:08,877 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:52:20,549 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:52:20,551 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:53:00,502 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:53:03,627 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:53:17,244 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:53:17,246 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:53:37,776 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:53:40,916 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:53:54,500 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:53:54,503 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:54:45,235 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:54:48,148 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:54:50,304 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:54:50,306 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:55:15,964 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:55:18,867 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:55:32,340 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:55:32,342 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:55:42,640 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 00:55:45,471 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 00:56:04,011 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 00:56:04,013 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:00:45,672 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:00:49,301 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:01:08,144 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:01:08,148 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:01:43,849 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:01:46,789 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:01:58,619 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:01:58,622 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:04:13,253 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:04:17,296 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:04:22,678 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:04:22,680 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:06:46,133 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:06:49,266 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:07:00,966 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:07:00,969 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:08:47,109 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:08:50,372 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:09:02,157 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:09:02,160 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:29:04,272 - ERROR - Error processing companies: name 'bot' is not defined
-2024-11-26 02:29:16,574 - ERROR - Error processing companies: name 'bot' is not defined
-2024-11-26 02:29:37,300 - ERROR - Error processing companies: name 'bot' is not defined
-2024-11-26 02:30:07,389 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:30:10,551 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:30:22,276 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:30:22,278 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:38:27,594 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:38:30,762 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:38:32,767 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 02:38:32,786 - INFO - Data loaded successfully. Number of records: 1
-2024-11-26 02:38:32,976 - INFO - Searching for NAS:NVDA
-2024-11-26 02:38:36,154 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 02:38:36,154 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:38:36,156 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:38:36,223 - INFO - Script execution completed.
-2024-11-26 02:39:34,098 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:39:36,964 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:39:42,329 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:39:42,331 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:40:46,448 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:40:49,521 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:41:01,385 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:41:01,387 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:54:43,826 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:54:46,965 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:54:48,971 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 02:54:48,984 - INFO - Data loaded successfully. Number of records: 1
-2024-11-26 02:54:49,197 - INFO - Searching for NAS:NVDA
-2024-11-26 02:54:52,278 - INFO - Found company: NAS:NVDA
-2024-11-26 02:54:52,289 - INFO - Navigating to: https://www.sustainalytics.com/esg-rating/nvidia-corp/1007910553
-2024-11-26 02:54:58,764 - INFO - Successfully extracted ESG data for NVDA
-2024-11-26 02:54:58,764 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:54:58,766 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:54:58,831 - INFO - Script execution completed.
-2024-11-26 02:55:32,661 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:55:35,436 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:55:37,439 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 02:55:37,462 - INFO - Data loaded successfully. Number of records: 2
-2024-11-26 02:55:37,664 - INFO - Searching for NAS:NVDA
-2024-11-26 02:55:40,831 - INFO - Found company: NAS:NVDA
-2024-11-26 02:55:40,841 - INFO - Navigating to: https://www.sustainalytics.com/esg-rating/nvidia-corp/1007910553
-2024-11-26 02:55:47,174 - INFO - Successfully extracted ESG data for NVDA
-2024-11-26 02:55:47,174 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:55:47,176 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:55:47,267 - INFO - Searching for NAS:AAPL
-2024-11-26 02:55:50,434 - WARNING - Could not find company with ticker NAS:AAPL
-2024-11-26 02:55:50,434 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:55:50,436 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:55:50,500 - INFO - Script execution completed.
-2024-11-26 02:56:39,434 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:56:42,574 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:56:44,577 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 02:56:44,601 - INFO - Data loaded successfully. Number of records: 3
-2024-11-26 02:56:44,788 - INFO - Searching for NAS:NVDA
-2024-11-26 02:56:47,867 - INFO - Found company: NAS:NVDA
-2024-11-26 02:56:47,878 - INFO - Navigating to: https://www.sustainalytics.com/esg-rating/nvidia-corp/1007910553
-2024-11-26 02:56:54,246 - INFO - Successfully extracted ESG data for NVDA
-2024-11-26 02:56:54,247 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:56:54,248 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:56:54,341 - INFO - Searching for NAS:AAPL
-2024-11-26 02:56:57,449 - INFO - Found company: NAS:AAPL
-2024-11-26 02:56:57,459 - INFO - Navigating to: https://www.sustainalytics.com/esg-rating/apple-inc/1007903183
-2024-11-26 02:57:03,238 - INFO - Successfully extracted ESG data for AAPL
-2024-11-26 02:57:03,238 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:57:03,239 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:57:03,329 - INFO - Searching for NAS:MSFT
-2024-11-26 02:57:06,510 - WARNING - Could not find company with ticker NAS:MSFT
-2024-11-26 02:57:06,510 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:57:06,511 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:57:06,575 - INFO - Script execution completed.
-2024-11-26 02:57:51,919 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:57:54,802 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:57:56,807 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 02:57:56,825 - INFO - Data loaded successfully. Number of records: 6
-2024-11-26 02:57:57,016 - INFO - Searching for NAS:NVDA
-2024-11-26 02:58:00,198 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 02:58:00,198 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:00,200 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:00,342 - INFO - Searching for NAS:AAPL
-2024-11-26 02:58:03,510 - WARNING - Could not find company with ticker NAS:AAPL
-2024-11-26 02:58:03,510 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:03,511 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:03,646 - INFO - Searching for NAS:MSFT
-2024-11-26 02:58:06,711 - INFO - Found company: NAS:MSFT
-2024-11-26 02:58:06,722 - INFO - Navigating to: https://www.sustainalytics.com/esg-rating/microsoft-corp/1007900081
-2024-11-26 02:58:13,031 - INFO - Successfully extracted ESG data for MSFT
-2024-11-26 02:58:13,032 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:13,033 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:13,126 - INFO - Searching for NAS:GOOG
-2024-11-26 02:58:16,297 - WARNING - Could not find company with ticker NAS:GOOG
-2024-11-26 02:58:16,297 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:16,299 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:16,388 - INFO - Searching for NAS:GOOGL
-2024-11-26 02:58:19,554 - WARNING - Could not find company with ticker NAS:GOOGL
-2024-11-26 02:58:19,555 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:19,556 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:19,643 - INFO - Searching for NAS:AMZN
-2024-11-26 02:58:22,817 - WARNING - Could not find company with ticker NAS:AMZN
-2024-11-26 02:58:22,817 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:22,818 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:58:22,884 - INFO - Script execution completed.
-2024-11-26 02:59:37,682 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 02:59:40,580 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 02:59:42,581 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 02:59:42,602 - INFO - Data loaded successfully. Number of records: 6
-2024-11-26 02:59:42,789 - INFO - Searching for NAS:NVDA
-2024-11-26 02:59:45,872 - INFO - Found company: NAS:NVDA
-2024-11-26 02:59:45,883 - INFO - Navigating to: https://www.sustainalytics.com/esg-rating/nvidia-corp/1007910553
-2024-11-26 02:59:52,212 - INFO - Successfully extracted ESG data for NVDA
-2024-11-26 02:59:52,213 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:59:52,214 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:59:52,305 - INFO - Searching for NAS:AAPL
-2024-11-26 02:59:55,474 - WARNING - Could not find company with ticker NAS:AAPL
-2024-11-26 02:59:55,475 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:59:55,476 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:59:55,563 - INFO - Searching for NAS:MSFT
-2024-11-26 02:59:58,727 - WARNING - Could not find company with ticker NAS:MSFT
-2024-11-26 02:59:58,728 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:59:58,729 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 02:59:58,814 - INFO - Searching for NAS:GOOG
-2024-11-26 03:00:01,965 - WARNING - Could not find company with ticker NAS:GOOG
-2024-11-26 03:00:01,965 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:00:01,967 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:00:02,075 - INFO - Searching for NAS:GOOGL
-2024-11-26 03:00:05,144 - INFO - Found company: NAS:GOOGL
-2024-11-26 03:00:05,154 - INFO - Navigating to: https://www.sustainalytics.com/esg-rating/alphabet-inc/1007907342
-2024-11-26 03:00:12,846 - INFO - Successfully extracted ESG data for GOOGL
-2024-11-26 03:00:12,846 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:00:12,847 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:00:12,937 - INFO - Searching for NAS:AMZN
-2024-11-26 03:00:16,116 - WARNING - Could not find company with ticker NAS:AMZN
-2024-11-26 03:00:16,117 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:00:16,118 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:00:16,182 - INFO - Script execution completed.
-2024-11-26 03:02:45,268 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:02:48,707 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:02:50,709 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:02:50,732 - INFO - Data loaded successfully. Number of records: 6
-2024-11-26 03:02:50,920 - INFO - Searching for NAS:NVDA
-2024-11-26 03:02:54,090 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:02:54,090 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:02:54,092 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:02:54,230 - INFO - Searching for NAS:AAPL
-2024-11-26 03:02:57,298 - INFO - Found company: NAS:AAPL
-2024-11-26 03:02:57,310 - INFO - Navigating to: https://www.sustainalytics.com/esg-rating/apple-inc/1007903183
-2024-11-26 03:03:03,579 - INFO - Successfully extracted ESG data for AAPL
-2024-11-26 03:03:03,579 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:03:03,580 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:03:03,673 - INFO - Searching for NAS:MSFT
-2024-11-26 03:03:06,847 - WARNING - Could not find company with ticker NAS:MSFT
-2024-11-26 03:03:06,847 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:03:06,848 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:03:06,938 - INFO - Searching for NAS:GOOG
-2024-11-26 03:03:10,103 - WARNING - Could not find company with ticker NAS:GOOG
-2024-11-26 03:03:10,103 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:03:10,104 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:03:10,196 - INFO - Searching for NAS:GOOGL
-2024-11-26 03:03:13,372 - WARNING - Could not find company with ticker NAS:GOOGL
-2024-11-26 03:03:13,372 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:03:13,373 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:03:13,461 - INFO - Searching for NAS:AMZN
-2024-11-26 03:03:16,624 - WARNING - Could not find company with ticker NAS:AMZN
-2024-11-26 03:03:16,625 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:03:16,626 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:03:16,690 - INFO - Script execution completed.
-2024-11-26 03:05:00,066 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:05:03,141 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:05:05,147 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:05:05,170 - INFO - Data loaded successfully. Number of records: 1
-2024-11-26 03:05:05,363 - INFO - Searching for NAS:NVDA
-2024-11-26 03:05:08,543 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:05:08,544 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:05:08,546 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:05:08,612 - INFO - Script execution completed.
-2024-11-26 03:05:27,875 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:05:30,659 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:05:32,661 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:05:32,687 - INFO - Data loaded successfully. Number of records: 6
-2024-11-26 03:05:32,879 - INFO - Searching for NAS:NVDA
-2024-11-26 03:05:36,073 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:05:36,073 - ERROR - Error processing company NVDA: name 'san' is not defined
-2024-11-26 03:06:22,645 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:06:25,651 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:06:27,652 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:06:27,668 - INFO - Data loaded successfully. Number of records: 2
-2024-11-26 03:06:27,852 - INFO - Searching for NAS:NVDA
-2024-11-26 03:06:31,024 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:06:31,024 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:06:31,026 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:06:31,162 - INFO - Searching for NAS:AAPL
-2024-11-26 03:06:34,329 - WARNING - Could not find company with ticker NAS:AAPL
-2024-11-26 03:06:34,329 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:06:34,330 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:06:34,394 - INFO - Script execution completed.
-2024-11-26 03:07:11,065 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:07:13,751 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:07:15,758 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:07:15,783 - INFO - Data loaded successfully. Number of records: 2
-2024-11-26 03:07:15,980 - INFO - Searching for NAS:NVDA
-2024-11-26 03:07:19,162 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:07:19,162 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:07:19,164 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:07:19,310 - INFO - Searching for NAS:AAPL
-2024-11-26 03:07:22,478 - WARNING - Could not find company with ticker NAS:AAPL
-2024-11-26 03:07:22,479 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:07:22,480 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:07:22,545 - INFO - Script execution completed.
-2024-11-26 03:07:28,943 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:07:31,650 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:07:33,652 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:07:33,676 - INFO - Data loaded successfully. Number of records: 2
-2024-11-26 03:07:33,870 - INFO - Searching for NAS:NVDA
-2024-11-26 03:07:37,059 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:07:37,060 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:07:37,061 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:07:37,200 - INFO - Searching for NAS:AAPL
-2024-11-26 03:07:40,376 - WARNING - Could not find company with ticker NAS:AAPL
-2024-11-26 03:07:40,376 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:07:40,377 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:07:40,442 - INFO - Script execution completed.
-2024-11-26 03:07:52,797 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:07:55,660 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:07:57,662 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:07:57,686 - INFO - Data loaded successfully. Number of records: 2
-2024-11-26 03:07:57,876 - INFO - Searching for NAS:NVDA
-2024-11-26 03:08:00,952 - INFO - Found company: NAS:NVDA
-2024-11-26 03:08:00,963 - INFO - Navigating to: https://www.sustainalytics.com/esg-rating/nvidia-corp/1007910553
-2024-11-26 03:08:07,231 - INFO - Successfully extracted ESG data for NVDA
-2024-11-26 03:08:07,232 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:08:07,233 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:08:07,329 - INFO - Searching for NAS:AAPL
-2024-11-26 03:08:10,495 - WARNING - Could not find company with ticker NAS:AAPL
-2024-11-26 03:08:10,495 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:08:10,496 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:08:10,560 - INFO - Script execution completed.
-2024-11-26 03:08:25,966 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:08:28,823 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:08:30,830 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:08:30,853 - INFO - Data loaded successfully. Number of records: 2
-2024-11-26 03:08:31,037 - INFO - Searching for NAS:NVDA
-2024-11-26 03:08:34,216 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:08:34,217 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:08:34,218 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:08:34,358 - INFO - Searching for NAS:AAPL
-2024-11-26 03:08:37,417 - INFO - Found company: NAS:AAPL
-2024-11-26 03:08:37,428 - INFO - Navigating to: https://www.sustainalytics.com/esg-rating/apple-inc/1007903183
-2024-11-26 03:08:43,823 - INFO - Successfully extracted ESG data for AAPL
-2024-11-26 03:08:43,824 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:08:43,825 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:08:43,888 - INFO - Script execution completed.
-2024-11-26 03:11:07,047 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:11:10,728 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:11:16,114 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:11:16,116 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:13:00,641 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:13:03,862 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:13:09,252 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:13:09,254 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:14:51,065 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:14:54,458 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:15:02,244 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:15:02,246 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:15:50,466 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:15:53,417 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:15:58,744 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:15:58,746 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:16:31,600 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:16:34,663 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:16:40,023 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:16:40,025 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:17:58,374 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:18:01,252 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:18:13,614 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:18:13,617 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:19:07,652 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:19:10,671 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:19:24,452 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:19:24,454 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:21:04,091 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:21:07,201 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:21:21,081 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:21:21,083 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:24:31,741 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:24:34,871 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:24:48,794 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:24:48,796 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:26:31,602 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:26:34,527 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:26:36,528 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:26:36,550 - INFO - Data loaded successfully. Number of records: 1
-2024-11-26 03:26:36,720 - INFO - Searching for NAS:NVDA
-2024-11-26 03:26:41,845 - INFO - Found matching company: NAS:NVDA
-2024-11-26 03:26:48,280 - INFO - Successfully extracted ESG data for NVIDIA Corp.
-2024-11-26 03:26:48,280 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:26:48,281 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:26:48,282 - INFO - Saved data for company 0: {'SA_Company': ['NVIDIA Corp.'], 'SA_ESG_Risk': ['12.2'], 'SA_Industry': ['Semiconductors']}
-2024-11-26 03:26:48,345 - INFO - Script execution completed
-2024-11-26 03:27:41,800 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:27:44,685 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:27:46,687 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:27:46,703 - INFO - Data loaded successfully. Number of records: 5
-2024-11-26 03:27:46,874 - INFO - Searching for NAS:NVDA
-2024-11-26 03:27:52,420 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:27:52,420 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:27:52,422 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:27:52,422 - INFO - Saved data for company 0: {'SA_Company': [None], 'SA_ESG_Risk': [None], 'SA_Industry': [None]}
-2024-11-26 03:27:52,422 - ERROR - Main error processing company: single positional indexer is out-of-bounds
-2024-11-26 03:27:52,422 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:27:52,423 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:27:52,423 - INFO - Saved data for company 1: {'SA_Company': [None], 'SA_ESG_Risk': [None], 'SA_Industry': [None]}
-2024-11-26 03:27:52,423 - ERROR - Main error processing company: single positional indexer is out-of-bounds
-2024-11-26 03:27:52,423 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:27:52,424 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:27:52,424 - INFO - Saved data for company 2: {'SA_Company': [None], 'SA_ESG_Risk': [None], 'SA_Industry': [None]}
-2024-11-26 03:27:52,424 - ERROR - Main error processing company: single positional indexer is out-of-bounds
-2024-11-26 03:27:52,424 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:27:52,425 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:27:52,425 - INFO - Saved data for company 3: {'SA_Company': [None], 'SA_ESG_Risk': [None], 'SA_Industry': [None]}
-2024-11-26 03:27:52,426 - ERROR - Main error processing company: single positional indexer is out-of-bounds
-2024-11-26 03:27:52,426 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:27:52,426 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:27:52,427 - INFO - Saved data for company 4: {'SA_Company': [None], 'SA_ESG_Risk': [None], 'SA_Industry': [None]}
-2024-11-26 03:27:52,490 - INFO - Script execution completed
-2024-11-26 03:28:15,102 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:28:17,934 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:28:19,935 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:28:19,946 - INFO - Data loaded successfully. Number of records: 1
-2024-11-26 03:28:20,117 - INFO - Searching for NAS:NVDA
-2024-11-26 03:28:25,659 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:28:25,659 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:28:25,661 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:28:25,661 - INFO - Saved data for company 0: {'SA_Company': [None], 'SA_ESG_Risk': [None], 'SA_Industry': [None]}
-2024-11-26 03:28:25,726 - INFO - Script execution completed
-2024-11-26 03:28:54,143 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:28:57,178 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:28:59,184 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:28:59,202 - INFO - Data loaded successfully. Number of records: 1
-2024-11-26 03:28:59,395 - INFO - Searching for NAS:NVDA
-2024-11-26 03:29:04,951 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:29:04,951 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:29:04,953 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:29:04,954 - INFO - Saved data for company 0: {'SA_Company': [None], 'SA_ESG_Risk': [None], 'SA_Industry': [None]}
-2024-11-26 03:29:05,017 - INFO - Script execution completed
-2024-11-26 03:29:58,347 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:30:01,933 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:30:03,938 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:30:03,962 - INFO - Data loaded successfully. Number of records: 1
-2024-11-26 03:30:04,144 - INFO - Searching for NAS:NVDA
-2024-11-26 03:30:09,681 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:30:09,681 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:30:09,683 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:30:09,683 - INFO - Saved data for company 0: {'SA_Company': [None], 'SA_ESG_Risk': [None], 'SA_Industry': [None]}
-2024-11-26 03:30:09,748 - INFO - Script execution completed
-2024-11-26 03:31:43,139 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:31:46,018 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:31:48,018 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:31:48,031 - INFO - Data loaded successfully. Number of records: 1
-2024-11-26 03:31:50,207 - INFO - Searching for NAS:NVDA (Attempt 1)
-2024-11-26 03:31:57,338 - INFO - Found matching company: NAS:NVDA
-2024-11-26 03:32:06,701 - INFO - Successfully extracted ESG data for NVIDIA Corp.
-2024-11-26 03:32:06,701 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:32:06,703 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:32:06,703 - INFO - Saved data for company 0: {'SA_Company': ['NVIDIA Corp.'], 'SA_ESG_Risk': ['12.2'], 'SA_Industry': ['Semiconductors']}
-2024-11-26 03:32:09,780 - INFO - Script execution completed
-2024-11-26 03:32:39,323 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:32:42,270 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:32:44,272 - INFO - Reading input data from: esg_app/api/data/SP500.csv
-2024-11-26 03:32:44,284 - INFO - Data loaded successfully. Number of records: 2
-2024-11-26 03:32:46,481 - INFO - Searching for NAS:NVDA (Attempt 1)
-2024-11-26 03:32:54,045 - WARNING - Could not find company with ticker NAS:NVDA
-2024-11-26 03:32:54,045 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:32:54,047 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:32:54,047 - INFO - Saved data for company 0: {'SA_Company': [None], 'SA_ESG_Risk': [None], 'SA_Industry': [None]}
-2024-11-26 03:32:57,049 - ERROR - Main error processing company: single positional indexer is out-of-bounds
-2024-11-26 03:32:57,050 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:32:57,055 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:32:57,056 - INFO - Saved data for company 1: {'SA_Company': [None], 'SA_ESG_Risk': [None], 'SA_Industry': [None]}
-2024-11-26 03:33:00,121 - INFO - Script execution completed
-2024-11-26 03:36:10,942 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:36:14,170 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:36:27,423 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:36:27,425 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:36:36,425 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:36:36,432 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:37:27,440 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:37:30,353 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:37:50,144 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:37:50,146 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:38:27,143 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:38:30,015 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:38:43,357 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:38:43,359 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:38:52,539 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:38:52,542 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:40:44,447 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:40:47,341 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:41:06,782 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:41:06,783 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:41:21,181 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:41:21,182 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:43:01,688 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:43:04,654 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:43:18,138 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:43:18,140 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:43:38,627 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:43:38,629 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:46:33,778 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:46:36,629 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:47:10,677 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:47:10,679 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:47:45,134 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:47:45,136 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:48:38,787 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
-2024-11-26 03:48:41,783 - INFO - WebDriver initialized and URL accessed successfully.
-2024-11-26 03:49:16,396 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:49:16,398 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:49:50,908 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:49:50,909 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:50:25,583 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:50:25,584 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:50:51,111 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:50:51,113 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:51:26,454 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
-2024-11-26 03:51:26,455 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 21:08:25,299 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.85)
+
+2024-11-26 21:08:25,302 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.85)
+
+2024-11-26 21:08:25,701 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.85)
+
+2024-11-26 21:08:27,305 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 21:08:27,304 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 21:08:27,304 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 21:08:27,306 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 21:08:27,707 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 21:08:27,810 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'NVDA', 'Shortname': 'NVIDIA Corporation', 'Longname': 'NVIDIA Corporation', 'Sector': 'Technology', 'Industry': 'Semiconductors', 'Currentprice': 148.29, 'Marketcap': 3637553397760, 'Ebitda': 61184000000.0, 'Revenuegrowth': 1.224, 'City': 'Santa Clara', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 29600.0, 'Longbusinesssummary': "NVIDIA Corporation provides graphics and compute and networking solutions in the United States, Taiwan, China, Hong Kong, and internationally. The Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; virtual GPU or vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building and operating metaverse and 3D internet applications. The Compute & Networking segment comprises Data Center computing platforms and end-to-end networking platforms, including Quantum for InfiniBand and Spectrum for Ethernet; NVIDIA DRIVE automated-driving platform and automotive development agreements; Jetson robotics and other embedded platforms; NVIDIA AI Enterprise and other software; and DGX Cloud software and services. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, consumer internet companies, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.", 'Weight': 0.0650510934194657}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 21:08:27,810 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'MSFT', 'Shortname': 'Microsoft Corporation', 'Longname': 'Microsoft Corporation', 'Sector': 'Technology', 'Industry': 'Software - Infrastructure', 'Currentprice': 423.03, 'Marketcap': 3145177235456, 'Ebitda': 136551997440.0, 'Revenuegrowth': 0.16, 'City': 'Redmond', 'State': 'WA', 'Country': 'United States', 'Fulltimeemployees': 228000.0, 'Longbusinesssummary': 'Microsoft Corporation develops and supports software, services, devices and solutions worldwide. The Productivity and Business Processes segment offers office, exchange, SharePoint, Microsoft Teams, office 365 Security and Compliance, Microsoft viva, and Microsoft 365 copilot; and office consumer services, such as Microsoft 365 consumer subscriptions, Office licensed on-premises, and other office services. This segment also provides LinkedIn; and dynamics business solutions, including Dynamics 365, a set of intelligent, cloud-based applications across ERP, CRM, power apps, and power automate; and on-premises ERP and CRM applications. The Intelligent Cloud segment offers server products and cloud services, such as azure and other cloud services; SQL and windows server, visual studio, system center, and related client access licenses, as well as nuance and GitHub; and enterprise services including enterprise support services, industry solutions, and nuance professional services. The More Personal Computing segment offers Windows, including windows OEM licensing and other non-volume licensing of the Windows operating system; Windows commercial comprising volume licensing of the Windows operating system, windows cloud services, and other Windows commercial offerings; patent licensing; and windows Internet of Things; and devices, such as surface, HoloLens, and PC accessories. Additionally, this segment provides gaming, which includes Xbox hardware and content, and first- and third-party content; Xbox game pass and other subscriptions, cloud gaming, advertising, third-party disc royalties, and other cloud services; and search and news advertising, which includes Bing, Microsoft News and Edge, and third-party affiliates. The company sells its products through OEMs, distributors, and resellers; and directly through digital marketplaces, online, and retail stores. The company was founded in 1975 and is headquartered in Redmond, Washington.', 'Weight': 0.0562458322372438}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 21:08:27,811 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'AAPL', 'Shortname': 'Apple Inc.', 'Longname': 'Apple Inc.', 'Sector': 'Technology', 'Industry': 'Consumer Electronics', 'Currentprice': 224.23, 'Marketcap': 3389415751680, 'Ebitda': 134660997120.0, 'Revenuegrowth': 0.061, 'City': 'Cupertino', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 164000.0, 'Longbusinesssummary': 'Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.', 'Weight': 0.06061359836964}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 21:08:27,812 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'GOOG', 'Shortname': 'Alphabet Inc.', 'Longname': 'Alphabet Inc.', 'Sector': 'Communication Services', 'Industry': 'Internet Content & Information', 'Currentprice': 183.32, 'Marketcap': 2233076023296, 'Ebitda': 123469996032.0, 'Revenuegrowth': 0.151, 'City': 'Mountain View', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 181269.0, 'Longbusinesssummary': 'Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in the Google Play and YouTube; and devices, as well as in the provision of YouTube consumer subscription services. The Google Cloud segment offers infrastructure, cybersecurity, databases, analytics, AI, and other services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Gmail, Docs, Drive, Calendar, and Meet; and other services for enterprise customers. The Other Bets segment sells healthcare-related and internet services. The company was incorporated in 1998 and is headquartered in Mountain View, California.', 'Weight': 0.0399345442169042}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 21:08:27,837 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 21:08:27,837 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 21:08:27,837 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 21:08:27,837 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 21:09:37,221 - INFO - Script started.
+2024-11-26 21:09:37,221 - INFO - Starting Xvfb...
+2024-11-26 21:09:37,221 - INFO - Xvfb started on display :99
+2024-11-26 21:09:37,232 - INFO - Successfully loaded input data.
+2024-11-26 21:09:37,233 - INFO - Starting scraping for one company...
+2024-11-26 21:09:37,233 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 21:11:14,609 - INFO - Script started.
+2024-11-26 21:11:14,609 - INFO - Starting Xvfb...
+2024-11-26 21:11:14,609 - INFO - Xvfb started on display :99
+2024-11-26 21:11:14,621 - INFO - Successfully loaded input data.
+2024-11-26 21:11:14,621 - INFO - Starting scraping for one company...
+2024-11-26 21:11:14,622 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 21:13:29,126 - INFO - Script started.
+2024-11-26 21:13:29,126 - INFO - Starting Xvfb...
+2024-11-26 21:13:29,127 - INFO - Xvfb started on display :99
+2024-11-26 21:13:29,137 - INFO - Successfully loaded input data.
+2024-11-26 21:13:29,137 - INFO - Starting scraping for one company...
+2024-11-26 21:13:29,138 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 21:19:07,315 - INFO - Script started.
+2024-11-26 21:19:07,315 - INFO - Starting Xvfb...
+2024-11-26 21:19:07,316 - INFO - Xvfb started on display :1
+2024-11-26 21:19:07,328 - INFO - Successfully loaded input data.
+2024-11-26 21:19:07,329 - INFO - Starting scraping for one company...
+2024-11-26 21:19:07,329 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 22:57:19,450 - INFO - Script started.
+2024-11-26 22:57:19,461 - INFO - Successfully loaded input data.
+2024-11-26 22:57:19,461 - INFO - Starting parallel scraping...
+2024-11-26 22:57:19,493 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 23:28:22,622 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-26 23:28:24,686 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 23:28:25,246 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'NVDA', 'Shortname': 'NVIDIA Corporation', 'Longname': 'NVIDIA Corporation', 'Sector': 'Technology', 'Industry': 'Semiconductors', 'Currentprice': 148.29, 'Marketcap': 3637553397760, 'Ebitda': 61184000000.0, 'Revenuegrowth': 1.224, 'City': 'Santa Clara', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 29600.0, 'Longbusinesssummary': "NVIDIA Corporation provides graphics and compute and networking solutions in the United States, Taiwan, China, Hong Kong, and internationally. The Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; virtual GPU or vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building and operating metaverse and 3D internet applications. The Compute & Networking segment comprises Data Center computing platforms and end-to-end networking platforms, including Quantum for InfiniBand and Spectrum for Ethernet; NVIDIA DRIVE automated-driving platform and automotive development agreements; Jetson robotics and other embedded platforms; NVIDIA AI Enterprise and other software; and DGX Cloud software and services. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, consumer internet companies, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.", 'Weight': 0.0650510934194657}: 'WebScraper' object has no attribute 'driver'
+2024-11-26 23:28:25,272 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 00:44:06,777 - INFO - Script started.
+2024-11-27 00:44:06,797 - INFO - Starting parallel scraping...
+2024-11-27 00:44:06,823 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 00:46:57,020 - INFO - Script started
+2024-11-27 00:46:57,020 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 00:46:57,020 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 00:47:01,538 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-27 00:47:03,544 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-27 00:47:03,579 - INFO - Data loaded successfully. Number of records: 1
+2024-11-27 00:47:03,580 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 00:47:04,860 - INFO - Cookies accepted successfully.
+2024-11-27 00:47:06,861 - INFO - Starting to scrape data for companies.
+2024-11-27 00:47:06,906 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-27 00:47:15,182 - INFO - Appending data for company: 0
+2024-11-27 00:47:16,841 - INFO - Saving data for company index: 0
+2024-11-27 00:47:16,841 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-27 00:47:16,858 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-27 00:47:16,860 - INFO - Script execution completed.
+2024-11-27 01:15:44,557 - INFO - Script started.
+2024-11-27 01:15:44,642 - INFO - Starting parallel scraping...
+2024-11-27 01:15:44,698 - INFO - Starting scrape for company index 0
+2024-11-27 01:15:44,699 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-27 01:29:17,407 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-27 01:29:19,434 - INFO - WebScraper initialized successfully
+2024-11-27 01:29:19,438 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-27 01:29:19,948 - ERROR - Error processing company {'Exchange': 'NMS', 'Symbol': 'NVDA', 'Shortname': 'NVIDIA Corporation', 'Longname': 'NVIDIA Corporation', 'Sector': 'Technology', 'Industry': 'Semiconductors', 'Currentprice': 148.29, 'Marketcap': 3637553397760, 'Ebitda': 61184000000.0, 'Revenuegrowth': 1.224, 'City': 'Santa Clara', 'State': 'CA', 'Country': 'United States', 'Fulltimeemployees': 29600.0, 'Longbusinesssummary': "NVIDIA Corporation provides graphics and compute and networking solutions in the United States, Taiwan, China, Hong Kong, and internationally. The Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; virtual GPU or vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building and operating metaverse and 3D internet applications. The Compute & Networking segment comprises Data Center computing platforms and end-to-end networking platforms, including Quantum for InfiniBand and Spectrum for Ethernet; NVIDIA DRIVE automated-driving platform and automotive development agreements; Jetson robotics and other embedded platforms; NVIDIA AI Enterprise and other software; and DGX Cloud software and services. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, consumer internet companies, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.", 'Weight': 0.0650510934194657}: 'WebScraper' object has no attribute 'driver'
+2024-11-27 01:29:23,988 - INFO - Scraping completed.

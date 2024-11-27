@@ -17,7 +17,7 @@ import os
 
 # Configure logging
 logging.basicConfig(
-    filename='esg_scraper.log',
+    filename='/app/src/esg_scraper.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
 )

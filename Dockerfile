@@ -18,8 +18,10 @@ RUN apk update && apk add --no-cache \
     mesa-egl \
     udev \
     cups-libs \
-    nss
-RUN pip install --upgrade pip
+    nss 
+    # \
+    # xvfb \
+    # xvfb-run
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
@@ -34,12 +36,23 @@ RUN adduser \
     --uid "${UID}" \
     appuser
 
+COPY requirements.txt /app/src
+RUN pip install --upgrade pip
 # Use BuildKit cache mounts for pip and requirements.txt file
-RUN --mount=type=cache,target=/root/.cache/pip \
-    --mount=type=bind,source=requirements.txt,target=requirements.txt \
-    python -m pip install -r requirements.txt
+# RUN --mount=type=cache,target=/root/.cache/pip \
+#     --mount=type=bind,source=requirements.txt,target=requirements.txt \
+#     python -m pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Switch to the non-privileged user to run the application.
 USER appuser
+
+# USER root
+# # Add a startup script to ensure proper permissions
+# COPY entrypoint.sh /app/src/entrypoint.sh
+# RUN chmod +x /app/src/entrypoint.sh
+
+# # Set the entrypoint to the script
+# ENTRYPOINT ["/app/src/entrypoint.sh"]
 
 CMD ["gunicorn", "-b", "0.0.0.0:5001", "app:app"]
