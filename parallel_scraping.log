@@ -353,3 +353,102 @@
 2024-11-27 06:08:53,755 - INFO - Total companies to process: 1
 2024-11-27 06:08:53,810 - INFO - Starting scrape for company NVIDIA Corporation (index: 0)
 2024-11-27 06:08:53,811 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 12:42:15,539 - INFO - ESG Scraping Script Started
+2024-11-27 12:42:15,552 - INFO - Total companies to process: 1
+2024-11-27 12:42:15,597 - INFO - Starting scrape for company NVIDIA Corporation (index: 0)
+2024-11-27 12:42:15,598 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 12:52:22,453 - INFO - ESG Scraping Script Started
+2024-11-27 12:52:22,466 - INFO - Total companies to process: 1
+2024-11-27 12:52:22,505 - INFO - Starting scrape for company NVIDIA Corporation (index: 0)
+2024-11-27 12:52:22,506 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 12:55:50,702 - INFO - ESG Scraping Script Started
+2024-11-27 12:55:50,713 - INFO - Total companies to process: 1
+2024-11-27 12:55:50,751 - INFO - Starting scrape for company NVIDIA Corporation (index: 0)
+2024-11-27 12:55:50,752 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 12:55:51,137 - INFO - Browser initialized successfully
+2024-11-27 12:55:58,261 - INFO - Cookies accepted successfully
+2024-11-27 12:56:01,300 - INFO - Search bar found successfully
+2024-11-27 12:56:04,445 - ERROR - Error extracting company details for NVIDIA Corporation: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-name"]"}
+  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-27 12:56:04,522 - WARNING - No results to save
+2024-11-27 12:56:04,522 - INFO - Script completed
+2024-11-27 13:03:52,149 - INFO - ESG Scraping Script Started
+2024-11-27 13:03:52,159 - INFO - Total companies to process: 1
+2024-11-27 13:03:52,196 - INFO - Starting scrape for company NVIDIA Corporation (index: 0)
+2024-11-27 13:03:52,197 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 13:03:52,557 - INFO - Browser initialized successfully
+2024-11-27 13:03:58,377 - INFO - Cookies accepted successfully
+2024-11-27 13:04:01,404 - INFO - Search bar found successfully
+2024-11-27 13:04:04,695 - ERROR - Main process error: Error sending result: '[{'SnP_ESG_Company': <selenium.webdriver.remote.webelement.WebElement (session="4307800fa8cbf7288678e5a485c74d67", element="f.0EBDB6E99C1A1A1766CF372083493078.d.85378D920D9A1024F0559FE078244F65.e.79")>, 'SnP_ESG_Score': '61', 'SnP_ESG_Country': 'Location: United States of America', 'SnP_ESG_Industry': 'Industry: SEM Semiconductors & Semiconductor Equipment', 'SnP_ESG_Ticker': 'Ticker: NVDA'}]'. Reason: 'TypeError("cannot pickle 'BufferedWriter' instances")'
+2024-11-27 13:04:04,696 - INFO - Script completed
+2024-11-27 13:07:37,581 - INFO - ESG Scraping Script Started
+2024-11-27 13:07:37,593 - INFO - Total companies to process: 1
+2024-11-27 13:07:37,636 - INFO - Starting scrape for company NVIDIA Corporation (index: 0)
+2024-11-27 13:07:37,637 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 13:07:38,034 - INFO - Browser initialized successfully
+2024-11-27 13:07:42,344 - INFO - Cookies accepted successfully
+2024-11-27 13:07:45,380 - INFO - Search bar found successfully
+2024-11-27 13:07:48,652 - INFO - Successfully processed company: NVIDIA Corporation ESG Score
+2024-11-27 13:07:48,664 - INFO - Successfully saved 1 results
+2024-11-27 13:07:48,664 - INFO - Script completed
+2024-11-27 13:17:04,147 - INFO - ESG Scraping Script Started
+2024-11-27 13:17:04,159 - INFO - Total companies to process: 3
+2024-11-27 13:17:04,207 - INFO - Starting scrape for company Apple Inc. (index: 1)
+2024-11-27 13:17:04,207 - INFO - Starting scrape for company NVIDIA Corporation (index: 0)
+2024-11-27 13:17:04,208 - INFO - Starting scrape for company Microsoft Corporation (index: 2)
+2024-11-27 13:17:04,211 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 13:17:04,211 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0
+2024-11-27 13:17:04,211 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-11-27 13:17:04,740 - INFO - Browser initialized successfully
+2024-11-27 13:17:04,746 - INFO - Browser initialized successfully
+2024-11-27 13:17:05,103 - INFO - Browser initialized successfully
+2024-11-27 13:17:09,917 - INFO - Cookies accepted successfully
+2024-11-27 13:17:10,588 - INFO - Cookies accepted successfully
+2024-11-27 13:17:11,770 - INFO - Cookies accepted successfully
+2024-11-27 13:17:12,935 - INFO - Search bar found successfully
+2024-11-27 13:17:13,608 - INFO - Search bar found successfully
+2024-11-27 13:17:14,785 - INFO - Search bar found successfully
+2024-11-27 13:17:18,251 - INFO - Successfully processed company: NVIDIA Corporation ESG Score
+2024-11-27 13:17:18,251 - INFO - Successfully processed company: Apple Inc. ESG Score
+2024-11-27 13:17:18,252 - INFO - Successfully processed company: Microsoft Corporation ESG Score
+2024-11-27 13:17:18,266 - INFO - Successfully saved 3 results
+2024-11-27 13:17:18,266 - INFO - Script completed
+2024-11-27 13:20:55,130 - INFO - ESG Scraping Script Started
+2024-11-27 13:20:55,142 - INFO - Total companies to process: 10
+2024-11-27 13:20:55,189 - INFO - Starting scrape for company Apple Inc. (index: 1)
+2024-11-27 13:20:55,190 - INFO - Starting scrape for company NVIDIA Corporation (index: 0)
+2024-11-27 13:20:55,190 - INFO - Starting scrape for company Alphabet Inc. (index: 3)
+2024-11-27 13:20:55,191 - INFO - Starting scrape for company Amazon.com, Inc. (index: 5)
+2024-11-27 13:20:55,191 - INFO - Starting scrape for company Microsoft Corporation (index: 2)
+2024-11-27 13:20:55,192 - INFO - Starting scrape for company Alphabet Inc. (index: 4)
+2024-11-27 13:20:55,192 - INFO - Starting scrape for company Tesla, Inc. (index: 7)
+2024-11-27 13:20:55,192 - INFO - Starting scrape for company Berkshire Hathaway Inc. New (index: 8)
+2024-11-27 13:20:55,192 - INFO - Starting scrape for company Meta Platforms, Inc. (index: 6)
+2024-11-27 13:20:55,193 - INFO - Starting scrape for company Broadcom Inc. (index: 9)
+2024-11-27 13:20:55,193 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 13:20:55,193 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-11-27 13:20:55,195 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0
+2024-11-27 13:20:55,195 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+2024-11-27 13:20:55,197 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-11-27 13:20:55,197 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 13:20:55,197 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 13:20:55,197 - INFO - Using user agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 13:20:55,198 - INFO - Using user agent: Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-11-27 13:20:55,198 - INFO - Using user agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0
+2024-11-27 13:22:47,009 - INFO - ESG Scraping Script Started
+2024-11-27 13:22:47,021 - INFO - Total companies to process: 7
+2024-11-27 13:22:47,068 - INFO - Starting scrape for company NVIDIA Corporation (index: 0)
+2024-11-27 13:22:47,069 - INFO - Starting scrape for company Alphabet Inc. (index: 3)
+2024-11-27 13:22:47,068 - INFO - Starting scrape for company Apple Inc. (index: 1)
+2024-11-27 13:22:47,068 - INFO - Starting scrape for company Amazon.com, Inc. (index: 5)
+2024-11-27 13:22:47,068 - INFO - Starting scrape for company Microsoft Corporation (index: 2)
+2024-11-27 13:22:47,069 - INFO - Starting scrape for company Meta Platforms, Inc. (index: 6)
+2024-11-27 13:22:47,069 - INFO - Starting scrape for company Alphabet Inc. (index: 4)
+2024-11-27 13:22:47,070 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+2024-11-27 13:22:47,071 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-11-27 13:22:47,071 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0
+2024-11-27 13:22:47,071 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+2024-11-27 13:22:47,072 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-27 13:22:47,073 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-11-27 13:22:47,073 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0

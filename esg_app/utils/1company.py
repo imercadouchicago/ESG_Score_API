@@ -18,23 +18,40 @@ logging.basicConfig(
 )
     
 USER_AGENTS = [
-    # Windows Browsers
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0",
+    # Windows Browsers - Chrome, Edge, Firefox, Opera
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0", 
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
-    # macOS Browsers
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0",
+    
+    # macOS Browsers - Safari, Chrome, Firefox, Edge
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0",
-    # Linux Browsers
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0",
+    
+    # Linux Browsers - Chrome, Firefox, Opera
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0",
-    # Mobile Browsers
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0",
+    
+    # iOS Mobile Browsers - Safari, Chrome
     "Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
-    "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/120.0.6099.119 Mobile/15E148 Safari/604.1"
+    
+    # Android Mobile Browsers - Chrome, Firefox, Samsung Browser
+    "Mozilla/5.0 (Linux; Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.119 Mobile Safari/537.36",
+    "Mozilla/5.0 (Android 14; Mobile; rv:120.0) Gecko/120.0 Firefox/120.0",
+    "Mozilla/5.0 (Linux; Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/23.0 Chrome/115.0.0.0 Mobile Safari/537.36",
+    
+    # Tablets - iPadOS, Android
+    "Mozilla/5.0 (iPad; CPU OS 17_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (Linux; Android 14; SM-X900) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.119 Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 14; Pixel Tablet) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.119 Safari/537.36"
 ]
 
+
 def initialize_browser(user_agents):
+# def initialize_browser():
     try:
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")
@@ -45,6 +62,7 @@ def initialize_browser(user_agents):
         if user_agents.empty():
             raise ValueError("No more user agents available")
         random_user_agent = user_agents.get()
+        # random_user_agent = random()
 
         options.add_argument(f"user-agent={random_user_agent}")
         
@@ -103,7 +121,9 @@ def scrape_company(company_data, user_agents):
         
         try:
             # Extract company details
-            company_name = driver.find_element(By.XPATH, '//*[@id="company-name"]').text
+            company_name = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.XPATH, '//*[@id="company-name"]'))
+            ).text
             esg_score = driver.find_element(By.CLASS_NAME, "scoreModule__score").text
             country = driver.find_element(By.XPATH, '//*[@id="company-country"]').text
             industry = driver.find_element(By.XPATH, '//*[@id="company-industry"]').text
@@ -134,10 +154,10 @@ def main():
     
     try:
         df = pd.read_csv("esg_app/api/data/SP500.csv")
-        df = df.head(1)
+        df = df.head(7)
         logging.info(f"Total companies to process: {len(df)}")
         
-        # Prepare data and user agents
+        # Prepare data and user agents for multiprocessing
         company_data = list(enumerate(df.to_dict(orient='records')))
         user_agents = Manager().Queue()  # Shared queue
         for agent in USER_AGENTS:
@@ -150,10 +170,6 @@ def main():
                 if result is not None:
                     results.append(result)
                     logging.info(f"Successfully processed company: {result['SnP_ESG_Company']}")
-        
-        # # Clean and save results
-        # # Prepare data for multiprocessing
-        # company_data = list(enumerate(df.to_dict(orient='records')))
         
         # # Use multiprocessing
         # with Pool(processes=10) as pool:
