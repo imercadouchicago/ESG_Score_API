@@ -936,3 +936,284 @@
 2024-11-26 03:50:51,113 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
 2024-11-26 03:51:26,454 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
 2024-11-26 03:51:26,455 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 13:25:06,568 - INFO - Initializing WebScraper for URL: https://www.sustainalytics.com/esg-ratings
+2024-11-26 13:25:10,629 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 13:25:44,327 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 13:25:44,329 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 13:26:19,184 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 13:26:19,185 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 13:26:53,840 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 13:26:53,842 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 13:27:19,280 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 13:27:19,282 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 13:27:54,429 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 13:27:54,430 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:04:56,355 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:04:58,731 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:05:14,798 - WARNING - Timeout while waiting for element: //h3[contains(@class, 'Typestack--h3')]//strong
+2024-11-26 14:05:14,817 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:05:14,822 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:06:22,830 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:06:25,108 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:06:41,205 - WARNING - Timeout while waiting for element: //h3[contains(@class, 'Typestack--h3')]//strong
+2024-11-26 14:06:41,223 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:06:41,228 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:09:34,192 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:09:36,539 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:09:52,656 - WARNING - Timeout while waiting for element: //*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/h3/strong
+2024-11-26 14:09:52,668 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:09:52,671 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:14:05,910 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:14:10,695 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:14:16,899 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:14:16,904 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:17:17,084 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:17:19,822 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:17:30,187 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:17:30,191 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:19:11,478 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:19:13,769 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:19:29,011 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:19:29,013 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:23:45,857 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:23:48,293 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:44:36,563 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:44:39,965 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:44:52,407 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:44:52,409 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:45:21,318 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:45:23,644 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:45:36,092 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:45:36,094 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:46:37,072 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:46:39,508 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:46:51,940 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:46:51,942 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:49:08,280 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:49:10,754 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:49:27,505 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:49:27,507 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:50:51,976 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-26 14:50:54,370 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 14:51:11,142 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:51:11,144 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:51:25,298 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 14:51:25,299 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 15:48:09,976 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 15:48:27,353 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 15:48:52,993 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 15:48:59,974 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 15:51:37,555 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 15:51:50,790 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 15:52:52,025 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 15:53:00,850 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 15:56:24,254 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 15:56:36,378 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 15:59:16,282 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 15:59:27,073 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:02:13,191 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:02:25,597 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:03:26,595 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:03:41,596 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:04:36,725 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:04:45,508 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:10:27,699 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:10:44,014 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:13:39,306 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:13:45,800 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:15:02,353 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:15:09,374 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:15:42,709 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:15:49,673 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:22:03,150 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:22:12,218 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:24:19,023 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:24:27,445 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:27:23,981 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:27:32,530 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:28:12,514 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:28:23,044 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:42:58,378 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:43:01,670 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:43:29,780 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 16:43:29,783 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 16:44:03,000 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:44:12,196 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:44:35,783 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 16:44:35,788 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 16:44:56,027 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 16:45:04,065 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 16:45:50,895 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 16:45:50,898 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:19:45,575 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 17:20:10,386 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 17:21:06,356 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:21:06,361 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:22:22,270 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 17:22:29,606 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 17:22:56,680 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:22:56,684 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:23:41,373 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 17:23:57,561 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 17:24:23,198 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:24:23,204 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:24:46,832 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 17:24:54,467 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 17:25:48,209 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:25:48,213 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:30:08,226 - INFO - Script started
+2024-11-26 17:30:08,226 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 17:30:08,226 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 17:30:14,043 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 17:30:16,044 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-26 17:30:16,056 - INFO - Data loaded successfully. Number of records: 2
+2024-11-26 17:30:16,056 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 17:30:17,249 - INFO - Cookies accepted successfully.
+2024-11-26 17:30:19,250 - INFO - Starting to scrape data for companies.
+2024-11-26 17:30:19,267 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-26 17:30:27,499 - INFO - Appending data for company: 0
+2024-11-26 17:30:29,133 - INFO - Saving data for company index: 0
+2024-11-26 17:30:29,133 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:30:29,135 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:30:29,136 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-26 17:30:37,329 - INFO - Appending data for company: <selenium.webdriver.remote.webelement.WebElement (session="616eecc579df4ec73e22e0183bee2e75", element="f.2D3EE1A0B2B3EA6FD30AEAD6D446749E.d.6B82FFD7A26CD7753C45D23B56F231C9.e.82")>
+2024-11-26 17:30:38,953 - INFO - Saving data for company index: 1
+2024-11-26 17:30:38,953 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:30:38,955 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 17:30:38,955 - INFO - Script execution completed.
+2024-11-26 19:20:47,930 - INFO - Script started
+2024-11-26 19:20:47,931 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 19:20:47,932 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-26 19:20:51,978 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:20:53,980 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-26 19:20:53,991 - INFO - Data loaded successfully. Number of records: 2
+2024-11-26 19:20:53,991 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-26 19:20:55,213 - INFO - Cookies accepted successfully.
+2024-11-26 19:20:57,214 - INFO - Starting to scrape data for companies.
+2024-11-26 19:20:57,242 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-26 19:21:08,722 - INFO - Appending data for company: 0
+2024-11-26 19:21:10,389 - INFO - Saving data for company index: 0
+2024-11-26 19:21:10,389 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 19:21:10,391 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 19:21:10,391 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-26 19:21:18,575 - INFO - Appending data for company: <selenium.webdriver.remote.webelement.WebElement (session="feda402689802132ffc1f171a5720e0a", element="f.26EFA609CD90858975295333DE4FD2A2.d.848B070A4E45CF57736B02B242466F8C.e.81")>
+2024-11-26 19:21:20,206 - INFO - Saving data for company index: 1
+2024-11-26 19:21:20,206 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 19:21:20,208 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 19:21:20,208 - INFO - Script execution completed.
+2024-11-26 19:22:56,229 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:22:58,695 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:23:16,484 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 19:23:16,486 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 19:25:23,176 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:25:25,523 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:27:43,244 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:27:45,464 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:31:19,341 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:31:21,507 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:34:34,384 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:34:36,476 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:35:44,978 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 19:35:44,986 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 19:41:42,932 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:41:45,262 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:41:47,295 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:41:49,494 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:46:59,466 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:47:01,798 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:47:03,820 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:47:05,969 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:49:18,916 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:49:21,293 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:49:23,310 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:49:25,255 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:50:01,407 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:50:03,494 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:59:05,211 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:59:07,414 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:59:09,450 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:59:11,470 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 19:59:47,861 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 19:59:50,006 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:03:19,425 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 20:03:21,711 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:03:23,741 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 20:03:25,984 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:03:38,689 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 20:03:40,848 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:04:37,081 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 20:04:39,297 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:04:41,309 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 20:04:43,279 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:04:55,582 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 20:04:57,776 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:09:14,642 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 20:09:16,823 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:09:18,846 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 20:09:20,846 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:09:33,418 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 20:09:35,520 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:29:32,018 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-26 20:29:40,510 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:30:30,511 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 20:30:30,518 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-26 20:49:33,950 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 20:49:38,082 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:49:40,105 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 20:49:45,034 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 20:50:09,754 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 20:50:12,886 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 21:09:02,814 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 21:09:05,983 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 21:09:08,005 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 21:09:10,832 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 21:09:27,320 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 21:09:29,840 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 21:12:35,451 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 21:12:38,018 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 21:19:44,594 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 21:19:48,235 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 21:28:27,342 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 21:28:30,711 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 21:35:42,783 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 21:35:46,105 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 21:40:29,563 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 21:40:33,686 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 21:43:37,191 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 21:43:39,912 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 21:50:31,102 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 21:50:33,736 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 21:59:09,900 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 21:59:14,420 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:05:00,105 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 22:05:03,974 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:14:21,609 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:14:24,068 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:14:26,098 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:14:28,257 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:14:40,925 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:14:43,161 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:16:53,529 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:16:55,798 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:16:57,824 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:17:00,027 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:17:36,327 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:17:38,496 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:18:40,172 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:18:42,562 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:18:44,586 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:18:46,699 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:18:59,191 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:19:01,232 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:23:37,660 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:23:39,902 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:23:41,905 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:23:44,125 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:23:56,862 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-11-26 22:23:58,999 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:24:56,502 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 22:25:00,498 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:25:15,311 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 22:25:17,832 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-26 22:26:00,284 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-26 22:26:02,895 - INFO - WebDriver initialized and URL accessed successfully.

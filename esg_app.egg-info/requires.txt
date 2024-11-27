@@ -1,0 +1,7 @@
+selenium
+pandas
+webdriver-manager
+requests
+beautifulsoup4
+numexpr>=2.8.4
+bottleneck>=1.3.6
