@@ -7,6 +7,8 @@ import concurrent.futures
 from concurrent.futures import ThreadPoolExecutor
 from selenium.webdriver.common.keys import Keys
 from queue import Queue
+import numpy as np
+from threading import Lock
 
 # Configure logging
 logging.basicConfig(
@@ -22,11 +24,10 @@ export_path = 'esg_app/api/data/SP500_esg_scores.csv'
 USER_AGENTS = [
     # Chrome versions derived from historical Chrome releases
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
     ]
 
-def scrape_company(company_data: pd.DataFrame, user_agents: Queue) -> list[dict]:
+def scrape_company(company_data: pd.DataFrame, user_agents: Queue, processed_tickers: set, lock: Lock) -> list[dict]:
     try:
         # Initialize browser
         bot = WebScraper(URL, user_agents)
@@ -37,8 +38,19 @@ def scrape_company(company_data: pd.DataFrame, user_agents: Queue) -> list[dict]
         bot.accept_cookies(cookies_xpath)
 
         # Iterate through all companies in this subset
-        for idx, row in company_data.iterrows():
+        for idx, row in tqdm(company_data.iterrows(), 
+                           total=len(company_data), 
+                           desc=f"Processing chunk",
+                           position=1, 
+                           leave=False):
             try:
+                # Check if ticker has already been processed
+                with lock:
+                    if row[headername] in processed_tickers:
+                        logging.info(f"Skipping already processed company: {row[headername]}")
+                        continue
+                    processed_tickers.add(row[headername])
+
                 logging.debug(f"Processing company: {row[headername]}")
                 # Send request to search bar
                 search_bar = bot.send_request_to_search_bar(
@@ -85,7 +97,7 @@ def main():
     logging.info("Reading input data from: %s", import_path)
     try:
         df = pd.read_csv(import_path)
-        df = df.head(2)  # For testing
+        df = df.head(10)
         logging.info("Data loaded successfully. Number of records: %d", len(df))
     except FileNotFoundError as e:
         logging.error("Input file not found. Error: %s", e)
@@ -93,22 +105,17 @@ def main():
 
     # Calculate how to split the dataframe
     num_threads = min(len(df), user_agents.qsize())
-    chunk_size = len(df) // num_threads
-    df_chunks = [df[i:i + chunk_size] for i in range(0, len(df), chunk_size)]
     
-    # If there are any remaining rows, add them to the last chunk
-    if len(df_chunks) > num_threads:
-        df_chunks[-2] = pd.concat([df_chunks[-2], df_chunks[-1]])
-        df_chunks.pop()
+    # Create non-overlapping chunks using array splitting
+    df_chunks = np.array_split(df, num_threads)
+    
+    # Create shared set for tracking processed companies
+    processed_tickers = set()
+    lock = Lock()
 
     try:
         with ThreadPoolExecutor(max_workers=num_threads) as executor:
-            # If you want to add a delay between submissions:
-            # futures = []
-            # for i, chunk in enumerate(df_chunks):
-            #     sleep(3 * i)  
-            #     futures.append(executor.submit(scrape_company, chunk, user_agents))
-            futures = [executor.submit(scrape_company, chunk, user_agents) 
+            futures = [executor.submit(scrape_company, chunk, user_agents, processed_tickers, lock) 
                       for chunk in df_chunks]
             
             results = []
@@ -119,8 +126,11 @@ def main():
 
         # Clean and save results
         if results:
-            pd.DataFrame(results).to_csv(export_path, index=False)
-            logging.info(f"Successfully saved {len(results)} results")
+            results_df = pd.DataFrame(results)
+            # Double-check for duplicates just in case
+            results_df = results_df.drop_duplicates(subset=['SnP_ESG_Ticker'], keep='first')
+            results_df.to_csv(export_path, index=False)
+            logging.info(f"Successfully saved {len(results_df)} results")
         else:
             logging.warning("No results to save")
     
