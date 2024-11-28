@@ -7,7 +7,17 @@ import pandas as pd
 from time import sleep
 from esg_app.utils.scraper import WebScraper
 
+# Configure logging
+logging.basicConfig(
+    filename='parallel_scraping.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
+
 URL = "https://finance.yahoo.com/lookup/"
+import_path = 'esg_app/api/data/SP500.csv'
+
+
 bot = WebScraper(URL)
 
 try:

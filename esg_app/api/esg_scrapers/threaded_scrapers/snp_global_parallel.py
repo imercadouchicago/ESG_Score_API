@@ -1,4 +1,4 @@
-from esg_app.utils.scraper_2 import  WebScraper
+from esg_app.utils.scraper_utils.threaded_scraper import  WebScraper
 import pandas as pd
 from time import sleep
 from tqdm import tqdm

@@ -74,3 +74,43 @@ if __name__ == "__main__":
         pd.DataFrame([result]).to_csv('esg_app/api/data/SP500_esg_scores.csv', index=False)
 
     logging.info("Scraping completed.")
+
+# Dockerfile:
+# RUN apk add --no-cache \
+#     chromium \
+#     chromium-chromedriver \
+#     libx11 \
+#     libxcomposite \
+#     libxrandr \
+#     libxi \
+#     libxdamage \
+#     libxfixes \
+#     mesa-dri-gallium \
+#     mesa-egl \
+#     ttf-freefont \
+#     fontconfig \
+#     harfbuzz \
+#     nss \
+#     xvfb \
+#     xvfb-run
+
+# Use BuildKit cache mounts for pip and requirements.txt file
+# RUN --mount=type=cache,target=/root/.cache/pip \
+#     --mount=type=bind,source=requirements.txt,target=requirements.txt \
+#     python -m pip install -r requirements.txt
+
+# USER root
+# # Add a startup script to ensure proper permissions
+# COPY entrypoint.sh /app/src/entrypoint.sh
+# RUN chmod +x /app/src/entrypoint.sh
+
+# # Set the entrypoint to the script
+# ENTRYPOINT ["/app/src/entrypoint.sh"]
+
+# Makefile:
+# snpglobal: build
+# 	docker run -it --rm \
+# 	-e PYTHONPATH='/app/src' \
+# 	-v $(LOCAL_HOST_DIR):$(CONTAINER_SRC_DIR) \
+# 	$(IMAGE_NAME) /bin/sh -c \
+# 	"xvfb-run -a python esg_app/utils/parallel_scraper.py"
