@@ -1963,3 +1963,1250 @@
 2024-11-27 22:58:27,999 - INFO - Successfully scraped data for Exelon Corporation
 2024-11-27 22:58:28,201 - INFO - Successfully saved 426 results
 2024-11-27 22:58:28,201 - INFO - Script completed
+2024-11-28 00:25:20,668 - INFO - Script started
+2024-11-28 00:25:20,668 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-28 00:25:20,679 - INFO - Data loaded successfully. Number of records: 10
+2024-11-28 00:25:20,680 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 00:25:20,680 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 00:25:20,680 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 00:25:20,681 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 00:25:25,728 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 00:25:25,729 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 00:25:25,816 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 00:25:25,816 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 00:25:26,454 - INFO - Cookies accepted successfully.
+2024-11-28 00:25:26,555 - INFO - Cookies accepted successfully.
+2024-11-28 00:25:28,482 - INFO - Search Bar Request for Company:Amazon.com, Inc.
+2024-11-28 00:25:28,555 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-28 00:25:38,496 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-28 00:25:38,497 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-28 00:25:38,500 - INFO - Successfully scraped data for Amazon.com, Inc.
+2024-11-28 00:25:38,501 - INFO - Search Bar Request for Company:Meta Platforms, Inc.
+2024-11-28 00:25:55,787 - INFO - Successfully scraped data for Meta Platforms, Inc.
+2024-11-28 00:25:55,788 - INFO - Search Bar Request for Company:Tesla, Inc.
+2024-11-28 00:25:56,840 - INFO - Successfully scraped data for Apple Inc.
+2024-11-28 00:25:56,841 - INFO - Search Bar Request for Company:Microsoft Corporation
+2024-11-28 00:26:05,660 - INFO - Successfully scraped data for Tesla, Inc.
+2024-11-28 00:26:05,660 - INFO - Search Bar Request for Company:Berkshire Hathaway Inc. New
+2024-11-28 00:26:06,703 - INFO - Successfully scraped data for Microsoft Corporation
+2024-11-28 00:26:06,704 - INFO - Search Bar Request for Company:Alphabet Inc.
+2024-11-28 00:26:15,513 - INFO - Successfully scraped data for Berkshire Hathaway Inc. New
+2024-11-28 00:26:15,513 - INFO - Search Bar Request for Company:Broadcom Inc.
+2024-11-28 00:26:16,586 - INFO - Successfully scraped data for Alphabet Inc.
+2024-11-28 00:26:16,586 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-28 00:26:25,365 - INFO - Successfully scraped data for Broadcom Inc.
+2024-11-28 00:26:25,434 - INFO - Successfully saved 8 results
+2024-11-28 00:26:25,434 - INFO - Script completed
+2024-11-28 00:36:38,739 - INFO - Script started
+2024-11-28 00:36:38,739 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-28 00:36:38,750 - INFO - Data loaded successfully. Number of records: 10
+2024-11-28 00:36:38,752 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 00:36:38,752 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 00:36:38,752 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 00:36:38,753 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 00:36:43,970 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 00:36:43,971 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 00:36:44,034 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 00:36:44,035 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 00:36:44,726 - INFO - Cookies accepted successfully.
+2024-11-28 00:36:44,751 - INFO - Cookies accepted successfully.
+2024-11-28 00:36:46,764 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-28 00:36:46,764 - INFO - Search Bar Request for Company:Amazon.com, Inc.
+2024-11-28 00:36:56,712 - INFO - Successfully scraped data for Amazon.com, Inc.
+2024-11-28 00:36:56,713 - INFO - Search Bar Request for Company:Meta Platforms, Inc.
+2024-11-28 00:36:56,717 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-28 00:36:56,717 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-28 00:37:06,629 - INFO - Successfully scraped data for Meta Platforms, Inc.
+2024-11-28 00:37:06,630 - INFO - Search Bar Request for Company:Tesla, Inc.
+2024-11-28 00:37:06,629 - INFO - Successfully scraped data for Apple Inc.
+2024-11-28 00:37:06,630 - INFO - Search Bar Request for Company:Microsoft Corporation
+2024-11-28 00:37:16,530 - INFO - Successfully scraped data for Tesla, Inc.
+2024-11-28 00:37:16,530 - INFO - Successfully scraped data for Microsoft Corporation
+2024-11-28 00:37:16,531 - INFO - Search Bar Request for Company:Berkshire Hathaway Inc. New
+2024-11-28 00:37:16,531 - INFO - Search Bar Request for Company:Alphabet Inc.
+2024-11-28 00:37:26,434 - INFO - Successfully scraped data for Berkshire Hathaway Inc. New
+2024-11-28 00:37:26,435 - INFO - Search Bar Request for Company:Broadcom Inc.
+2024-11-28 00:37:26,434 - INFO - Successfully scraped data for Alphabet Inc.
+2024-11-28 00:37:26,436 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-28 00:37:36,348 - INFO - Successfully scraped data for Broadcom Inc.
+2024-11-28 00:37:36,415 - INFO - Successfully saved 8 results
+2024-11-28 00:37:36,415 - INFO - Script completed
+2024-11-28 00:39:27,963 - INFO - Script started
+2024-11-28 00:39:27,963 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-28 00:39:27,974 - INFO - Data loaded successfully. Number of records: 10
+2024-11-28 00:39:27,976 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 00:39:27,976 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 00:39:27,976 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 00:39:27,977 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 00:39:31,843 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 00:39:31,843 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 00:39:31,856 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 00:39:31,857 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 00:39:32,552 - INFO - Cookies accepted successfully.
+2024-11-28 00:39:32,574 - INFO - Cookies accepted successfully.
+2024-11-28 00:39:34,568 - INFO - Search Bar Request for Company:Amazon.com, Inc.
+2024-11-28 00:39:34,577 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-28 00:39:44,558 - INFO - Successfully scraped data for Amazon.com, Inc.
+2024-11-28 00:39:44,559 - INFO - Search Bar Request for Company:Meta Platforms, Inc.
+2024-11-28 00:39:44,562 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-28 00:39:44,563 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-28 00:39:54,450 - INFO - Successfully scraped data for Apple Inc.
+2024-11-28 00:39:54,451 - INFO - Search Bar Request for Company:Microsoft Corporation
+2024-11-28 00:39:54,459 - INFO - Successfully scraped data for Meta Platforms, Inc.
+2024-11-28 00:39:54,460 - INFO - Search Bar Request for Company:Tesla, Inc.
+2024-11-28 00:40:04,382 - INFO - Successfully scraped data for Tesla, Inc.
+2024-11-28 00:40:04,383 - INFO - Search Bar Request for Company:Berkshire Hathaway Inc. New
+2024-11-28 00:40:04,390 - INFO - Successfully scraped data for Microsoft Corporation
+2024-11-28 00:40:04,391 - INFO - Search Bar Request for Company:Alphabet Inc.
+2024-11-28 00:40:14,273 - INFO - Successfully scraped data for Berkshire Hathaway Inc. New
+2024-11-28 00:40:14,274 - INFO - Search Bar Request for Company:Broadcom Inc.
+2024-11-28 00:40:14,282 - INFO - Successfully scraped data for Alphabet Inc.
+2024-11-28 00:40:14,282 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-28 00:40:14,346 - INFO - Thread 0 returned 4 results: ['NVIDIA Corporation ESG Score', 'Apple Inc. ESG Score', 'Microsoft Corporation ESG Score', 'Alphabet Inc. ESG Score']
+2024-11-28 00:40:24,214 - INFO - Successfully scraped data for Broadcom Inc.
+2024-11-28 00:40:24,281 - INFO - Thread 1 returned 5 results: ['Amazon.com, Inc. ESG Score', 'Meta Platforms, Inc. ESG Score', 'Tesla, Inc. ESG Score', 'Tesla, Inc. ESG Score', 'Broadcom Inc. ESG Score']
+2024-11-28 00:40:24,281 - INFO - Total results collected: 9
+2024-11-28 00:40:24,281 - INFO - All companies collected: ['NVIDIA Corporation ESG Score', 'Apple Inc. ESG Score', 'Microsoft Corporation ESG Score', 'Alphabet Inc. ESG Score', 'Amazon.com, Inc. ESG Score', 'Meta Platforms, Inc. ESG Score', 'Tesla, Inc. ESG Score', 'Tesla, Inc. ESG Score', 'Broadcom Inc. ESG Score']
+2024-11-28 00:40:24,281 - INFO - Before deduplication: 9 rows
+2024-11-28 00:40:24,282 - INFO - Companies before deduplication: ['NVIDIA Corporation ESG Score', 'Apple Inc. ESG Score', 'Microsoft Corporation ESG Score', 'Alphabet Inc. ESG Score', 'Amazon.com, Inc. ESG Score', 'Meta Platforms, Inc. ESG Score', 'Tesla, Inc. ESG Score', 'Tesla, Inc. ESG Score', 'Broadcom Inc. ESG Score']
+2024-11-28 00:40:24,282 - INFO - After deduplication: 8 rows
+2024-11-28 00:40:24,283 - INFO - Final companies: ['NVIDIA Corporation ESG Score', 'Apple Inc. ESG Score', 'Microsoft Corporation ESG Score', 'Alphabet Inc. ESG Score', 'Amazon.com, Inc. ESG Score', 'Meta Platforms, Inc. ESG Score', 'Tesla, Inc. ESG Score', 'Broadcom Inc. ESG Score']
+2024-11-28 00:40:24,285 - INFO - Successfully saved 8 results
+2024-11-28 00:40:24,285 - INFO - Script completed
+2024-11-28 01:05:42,742 - INFO - Script started
+2024-11-28 01:05:42,742 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-28 01:05:42,755 - INFO - Data loaded successfully. Number of records: 10
+2024-11-28 01:05:42,757 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:05:42,757 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:05:42,757 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:05:42,758 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:05:45,802 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 01:05:45,803 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:05:45,869 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 01:05:45,870 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:05:46,597 - INFO - Cookies accepted successfully.
+2024-11-28 01:05:46,608 - INFO - Cookies accepted successfully.
+2024-11-28 01:05:48,612 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-28 01:05:48,613 - INFO - Search Bar Request for Company:Amazon.com, Inc.
+2024-11-28 01:05:58,519 - INFO - Successfully scraped data for Amazon.com, Inc.
+2024-11-28 01:05:58,520 - INFO - Search Bar Request for Company:Meta Platforms, Inc.
+2024-11-28 01:05:58,520 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-28 01:05:58,521 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-28 01:06:08,407 - INFO - Successfully scraped data for Apple Inc.
+2024-11-28 01:06:08,407 - INFO - Search Bar Request for Company:Microsoft Corporation
+2024-11-28 01:06:16,595 - INFO - Successfully scraped data for Meta Platforms, Inc.
+2024-11-28 01:06:16,595 - INFO - Search Bar Request for Company:Tesla, Inc.
+2024-11-28 01:06:18,272 - INFO - Successfully scraped data for Microsoft Corporation
+2024-11-28 01:06:18,273 - INFO - Search Bar Request for Company:Alphabet Inc.
+2024-11-28 01:06:26,580 - INFO - Successfully scraped data for Tesla, Inc.
+2024-11-28 01:06:26,581 - INFO - Search Bar Request for Company:Berkshire Hathaway Inc.
+2024-11-28 01:06:28,169 - INFO - Successfully scraped data for Alphabet Inc.
+2024-11-28 01:06:28,169 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-28 01:06:36,455 - INFO - Successfully scraped data for Berkshire Hathaway Inc.
+2024-11-28 01:06:36,456 - INFO - Search Bar Request for Company:Broadcom Inc.
+2024-11-28 01:06:46,352 - INFO - Successfully scraped data for Broadcom Inc.
+2024-11-28 01:06:46,423 - INFO - Successfully saved 9 results
+2024-11-28 01:06:46,423 - INFO - Script completed
+2024-11-28 01:13:03,375 - INFO - Script started
+2024-11-28 01:13:03,375 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-28 01:13:03,387 - INFO - Data loaded successfully. Number of records: 16
+2024-11-28 01:13:03,388 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:13:03,389 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:13:03,389 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:13:03,389 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:13:06,117 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 01:13:06,118 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:13:06,969 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 01:13:06,970 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:13:07,078 - INFO - Cookies accepted successfully.
+2024-11-28 01:13:07,739 - INFO - Cookies accepted successfully.
+2024-11-28 01:13:09,081 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: 'Series' object has no attribute 'iterrows'
+2024-11-28 01:13:09,743 - ERROR - Error with user agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: 'Series' object has no attribute 'iterrows'
+2024-11-28 01:13:09,811 - WARNING - No results to save
+2024-11-28 01:13:09,812 - INFO - Script completed
+2024-11-28 01:15:20,031 - INFO - Script started
+2024-11-28 01:15:20,031 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-28 01:15:20,042 - INFO - Data loaded successfully. Number of records: 2
+2024-11-28 01:15:20,044 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:15:20,044 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:15:20,044 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:15:20,045 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:15:24,383 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 01:15:24,384 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:15:24,396 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 01:15:24,397 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:15:25,122 - INFO - Cookies accepted successfully.
+2024-11-28 01:15:25,122 - INFO - Cookies accepted successfully.
+2024-11-28 01:15:27,146 - INFO - Search Bar Request for Company:HCA Healthcare, Inc.
+2024-11-28 01:15:27,148 - INFO - Search Bar Request for Company:KLA Corporation
+2024-11-28 01:15:38,997 - INFO - Successfully scraped data for HCA Healthcare, Inc.
+2024-11-28 01:15:38,998 - INFO - Successfully scraped data for KLA Corporation
+2024-11-28 01:15:39,087 - INFO - Successfully saved 2 results
+2024-11-28 01:15:39,087 - INFO - Script completed
+2024-11-28 01:16:21,666 - INFO - Script started
+2024-11-28 01:16:21,667 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-28 01:16:21,678 - INFO - Data loaded successfully. Number of records: 2
+2024-11-28 01:16:21,679 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:16:21,679 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:16:21,679 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:16:21,680 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:16:25,775 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 01:16:25,775 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:16:25,896 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 01:16:25,896 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:16:26,501 - INFO - Cookies accepted successfully.
+2024-11-28 01:16:26,667 - INFO - Cookies accepted successfully.
+2024-11-28 01:16:28,526 - INFO - Search Bar Request for Company:Mondelez International, Inc.
+2024-11-28 01:16:28,669 - INFO - Search Bar Request for Company:GE Vernova Inc.
+2024-11-28 01:16:38,509 - INFO - Successfully scraped data for Mondelez International, Inc.
+2024-11-28 01:16:45,644 - WARNING - Timeout while waiting for element: //*[@id="company-name"]
+2024-11-28 01:16:45,664 - ERROR - Error processing company GE Vernova Inc.: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-name"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-28 01:16:45,729 - INFO - Successfully saved 2 results
+2024-11-28 01:16:45,729 - INFO - Script completed
+2024-11-28 01:21:27,087 - INFO - Script started
+2024-11-28 01:21:27,087 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-28 01:21:27,098 - INFO - Data loaded successfully. Number of records: 2
+2024-11-28 01:21:27,100 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:21:27,100 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:21:27,100 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:21:27,101 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:21:31,395 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-28 01:21:31,396 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:21:31,396 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-28 01:21:31,397 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:21:31,904 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff8756bd90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b601fa011f024f106fdd2805ac8e74a8/element
+2024-11-28 01:21:31,905 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff875f75c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b601fa011f024f106fdd2805ac8e74a8/element
+2024-11-28 01:21:31,904 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff875f7230>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e841c1261a59870d55ffb3467d39f29c/element
+2024-11-28 01:21:31,912 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87566140>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e841c1261a59870d55ffb3467d39f29c/element
+2024-11-28 01:21:31,913 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87566580>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e841c1261a59870d55ffb3467d39f29c/element
+2024-11-28 01:21:31,914 - ERROR - Error with user agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: HTTPConnectionPool(host='localhost', port=35925): Max retries exceeded with url: /session/e841c1261a59870d55ffb3467d39f29c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff875668b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-28 01:21:31,912 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87561b50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b601fa011f024f106fdd2805ac8e74a8/element
+2024-11-28 01:21:31,916 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: HTTPConnectionPool(host='localhost', port=57357): Max retries exceeded with url: /session/b601fa011f024f106fdd2805ac8e74a8/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87566360>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-28 01:21:31,917 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87567350>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b601fa011f024f106fdd2805ac8e74a8
+2024-11-28 01:21:31,918 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87567570>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b601fa011f024f106fdd2805ac8e74a8
+2024-11-28 01:21:31,918 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87567790>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b601fa011f024f106fdd2805ac8e74a8
+2024-11-28 01:21:31,915 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87566ad0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e841c1261a59870d55ffb3467d39f29c
+2024-11-28 01:21:31,927 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87566f10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e841c1261a59870d55ffb3467d39f29c
+2024-11-28 01:21:31,931 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87567df0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e841c1261a59870d55ffb3467d39f29c
+2024-11-28 01:21:48,110 - INFO - Script started
+2024-11-28 01:21:48,110 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-28 01:21:48,121 - INFO - Data loaded successfully. Number of records: 503
+2024-11-28 01:21:48,123 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:21:48,123 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:21:48,123 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-28 01:21:48,124 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-28 01:21:51,915 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 01:21:51,916 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:21:52,267 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-28 01:21:52,267 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-28 01:21:52,626 - INFO - Cookies accepted successfully.
+2024-11-28 01:21:52,959 - INFO - Cookies accepted successfully.
+2024-11-28 01:21:54,647 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-28 01:21:54,961 - INFO - Search Bar Request for Company:Vulcan Materials Company
+2024-11-28 01:22:04,608 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-28 01:22:04,609 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-28 01:22:04,911 - INFO - Successfully scraped data for Vulcan Materials Company
+2024-11-28 01:22:04,913 - INFO - Search Bar Request for Company:Arch Capital Group Ltd.
+2024-11-28 01:22:14,493 - INFO - Successfully scraped data for Apple Inc.
+2024-11-28 01:22:14,494 - INFO - Search Bar Request for Company:Microsoft Corporation
+2024-11-28 01:22:14,805 - INFO - Successfully scraped data for Arch Capital Group Ltd.
+2024-11-28 01:22:14,805 - INFO - Search Bar Request for Company:Sysco Corporation
+2024-11-28 01:22:24,386 - INFO - Successfully scraped data for Microsoft Corporation
+2024-11-28 01:22:24,387 - INFO - Search Bar Request for Company:Alphabet Inc.
+2024-11-28 01:22:24,688 - INFO - Successfully scraped data for Sysco Corporation
+2024-11-28 01:22:24,689 - INFO - Search Bar Request for Company:Yum! Brands, Inc.
+2024-11-28 01:22:34,255 - INFO - Successfully scraped data for Alphabet Inc.
+2024-11-28 01:22:34,256 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-28 01:22:34,256 - INFO - Search Bar Request for Company:Amazon.com, Inc.
+2024-11-28 01:22:34,594 - INFO - Successfully scraped data for Yum! Brands, Inc.
+2024-11-28 01:22:34,595 - INFO - Search Bar Request for Company:Martin Marietta Materials, Inc.
+2024-11-28 01:22:44,146 - INFO - Successfully scraped data for Amazon.com, Inc.
+2024-11-28 01:22:44,148 - INFO - Search Bar Request for Company:Meta Platforms, Inc.
+2024-11-28 01:22:44,500 - INFO - Successfully scraped data for Martin Marietta Materials, Inc.
+2024-11-28 01:22:44,501 - INFO - Search Bar Request for Company:The Hershey Company
+2024-11-28 01:22:54,032 - INFO - Successfully scraped data for Meta Platforms, Inc.
+2024-11-28 01:22:54,033 - INFO - Search Bar Request for Company:Tesla, Inc.
+2024-11-28 01:22:54,396 - INFO - Successfully scraped data for The Hershey Company
+2024-11-28 01:22:54,397 - INFO - Search Bar Request for Company:ResMed Inc.
+2024-11-28 01:23:03,914 - INFO - Successfully scraped data for Tesla, Inc.
+2024-11-28 01:23:03,914 - INFO - Search Bar Request for Company:Berkshire Hathaway Inc.
+2024-11-28 01:23:04,277 - INFO - Successfully scraped data for ResMed Inc.
+2024-11-28 01:23:04,278 - INFO - Search Bar Request for Company:Microchip Technology Incorporated
+2024-11-28 01:23:13,777 - INFO - Successfully scraped data for Berkshire Hathaway Inc.
+2024-11-28 01:23:13,777 - INFO - Search Bar Request for Company:Broadcom Inc.
+2024-11-28 01:23:14,178 - INFO - Successfully scraped data for Microchip Technology Incorporated
+2024-11-28 01:23:14,179 - INFO - Search Bar Request for Company:Nucor Corporation
+2024-11-28 01:23:23,609 - INFO - Successfully scraped data for Broadcom Inc.
+2024-11-28 01:23:23,610 - INFO - Search Bar Request for Company:Eli Lilly and Company
+2024-11-28 01:23:24,046 - INFO - Successfully scraped data for Nucor Corporation
+2024-11-28 01:23:24,047 - INFO - Search Bar Request for Company:Extra Space Storage Inc.
+2024-11-28 01:23:33,461 - INFO - Successfully scraped data for Eli Lilly and Company
+2024-11-28 01:23:33,462 - INFO - Search Bar Request for Company:Walmart Inc.
+2024-11-28 01:23:33,972 - INFO - Successfully scraped data for Extra Space Storage Inc.
+2024-11-28 01:23:33,973 - INFO - Search Bar Request for Company:HP Inc.
+2024-11-28 01:23:43,350 - INFO - Successfully scraped data for Walmart Inc.
+2024-11-28 01:23:43,350 - INFO - Search Bar Request for Company:JPMorgan Chase & Co.
+2024-11-28 01:23:43,895 - INFO - Successfully scraped data for HP Inc.
+2024-11-28 01:23:43,895 - INFO - Search Bar Request for Company:Las Vegas Sands Corp.
+2024-11-28 01:23:53,234 - INFO - Successfully scraped data for JPMorgan Chase & Co.
+2024-11-28 01:23:53,235 - INFO - Search Bar Request for Company:Visa Inc.
+2024-11-28 01:23:53,767 - INFO - Successfully scraped data for Las Vegas Sands Corp.
+2024-11-28 01:23:53,767 - INFO - Search Bar Request for Company:General Mills, Inc.
+2024-11-28 01:24:03,111 - INFO - Successfully scraped data for Visa Inc.
+2024-11-28 01:24:03,112 - INFO - Search Bar Request for Company:UnitedHealth Group Incorporated
+2024-11-28 01:24:03,660 - INFO - Successfully scraped data for General Mills, Inc.
+2024-11-28 01:24:03,661 - INFO - Search Bar Request for Company:M&T Bank Corporation
+2024-11-28 01:24:13,017 - INFO - Successfully scraped data for UnitedHealth Group Incorporated
+2024-11-28 01:24:13,018 - INFO - Search Bar Request for Company:Exxon Mobil Corporation
+2024-11-28 01:24:13,543 - INFO - Successfully scraped data for M&T Bank Corporation
+2024-11-28 01:24:13,544 - INFO - Search Bar Request for Company:IDEXX Laboratories, Inc.
+2024-11-28 01:24:22,922 - INFO - Successfully scraped data for Exxon Mobil Corporation
+2024-11-28 01:24:22,922 - INFO - Search Bar Request for Company:Oracle Corporation
+2024-11-28 01:24:23,450 - INFO - Successfully scraped data for IDEXX Laboratories, Inc.
+2024-11-28 01:24:23,450 - INFO - Search Bar Request for Company:DuPont de Nemours, Inc.
+2024-11-28 01:24:32,833 - INFO - Successfully scraped data for Oracle Corporation
+2024-11-28 01:24:32,834 - INFO - Search Bar Request for Company:Mastercard Incorporated
+2024-11-28 01:24:33,340 - INFO - Successfully scraped data for DuPont de Nemours, Inc.
+2024-11-28 01:24:33,340 - INFO - Search Bar Request for Company:Westinghouse Air Brake Technologies Corporation
+2024-11-28 01:24:42,780 - INFO - Successfully scraped data for Mastercard Incorporated
+2024-11-28 01:24:42,781 - INFO - Search Bar Request for Company:Costco Wholesale Corporation
+2024-11-28 01:24:43,230 - INFO - Successfully scraped data for Westinghouse Air Brake Technologies Corporation
+2024-11-28 01:24:43,230 - INFO - Search Bar Request for Company:The Hartford Financial Services Group, Inc.
+2024-11-28 01:24:52,744 - INFO - Successfully scraped data for Costco Wholesale Corporation
+2024-11-28 01:24:52,744 - INFO - Search Bar Request for Company:The Home Depot, Inc.
+2024-11-28 01:24:53,100 - INFO - Successfully scraped data for The Hartford Financial Services Group, Inc.
+2024-11-28 01:24:53,100 - INFO - Search Bar Request for Company:Humana Inc.
+2024-11-28 01:25:02,636 - INFO - Successfully scraped data for The Home Depot, Inc.
+2024-11-28 01:25:02,637 - INFO - Search Bar Request for Company:The Procter & Gamble Company
+2024-11-28 01:25:02,976 - INFO - Successfully scraped data for Humana Inc.
+2024-11-28 01:25:02,977 - INFO - Search Bar Request for Company:Consolidated Edison, Inc.
+2024-11-28 01:25:12,469 - INFO - Successfully scraped data for The Procter & Gamble Company
+2024-11-28 01:25:12,470 - INFO - Search Bar Request for Company:Johnson & Johnson
+2024-11-28 01:25:12,857 - INFO - Successfully scraped data for Consolidated Edison, Inc.
+2024-11-28 01:25:12,858 - INFO - Search Bar Request for Company:Iron Mountain Incorporated
+2024-11-28 01:25:22,360 - INFO - Successfully scraped data for Johnson & Johnson
+2024-11-28 01:25:22,361 - INFO - Search Bar Request for Company:Bank of America Corporation
+2024-11-28 01:25:22,705 - INFO - Successfully scraped data for Iron Mountain Incorporated
+2024-11-28 01:25:22,706 - INFO - Search Bar Request for Company:Equifax Inc.
+2024-11-28 01:25:32,236 - INFO - Successfully scraped data for Bank of America Corporation
+2024-11-28 01:25:32,237 - INFO - Search Bar Request for Company:Netflix, Inc.
+2024-11-28 01:25:32,595 - INFO - Successfully scraped data for Equifax Inc.
+2024-11-28 01:25:32,596 - INFO - Search Bar Request for Company:Carnival Corporation & plc
+2024-11-28 01:25:42,145 - INFO - Successfully scraped data for Netflix, Inc.
+2024-11-28 01:25:42,146 - INFO - Search Bar Request for Company:Salesforce, Inc.
+2024-11-28 01:25:51,579 - INFO - Successfully scraped data for Carnival Corporation & plc
+2024-11-28 01:25:51,579 - INFO - Search Bar Request for Company:Raymond James Financial, Inc.
+2024-11-28 01:25:52,005 - INFO - Successfully scraped data for Salesforce, Inc.
+2024-11-28 01:25:52,006 - INFO - Search Bar Request for Company:AbbVie Inc.
+2024-11-28 01:26:01,460 - INFO - Successfully scraped data for Raymond James Financial, Inc.
+2024-11-28 01:26:01,460 - INFO - Search Bar Request for Company:VICI Properties Inc.
+2024-11-28 01:26:01,921 - INFO - Successfully scraped data for AbbVie Inc.
+2024-11-28 01:26:01,922 - INFO - Search Bar Request for Company:T-Mobile US, Inc.
+2024-11-28 01:26:11,351 - INFO - Successfully scraped data for VICI Properties Inc.
+2024-11-28 01:26:11,352 - INFO - Search Bar Request for Company:AvalonBay Communities, Inc.
+2024-11-28 01:26:11,848 - INFO - Successfully scraped data for T-Mobile US, Inc.
+2024-11-28 01:26:11,848 - INFO - Search Bar Request for Company:Chevron Corporation
+2024-11-28 01:26:21,221 - INFO - Successfully scraped data for AvalonBay Communities, Inc.
+2024-11-28 01:26:21,222 - INFO - Search Bar Request for Company:Brown & Brown, Inc.
+2024-11-28 01:26:21,748 - INFO - Successfully scraped data for Chevron Corporation
+2024-11-28 01:26:21,749 - INFO - Search Bar Request for Company:The Coca-Cola Company
+2024-11-28 01:26:31,076 - INFO - Successfully scraped data for Brown & Brown, Inc.
+2024-11-28 01:26:31,077 - INFO - Search Bar Request for Company:Edison International
+2024-11-28 01:26:31,615 - INFO - Successfully scraped data for The Coca-Cola Company
+2024-11-28 01:26:31,616 - INFO - Search Bar Request for Company:Merck & Co., Inc.
+2024-11-28 01:26:40,950 - INFO - Successfully scraped data for Edison International
+2024-11-28 01:26:40,951 - INFO - Search Bar Request for Company:Entergy Corporation
+2024-11-28 01:26:41,478 - INFO - Successfully scraped data for Merck & Co., Inc.
+2024-11-28 01:26:41,478 - INFO - Search Bar Request for Company:Wells Fargo & Company
+2024-11-28 01:26:50,829 - INFO - Successfully scraped data for Entergy Corporation
+2024-11-28 01:26:50,830 - INFO - Search Bar Request for Company:Willis Towers Watson Public Limited Company
+2024-11-28 01:26:51,361 - INFO - Successfully scraped data for Wells Fargo & Company
+2024-11-28 01:26:51,362 - INFO - Search Bar Request for Company:Cisco Systems, Inc.
+2024-11-28 01:27:00,740 - INFO - Successfully scraped data for Willis Towers Watson Public Limited Company
+2024-11-28 01:27:00,741 - INFO - Search Bar Request for Company:Take-Two Interactive Software, Inc.
+2024-11-28 01:27:01,275 - INFO - Successfully scraped data for Cisco Systems, Inc.
+2024-11-28 01:27:01,276 - INFO - Search Bar Request for Company:Advanced Micro Devices, Inc.
+2024-11-28 01:27:10,628 - INFO - Successfully scraped data for Take-Two Interactive Software, Inc.
+2024-11-28 01:27:10,629 - INFO - Search Bar Request for Company:Fifth Third Bancorp
+2024-11-28 01:27:11,157 - INFO - Successfully scraped data for Advanced Micro Devices, Inc.
+2024-11-28 01:27:11,158 - INFO - Search Bar Request for Company:Adobe Inc.
+2024-11-28 01:27:20,504 - INFO - Successfully scraped data for Fifth Third Bancorp
+2024-11-28 01:27:20,505 - INFO - Search Bar Request for Company:Dow Inc.
+2024-11-28 01:27:21,066 - INFO - Successfully scraped data for Adobe Inc.
+2024-11-28 01:27:21,067 - INFO - Search Bar Request for Company:PepsiCo, Inc.
+2024-11-28 01:27:30,428 - INFO - Successfully scraped data for Dow Inc.
+2024-11-28 01:27:30,428 - INFO - Search Bar Request for Company:Rockwell Automation, Inc.
+2024-11-28 01:27:30,962 - INFO - Successfully scraped data for PepsiCo, Inc.
+2024-11-28 01:27:30,963 - INFO - Search Bar Request for Company:Accenture plc
+2024-11-28 01:27:40,328 - INFO - Successfully scraped data for Rockwell Automation, Inc.
+2024-11-28 01:27:40,328 - INFO - Search Bar Request for Company:Monolithic Power Systems, Inc.
+2024-11-28 01:27:40,856 - INFO - Successfully scraped data for Accenture plc
+2024-11-28 01:27:40,857 - INFO - Search Bar Request for Company:Blackstone Inc.
+2024-11-28 01:27:50,191 - INFO - Successfully scraped data for Monolithic Power Systems, Inc.
+2024-11-28 01:27:50,192 - INFO - Search Bar Request for Company:WEC Energy Group, Inc.
+2024-11-28 01:27:50,722 - INFO - Successfully scraped data for Blackstone Inc.
+2024-11-28 01:27:50,724 - INFO - Search Bar Request for Company:Linde plc
+2024-11-28 01:28:00,092 - INFO - Successfully scraped data for WEC Energy Group, Inc.
+2024-11-28 01:28:00,092 - INFO - Search Bar Request for Company:CoStar Group, Inc.
+2024-11-28 01:28:00,630 - INFO - Successfully scraped data for Linde plc
+2024-11-28 01:28:00,630 - INFO - Search Bar Request for Company:ServiceNow, Inc.
+2024-11-28 01:28:10,506 - INFO - Successfully scraped data for ServiceNow, Inc.
+2024-11-28 01:28:10,507 - INFO - Search Bar Request for Company:McDonald's Corporation
+2024-11-28 01:28:11,013 - INFO - Successfully scraped data for CoStar Group, Inc.
+2024-11-28 01:28:11,014 - INFO - Search Bar Request for Company:Xylem Inc.
+2024-11-28 01:28:20,384 - INFO - Successfully scraped data for McDonald's Corporation
+2024-11-28 01:28:20,385 - INFO - Search Bar Request for Company:Morgan Stanley
+2024-11-28 01:28:20,933 - INFO - Successfully scraped data for Xylem Inc.
+2024-11-28 01:28:20,934 - INFO - Search Bar Request for Company:ANSYS, Inc.
+2024-11-28 01:28:30,292 - INFO - Successfully scraped data for Morgan Stanley
+2024-11-28 01:28:30,292 - INFO - Search Bar Request for Company:Thermo Fisher Scientific Inc.
+2024-11-28 01:28:30,808 - INFO - Successfully scraped data for ANSYS, Inc.
+2024-11-28 01:28:30,809 - INFO - Search Bar Request for Company:Live Nation Entertainment, Inc.
+2024-11-28 01:28:40,186 - INFO - Successfully scraped data for Thermo Fisher Scientific Inc.
+2024-11-28 01:28:40,186 - INFO - Search Bar Request for Company:American Express Company
+2024-11-28 01:28:40,716 - INFO - Successfully scraped data for Live Nation Entertainment, Inc.
+2024-11-28 01:28:40,716 - INFO - Search Bar Request for Company:ON Semiconductor Corporation
+2024-11-28 01:28:50,086 - INFO - Successfully scraped data for American Express Company
+2024-11-28 01:28:50,087 - INFO - Search Bar Request for Company:Abbott Laboratories
+2024-11-28 01:28:50,608 - INFO - Successfully scraped data for ON Semiconductor Corporation
+2024-11-28 01:28:50,608 - INFO - Search Bar Request for Company:Cardinal Health, Inc.
+2024-11-28 01:28:59,960 - INFO - Successfully scraped data for Abbott Laboratories
+2024-11-28 01:28:59,961 - INFO - Search Bar Request for Company:GE Aerospace
+2024-11-28 01:29:00,490 - INFO - Successfully scraped data for Cardinal Health, Inc.
+2024-11-28 01:29:00,491 - INFO - Search Bar Request for Company:Tractor Supply Company
+2024-11-28 01:29:09,850 - INFO - Successfully scraped data for GE Aerospace
+2024-11-28 01:29:09,850 - INFO - Search Bar Request for Company:Intuit Inc.
+2024-11-28 01:29:10,379 - INFO - Successfully scraped data for Tractor Supply Company
+2024-11-28 01:29:10,379 - INFO - Search Bar Request for Company:Global Payments Inc.
+2024-11-28 01:29:19,731 - INFO - Successfully scraped data for Intuit Inc.
+2024-11-28 01:29:19,732 - INFO - Search Bar Request for Company:International Business Machines Corporation
+2024-11-28 01:29:20,269 - INFO - Successfully scraped data for Global Payments Inc.
+2024-11-28 01:29:20,270 - INFO - Search Bar Request for Company:Centene Corporation
+2024-11-28 01:29:29,607 - INFO - Successfully scraped data for International Business Machines Corporation
+2024-11-28 01:29:29,607 - INFO - Search Bar Request for Company:Texas Instruments Incorporated
+2024-11-28 01:29:30,139 - INFO - Successfully scraped data for Centene Corporation
+2024-11-28 01:29:30,140 - INFO - Search Bar Request for Company:eBay Inc.
+2024-11-28 01:29:39,492 - INFO - Successfully scraped data for Texas Instruments Incorporated
+2024-11-28 01:29:39,493 - INFO - Search Bar Request for Company:Philip Morris International Inc.
+2024-11-28 01:29:40,028 - INFO - Successfully scraped data for eBay Inc.
+2024-11-28 01:29:40,029 - INFO - Search Bar Request for Company:United Airlines Holdings, Inc.
+2024-11-28 01:29:49,371 - INFO - Successfully scraped data for Philip Morris International Inc.
+2024-11-28 01:29:49,372 - INFO - Search Bar Request for Company:Intuitive Surgical, Inc.
+2024-11-28 01:29:49,901 - INFO - Successfully scraped data for United Airlines Holdings, Inc.
+2024-11-28 01:29:49,902 - INFO - Search Bar Request for Company:DexCom, Inc.
+2024-11-28 01:29:59,268 - INFO - Successfully scraped data for Intuitive Surgical, Inc.
+2024-11-28 01:29:59,269 - INFO - Search Bar Request for Company:Caterpillar Inc.
+2024-11-28 01:29:59,803 - INFO - Successfully scraped data for DexCom, Inc.
+2024-11-28 01:29:59,804 - INFO - Search Bar Request for Company:Equity Residential
+2024-11-28 01:30:09,133 - INFO - Successfully scraped data for Caterpillar Inc.
+2024-11-28 01:30:09,134 - INFO - Search Bar Request for Company:The Goldman Sachs Group, Inc.
+2024-11-28 01:30:09,662 - INFO - Successfully scraped data for Equity Residential
+2024-11-28 01:30:09,662 - INFO - Search Bar Request for Company:PPG Industries, Inc.
+2024-11-28 01:30:19,063 - INFO - Successfully scraped data for The Goldman Sachs Group, Inc.
+2024-11-28 01:30:19,063 - INFO - Search Bar Request for Company:The Walt Disney Company
+2024-11-28 01:30:19,573 - INFO - Successfully scraped data for PPG Industries, Inc.
+2024-11-28 01:30:19,574 - INFO - Search Bar Request for Company:Hewlett Packard Enterprise Company
+2024-11-28 01:30:29,442 - INFO - Successfully scraped data for Hewlett Packard Enterprise Company
+2024-11-28 01:30:29,442 - INFO - Search Bar Request for Company:Keysight Technologies, Inc.
+2024-11-28 01:30:29,925 - INFO - Successfully scraped data for The Walt Disney Company
+2024-11-28 01:30:29,926 - INFO - Search Bar Request for Company:QUALCOMM Incorporated
+2024-11-28 01:30:39,323 - INFO - Successfully scraped data for Keysight Technologies, Inc.
+2024-11-28 01:30:39,324 - INFO - Search Bar Request for Company:Kellanova
+2024-11-28 01:30:39,847 - INFO - Successfully scraped data for QUALCOMM Incorporated
+2024-11-28 01:30:39,848 - INFO - Search Bar Request for Company:Danaher Corporation
+2024-11-28 01:30:49,571 - INFO - Successfully scraped data for Kellanova
+2024-11-28 01:30:49,572 - INFO - Search Bar Request for Company:NVR, Inc.
+2024-11-28 01:30:50,036 - INFO - Successfully scraped data for Danaher Corporation
+2024-11-28 01:30:50,037 - INFO - Search Bar Request for Company:Verizon Communications Inc.
+2024-11-28 01:30:59,416 - INFO - Successfully scraped data for NVR, Inc.
+2024-11-28 01:30:59,417 - INFO - Search Bar Request for Company:State Street Corporation
+2024-11-28 01:30:59,904 - INFO - Successfully scraped data for Verizon Communications Inc.
+2024-11-28 01:30:59,905 - INFO - Search Bar Request for Company:Comcast Corporation
+2024-11-28 01:31:09,262 - INFO - Successfully scraped data for State Street Corporation
+2024-11-28 01:31:09,262 - INFO - Search Bar Request for Company:Dover Corporation
+2024-11-28 01:31:09,786 - INFO - Successfully scraped data for Comcast Corporation
+2024-11-28 01:31:09,787 - INFO - Search Bar Request for Company:Booking Holdings Inc.
+2024-11-28 01:31:19,135 - INFO - Successfully scraped data for Dover Corporation
+2024-11-28 01:31:19,135 - INFO - Search Bar Request for Company:LyondellBasell Industries N.V.
+2024-11-28 01:31:19,674 - INFO - Successfully scraped data for Booking Holdings Inc.
+2024-11-28 01:31:19,675 - INFO - Search Bar Request for Company:RTX Corporation
+2024-11-28 01:31:29,000 - INFO - Successfully scraped data for LyondellBasell Industries N.V.
+2024-11-28 01:31:29,001 - INFO - Search Bar Request for Company:Ventas, Inc.
+2024-11-28 01:31:29,544 - INFO - Successfully scraped data for RTX Corporation
+2024-11-28 01:31:29,545 - INFO - Search Bar Request for Company:Amgen Inc.
+2024-11-28 01:31:38,904 - INFO - Successfully scraped data for Ventas, Inc.
+2024-11-28 01:31:38,905 - INFO - Search Bar Request for Company:Deckers Outdoor Corporation
+2024-11-28 01:31:39,478 - INFO - Successfully scraped data for Amgen Inc.
+2024-11-28 01:31:39,479 - INFO - Search Bar Request for Company:AT&T Inc.
+2024-11-28 01:31:48,798 - INFO - Successfully scraped data for Deckers Outdoor Corporation
+2024-11-28 01:31:48,799 - INFO - Search Bar Request for Company:Leidos Holdings, Inc.
+2024-11-28 01:31:49,326 - INFO - Successfully scraped data for AT&T Inc.
+2024-11-28 01:31:49,326 - INFO - Search Bar Request for Company:S&P Global Inc.
+2024-11-28 01:31:58,708 - INFO - Successfully scraped data for Leidos Holdings, Inc.
+2024-11-28 01:31:58,709 - INFO - Search Bar Request for Company:Mettler-Toledo International Inc.
+2024-11-28 01:31:59,233 - INFO - Successfully scraped data for S&P Global Inc.
+2024-11-28 01:31:59,234 - INFO - Search Bar Request for Company:Applied Materials, Inc.
+2024-11-28 01:32:08,612 - INFO - Successfully scraped data for Mettler-Toledo International Inc.
+2024-11-28 01:32:08,613 - INFO - Search Bar Request for Company:Halliburton Company
+2024-11-28 01:32:09,142 - INFO - Successfully scraped data for Applied Materials, Inc.
+2024-11-28 01:32:09,142 - INFO - Search Bar Request for Company:The Progressive Corporation
+2024-11-28 01:32:18,907 - INFO - Successfully scraped data for Halliburton Company
+2024-11-28 01:32:18,907 - INFO - Search Bar Request for Company:Broadridge Financial Solutions, Inc.
+2024-11-28 01:32:19,050 - INFO - Successfully scraped data for The Progressive Corporation
+2024-11-28 01:32:19,050 - INFO - Search Bar Request for Company:BlackRock, Inc.
+2024-11-28 01:32:28,793 - INFO - Successfully scraped data for Broadridge Financial Solutions, Inc.
+2024-11-28 01:32:28,793 - INFO - Search Bar Request for Company:Tyler Technologies, Inc.
+2024-11-28 01:32:28,905 - INFO - Successfully scraped data for BlackRock, Inc.
+2024-11-28 01:32:28,906 - INFO - Search Bar Request for Company:Lowe's Companies, Inc.
+2024-11-28 01:32:38,657 - INFO - Successfully scraped data for Tyler Technologies, Inc.
+2024-11-28 01:32:38,657 - INFO - Search Bar Request for Company:Church & Dwight Co., Inc.
+2024-11-28 01:32:38,786 - INFO - Successfully scraped data for Lowe's Companies, Inc.
+2024-11-28 01:32:38,786 - INFO - Search Bar Request for Company:NextEra Energy, Inc.
+2024-11-28 01:32:48,566 - INFO - Successfully scraped data for Church & Dwight Co., Inc.
+2024-11-28 01:32:48,567 - INFO - Search Bar Request for Company:PulteGroup, Inc.
+2024-11-28 01:32:48,690 - INFO - Successfully scraped data for NextEra Energy, Inc.
+2024-11-28 01:32:48,690 - INFO - Search Bar Request for Company:Honeywell International Inc.
+2024-11-28 01:32:58,467 - INFO - Successfully scraped data for PulteGroup, Inc.
+2024-11-28 01:32:58,468 - INFO - Search Bar Request for Company:Smurfit Westrock Plc
+2024-11-28 01:32:58,540 - INFO - Successfully scraped data for Honeywell International Inc.
+2024-11-28 01:32:58,541 - INFO - Search Bar Request for Company:Uber Technologies, Inc.
+2024-11-28 01:33:08,417 - INFO - Successfully scraped data for Uber Technologies, Inc.
+2024-11-28 01:33:08,418 - INFO - Search Bar Request for Company:Pfizer Inc.
+2024-11-28 01:33:08,421 - INFO - Successfully scraped data for Smurfit Westrock Plc
+2024-11-28 01:33:08,422 - INFO - Search Bar Request for Company:GoDaddy Inc.
+2024-11-28 01:33:18,292 - INFO - Successfully scraped data for Pfizer Inc.
+2024-11-28 01:33:18,293 - INFO - Search Bar Request for Company:Stryker Corporation
+2024-11-28 01:33:18,292 - INFO - Successfully scraped data for GoDaddy Inc.
+2024-11-28 01:33:18,293 - INFO - Search Bar Request for Company:T. Rowe Price Group, Inc.
+2024-11-28 01:33:28,191 - INFO - Successfully scraped data for Stryker Corporation
+2024-11-28 01:33:28,192 - INFO - Search Bar Request for Company:Eaton Corporation plc
+2024-11-28 01:33:28,191 - INFO - Successfully scraped data for T. Rowe Price Group, Inc.
+2024-11-28 01:33:28,193 - INFO - Search Bar Request for Company:EQT Corporation
+2024-11-28 01:33:38,103 - INFO - Successfully scraped data for Eaton Corporation plc
+2024-11-28 01:33:38,104 - INFO - Search Bar Request for Company:Union Pacific Corporation
+2024-11-28 01:33:38,117 - INFO - Successfully scraped data for EQT Corporation
+2024-11-28 01:33:38,118 - INFO - Search Bar Request for Company:Corpay, Inc.
+2024-11-28 01:33:48,008 - INFO - Successfully scraped data for Union Pacific Corporation
+2024-11-28 01:33:48,009 - INFO - Search Bar Request for Company:The Charles Schwab Corporation
+2024-11-28 01:33:48,008 - INFO - Successfully scraped data for Corpay, Inc.
+2024-11-28 01:33:48,010 - INFO - Search Bar Request for Company:Fortive Corporation
+2024-11-28 01:33:57,918 - INFO - Successfully scraped data for Fortive Corporation
+2024-11-28 01:33:57,919 - INFO - Search Bar Request for Company:American Water Works Company, Inc.
+2024-11-28 01:33:57,918 - INFO - Successfully scraped data for The Charles Schwab Corporation
+2024-11-28 01:33:57,920 - INFO - Search Bar Request for Company:KKR & Co. Inc.
+2024-11-28 01:34:07,844 - INFO - Successfully scraped data for American Water Works Company, Inc.
+2024-11-28 01:34:07,845 - INFO - Successfully scraped data for KKR & Co. Inc.
+2024-11-28 01:34:07,845 - INFO - Search Bar Request for Company:Veralto Corporation
+2024-11-28 01:34:07,846 - INFO - Search Bar Request for Company:Palantir Technologies Inc.
+2024-11-28 01:34:17,706 - INFO - Successfully scraped data for Veralto Corporation
+2024-11-28 01:34:17,706 - INFO - Search Bar Request for Company:Huntington Bancshares Incorporated
+2024-11-28 01:34:17,712 - INFO - Successfully scraped data for Palantir Technologies Inc.
+2024-11-28 01:34:17,712 - INFO - Search Bar Request for Company:The TJX Companies, Inc.
+2024-11-28 01:34:27,596 - INFO - Successfully scraped data for The TJX Companies, Inc.
+2024-11-28 01:34:27,596 - INFO - Search Bar Request for Company:Lockheed Martin Corporation
+2024-11-28 01:34:27,597 - INFO - Successfully scraped data for Huntington Bancshares Incorporated
+2024-11-28 01:34:27,598 - INFO - Search Bar Request for Company:CDW Corporation
+2024-11-28 01:34:37,515 - INFO - Successfully scraped data for Lockheed Martin Corporation
+2024-11-28 01:34:37,516 - INFO - Search Bar Request for Company:Boston Scientific Corporation
+2024-11-28 01:34:37,515 - INFO - Successfully scraped data for CDW Corporation
+2024-11-28 01:34:37,517 - INFO - Search Bar Request for Company:Synchrony Financial
+2024-11-28 01:34:47,432 - INFO - Successfully scraped data for Synchrony Financial
+2024-11-28 01:34:47,432 - INFO - Search Bar Request for Company:Devon Energy Corporation
+2024-11-28 01:34:47,432 - INFO - Successfully scraped data for Boston Scientific Corporation
+2024-11-28 01:34:47,433 - INFO - Search Bar Request for Company:Citigroup Inc.
+2024-11-28 01:34:57,292 - INFO - Successfully scraped data for Citigroup Inc.
+2024-11-28 01:34:57,293 - INFO - Search Bar Request for Company:Palo Alto Networks, Inc.
+2024-11-28 01:34:57,293 - INFO - Successfully scraped data for Devon Energy Corporation
+2024-11-28 01:34:57,294 - INFO - Search Bar Request for Company:DTE Energy Company
+2024-11-28 01:35:07,178 - INFO - Successfully scraped data for DTE Energy Company
+2024-11-28 01:35:07,179 - INFO - Successfully scraped data for Palo Alto Networks, Inc.
+2024-11-28 01:35:07,179 - INFO - Search Bar Request for Company:NetApp, Inc.
+2024-11-28 01:35:07,179 - INFO - Search Bar Request for Company:ConocoPhillips
+2024-11-28 01:35:17,053 - INFO - Successfully scraped data for NetApp, Inc.
+2024-11-28 01:35:17,053 - INFO - Successfully scraped data for ConocoPhillips
+2024-11-28 01:35:17,053 - INFO - Search Bar Request for Company:Rollins, Inc.
+2024-11-28 01:35:17,054 - INFO - Search Bar Request for Company:Vertex Pharmaceuticals Incorporated
+2024-11-28 01:35:26,945 - INFO - Successfully scraped data for Vertex Pharmaceuticals Incorporated
+2024-11-28 01:35:26,945 - INFO - Successfully scraped data for Rollins, Inc.
+2024-11-28 01:35:26,946 - INFO - Search Bar Request for Company:Automatic Data Processing, Inc.
+2024-11-28 01:35:26,946 - INFO - Search Bar Request for Company:Archer-Daniels-Midland Company
+2024-11-28 01:35:36,852 - INFO - Successfully scraped data for Archer-Daniels-Midland Company
+2024-11-28 01:35:36,852 - INFO - Search Bar Request for Company:Ameren Corporation
+2024-11-28 01:35:36,893 - INFO - Successfully scraped data for Automatic Data Processing, Inc.
+2024-11-28 01:35:36,893 - INFO - Search Bar Request for Company:Arista Networks, Inc.
+2024-11-28 01:35:46,730 - INFO - Successfully scraped data for Ameren Corporation
+2024-11-28 01:35:46,731 - INFO - Search Bar Request for Company:PPL Corporation
+2024-11-28 01:35:46,730 - INFO - Successfully scraped data for Arista Networks, Inc.
+2024-11-28 01:35:46,732 - INFO - Search Bar Request for Company:Fiserv, Inc.
+2024-11-28 01:35:56,617 - INFO - Successfully scraped data for Fiserv, Inc.
+2024-11-28 01:35:56,618 - INFO - Search Bar Request for Company:Bristol-Myers Squibb Company
+2024-11-28 01:35:56,617 - INFO - Successfully scraped data for PPL Corporation
+2024-11-28 01:35:56,619 - INFO - Search Bar Request for Company:Biogen Inc.
+2024-11-28 01:36:06,535 - INFO - Successfully scraped data for Bristol-Myers Squibb Company
+2024-11-28 01:36:06,536 - INFO - Successfully scraped data for Biogen Inc.
+2024-11-28 01:36:06,536 - INFO - Search Bar Request for Company:Gilead Sciences, Inc.
+2024-11-28 01:36:06,537 - INFO - Search Bar Request for Company:Hubbell Incorporated
+2024-11-28 01:36:16,449 - INFO - Successfully scraped data for Gilead Sciences, Inc.
+2024-11-28 01:36:16,453 - INFO - Search Bar Request for Company:Micron Technology, Inc.
+2024-11-28 01:36:24,852 - INFO - Successfully scraped data for Hubbell Incorporated
+2024-11-28 01:36:24,853 - INFO - Search Bar Request for Company:FirstEnergy Corp.
+2024-11-28 01:36:26,344 - INFO - Successfully scraped data for Micron Technology, Inc.
+2024-11-28 01:36:26,344 - INFO - Search Bar Request for Company:NIKE, Inc.
+2024-11-28 01:36:34,672 - INFO - Successfully scraped data for FirstEnergy Corp.
+2024-11-28 01:36:34,673 - INFO - Search Bar Request for Company:Regions Financial Corporation
+2024-11-28 01:36:36,192 - INFO - Successfully scraped data for NIKE, Inc.
+2024-11-28 01:36:36,193 - INFO - Search Bar Request for Company:Chubb Limited
+2024-11-28 01:36:44,534 - INFO - Successfully scraped data for Regions Financial Corporation
+2024-11-28 01:36:44,534 - INFO - Search Bar Request for Company:West Pharmaceutical Services, Inc.
+2024-11-28 01:36:46,076 - INFO - Successfully scraped data for Chubb Limited
+2024-11-28 01:36:46,077 - INFO - Search Bar Request for Company:Medtronic plc
+2024-11-28 01:36:54,380 - INFO - Successfully scraped data for West Pharmaceutical Services, Inc.
+2024-11-28 01:36:54,381 - INFO - Search Bar Request for Company:Cincinnati Financial Corporation
+2024-11-28 01:36:55,951 - INFO - Successfully scraped data for Medtronic plc
+2024-11-28 01:36:55,952 - INFO - Search Bar Request for Company:Starbucks Corporation
+2024-11-28 01:37:04,293 - INFO - Successfully scraped data for Cincinnati Financial Corporation
+2024-11-28 01:37:04,293 - INFO - Search Bar Request for Company:SBA Communications Corporation
+2024-11-28 01:37:05,868 - INFO - Successfully scraped data for Starbucks Corporation
+2024-11-28 01:37:05,868 - INFO - Search Bar Request for Company:United Parcel Service, Inc.
+2024-11-28 01:37:14,151 - INFO - Successfully scraped data for SBA Communications Corporation
+2024-11-28 01:37:14,152 - INFO - Search Bar Request for Company:Expedia Group, Inc.
+2024-11-28 01:37:15,723 - INFO - Successfully scraped data for United Parcel Service, Inc.
+2024-11-28 01:37:15,724 - INFO - Search Bar Request for Company:Marsh & McLennan Companies, Inc.
+2024-11-28 01:37:23,991 - INFO - Successfully scraped data for Expedia Group, Inc.
+2024-11-28 01:37:23,992 - INFO - Search Bar Request for Company:PTC Inc.
+2024-11-28 01:37:25,576 - INFO - Successfully scraped data for Marsh & McLennan Companies, Inc.
+2024-11-28 01:37:25,577 - INFO - Search Bar Request for Company:Analog Devices, Inc.
+2024-11-28 01:37:33,855 - INFO - Successfully scraped data for PTC Inc.
+2024-11-28 01:37:33,856 - INFO - Search Bar Request for Company:W. R. Berkley Corporation
+2024-11-28 01:37:35,423 - INFO - Successfully scraped data for Analog Devices, Inc.
+2024-11-28 01:37:35,424 - INFO - Search Bar Request for Company:The Boeing Company
+2024-11-28 01:37:43,703 - INFO - Successfully scraped data for W. R. Berkley Corporation
+2024-11-28 01:37:43,704 - INFO - Search Bar Request for Company:Waters Corporation
+2024-11-28 01:37:45,276 - INFO - Successfully scraped data for The Boeing Company
+2024-11-28 01:37:45,276 - INFO - Search Bar Request for Company:Deere & Company
+2024-11-28 01:37:53,589 - INFO - Successfully scraped data for Waters Corporation
+2024-11-28 01:37:53,589 - INFO - Search Bar Request for Company:International Flavors & Fragrances Inc.
+2024-11-28 01:37:55,125 - INFO - Successfully scraped data for Deere & Company
+2024-11-28 01:37:55,126 - INFO - Search Bar Request for Company:Prologis, Inc.
+2024-11-28 01:38:03,509 - INFO - Successfully scraped data for International Flavors & Fragrances Inc.
+2024-11-28 01:38:03,509 - INFO - Search Bar Request for Company:Atmos Energy Corporation
+2024-11-28 01:38:04,991 - INFO - Successfully scraped data for Prologis, Inc.
+2024-11-28 01:38:04,991 - INFO - Search Bar Request for Company:Intel Corporation
+2024-11-28 01:38:13,334 - INFO - Successfully scraped data for Atmos Energy Corporation
+2024-11-28 01:38:13,335 - INFO - Search Bar Request for Company:Teledyne Technologies Incorporated
+2024-11-28 01:38:14,865 - INFO - Successfully scraped data for Intel Corporation
+2024-11-28 01:38:14,866 - INFO - Search Bar Request for Company:Lam Research Corporation
+2024-11-28 01:38:23,183 - INFO - Successfully scraped data for Teledyne Technologies Incorporated
+2024-11-28 01:38:23,183 - INFO - Search Bar Request for Company:Warner Bros. Discovery, Inc.
+2024-11-28 01:38:24,705 - INFO - Successfully scraped data for Lam Research Corporation
+2024-11-28 01:38:24,706 - INFO - Search Bar Request for Company:The Sherwin-Williams Company
+2024-11-28 01:38:33,264 - INFO - Successfully scraped data for Warner Bros. Discovery, Inc.
+2024-11-28 01:38:33,265 - INFO - Search Bar Request for Company:The Estée Lauder Companies Inc.
+2024-11-28 01:38:34,601 - INFO - Successfully scraped data for The Sherwin-Williams Company
+2024-11-28 01:38:34,602 - INFO - Search Bar Request for Company:The Southern Company
+2024-11-28 01:38:43,142 - INFO - Successfully scraped data for The Estée Lauder Companies Inc.
+2024-11-28 01:38:43,143 - INFO - Search Bar Request for Company:Tyson Foods, Inc.
+2024-11-28 01:38:44,485 - INFO - Successfully scraped data for The Southern Company
+2024-11-28 01:38:44,485 - INFO - Search Bar Request for Company:Dell Technologies Inc.
+2024-11-28 01:38:52,987 - INFO - Successfully scraped data for Tyson Foods, Inc.
+2024-11-28 01:38:52,988 - INFO - Search Bar Request for Company:Weyerhaeuser Company
+2024-11-28 01:38:54,364 - INFO - Successfully scraped data for Dell Technologies Inc.
+2024-11-28 01:38:54,365 - INFO - Search Bar Request for Company:Elevance Health, Inc.
+2024-11-28 01:39:02,854 - INFO - Successfully scraped data for Weyerhaeuser Company
+2024-11-28 01:39:02,855 - INFO - Search Bar Request for Company:Eversource Energy
+2024-11-28 01:39:04,249 - INFO - Successfully scraped data for Elevance Health, Inc.
+2024-11-28 01:39:04,249 - INFO - Search Bar Request for Company:The Cigna Group
+2024-11-28 01:39:12,705 - INFO - Successfully scraped data for Eversource Energy
+2024-11-28 01:39:12,706 - INFO - Search Bar Request for Company:Western Digital Corporation
+2024-11-28 01:39:14,152 - INFO - Successfully scraped data for The Cigna Group
+2024-11-28 01:39:14,153 - INFO - Search Bar Request for Company:Trane Technologies plc
+2024-11-28 01:39:22,540 - INFO - Successfully scraped data for Western Digital Corporation
+2024-11-28 01:39:22,540 - INFO - Search Bar Request for Company:STERIS plc
+2024-11-28 01:39:24,011 - INFO - Successfully scraped data for Trane Technologies plc
+2024-11-28 01:39:24,012 - INFO - Search Bar Request for Company:Altria Group, Inc.
+2024-11-28 01:39:32,409 - INFO - Successfully scraped data for STERIS plc
+2024-11-28 01:39:32,410 - INFO - Search Bar Request for Company:Steel Dynamics, Inc.
+2024-11-28 01:39:33,878 - INFO - Successfully scraped data for Altria Group, Inc.
+2024-11-28 01:39:33,878 - INFO - Search Bar Request for Company:Cintas Corporation
+2024-11-28 01:39:42,255 - INFO - Successfully scraped data for Steel Dynamics, Inc.
+2024-11-28 01:39:42,255 - INFO - Search Bar Request for Company:Zimmer Biomet Holdings, Inc.
+2024-11-28 01:39:43,775 - INFO - Successfully scraped data for Cintas Corporation
+2024-11-28 01:39:43,775 - INFO - Search Bar Request for Company:American Tower Corporation
+2024-11-28 01:39:52,098 - INFO - Successfully scraped data for Zimmer Biomet Holdings, Inc.
+2024-11-28 01:39:52,099 - INFO - Search Bar Request for Company:Erie Indemnity Company
+2024-11-28 01:39:53,655 - INFO - Successfully scraped data for American Tower Corporation
+2024-11-28 01:39:53,655 - INFO - Search Bar Request for Company:Regeneron Pharmaceuticals, Inc.
+2024-11-28 01:40:01,955 - INFO - Successfully scraped data for Erie Indemnity Company
+2024-11-28 01:40:01,956 - INFO - Search Bar Request for Company:Packaging Corporation of America
+2024-11-28 01:40:03,547 - INFO - Successfully scraped data for Regeneron Pharmaceuticals, Inc.
+2024-11-28 01:40:03,548 - INFO - Search Bar Request for Company:Waste Management, Inc.
+2024-11-28 01:40:11,813 - INFO - Successfully scraped data for Packaging Corporation of America
+2024-11-28 01:40:11,814 - INFO - Search Bar Request for Company:Northern Trust Corporation
+2024-11-28 01:40:13,412 - INFO - Successfully scraped data for Waste Management, Inc.
+2024-11-28 01:40:13,413 - INFO - Search Bar Request for Company:Parker-Hannifin Corporation
+2024-11-28 01:40:21,696 - INFO - Successfully scraped data for Northern Trust Corporation
+2024-11-28 01:40:21,697 - INFO - Search Bar Request for Company:Seagate Technology Holdings plc
+2024-11-28 01:40:23,258 - INFO - Successfully scraped data for Parker-Hannifin Corporation
+2024-11-28 01:40:23,259 - INFO - Search Bar Request for Company:Intercontinental Exchange, Inc.
+2024-11-28 01:40:31,540 - INFO - Successfully scraped data for Seagate Technology Holdings plc
+2024-11-28 01:40:31,541 - INFO - Search Bar Request for Company:Cboe Global Markets, Inc.
+2024-11-28 01:40:33,106 - INFO - Successfully scraped data for Intercontinental Exchange, Inc.
+2024-11-28 01:40:33,107 - INFO - Search Bar Request for Company:GE Vernova Inc.
+2024-11-28 01:40:42,936 - INFO - Successfully scraped data for GE Vernova Inc.
+2024-11-28 01:40:42,937 - INFO - Search Bar Request for Company:Mondelez International, Inc.
+2024-11-28 01:40:44,098 - INFO - Successfully scraped data for Cboe Global Markets, Inc.
+2024-11-28 01:40:44,099 - INFO - Search Bar Request for Company:Zebra Technologies Corporation
+2024-11-28 01:40:52,797 - INFO - Successfully scraped data for Mondelez International, Inc.
+2024-11-28 01:40:52,798 - INFO - Search Bar Request for Company:KLA Corporation
+2024-11-28 01:40:53,960 - INFO - Successfully scraped data for Zebra Technologies Corporation
+2024-11-28 01:40:53,961 - INFO - Search Bar Request for Company:Fox Corporation
+2024-11-28 01:41:02,959 - INFO - Successfully scraped data for KLA Corporation
+2024-11-28 01:41:02,960 - INFO - Search Bar Request for Company:HCA Healthcare, Inc.
+2024-11-28 01:41:03,854 - INFO - Successfully scraped data for Fox Corporation
+2024-11-28 01:41:03,855 - INFO - Skipping already processed company: Fox Corporation
+2024-11-28 01:41:03,855 - INFO - Search Bar Request for Company:Builders FirstSource, Inc.
+2024-11-28 01:41:12,823 - INFO - Successfully scraped data for HCA Healthcare, Inc.
+2024-11-28 01:41:12,824 - INFO - Search Bar Request for Company:Equinix, Inc.
+2024-11-28 01:41:18,415 - INFO - Successfully scraped data for Builders FirstSource, Inc.
+2024-11-28 01:41:18,416 - INFO - Search Bar Request for Company:McCormick & Company, Incorporated
+2024-11-28 01:41:22,674 - INFO - Successfully scraped data for Equinix, Inc.
+2024-11-28 01:41:22,675 - INFO - Search Bar Request for Company:Amphenol Corporation
+2024-11-28 01:41:28,298 - INFO - Successfully scraped data for McCormick & Company, Incorporated
+2024-11-28 01:41:28,298 - INFO - Search Bar Request for Company:Invitation Homes Inc.
+2024-11-28 01:41:32,582 - INFO - Successfully scraped data for Amphenol Corporation
+2024-11-28 01:41:32,583 - INFO - Search Bar Request for Company:PayPal Holdings, Inc.
+2024-11-28 01:41:38,126 - INFO - Successfully scraped data for Invitation Homes Inc.
+2024-11-28 01:41:38,127 - INFO - Search Bar Request for Company:Citizens Financial Group, Inc.
+2024-11-28 01:41:42,515 - INFO - Successfully scraped data for PayPal Holdings, Inc.
+2024-11-28 01:41:42,516 - INFO - Search Bar Request for Company:Duke Energy Corporation
+2024-11-28 01:41:47,998 - INFO - Successfully scraped data for Citizens Financial Group, Inc.
+2024-11-28 01:41:47,999 - INFO - Search Bar Request for Company:Labcorp Holdings Inc.
+2024-11-28 01:41:52,380 - INFO - Successfully scraped data for Duke Energy Corporation
+2024-11-28 01:41:52,381 - INFO - Search Bar Request for Company:Moody's Corporation
+2024-11-28 01:41:57,851 - INFO - Successfully scraped data for Labcorp Holdings Inc.
+2024-11-28 01:41:57,851 - INFO - Search Bar Request for Company:The Clorox Company
+2024-11-28 01:42:02,274 - INFO - Successfully scraped data for Moody's Corporation
+2024-11-28 01:42:02,275 - INFO - Search Bar Request for Company:General Dynamics Corporation
+2024-11-28 01:42:07,706 - INFO - Successfully scraped data for The Clorox Company
+2024-11-28 01:42:07,707 - INFO - Search Bar Request for Company:CMS Energy Corporation
+2024-11-28 01:42:12,163 - INFO - Successfully scraped data for General Dynamics Corporation
+2024-11-28 01:42:12,164 - INFO - Search Bar Request for Company:Synopsys, Inc.
+2024-11-28 01:42:17,550 - INFO - Successfully scraped data for CMS Energy Corporation
+2024-11-28 01:42:17,551 - INFO - Search Bar Request for Company:The Cooper Companies, Inc.
+2024-11-28 01:42:22,049 - INFO - Successfully scraped data for Synopsys, Inc.
+2024-11-28 01:42:22,050 - INFO - Search Bar Request for Company:Welltower Inc.
+2024-11-28 01:42:27,427 - INFO - Successfully scraped data for The Cooper Companies, Inc.
+2024-11-28 01:42:27,427 - INFO - Search Bar Request for Company:Omnicom Group Inc.
+2024-11-28 01:42:31,910 - INFO - Successfully scraped data for Welltower Inc.
+2024-11-28 01:42:31,911 - INFO - Search Bar Request for Company:CrowdStrike Holdings, Inc.
+2024-11-28 01:42:37,307 - INFO - Successfully scraped data for Omnicom Group Inc.
+2024-11-28 01:42:37,307 - INFO - Search Bar Request for Company:Essex Property Trust, Inc.
+2024-11-28 01:42:41,806 - INFO - Successfully scraped data for CrowdStrike Holdings, Inc.
+2024-11-28 01:42:41,807 - INFO - Search Bar Request for Company:The PNC Financial Services Group, Inc.
+2024-11-28 01:42:47,230 - INFO - Successfully scraped data for Essex Property Trust, Inc.
+2024-11-28 01:42:47,231 - INFO - Search Bar Request for Company:Principal Financial Group, Inc.
+2024-11-28 01:42:51,726 - INFO - Successfully scraped data for The PNC Financial Services Group, Inc.
+2024-11-28 01:42:51,726 - INFO - Search Bar Request for Company:Airbnb, Inc.
+2024-11-28 01:42:57,070 - INFO - Successfully scraped data for Principal Financial Group, Inc.
+2024-11-28 01:42:57,070 - INFO - Search Bar Request for Company:International Paper Company
+2024-11-28 01:43:01,640 - INFO - Successfully scraped data for Airbnb, Inc.
+2024-11-28 01:43:01,641 - INFO - Search Bar Request for Company:Motorola Solutions, Inc.
+2024-11-28 01:43:06,976 - INFO - Successfully scraped data for International Paper Company
+2024-11-28 01:43:06,977 - INFO - Search Bar Request for Company:CenterPoint Energy, Inc.
+2024-11-28 01:43:11,522 - INFO - Successfully scraped data for Motorola Solutions, Inc.
+2024-11-28 01:43:11,523 - INFO - Search Bar Request for Company:Aon plc
+2024-11-28 01:43:16,833 - INFO - Successfully scraped data for CenterPoint Energy, Inc.
+2024-11-28 01:43:16,834 - INFO - Search Bar Request for Company:Darden Restaurants, Inc.
+2024-11-28 01:43:21,391 - INFO - Successfully scraped data for Aon plc
+2024-11-28 01:43:21,391 - INFO - Search Bar Request for Company:Chipotle Mexican Grill, Inc.
+2024-11-28 01:43:26,668 - INFO - Successfully scraped data for Darden Restaurants, Inc.
+2024-11-28 01:43:26,669 - INFO - Search Bar Request for Company:First Solar, Inc.
+2024-11-28 01:43:31,293 - INFO - Successfully scraped data for Chipotle Mexican Grill, Inc.
+2024-11-28 01:43:31,293 - INFO - Search Bar Request for Company:Cadence Design Systems, Inc.
+2024-11-28 01:43:36,535 - INFO - Successfully scraped data for First Solar, Inc.
+2024-11-28 01:43:36,535 - INFO - Search Bar Request for Company:J.B. Hunt Transport Services, Inc.
+2024-11-28 01:43:41,196 - INFO - Successfully scraped data for Cadence Design Systems, Inc.
+2024-11-28 01:43:41,197 - INFO - Search Bar Request for Company:CME Group Inc.
+2024-11-28 01:43:46,405 - INFO - Successfully scraped data for J.B. Hunt Transport Services, Inc.
+2024-11-28 01:43:46,405 - INFO - Search Bar Request for Company:Best Buy Co., Inc.
+2024-11-28 01:43:51,054 - INFO - Successfully scraped data for CME Group Inc.
+2024-11-28 01:43:51,054 - INFO - Search Bar Request for Company:Illinois Tool Works Inc.
+2024-11-28 01:43:56,249 - INFO - Successfully scraped data for Best Buy Co., Inc.
+2024-11-28 01:43:56,250 - INFO - Search Bar Request for Company:Insulet Corporation
+2024-11-28 01:44:00,912 - INFO - Successfully scraped data for Illinois Tool Works Inc.
+2024-11-28 01:44:00,913 - INFO - Search Bar Request for Company:Marriott International, Inc.
+2024-11-28 01:44:06,126 - INFO - Successfully scraped data for Insulet Corporation
+2024-11-28 01:44:06,126 - INFO - Search Bar Request for Company:Southwest Airlines Co.
+2024-11-28 01:44:10,785 - INFO - Successfully scraped data for Marriott International, Inc.
+2024-11-28 01:44:10,785 - INFO - Search Bar Request for Company:U.S. Bancorp
+2024-11-28 01:44:15,978 - INFO - Successfully scraped data for Southwest Airlines Co.
+2024-11-28 01:44:15,979 - INFO - Search Bar Request for Company:Mid-America Apartment Communities, Inc.
+2024-11-28 01:44:20,667 - INFO - Successfully scraped data for U.S. Bancorp
+2024-11-28 01:44:20,667 - INFO - Search Bar Request for Company:Zoetis Inc.
+2024-11-28 01:44:25,819 - INFO - Successfully scraped data for Mid-America Apartment Communities, Inc.
+2024-11-28 01:44:25,820 - INFO - Search Bar Request for Company:Brown-Forman Corporation
+2024-11-28 01:44:30,577 - INFO - Successfully scraped data for Zoetis Inc.
+2024-11-28 01:44:30,580 - INFO - Search Bar Request for Company:McKesson Corporation
+2024-11-28 01:44:35,691 - INFO - Successfully scraped data for Brown-Forman Corporation
+2024-11-28 01:44:35,691 - INFO - Search Bar Request for Company:KeyCorp
+2024-11-28 01:44:40,478 - INFO - Successfully scraped data for McKesson Corporation
+2024-11-28 01:44:40,478 - INFO - Search Bar Request for Company:Northrop Grumman Corporation
+2024-11-28 01:44:45,568 - INFO - Successfully scraped data for KeyCorp
+2024-11-28 01:44:45,569 - INFO - Search Bar Request for Company:Alexandria Real Estate Equities, Inc.
+2024-11-28 01:44:50,401 - INFO - Successfully scraped data for Northrop Grumman Corporation
+2024-11-28 01:44:50,402 - INFO - Search Bar Request for Company:TransDigm Group Incorporated
+2024-11-28 01:44:55,520 - INFO - Successfully scraped data for Alexandria Real Estate Equities, Inc.
+2024-11-28 01:44:55,521 - INFO - Search Bar Request for Company:Snap-on Incorporated
+2024-11-28 01:45:00,290 - INFO - Successfully scraped data for TransDigm Group Incorporated
+2024-11-28 01:45:00,291 - INFO - Search Bar Request for Company:Fortinet, Inc.
+2024-11-28 01:45:05,422 - INFO - Successfully scraped data for Snap-on Incorporated
+2024-11-28 01:45:05,423 - INFO - Search Bar Request for Company:Gen Digital Inc.
+2024-11-28 01:45:10,159 - INFO - Successfully scraped data for Fortinet, Inc.
+2024-11-28 01:45:10,160 - INFO - Search Bar Request for Company:EOG Resources, Inc.
+2024-11-28 01:45:18,235 - INFO - Successfully scraped data for Gen Digital Inc.
+2024-11-28 01:45:18,236 - INFO - Search Bar Request for Company:NRG Energy, Inc.
+2024-11-28 01:45:20,027 - INFO - Successfully scraped data for EOG Resources, Inc.
+2024-11-28 01:45:20,027 - INFO - Search Bar Request for Company:Colgate-Palmolive Company
+2024-11-28 01:45:32,289 - INFO - Successfully scraped data for NRG Energy, Inc.
+2024-11-28 01:45:32,289 - INFO - Search Bar Request for Company:Coterra Energy Inc.
+2024-11-28 01:45:32,683 - INFO - Successfully scraped data for Colgate-Palmolive Company
+2024-11-28 01:45:32,684 - INFO - Search Bar Request for Company:Emerson Electric Co.
+2024-11-28 01:45:42,550 - INFO - Successfully scraped data for Emerson Electric Co.
+2024-11-28 01:45:42,550 - INFO - Search Bar Request for Company:Target Corporation
+2024-11-28 01:45:46,289 - INFO - Successfully scraped data for Coterra Energy Inc.
+2024-11-28 01:45:46,290 - INFO - Search Bar Request for Company:Hologic, Inc.
+2024-11-28 01:45:52,422 - INFO - Successfully scraped data for Target Corporation
+2024-11-28 01:45:52,423 - INFO - Search Bar Request for Company:O'Reilly Automotive, Inc.
+2024-11-28 01:45:57,365 - INFO - Successfully scraped data for Hologic, Inc.
+2024-11-28 01:45:57,366 - INFO - Search Bar Request for Company:FactSet Research Systems Inc.
+2024-11-28 01:46:03,428 - INFO - Successfully scraped data for O'Reilly Automotive, Inc.
+2024-11-28 01:46:03,429 - INFO - Search Bar Request for Company:Constellation Energy Corporation
+2024-11-28 01:46:07,240 - INFO - Successfully scraped data for FactSet Research Systems Inc.
+2024-11-28 01:46:07,241 - INFO - Search Bar Request for Company:Jacobs Solutions Inc.
+2024-11-28 01:46:13,316 - INFO - Successfully scraped data for Constellation Energy Corporation
+2024-11-28 01:46:13,317 - INFO - Search Bar Request for Company:Capital One Financial Corporation
+2024-11-28 01:46:23,150 - INFO - Successfully scraped data for Capital One Financial Corporation
+2024-11-28 01:46:23,151 - INFO - Search Bar Request for Company:3M Company
+2024-11-28 01:46:25,507 - INFO - Successfully scraped data for Jacobs Solutions Inc.
+2024-11-28 01:46:25,508 - INFO - Search Bar Request for Company:Molina Healthcare, Inc.
+2024-11-28 01:46:32,997 - INFO - Successfully scraped data for 3M Company
+2024-11-28 01:46:32,997 - INFO - Search Bar Request for Company:Ecolab Inc.
+2024-11-28 01:46:35,359 - INFO - Successfully scraped data for Molina Healthcare, Inc.
+2024-11-28 01:46:35,360 - INFO - Search Bar Request for Company:Ball Corporation
+2024-11-28 01:46:42,828 - INFO - Successfully scraped data for Ecolab Inc.
+2024-11-28 01:46:42,829 - INFO - Search Bar Request for Company:FedEx Corporation
+2024-11-28 01:46:45,222 - INFO - Successfully scraped data for Ball Corporation
+2024-11-28 01:46:45,223 - INFO - Search Bar Request for Company:Quest Diagnostics Incorporated
+2024-11-28 01:46:52,682 - INFO - Successfully scraped data for FedEx Corporation
+2024-11-28 01:46:52,682 - INFO - Search Bar Request for Company:CSX Corporation
+2024-11-28 01:46:55,099 - INFO - Successfully scraped data for Quest Diagnostics Incorporated
+2024-11-28 01:46:55,099 - INFO - Search Bar Request for Company:Loews Corporation
+2024-11-28 01:47:02,518 - INFO - Successfully scraped data for CSX Corporation
+2024-11-28 01:47:02,518 - INFO - Search Bar Request for Company:The Williams Companies, Inc.
+2024-11-28 01:47:04,976 - INFO - Successfully scraped data for Loews Corporation
+2024-11-28 01:47:04,977 - INFO - Search Bar Request for Company:Ulta Beauty, Inc.
+2024-11-28 01:47:12,376 - INFO - Successfully scraped data for The Williams Companies, Inc.
+2024-11-28 01:47:12,376 - INFO - Search Bar Request for Company:Air Products and Chemicals, Inc.
+2024-11-28 01:47:14,819 - INFO - Successfully scraped data for Ulta Beauty, Inc.
+2024-11-28 01:47:14,820 - INFO - Search Bar Request for Company:Trimble Inc.
+2024-11-28 01:47:22,248 - INFO - Successfully scraped data for Air Products and Chemicals, Inc.
+2024-11-28 01:47:22,249 - INFO - Search Bar Request for Company:CVS Health Corporation
+2024-11-28 01:47:24,726 - INFO - Successfully scraped data for Trimble Inc.
+2024-11-28 01:47:24,726 - INFO - Search Bar Request for Company:VeriSign, Inc.
+2024-11-28 01:47:32,104 - INFO - Successfully scraped data for CVS Health Corporation
+2024-11-28 01:47:32,105 - INFO - Search Bar Request for Company:Carrier Global Corporation
+2024-11-28 01:47:34,563 - INFO - Successfully scraped data for VeriSign, Inc.
+2024-11-28 01:47:34,564 - INFO - Search Bar Request for Company:Teradyne, Inc.
+2024-11-28 01:47:41,938 - INFO - Successfully scraped data for Carrier Global Corporation
+2024-11-28 01:47:41,938 - INFO - Search Bar Request for Company:Simon Property Group, Inc.
+2024-11-28 01:47:44,452 - INFO - Successfully scraped data for Teradyne, Inc.
+2024-11-28 01:47:44,453 - INFO - Search Bar Request for Company:News Corporation
+2024-11-28 01:47:51,785 - INFO - Successfully scraped data for Simon Property Group, Inc.
+2024-11-28 01:47:51,786 - INFO - Search Bar Request for Company:Becton, Dickinson and Company
+2024-11-28 01:47:54,396 - INFO - Successfully scraped data for News Corporation
+2024-11-28 01:47:54,397 - INFO - Search Bar Request for Company:IDEX Corporation
+2024-11-28 01:48:01,649 - INFO - Successfully scraped data for Becton, Dickinson and Company
+2024-11-28 01:48:01,650 - INFO - Search Bar Request for Company:Autodesk, Inc.
+2024-11-28 01:48:04,300 - INFO - Successfully scraped data for IDEX Corporation
+2024-11-28 01:48:04,301 - INFO - Search Bar Request for Company:Baxter International Inc.
+2024-11-28 01:48:11,472 - INFO - Successfully scraped data for Autodesk, Inc.
+2024-11-28 01:48:11,473 - INFO - Search Bar Request for Company:Republic Services, Inc.
+2024-11-28 01:48:14,161 - INFO - Successfully scraped data for Baxter International Inc.
+2024-11-28 01:48:14,162 - INFO - Search Bar Request for Company:Pentair plc
+2024-11-28 01:48:21,309 - INFO - Successfully scraped data for Republic Services, Inc.
+2024-11-28 01:48:21,309 - INFO - Search Bar Request for Company:Arthur J. Gallagher & Co.
+2024-11-28 01:48:24,032 - INFO - Successfully scraped data for Pentair plc
+2024-11-28 01:48:24,032 - INFO - Skipping already processed company: News Corporation
+2024-11-28 01:48:24,033 - INFO - Search Bar Request for Company:Genuine Parts Company
+2024-11-28 01:48:31,154 - INFO - Successfully scraped data for Arthur J. Gallagher & Co.
+2024-11-28 01:48:31,155 - INFO - Search Bar Request for Company:Royal Caribbean Cruises Ltd.
+2024-11-28 01:48:33,889 - INFO - Successfully scraped data for Genuine Parts Company
+2024-11-28 01:48:33,890 - INFO - Search Bar Request for Company:Masco Corporation
+2024-11-28 01:48:41,014 - INFO - Successfully scraped data for Royal Caribbean Cruises Ltd.
+2024-11-28 01:48:41,015 - INFO - Search Bar Request for Company:General Motors Company
+2024-11-28 01:48:43,746 - INFO - Successfully scraped data for Masco Corporation
+2024-11-28 01:48:43,747 - INFO - Search Bar Request for Company:NiSource Inc.
+2024-11-28 01:48:50,857 - INFO - Successfully scraped data for General Motors Company
+2024-11-28 01:48:50,857 - INFO - Search Bar Request for Company:ONEOK, Inc.
+2024-11-28 01:48:53,638 - INFO - Successfully scraped data for NiSource Inc.
+2024-11-28 01:48:53,638 - INFO - Search Bar Request for Company:Moderna, Inc.
+2024-11-28 01:49:00,678 - INFO - Successfully scraped data for ONEOK, Inc.
+2024-11-28 01:49:00,679 - INFO - Search Bar Request for Company:Freeport-McMoRan Inc.
+2024-11-28 01:49:03,472 - INFO - Successfully scraped data for Moderna, Inc.
+2024-11-28 01:49:03,473 - INFO - Search Bar Request for Company:Hormel Foods Corporation
+2024-11-28 01:49:10,546 - INFO - Successfully scraped data for Freeport-McMoRan Inc.
+2024-11-28 01:49:10,546 - INFO - Search Bar Request for Company:Schlumberger Limited
+2024-11-28 01:49:13,325 - INFO - Successfully scraped data for Hormel Foods Corporation
+2024-11-28 01:49:13,326 - INFO - Search Bar Request for Company:Kimco Realty Corporation
+2024-11-28 01:49:20,383 - INFO - Successfully scraped data for Schlumberger Limited
+2024-11-28 01:49:20,383 - INFO - Search Bar Request for Company:Truist Financial Corporation
+2024-11-28 01:49:23,173 - INFO - Successfully scraped data for Kimco Realty Corporation
+2024-11-28 01:49:23,173 - INFO - Search Bar Request for Company:UDR, Inc.
+2024-11-28 01:49:30,224 - INFO - Successfully scraped data for Truist Financial Corporation
+2024-11-28 01:49:30,225 - INFO - Search Bar Request for Company:Aflac Incorporated
+2024-11-28 01:49:33,068 - INFO - Successfully scraped data for UDR, Inc.
+2024-11-28 01:49:33,069 - INFO - Search Bar Request for Company:Expeditors International of Washington, Inc.
+2024-11-28 01:49:40,061 - INFO - Successfully scraped data for Aflac Incorporated
+2024-11-28 01:49:40,062 - INFO - Search Bar Request for Company:PACCAR Inc
+2024-11-28 01:49:42,944 - INFO - Successfully scraped data for Expeditors International of Washington, Inc.
+2024-11-28 01:49:42,945 - INFO - Search Bar Request for Company:Dollar General Corporation
+2024-11-28 01:49:49,886 - INFO - Successfully scraped data for PACCAR Inc
+2024-11-28 01:49:49,887 - INFO - Search Bar Request for Company:Digital Realty Trust, Inc.
+2024-11-28 01:49:52,817 - INFO - Successfully scraped data for Dollar General Corporation
+2024-11-28 01:49:52,818 - INFO - Search Bar Request for Company:Align Technology, Inc.
+2024-11-28 01:49:59,705 - INFO - Successfully scraped data for Digital Realty Trust, Inc.
+2024-11-28 01:49:59,705 - INFO - Search Bar Request for Company:Hilton Worldwide Holdings Inc.
+2024-11-28 01:50:02,709 - INFO - Successfully scraped data for Align Technology, Inc.
+2024-11-28 01:50:02,710 - INFO - Search Bar Request for Company:Avery Dennison Corporation
+2024-11-28 01:50:09,550 - INFO - Successfully scraped data for Hilton Worldwide Holdings Inc.
+2024-11-28 01:50:09,551 - INFO - Search Bar Request for Company:Roper Technologies, Inc.
+2024-11-28 01:50:12,600 - INFO - Successfully scraped data for Avery Dennison Corporation
+2024-11-28 01:50:12,601 - INFO - Search Bar Request for Company:Textron Inc.
+2024-11-28 01:50:19,411 - INFO - Successfully scraped data for Roper Technologies, Inc.
+2024-11-28 01:50:19,412 - INFO - Search Bar Request for Company:Norfolk Southern Corporation
+2024-11-28 01:50:22,476 - INFO - Successfully scraped data for Textron Inc.
+2024-11-28 01:50:22,476 - INFO - Search Bar Request for Company:Everest Group, Ltd.
+2024-11-28 01:50:29,236 - INFO - Successfully scraped data for Norfolk Southern Corporation
+2024-11-28 01:50:29,237 - INFO - Search Bar Request for Company:Kinder Morgan, Inc.
+2024-11-28 01:50:32,375 - INFO - Successfully scraped data for Everest Group, Ltd.
+2024-11-28 01:50:32,376 - INFO - Search Bar Request for Company:Marathon Oil Corporation
+2024-11-28 01:50:39,139 - INFO - Successfully scraped data for Kinder Morgan, Inc.
+2024-11-28 01:50:39,140 - INFO - Search Bar Request for Company:W.W. Grainger, Inc.
+2024-11-28 01:50:46,053 - INFO - Successfully scraped data for Marathon Oil Corporation
+2024-11-28 01:50:46,054 - INFO - Search Bar Request for Company:Incyte Corporation
+2024-11-28 01:50:49,004 - INFO - Successfully scraped data for W.W. Grainger, Inc.
+2024-11-28 01:50:49,007 - INFO - Search Bar Request for Company:The Travelers Companies, Inc.
+2024-11-28 01:50:55,918 - INFO - Successfully scraped data for Incyte Corporation
+2024-11-28 01:50:55,919 - INFO - Search Bar Request for Company:Viatris Inc.
+2024-11-28 01:50:58,935 - INFO - Successfully scraped data for The Travelers Companies, Inc.
+2024-11-28 01:50:58,936 - INFO - Search Bar Request for Company:Sempra
+2024-11-28 01:51:05,745 - INFO - Successfully scraped data for Viatris Inc.
+2024-11-28 01:51:05,745 - INFO - Search Bar Request for Company:Alliant Energy Corporation
+2024-11-28 01:51:08,867 - INFO - Successfully scraped data for Sempra
+2024-11-28 01:51:08,868 - INFO - Search Bar Request for Company:Public Storage
+2024-11-28 01:51:15,581 - INFO - Successfully scraped data for Alliant Energy Corporation
+2024-11-28 01:51:15,582 - INFO - Search Bar Request for Company:Healthpeak Properties, Inc.
+2024-11-28 01:51:18,777 - INFO - Successfully scraped data for Public Storage
+2024-11-28 01:51:18,778 - INFO - Search Bar Request for Company:Fair Isaac Corporation
+2024-11-28 01:51:25,423 - INFO - Successfully scraped data for Healthpeak Properties, Inc.
+2024-11-28 01:51:25,423 - INFO - Search Bar Request for Company:Domino's Pizza, Inc.
+2024-11-28 01:51:28,617 - INFO - Successfully scraped data for Fair Isaac Corporation
+2024-11-28 01:51:28,618 - INFO - Search Bar Request for Company:NXP Semiconductors N.V.
+2024-11-28 01:51:35,264 - INFO - Successfully scraped data for Domino's Pizza, Inc.
+2024-11-28 01:51:35,264 - INFO - Search Bar Request for Company:Jabil Inc.
+2024-11-28 01:51:38,476 - INFO - Successfully scraped data for NXP Semiconductors N.V.
+2024-11-28 01:51:38,477 - INFO - Search Bar Request for Company:United Rentals, Inc.
+2024-11-28 01:51:45,103 - INFO - Successfully scraped data for Jabil Inc.
+2024-11-28 01:51:45,103 - INFO - Search Bar Request for Company:Nordson Corporation
+2024-11-28 01:51:48,341 - INFO - Successfully scraped data for United Rentals, Inc.
+2024-11-28 01:51:48,342 - INFO - Search Bar Request for Company:MetLife, Inc.
+2024-11-28 01:51:54,948 - INFO - Successfully scraped data for Nordson Corporation
+2024-11-28 01:51:54,948 - INFO - Search Bar Request for Company:Amcor plc
+2024-11-28 01:51:58,178 - INFO - Successfully scraped data for MetLife, Inc.
+2024-11-28 01:51:58,179 - INFO - Search Bar Request for Company:Johnson Controls International plc
+2024-11-28 01:52:04,800 - INFO - Successfully scraped data for Amcor plc
+2024-11-28 01:52:04,801 - INFO - Search Bar Request for Company:CF Industries Holdings, Inc.
+2024-11-28 01:52:08,069 - INFO - Successfully scraped data for Johnson Controls International plc
+2024-11-28 01:52:08,069 - INFO - Search Bar Request for Company:The Bank of New York Mellon Corporation
+2024-11-28 01:52:14,641 - INFO - Successfully scraped data for CF Industries Holdings, Inc.
+2024-11-28 01:52:14,641 - INFO - Search Bar Request for Company:Revvity, Inc.
+2024-11-28 01:52:17,969 - INFO - Successfully scraped data for The Bank of New York Mellon Corporation
+2024-11-28 01:52:17,970 - INFO - Search Bar Request for Company:Charter Communications, Inc.
+2024-11-28 01:52:24,506 - INFO - Successfully scraped data for Revvity, Inc.
+2024-11-28 01:52:24,507 - INFO - Search Bar Request for Company:Evergy, Inc.
+2024-11-28 01:52:27,837 - INFO - Successfully scraped data for Charter Communications, Inc.
+2024-11-28 01:52:27,837 - INFO - Search Bar Request for Company:PG&E Corporation
+2024-11-28 01:52:34,350 - INFO - Successfully scraped data for Evergy, Inc.
+2024-11-28 01:52:34,350 - INFO - Search Bar Request for Company:F5, Inc.
+2024-11-28 01:52:34,486 - ERROR - Error processing company PG&E Corporation: Message: no such element: Unable to locate element: {"method":"css selector","selector":".scoreModule__score"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-28 01:52:34,487 - INFO - Search Bar Request for Company:Copart, Inc.
+2024-11-28 01:52:44,239 - INFO - Successfully scraped data for F5, Inc.
+2024-11-28 01:52:44,241 - INFO - Search Bar Request for Company:EPAM Systems, Inc.
+2024-11-28 01:52:44,336 - INFO - Successfully scraped data for Copart, Inc.
+2024-11-28 01:52:44,336 - INFO - Search Bar Request for Company:Monster Beverage Corporation
+2024-11-28 01:52:54,203 - INFO - Successfully scraped data for Monster Beverage Corporation
+2024-11-28 01:52:54,204 - INFO - Search Bar Request for Company:Ameriprise Financial, Inc.
+2024-11-28 01:52:54,211 - INFO - Successfully scraped data for EPAM Systems, Inc.
+2024-11-28 01:52:54,212 - INFO - Search Bar Request for Company:BXP, Inc.
+2024-11-28 01:53:04,156 - INFO - Successfully scraped data for BXP, Inc.
+2024-11-28 01:53:04,156 - INFO - Search Bar Request for Company:Skyworks Solutions, Inc.
+2024-11-28 01:53:04,170 - INFO - Successfully scraped data for Ameriprise Financial, Inc.
+2024-11-28 01:53:04,171 - INFO - Search Bar Request for Company:AutoZone, Inc.
+2024-11-28 01:53:14,086 - INFO - Successfully scraped data for AutoZone, Inc.
+2024-11-28 01:53:14,086 - INFO - Search Bar Request for Company:Paychex, Inc.
+2024-11-28 01:53:14,086 - INFO - Successfully scraped data for Skyworks Solutions, Inc.
+2024-11-28 01:53:14,087 - INFO - Search Bar Request for Company:Akamai Technologies, Inc.
+2024-11-28 01:53:24,024 - INFO - Successfully scraped data for Akamai Technologies, Inc.
+2024-11-28 01:53:24,024 - INFO - Successfully scraped data for Paychex, Inc.
+2024-11-28 01:53:24,025 - INFO - Search Bar Request for Company:Phillips 66
+2024-11-28 01:53:24,025 - INFO - Search Bar Request for Company:Pool Corporation
+2024-11-28 01:53:33,934 - INFO - Successfully scraped data for Pool Corporation
+2024-11-28 01:53:33,935 - INFO - Search Bar Request for Company:Universal Health Services, Inc.
+2024-11-28 01:53:33,935 - INFO - Successfully scraped data for Phillips 66
+2024-11-28 01:53:33,936 - INFO - Search Bar Request for Company:Diamondback Energy, Inc.
+2024-11-28 01:53:43,855 - INFO - Successfully scraped data for Universal Health Services, Inc.
+2024-11-28 01:53:43,855 - INFO - Search Bar Request for Company:Stanley Black & Decker, Inc.
+2024-11-28 01:53:43,855 - INFO - Successfully scraped data for Diamondback Energy, Inc.
+2024-11-28 01:53:43,857 - INFO - Search Bar Request for Company:The Allstate Corporation
+2024-11-28 01:53:53,772 - INFO - Successfully scraped data for Stanley Black & Decker, Inc.
+2024-11-28 01:53:53,773 - INFO - Search Bar Request for Company:Regency Centers Corporation
+2024-11-28 01:53:53,772 - INFO - Successfully scraped data for The Allstate Corporation
+2024-11-28 01:53:53,774 - INFO - Search Bar Request for Company:D.R. Horton, Inc.
+2024-11-28 01:54:03,694 - INFO - Successfully scraped data for Regency Centers Corporation
+2024-11-28 01:54:03,695 - INFO - Search Bar Request for Company:Dollar Tree, Inc.
+2024-11-28 01:54:03,701 - INFO - Successfully scraped data for D.R. Horton, Inc.
+2024-11-28 01:54:03,701 - INFO - Search Bar Request for Company:Realty Income Corporation
+2024-11-28 01:54:13,606 - INFO - Successfully scraped data for Dollar Tree, Inc.
+2024-11-28 01:54:13,607 - INFO - Search Bar Request for Company:Aptiv PLC
+2024-11-28 01:54:13,617 - INFO - Successfully scraped data for Realty Income Corporation
+2024-11-28 01:54:13,618 - INFO - Search Bar Request for Company:Marathon Petroleum Corporation
+2024-11-28 01:54:23,511 - INFO - Successfully scraped data for Marathon Petroleum Corporation
+2024-11-28 01:54:23,511 - INFO - Search Bar Request for Company:L3Harris Technologies, Inc.
+2024-11-28 01:54:23,524 - INFO - Successfully scraped data for Aptiv PLC
+2024-11-28 01:54:23,525 - INFO - Search Bar Request for Company:Conagra Brands, Inc.
+2024-11-28 01:54:33,436 - INFO - Successfully scraped data for Conagra Brands, Inc.
+2024-11-28 01:54:33,436 - INFO - Search Bar Request for Company:Paycom Software, Inc.
+2024-11-28 01:54:33,446 - INFO - Successfully scraped data for L3Harris Technologies, Inc.
+2024-11-28 01:54:33,447 - INFO - Search Bar Request for Company:American Electric Power Company, Inc.
+2024-11-28 01:54:43,335 - INFO - Successfully scraped data for American Electric Power Company, Inc.
+2024-11-28 01:54:43,336 - INFO - Search Bar Request for Company:Cencora, Inc.
+2024-11-28 01:54:43,336 - INFO - Successfully scraped data for Paycom Software, Inc.
+2024-11-28 01:54:43,337 - INFO - Search Bar Request for Company:Campbell Soup Company
+2024-11-28 01:54:53,246 - INFO - Successfully scraped data for Campbell Soup Company
+2024-11-28 01:54:53,246 - INFO - Search Bar Request for Company:Ralph Lauren Corporation
+2024-11-28 01:54:53,246 - INFO - Successfully scraped data for Cencora, Inc.
+2024-11-28 01:54:53,247 - INFO - Search Bar Request for Company:Cummins Inc.
+2024-11-28 01:55:03,151 - INFO - Successfully scraped data for Ralph Lauren Corporation
+2024-11-28 01:55:03,152 - INFO - Search Bar Request for Company:DaVita Inc.
+2024-11-28 01:55:03,152 - INFO - Successfully scraped data for Cummins Inc.
+2024-11-28 01:55:03,153 - INFO - Search Bar Request for Company:Vistra Corp.
+2024-11-28 01:55:13,046 - INFO - Successfully scraped data for Vistra Corp.
+2024-11-28 01:55:13,047 - INFO - Search Bar Request for Company:Old Dominion Freight Line, Inc.
+2024-11-28 01:55:13,046 - INFO - Successfully scraped data for DaVita Inc.
+2024-11-28 01:55:13,048 - INFO - Search Bar Request for Company:Jack Henry & Associates, Inc.
+2024-11-28 01:55:22,985 - INFO - Successfully scraped data for Old Dominion Freight Line, Inc.
+2024-11-28 01:55:22,986 - INFO - Search Bar Request for Company:Quanta Services, Inc.
+2024-11-28 01:55:23,004 - INFO - Successfully scraped data for Jack Henry & Associates, Inc.
+2024-11-28 01:55:23,005 - INFO - Search Bar Request for Company:C.H. Robinson Worldwide, Inc.
+2024-11-28 01:55:32,950 - INFO - Successfully scraped data for Quanta Services, Inc.
+2024-11-28 01:55:32,951 - INFO - Successfully scraped data for C.H. Robinson Worldwide, Inc.
+2024-11-28 01:55:32,951 - INFO - Search Bar Request for Company:Camden Property Trust
+2024-11-28 01:55:32,951 - INFO - Search Bar Request for Company:Dominion Energy, Inc.
+2024-11-28 01:55:42,852 - INFO - Successfully scraped data for Camden Property Trust
+2024-11-28 01:55:42,852 - INFO - Successfully scraped data for Dominion Energy, Inc.
+2024-11-28 01:55:42,853 - INFO - Search Bar Request for Company:Juniper Networks, Inc.
+2024-11-28 01:55:42,853 - INFO - Search Bar Request for Company:Fastenal Company
+2024-11-28 01:55:52,803 - INFO - Successfully scraped data for Juniper Networks, Inc.
+2024-11-28 01:55:52,803 - INFO - Successfully scraped data for Fastenal Company
+2024-11-28 01:55:52,804 - INFO - Search Bar Request for Company:Molson Coors Beverage Company
+2024-11-28 01:55:52,804 - INFO - Search Bar Request for Company:Newmont Corporation
+2024-11-28 01:56:02,729 - INFO - Successfully scraped data for Molson Coors Beverage Company
+2024-11-28 01:56:02,730 - INFO - Search Bar Request for Company:Host Hotels & Resorts, Inc.
+2024-11-28 01:56:02,737 - INFO - Successfully scraped data for Newmont Corporation
+2024-11-28 01:56:02,738 - INFO - Search Bar Request for Company:MSCI Inc.
+2024-11-28 01:56:12,658 - INFO - Successfully scraped data for MSCI Inc.
+2024-11-28 01:56:12,658 - INFO - Successfully scraped data for Host Hotels & Resorts, Inc.
+2024-11-28 01:56:12,659 - INFO - Search Bar Request for Company:Fidelity National Information Services, Inc.
+2024-11-28 01:56:12,659 - INFO - Search Bar Request for Company:Super Micro Computer, Inc.
+2024-11-28 01:56:22,572 - INFO - Successfully scraped data for Super Micro Computer, Inc.
+2024-11-28 01:56:22,573 - INFO - Search Bar Request for Company:Dayforce Inc
+2024-11-28 01:56:22,582 - INFO - Successfully scraped data for Fidelity National Information Services, Inc.
+2024-11-28 01:56:22,582 - INFO - Search Bar Request for Company:Occidental Petroleum Corporation
+2024-11-28 01:56:32,498 - INFO - Successfully scraped data for Dayforce Inc
+2024-11-28 01:56:32,499 - INFO - Successfully scraped data for Occidental Petroleum Corporation
+2024-11-28 01:56:32,500 - INFO - Search Bar Request for Company:American International Group, Inc.
+2024-11-28 01:56:32,499 - INFO - Search Bar Request for Company:Allegion plc
+2024-11-28 01:56:42,423 - INFO - Successfully scraped data for Allegion plc
+2024-11-28 01:56:42,423 - INFO - Successfully scraped data for American International Group, Inc.
+2024-11-28 01:56:42,424 - INFO - Search Bar Request for Company:Norwegian Cruise Line Holdings Ltd.
+2024-11-28 01:56:42,424 - INFO - Search Bar Request for Company:Ross Stores, Inc.
+2024-11-28 01:56:52,355 - INFO - Successfully scraped data for Ross Stores, Inc.
+2024-11-28 01:56:52,356 - INFO - Search Bar Request for Company:Howmet Aerospace Inc.
+2024-11-28 01:56:52,362 - INFO - Successfully scraped data for Norwegian Cruise Line Holdings Ltd.
+2024-11-28 01:56:52,362 - INFO - Search Bar Request for Company:Solventum Corporation
+2024-11-28 01:57:02,241 - INFO - Successfully scraped data for Howmet Aerospace Inc.
+2024-11-28 01:57:02,241 - INFO - Search Bar Request for Company:TE Connectivity plc
+2024-11-28 01:57:02,241 - INFO - Successfully scraped data for Solventum Corporation
+2024-11-28 01:57:02,242 - INFO - Search Bar Request for Company:Bunge Global SA
+2024-11-28 01:57:12,158 - INFO - Successfully scraped data for TE Connectivity plc
+2024-11-28 01:57:12,158 - INFO - Search Bar Request for Company:Nasdaq, Inc.
+2024-11-28 01:57:12,165 - INFO - Successfully scraped data for Bunge Global SA
+2024-11-28 01:57:12,165 - INFO - Search Bar Request for Company:Albemarle Corporation
+2024-11-28 01:57:21,997 - INFO - Successfully scraped data for Nasdaq, Inc.
+2024-11-28 01:57:21,998 - INFO - Search Bar Request for Company:Axon Enterprise, Inc.
+2024-11-28 01:57:23,451 - INFO - Successfully scraped data for Albemarle Corporation
+2024-11-28 01:57:23,451 - INFO - Search Bar Request for Company:Tapestry, Inc.
+2024-11-28 01:57:31,830 - INFO - Successfully scraped data for Axon Enterprise, Inc.
+2024-11-28 01:57:31,831 - INFO - Search Bar Request for Company:Kenvue Inc.
+2024-11-28 01:57:33,322 - INFO - Successfully scraped data for Tapestry, Inc.
+2024-11-28 01:57:33,322 - INFO - Search Bar Request for Company:The J. M. Smucker Company
+2024-11-28 01:57:41,658 - INFO - Successfully scraped data for Kenvue Inc.
+2024-11-28 01:57:41,658 - INFO - Search Bar Request for Company:Keurig Dr Pepper Inc.
+2024-11-28 01:57:43,160 - INFO - Successfully scraped data for The J. M. Smucker Company
+2024-11-28 01:57:43,161 - INFO - Search Bar Request for Company:CarMax, Inc.
+2024-11-28 01:57:51,487 - INFO - Successfully scraped data for Keurig Dr Pepper Inc.
+2024-11-28 01:57:51,487 - INFO - Search Bar Request for Company:AMETEK, Inc.
+2024-11-28 01:57:53,064 - INFO - Successfully scraped data for CarMax, Inc.
+2024-11-28 01:57:53,065 - INFO - Search Bar Request for Company:Bio-Techne Corporation
+2024-11-28 01:58:01,343 - INFO - Successfully scraped data for AMETEK, Inc.
+2024-11-28 01:58:01,344 - INFO - Search Bar Request for Company:Lennar Corporation
+2024-11-28 01:58:02,929 - INFO - Successfully scraped data for Bio-Techne Corporation
+2024-11-28 01:58:02,929 - INFO - Search Bar Request for Company:Eastman Chemical Company
+2024-11-28 01:58:11,244 - INFO - Successfully scraped data for Lennar Corporation
+2024-11-28 01:58:11,244 - INFO - Search Bar Request for Company:Prudential Financial, Inc.
+2024-11-28 01:58:12,787 - INFO - Successfully scraped data for Eastman Chemical Company
+2024-11-28 01:58:12,787 - INFO - Search Bar Request for Company:Lamb Weston Holdings, Inc.
+2024-11-28 01:58:21,071 - INFO - Successfully scraped data for Prudential Financial, Inc.
+2024-11-28 01:58:21,072 - INFO - Search Bar Request for Company:Discover Financial Services
+2024-11-28 01:58:22,653 - INFO - Successfully scraped data for Lamb Weston Holdings, Inc.
+2024-11-28 01:58:22,654 - INFO - Search Bar Request for Company:Generac Holdings Inc.
+2024-11-28 01:58:30,970 - INFO - Successfully scraped data for Discover Financial Services
+2024-11-28 01:58:30,970 - INFO - Search Bar Request for Company:Crown Castle Inc.
+2024-11-28 01:58:32,548 - INFO - Successfully scraped data for Generac Holdings Inc.
+2024-11-28 01:58:32,548 - INFO - Search Bar Request for Company:Franklin Resources, Inc.
+2024-11-28 01:58:40,816 - INFO - Successfully scraped data for Crown Castle Inc.
+2024-11-28 01:58:40,817 - INFO - Search Bar Request for Company:Ford Motor Company
+2024-11-28 01:58:42,404 - INFO - Successfully scraped data for Franklin Resources, Inc.
+2024-11-28 01:58:42,404 - INFO - Search Bar Request for Company:Charles River Laboratories International, Inc.
+2024-11-28 01:58:50,659 - INFO - Successfully scraped data for Ford Motor Company
+2024-11-28 01:58:50,660 - INFO - Search Bar Request for Company:Kimberly-Clark Corporation
+2024-11-28 01:58:52,236 - INFO - Successfully scraped data for Charles River Laboratories International, Inc.
+2024-11-28 01:58:52,236 - INFO - Search Bar Request for Company:MGM Resorts International
+2024-11-28 01:59:00,513 - INFO - Successfully scraped data for Kimberly-Clark Corporation
+2024-11-28 01:59:00,513 - INFO - Search Bar Request for Company:Hess Corporation
+2024-11-28 01:59:02,128 - INFO - Successfully scraped data for MGM Resorts International
+2024-11-28 01:59:02,128 - INFO - Search Bar Request for Company:The Interpublic Group of Companies, Inc.
+2024-11-28 01:59:10,396 - INFO - Successfully scraped data for Hess Corporation
+2024-11-28 01:59:10,396 - INFO - Search Bar Request for Company:Valero Energy Corporation
+2024-11-28 01:59:11,958 - INFO - Successfully scraped data for The Interpublic Group of Companies, Inc.
+2024-11-28 01:59:11,959 - INFO - Search Bar Request for Company:Assurant, Inc.
+2024-11-28 01:59:20,244 - INFO - Successfully scraped data for Valero Energy Corporation
+2024-11-28 01:59:20,244 - INFO - Search Bar Request for Company:Constellation Brands, Inc.
+2024-11-28 01:59:21,853 - INFO - Successfully scraped data for Assurant, Inc.
+2024-11-28 01:59:21,854 - INFO - Search Bar Request for Company:Catalent, Inc.
+2024-11-28 01:59:30,111 - INFO - Successfully scraped data for Constellation Brands, Inc.
+2024-11-28 01:59:30,112 - INFO - Search Bar Request for Company:Baker Hughes Company
+2024-11-28 01:59:31,722 - INFO - Successfully scraped data for Catalent, Inc.
+2024-11-28 01:59:31,722 - INFO - Search Bar Request for Company:A. O. Smith Corporation
+2024-11-28 01:59:39,955 - INFO - Successfully scraped data for Baker Hughes Company
+2024-11-28 01:59:39,955 - INFO - Search Bar Request for Company:Public Service Enterprise Group Incorporated
+2024-11-28 01:59:41,560 - INFO - Successfully scraped data for A. O. Smith Corporation
+2024-11-28 01:59:41,560 - INFO - Search Bar Request for Company:Pinnacle West Capital Corporation
+2024-11-28 01:59:49,820 - INFO - Successfully scraped data for Public Service Enterprise Group Incorporated
+2024-11-28 01:59:49,821 - INFO - Search Bar Request for Company:The Kroger Co.
+2024-11-28 01:59:51,411 - INFO - Successfully scraped data for Pinnacle West Capital Corporation
+2024-11-28 01:59:51,412 - INFO - Search Bar Request for Company:MarketAxess Holdings Inc.
+2024-11-28 01:59:59,685 - INFO - Successfully scraped data for The Kroger Co.
+2024-11-28 01:59:59,686 - INFO - Search Bar Request for Company:Electronic Arts Inc.
+2024-11-28 02:00:01,272 - INFO - Successfully scraped data for MarketAxess Holdings Inc.
+2024-11-28 02:00:01,273 - INFO - Search Bar Request for Company:LKQ Corporation
+2024-11-28 02:00:09,542 - INFO - Successfully scraped data for Electronic Arts Inc.
+2024-11-28 02:00:09,544 - INFO - Search Bar Request for Company:Gartner, Inc.
+2024-11-28 02:00:11,156 - INFO - Successfully scraped data for LKQ Corporation
+2024-11-28 02:00:11,157 - INFO - Search Bar Request for Company:Federal Realty Investment Trust
+2024-11-28 02:00:19,409 - INFO - Successfully scraped data for Gartner, Inc.
+2024-11-28 02:00:19,409 - INFO - Search Bar Request for Company:Targa Resources Corp.
+2024-11-28 02:00:21,028 - INFO - Successfully scraped data for Federal Realty Investment Trust
+2024-11-28 02:00:21,028 - INFO - Search Bar Request for Company:The AES Corporation
+2024-11-28 02:00:29,311 - INFO - Successfully scraped data for Targa Resources Corp.
+2024-11-28 02:00:29,311 - INFO - Search Bar Request for Company:Ingersoll Rand Inc.
+2024-11-28 02:00:30,915 - INFO - Successfully scraped data for The AES Corporation
+2024-11-28 02:00:30,915 - INFO - Search Bar Request for Company:Wynn Resorts, Limited
+2024-11-28 02:00:39,197 - INFO - Successfully scraped data for Ingersoll Rand Inc.
+2024-11-28 02:00:39,197 - INFO - Search Bar Request for Company:Corning Incorporated
+2024-11-28 02:00:45,147 - INFO - Successfully scraped data for Wynn Resorts, Limited
+2024-11-28 02:00:45,148 - INFO - Search Bar Request for Company:Globe Life Inc.
+2024-11-28 02:00:49,091 - INFO - Successfully scraped data for Corning Incorporated
+2024-11-28 02:00:49,091 - INFO - Search Bar Request for Company:Delta Air Lines, Inc.
+2024-11-28 02:00:55,010 - INFO - Successfully scraped data for Globe Life Inc.
+2024-11-28 02:00:55,011 - INFO - Search Bar Request for Company:Teleflex Incorporated
+2024-11-28 02:00:58,997 - INFO - Successfully scraped data for Delta Air Lines, Inc.
+2024-11-28 02:00:58,998 - INFO - Search Bar Request for Company:Garmin Ltd.
+2024-11-28 02:01:04,883 - INFO - Successfully scraped data for Teleflex Incorporated
+2024-11-28 02:01:04,883 - INFO - Search Bar Request for Company:Mohawk Industries, Inc.
+2024-11-28 02:01:09,990 - INFO - Successfully scraped data for Garmin Ltd.
+2024-11-28 02:01:09,991 - INFO - Search Bar Request for Company:CBRE Group, Inc.
+2024-11-28 02:01:19,007 - INFO - Successfully scraped data for Mohawk Industries, Inc.
+2024-11-28 02:01:19,007 - INFO - Search Bar Request for Company:Hasbro, Inc.
+2024-11-28 02:01:19,879 - INFO - Successfully scraped data for CBRE Group, Inc.
+2024-11-28 02:01:19,879 - INFO - Search Bar Request for Company:Verisk Analytics, Inc.
+2024-11-28 02:01:28,876 - INFO - Successfully scraped data for Hasbro, Inc.
+2024-11-28 02:01:28,876 - INFO - Search Bar Request for Company:Henry Schein, Inc.
+2024-11-28 02:01:29,773 - INFO - Successfully scraped data for Verisk Analytics, Inc.
+2024-11-28 02:01:29,774 - INFO - Search Bar Request for Company:Cognizant Technology Solutions Corporation
+2024-11-28 02:01:38,737 - INFO - Successfully scraped data for Henry Schein, Inc.
+2024-11-28 02:01:38,738 - INFO - Search Bar Request for Company:Caesars Entertainment, Inc.
+2024-11-28 02:01:39,689 - INFO - Successfully scraped data for Cognizant Technology Solutions Corporation
+2024-11-28 02:01:39,689 - INFO - Search Bar Request for Company:Otis Worldwide Corporation
+2024-11-28 02:01:48,599 - INFO - Successfully scraped data for Caesars Entertainment, Inc.
+2024-11-28 02:01:48,600 - INFO - Search Bar Request for Company:Celanese Corporation
+2024-11-28 02:01:49,581 - INFO - Successfully scraped data for Otis Worldwide Corporation
+2024-11-28 02:01:49,581 - INFO - Search Bar Request for Company:Lululemon Athletica Inc.
+2024-11-28 02:01:58,418 - INFO - Successfully scraped data for Celanese Corporation
+2024-11-28 02:01:58,419 - INFO - Search Bar Request for Company:The Mosaic Company
+2024-11-28 02:01:59,437 - INFO - Successfully scraped data for Lululemon Athletica Inc.
+2024-11-28 02:01:59,438 - INFO - Search Bar Request for Company:Xcel Energy Inc.
+2024-11-28 02:02:08,258 - INFO - Successfully scraped data for The Mosaic Company
+2024-11-28 02:02:08,259 - INFO - Search Bar Request for Company:Enphase Energy, Inc.
+2024-11-28 02:02:09,333 - INFO - Successfully scraped data for Xcel Energy Inc.
+2024-11-28 02:02:09,333 - INFO - Search Bar Request for Company:Corteva, Inc.
+2024-11-28 02:02:18,128 - INFO - Successfully scraped data for Enphase Energy, Inc.
+2024-11-28 02:02:18,128 - INFO - Search Bar Request for Company:APA Corporation
+2024-11-28 02:02:19,165 - INFO - Successfully scraped data for Corteva, Inc.
+2024-11-28 02:02:19,165 - INFO - Search Bar Request for Company:Edwards Lifesciences Corporation
+2024-11-28 02:02:28,013 - INFO - Successfully scraped data for APA Corporation
+2024-11-28 02:02:28,014 - INFO - Search Bar Request for Company:Paramount Global
+2024-11-28 02:02:29,091 - INFO - Successfully scraped data for Edwards Lifesciences Corporation
+2024-11-28 02:02:29,092 - INFO - Search Bar Request for Company:GE HealthCare Technologies Inc.
+2024-11-28 02:02:37,879 - INFO - Successfully scraped data for Paramount Global
+2024-11-28 02:02:37,880 - INFO - Search Bar Request for Company:Huntington Ingalls Industries, Inc.
+2024-11-28 02:02:38,932 - INFO - Successfully scraped data for GE HealthCare Technologies Inc.
+2024-11-28 02:02:38,933 - INFO - Search Bar Request for Company:IQVIA Holdings Inc.
+2024-11-28 02:02:47,772 - INFO - Successfully scraped data for Huntington Ingalls Industries, Inc.
+2024-11-28 02:02:47,773 - INFO - Search Bar Request for Company:Invesco Ltd.
+2024-11-28 02:02:48,816 - INFO - Successfully scraped data for IQVIA Holdings Inc.
+2024-11-28 02:02:48,816 - INFO - Search Bar Request for Company:The Kraft Heinz Company
+2024-11-28 02:02:57,634 - INFO - Successfully scraped data for Invesco Ltd.
+2024-11-28 02:02:57,634 - INFO - Search Bar Request for Company:Match Group, Inc.
+2024-11-28 02:02:58,694 - INFO - Successfully scraped data for The Kraft Heinz Company
+2024-11-28 02:02:58,694 - INFO - Search Bar Request for Company:Agilent Technologies, Inc.
+2024-11-28 02:03:07,485 - INFO - Successfully scraped data for Match Group, Inc.
+2024-11-28 02:03:07,486 - INFO - Search Bar Request for Company:Walgreens Boots Alliance, Inc.
+2024-11-28 02:03:08,560 - INFO - Successfully scraped data for Agilent Technologies, Inc.
+2024-11-28 02:03:08,560 - INFO - Search Bar Request for Company:Exelon Corporation
+2024-11-28 02:03:17,374 - INFO - Successfully scraped data for Walgreens Boots Alliance, Inc.
+2024-11-28 02:03:17,374 - INFO - Search Bar Request for Company:BorgWarner Inc.
+2024-11-28 02:03:18,425 - INFO - Successfully scraped data for Exelon Corporation
+2024-11-28 02:03:27,234 - INFO - Successfully scraped data for BorgWarner Inc.
+2024-11-28 02:03:27,235 - INFO - Search Bar Request for Company:Amentum Holdings, Inc.
+2024-11-28 02:03:37,117 - INFO - Successfully scraped data for Amentum Holdings, Inc.
+2024-11-28 02:03:37,117 - INFO - Search Bar Request for Company:FMC Corporation
+2024-11-28 02:03:47,006 - INFO - Successfully scraped data for FMC Corporation
+2024-11-28 02:03:47,006 - INFO - Search Bar Request for Company:Qorvo, Inc.
+2024-11-28 02:03:56,877 - INFO - Successfully scraped data for Qorvo, Inc.
+2024-11-28 02:03:57,052 - INFO - Successfully saved 488 results
+2024-11-28 02:03:57,052 - INFO - Script completed
