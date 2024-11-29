@@ -1,0 +1,144 @@
+2024-11-29 17:59:35,185 - INFO - Script started
+2024-11-29 17:59:35,186 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 17:59:35,198 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 17:59:35,200 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-29 17:59:35,200 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 17:59:35,200 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-29 17:59:35,201 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 17:59:37,811 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 17:59:37,916 - INFO - Accepted cookies
+2024-11-29 17:59:37,939 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 17:59:38,054 - INFO - Accepted cookies
+2024-11-29 17:59:43,981 - INFO - Processing company: Apple Inc
+2024-11-29 17:59:44,087 - INFO - Processing company: NVIDIA Corp
+2024-11-29 17:59:52,401 - INFO - Successfully scraped data for Apple Inc
+2024-11-29 17:59:52,488 - INFO - Successfully scraped data for NVIDIA Corp
+2024-11-29 17:59:52,553 - INFO - Successfully saved 2 results
+2024-11-29 17:59:52,553 - INFO - Script completed
+2024-11-29 18:00:12,698 - INFO - Script started
+2024-11-29 18:00:12,699 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:00:12,711 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:00:12,713 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:00:12,713 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:00:12,713 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:00:12,714 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:00:15,298 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:00:15,315 - INFO - Search Bar Request for:AAPL
+2024-11-29 18:00:15,315 - ERROR - Error processing company AAPL: 'WebScraper' object has no attribute 'diver'
+2024-11-29 18:00:24,014 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:00:24,014 - INFO - Search Bar Request for:NVDA
+2024-11-29 18:00:24,014 - ERROR - Error processing company NVDA: 'WebScraper' object has no attribute 'diver'
+2024-11-29 18:00:24,131 - WARNING - No results to save
+2024-11-29 18:00:24,131 - INFO - Script completed
+2024-11-29 18:01:27,131 - INFO - Script started
+2024-11-29 18:01:27,131 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:01:27,142 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:01:27,144 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:01:27,144 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:01:27,144 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:01:27,144 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:01:29,861 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:01:29,877 - INFO - Search Bar Request for:AAPL
+2024-11-29 18:01:29,878 - ERROR - Error processing company AAPL: 'WebScraper' object has no attribute 'diver'
+2024-11-29 18:01:29,937 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:01:29,938 - INFO - Search Bar Request for:NVDA
+2024-11-29 18:01:29,938 - ERROR - Error processing company NVDA: 'WebScraper' object has no attribute 'diver'
+2024-11-29 18:01:30,000 - WARNING - No results to save
+2024-11-29 18:01:30,001 - INFO - Script completed
+2024-11-29 18:02:51,257 - INFO - Script started
+2024-11-29 18:02:51,257 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:02:51,268 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:02:51,269 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:02:51,269 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:02:51,269 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:02:51,270 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:02:54,358 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:02:54,358 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-29 18:02:55,253 - INFO - Cookies accepted successfully.
+2024-11-29 18:02:55,363 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:02:55,364 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-29 18:02:56,131 - INFO - Cookies accepted successfully.
+2024-11-29 18:02:57,280 - INFO - Search Bar Request for:NVIDIA Corporation
+2024-11-29 18:02:58,137 - INFO - Search Bar Request for:Apple Inc.
+2024-11-29 18:03:07,167 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-29 18:03:08,054 - INFO - Successfully scraped data for Apple Inc.
+2024-11-29 18:03:08,122 - INFO - Successfully saved 2 results
+2024-11-29 18:03:08,122 - INFO - Script completed
+2024-11-29 18:03:53,036 - INFO - Script started
+2024-11-29 18:03:53,036 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:03:53,047 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:03:53,049 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:03:53,049 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:03:53,049 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:03:53,050 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:03:55,530 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:03:55,530 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-29 18:03:56,261 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:03:56,262 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-29 18:03:56,422 - INFO - Cookies accepted successfully.
+2024-11-29 18:03:57,209 - INFO - Cookies accepted successfully.
+2024-11-29 18:03:58,445 - INFO - Search Bar Request for:Apple Inc.
+2024-11-29 18:03:59,213 - INFO - Search Bar Request for:NVIDIA Corporation
+2024-11-29 18:04:05,617 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa16c0440>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/07e77fcb19e97a0b3290ec9263d5479a/element
+2024-11-29 18:04:05,617 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa171ca50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/07e77fcb19e97a0b3290ec9263d5479a/element
+2024-11-29 18:04:05,617 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa1700e90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/07e77fcb19e97a0b3290ec9263d5479a/element
+2024-11-29 18:04:05,618 - ERROR - Error processing company Apple Inc.: HTTPConnectionPool(host='localhost', port=51679): Max retries exceeded with url: /session/07e77fcb19e97a0b3290ec9263d5479a/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa17010f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-29 18:04:05,618 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa1686d50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/07e77fcb19e97a0b3290ec9263d5479a
+2024-11-29 18:04:05,619 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa19b7350>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/07e77fcb19e97a0b3290ec9263d5479a
+2024-11-29 18:04:05,619 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa19b7680>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/07e77fcb19e97a0b3290ec9263d5479a
+2024-11-29 18:04:05,845 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa19c7c50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/34c93b9c83f796972838158fecd766ed/element
+2024-11-29 18:04:05,845 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa19b7ce0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/34c93b9c83f796972838158fecd766ed/element
+2024-11-29 18:04:05,846 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa170c050>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/34c93b9c83f796972838158fecd766ed/element
+2024-11-29 18:04:05,846 - ERROR - Error processing company NVIDIA Corporation: HTTPConnectionPool(host='localhost', port=47001): Max retries exceeded with url: /session/34c93b9c83f796972838158fecd766ed/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa170c270>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-29 18:04:05,847 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa19b68b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/34c93b9c83f796972838158fecd766ed
+2024-11-29 18:04:05,848 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa170c7c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/34c93b9c83f796972838158fecd766ed
+2024-11-29 18:04:05,848 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa170c9e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/34c93b9c83f796972838158fecd766ed
+2024-11-29 18:04:16,704 - INFO - Script started
+2024-11-29 18:04:16,704 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:04:16,715 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:04:16,716 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:04:16,716 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:04:16,716 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:04:16,717 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:04:22,123 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:04:22,143 - INFO - Search Bar Request for:NVDA
+2024-11-29 18:04:22,143 - ERROR - Error processing company NVDA: 'WebScraper' object has no attribute 'diver'
+2024-11-29 18:04:22,802 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:04:22,803 - INFO - Search Bar Request for:AAPL
+2024-11-29 18:04:22,803 - ERROR - Error processing company AAPL: 'WebScraper' object has no attribute 'diver'
+2024-11-29 18:04:22,866 - WARNING - No results to save
+2024-11-29 18:04:22,867 - INFO - Script completed
+2024-11-29 18:06:02,685 - INFO - Script started
+2024-11-29 18:06:02,685 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:06:02,696 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:06:02,697 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:06:02,698 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:06:02,698 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:06:02,698 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:06:05,378 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:06:05,379 - INFO - WebScraper initialized successfully
+2024-11-29 18:06:05,396 - INFO - Search Bar Request for:AAPL
+2024-11-29 18:06:05,396 - ERROR - Error processing company AAPL: 'WebScraper' object has no attribute 'diver'
+2024-11-29 18:06:08,459 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:06:08,460 - INFO - WebScraper initialized successfully
+2024-11-29 18:06:08,460 - INFO - Search Bar Request for:NVDA
+2024-11-29 18:06:08,461 - ERROR - Error processing company NVDA: 'WebScraper' object has no attribute 'diver'
+2024-11-29 18:06:08,526 - INFO - Successfully saved 2 results
+2024-11-29 18:06:08,526 - INFO - Script completed
+2024-11-29 18:07:55,747 - INFO - Script started
+2024-11-29 18:07:55,748 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:07:55,758 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:07:55,760 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:07:55,760 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:07:55,760 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:07:55,760 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:07:58,481 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:07:58,482 - INFO - WebScraper initialized successfully
+2024-11-29 18:07:58,500 - INFO - Search Bar Request for:NVDA
+2024-11-29 18:07:58,501 - ERROR - Error processing company NVDA: 'WebScraper' object has no attribute 'diver'
+2024-11-29 18:07:58,559 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:07:58,559 - INFO - WebScraper initialized successfully
+2024-11-29 18:07:58,559 - INFO - Search Bar Request for:AAPL
+2024-11-29 18:07:58,561 - ERROR - Error processing company AAPL: 'WebScraper' object has no attribute 'diver'
+2024-11-29 18:07:58,626 - INFO - Successfully saved 2 results
+2024-11-29 18:07:58,626 - INFO - Script completed
