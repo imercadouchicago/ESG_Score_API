@@ -29,7 +29,7 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue,
     try:
          # Initialize browser
         bot = WebScraper(URL)
-        results = []
+        output = []
 
         for index, row in tqdm(company_data.iterrows(),
                             total=len(company_data),
@@ -50,49 +50,48 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue,
                 search_bar.send_keys(Keys.RETURN)
                 sleep(3)
                 
-                try:
-                    # Wait for dropdown and find results
-                    results = bot.locate_element(xpath="//li[@data-type='quotes']")
-                    logging.info(f"Number of results:{len(results)}")
+                # Wait for dropdown and find results
+                results = bot.locate_element(xpath="//li[@data-type='quotes']")
+                logging.info(f"Number of results:{len(results)}")
                     
-                    # Look for exact ticker match
-                    target_result = None
-                    for result in results:
-                        try:
-                            symbol = result.find_element(
+                # Look for exact ticker match
+                target_result = None
+                for result in results:
+                    try:
+                        symbol = result.find_element(
                                 By.CLASS_NAME,
                                 "modules-module_quoteSymbol__BGsyF"
                             ).text
                             
-                            if symbol == row[headername]:
-                                target_result = result
-                                logging.info(f"Found matching ticker: {symbol}")
-                                break    
-                        except NoSuchElementException:
-                            continue
+                        if symbol == row[headername]:
+                            target_result = result
+                            logging.info(f"Found matching ticker: {symbol}")
+                            break    
+                    except NoSuchElementException:
+                        continue
                     
-                    if target_result:
-                        target_result.click()
-                        print(f"Clicked on matching result")
-                        sleep(5)
-                        
-                    # Extracting profitability metrics
-                    market_cap = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[9]/span[2]/fin-streamer")
-                    pe_ratio = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[11]/span[2]/fin-streamer")
-                    eps = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[12]/span[2]/fin-streamer")
-                            
-                    # Click Sustainability tab
-                    sustainability_tab = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/aside/section/nav/ul/li[13]/a/span")
-                    sustainability_tab.click()
+                if target_result:
+                    target_result.click()
+                    print(f"Clicked on matching result")
                     sleep(5)
+                        
+                # Extracting profitability metrics
+                market_cap = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[9]/span[2]/fin-streamer")
+                pe_ratio = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[11]/span[2]/fin-streamer")
+                eps = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[12]/span[2]/fin-streamer")
                             
-                    # Extracting ESG scores
-                    total_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[1]/div/div/h4")
-                    environmental_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[2]/div/div/h4")
-                            social_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[3]/div/div/h4")
-                            governance_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[4]/div/div/h4")
+                # Click Sustainability tab
+                sustainability_tab = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/aside/section/nav/ul/li[13]/a/span")
+                sustainability_tab.click()
+                sleep(5)
                             
-                            results.append({
+                # Extracting ESG scores
+                total_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[1]/div/div/h4")
+                environmental_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[2]/div/div/h4")
+                social_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[3]/div/div/h4")
+                governance_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[4]/div/div/h4")
+                            
+                output.append({
                                 "Yahoo_ESG_Company": row[headername],
                                 "Yahoo_Market_Cap": market_cap.text,
                                 "Yahoo_PE_Ratio": pe_ratio.text,
@@ -102,31 +101,19 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue,
                                 "Yahoo_Social": social_score.text,
                                 "Yahoo Governance": governance_score.text
                             })
-                            logging.info(f"Successfully scraped data for {row[headername]}")
+                logging.info(f"Successfully scraped data for {row[headername]}")
                         
-                        except NoSuchElementException as e:
-                            print(f"Error finding elements: {e}")
-                            bot.append_empty_values(yahoo)
-                            
-                    else:
-                        print(f"No exact match found for ticker: {ticker}")
-                        bot.append_empty_values(yahoo)
-                        
-                except Exception as e:
-                    print(f"Error with search results: {e}")
-                    bot.append_empty_values(yahoo)
-                    
             except Exception as e:
-                print(f"Error processing ticker {ticker}: {e}")
-                bot.append_empty_values(yahoo)
-            
-            sleep(2)
-
-        # Save the data
-        df = bot.convert_dict_to_csv(yahoo, bot.export_path)
-        print("\nFinal scraped data:", yahoo)
-        bot.driver.quit()
-
+                logging.error(f"Error processing company {row[headername]}: {e}")
+                continue
+        return output
+    except Exception as e:
+        logging.error(f"Error with user agent {bot.user_agent}: {e}")
+        return None
+    finally:
+        if 'bot' in locals():
+            bot.driver.quit()
+                            
 
 if __name__ == "__main__":
     Threader(yahoo_scraper, export_path)
