@@ -1,8 +1,3 @@
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from esg_app.utils.scraper_utils.scraper import WebScraper
 from esg_app.utils.scraper_utils.threader import Threader
 import logging
@@ -14,7 +9,7 @@ from time import sleep
 
 # Configure logging
 logging.basicConfig(
-    filename='threaded_yahoo_scraper.log',
+    filename='parallel_scraping.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
 )
@@ -28,7 +23,6 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tick
         # Initialize browser
         bot = WebScraper(URL, user_agents)
         output = []
-        logging.info("WebScraper initialized successfully")
 
         for index, row in tqdm(company_data.iterrows(),
                               total=len(company_data),
@@ -42,29 +36,22 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tick
                         continue
                     processed_tickers.add(row[headername])
 
+                bot.driver.get(URL)
+                
                 logging.debug(f"Processing company: {row[headername]}")
                 search_bar = bot.send_request_to_search_bar(row[headername], id_name="ybar-sbq")
-                search_bar.send_keys(Keys.RETURN)
-                sleep(3)
 
                 # Wait for dropdown and find results
-                results = bot.locate_element(xpath="//li[@data-type='quotes']")
-                logging.info(f"Number of results:{len(results)}")
+                results = bot.locate_element(xpath="//li[@data-type='quotes']", multiple = True)
 
                 # Look for exact ticker match
                 target_result = None
                 for result in results:
-                    try:
-                        symbol = result.find_element(
-                            By.CLASS_NAME,
-                            "modules-module_quoteSymbol__BGsyF"
-                        ).text
-                        if symbol == row[headername]:
-                            target_result = result
-                            logging.info(f"Found matching ticker: {symbol}")
-                            break
-                    except NoSuchElementException:
-                        continue
+                    symbol = bot.locate_element_within_element(result, class_name = "modules-module_quoteSymbol__BGsyF").text
+                    if symbol == row[headername]:
+                        target_result = result
+                        logging.info(f"Found matching ticker: {symbol}")
+                        break
 
                 if target_result:
                     target_result.click()
@@ -72,9 +59,9 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tick
                     sleep(5)
 
                     # Extracting profitability metrics
-                    market_cap = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[9]/span[2]/fin-streamer")
-                    pe_ratio = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[11]/span[2]/fin-streamer")
-                    eps = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[12]/span[2]/fin-streamer")
+                    market_cap = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[9]/span[2]/fin-streamer").text
+                    pe_ratio = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[11]/span[2]/fin-streamer").text
+                    eps = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[12]/span[2]/fin-streamer").text
 
                     # Click Sustainability tab
                     sustainability_tab = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/aside/section/nav/ul/li[13]/a/span")
@@ -82,57 +69,33 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tick
                     sleep(5)
 
                     # Extracting ESG scores
-                    total_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[1]/div/div/h4")
-                    environmental_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[2]/div/div/h4")
-                    social_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[3]/div/div/h4")
-                    governance_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[4]/div/div/h4")
+                    total_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[1]/div/div/h4").text
+                    environmental_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[2]/div/div/h4").text
+                    social_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[3]/div/div/h4").text
+                    governance_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[4]/div/div/h4").text
 
                     output.append({
-                        "Yahoo_ESG_Company": row[headername],
-                        "Yahoo_Market_Cap": market_cap.text,
-                        "Yahoo_PE_Ratio": pe_ratio.text,
-                        "Yahoo_EPS": eps.text,
-                        "Yahoo_ESG_Total": total_score.text,
-                        "Yahoo_Environment": environmental_score.text,
-                        "Yahoo_Social": social_score.text,
-                        "Yahoo_Governance": governance_score.text
-                    })
-                    logging.info(f"Successfully scraped data for {row[headername]}")
-                else:
-                    logging.warning(f"No matching result found for {row[headername]}")
-                    output.append({
-                        "Yahoo_ESG_Company": row[headername],
-                        "Yahoo_Market_Cap": "N/A",
-                        "Yahoo_PE_Ratio": "N/A",
-                        "Yahoo_EPS": "N/A",
-                        "Yahoo_ESG_Total": "N/A",
-                        "Yahoo_Environment": "N/A",
-                        "Yahoo_Social": "N/A",
-                        "Yahoo_Governance": "N/A"
-                    })
-
+                                    "Yahoo_ESG_Company": row[headername],
+                                    "Yahoo_Market_Cap": market_cap,
+                                    "Yahoo_PE_Ratio": pe_ratio,
+                                    "Yahoo EPS": eps,
+                                    "Yahoo_ESG_Total": total_score,
+                                    "Yahoo_Environment": environmental_score,
+                                    "Yahoo_Social": social_score,
+                                    "Yahoo Governance": governance_score
+                                })
+                    logging.info(f"Successfully scraped data for {row[headername]}")                        
             except Exception as e:
                 logging.error(f"Error processing company {row[headername]}: {e}")
-                output.append({
-                    "Yahoo_ESG_Company": row[headername],
-                    "Yahoo_Market_Cap": "N/A",
-                    "Yahoo_PE_Ratio": "N/A",
-                    "Yahoo_EPS": "N/A",
-                    "Yahoo_ESG_Total": "N/A",
-                    "Yahoo_Environment": "N/A",
-                    "Yahoo_Social": "N/A",
-                    "Yahoo_Governance": "N/A"
-                })
                 continue
-
         return output
-
     except Exception as e:
-        logging.error(f"Error with browser: {e}")
+        logging.error(f"Error with user agent {bot.user_agent}: {e}")
         return None
     finally:
         if 'bot' in locals():
             bot.driver.quit()
+                            
 
 if __name__ == "__main__":
     Threader(yahoo_scraper, export_path)

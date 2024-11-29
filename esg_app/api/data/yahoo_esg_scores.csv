@@ -1,3 +1,10 @@
-Yahoo_ESG_Company,Yahoo_Market_Cap,Yahoo_PE_Ratio,Yahoo_EPS,Yahoo_ESG_Total,Yahoo_Environment,Yahoo_Social,Yahoo_Governance
-NVDA,N/A,N/A,N/A,N/A,N/A,N/A,N/A
-AAPL,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Yahoo_ESG_Company,Yahoo_Market_Cap,Yahoo_PE_Ratio,Yahoo EPS,Yahoo_ESG_Total,Yahoo_Environment,Yahoo_Social,Yahoo Governance
+NVDA,3.386T,54.64,2.53,12.9,2.5,4.4,6.0
+AAPL,3.587T,39.03,6.08,16.8,0.6,7.5,8.7
+MSFT,3.148T,35.00,12.10,14.2,1.6,7.6,5.0
+GOOGL,2.077T,22.38,7.55,23.9,1.9,10.3,11.7
+AMZN,2.186T,44.52,4.67,29.0,6.3,14.8,7.9
+META,1.45T,27.13,21.17,32.7,2.4,21.6,8.7
+TSLA,1.108T,94.31,3.66,24.7,3.2,14.1,7.4
+BRK-B,1.041T,9.76,49.47,26.2,1.7,5.5,19.0
+AVGO,757.008B,129.66,1.25,19.2,8.1,6.9,4.2

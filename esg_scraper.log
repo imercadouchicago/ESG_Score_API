@@ -1,1 +1,50 @@
 2024-11-28 17:08:34,161 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:38:20,304 - INFO - Script started
+2024-11-29 18:38:20,305 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:38:20,305 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:38:24,731 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:38:26,733 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:38:26,781 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:38:26,782 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-29 18:38:28,039 - INFO - Cookies accepted successfully.
+2024-11-29 18:38:30,043 - INFO - Starting to scrape data for companies.
+2024-11-29 18:38:30,130 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-29 18:38:38,453 - INFO - Appending data for company: 0
+2024-11-29 18:38:40,115 - INFO - Saving data for company index: 0
+2024-11-29 18:38:40,115 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-29 18:38:40,136 - INFO - New CSV created at: esg_app/api/data/SP500_esg_scores.csv
+2024-11-29 18:38:40,138 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-29 18:38:48,387 - INFO - Appending data for company: <selenium.webdriver.remote.webelement.WebElement (session="c54518959b1608024ff064255563c020", element="f.6A96547E050F28878E93DD8EED5B29BF.d.EDCFD074326765C8D27D20C1880F9120.e.80")>
+2024-11-29 18:38:50,058 - INFO - Saving data for company index: 1
+2024-11-29 18:38:50,058 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-29 18:38:50,081 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-29 18:38:50,085 - INFO - Script execution completed.
+2024-11-29 18:40:11,629 - INFO - Script started
+2024-11-29 18:40:11,629 - INFO - Starting WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:40:11,629 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:40:16,612 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:40:18,613 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:40:18,636 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:40:18,637 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-29 18:40:19,833 - INFO - Cookies accepted successfully.
+2024-11-29 18:40:21,834 - INFO - Starting to scrape data for companies.
+2024-11-29 18:40:21,851 - INFO - Search Bar Request for Company:NVIDIA Corporation
+2024-11-29 18:40:30,205 - INFO - Appending data for company: 0
+2024-11-29 18:40:31,908 - INFO - Saving data for company index: 0
+2024-11-29 18:40:31,909 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-29 18:40:31,917 - INFO - New CSV created at: esg_app/api/data/SP500_esg_scores.csv
+2024-11-29 18:40:31,919 - INFO - Search Bar Request for Company:Apple Inc.
+2024-11-29 18:40:40,257 - INFO - Appending data for company: <selenium.webdriver.remote.webelement.WebElement (session="58dc095bbde2b75d4d8f8477ed7e6418", element="f.3B2C559A5BA2FE118DD436FE2A5370F9.d.2D466236E85E8519F7D798CA233E8B89.e.78")>
+2024-11-29 18:40:41,906 - INFO - Saving data for company index: 1
+2024-11-29 18:40:41,906 - INFO - Converting dictionary to CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-29 18:40:41,912 - INFO - Data appended to existing CSV: esg_app/api/data/SP500_esg_scores.csv
+2024-11-29 18:40:41,913 - INFO - Script execution completed.
+2024-11-29 18:44:32,723 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 18:45:12,973 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:46:15,245 - INFO - Converting dictionary to CSV: esg_app/api/data/yahoo_scores.csv
+2024-11-29 18:46:15,268 - INFO - New CSV created at: esg_app/api/data/yahoo_scores.csv
+2024-11-29 18:54:17,084 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 21:49:09,176 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 21:49:11,323 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 21:50:03,862 - INFO - Converting dictionary to CSV: esg_app/api/data/yahoo_scores.csv
+2024-11-29 21:50:03,887 - INFO - New CSV created at: esg_app/api/data/yahoo_scores.csv

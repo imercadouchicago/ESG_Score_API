@@ -142,3 +142,339 @@
 2024-11-29 18:07:58,561 - ERROR - Error processing company AAPL: 'WebScraper' object has no attribute 'diver'
 2024-11-29 18:07:58,626 - INFO - Successfully saved 2 results
 2024-11-29 18:07:58,626 - INFO - Script completed
+2024-11-29 18:33:49,492 - INFO - Script started
+2024-11-29 18:33:49,492 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:33:49,510 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:33:49,515 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:33:49,515 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:33:49,515 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:33:49,515 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:37:53,361 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-29 18:37:53,362 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-29 18:37:53,362 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-29 18:37:53,363 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-29 18:37:53,869 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: 'WebScraper' object has no attribute 'driver'
+2024-11-29 18:37:53,869 - ERROR - Error with user agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: 'WebScraper' object has no attribute 'driver'
+2024-11-29 18:42:12,722 - INFO - Script started
+2024-11-29 18:42:12,722 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:42:12,738 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:42:12,743 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-29 18:42:12,744 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:42:12,744 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-11-29 18:42:12,746 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:42:21,188 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:42:21,270 - INFO - Accepted cookies
+2024-11-29 18:42:30,014 - INFO - Processing company: NVIDIA Corp
+2024-11-29 18:42:38,323 - INFO - Successfully scraped data for NVIDIA Corp
+2024-11-29 18:44:15,718 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-29 18:44:15,724 - ERROR - Error with user agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: 'WebScraper' object has no attribute 'driver'
+2024-11-29 18:49:33,164 - INFO - Script started
+2024-11-29 18:49:33,164 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:49:33,180 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 18:49:33,183 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:49:33,183 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:49:41,477 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:49:41,478 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-29 18:49:42,338 - INFO - Cookies accepted successfully.
+2024-11-29 18:49:44,378 - INFO - Search Bar Request for:NVIDIA Corporation
+2024-11-29 18:49:54,300 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-29 18:49:54,447 - INFO - Successfully saved 1 results
+2024-11-29 18:49:54,447 - INFO - Script completed
+2024-11-29 18:51:24,807 - INFO - Script started
+2024-11-29 18:51:24,807 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 18:51:24,818 - INFO - Data loaded successfully. Number of records: 2
+2024-11-29 18:51:24,819 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:51:24,819 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-29 18:51:24,820 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:51:24,820 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 18:51:31,746 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:51:31,747 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-29 18:51:31,803 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 18:51:31,803 - INFO - Attempting to accept cookies using xpath: //*[@id="onetrust-accept-btn-handler"]
+2024-11-29 18:51:33,510 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: Message: element click intercepted: Element is not clickable at point (344, 465)
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-29 18:51:33,540 - ERROR - Error with user agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: Message: element click intercepted: Element is not clickable at point (344, 452)
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-29 18:51:33,624 - WARNING - No results to save
+2024-11-29 18:51:33,624 - INFO - Script completed
+2024-11-29 19:15:01,498 - INFO - Script started
+2024-11-29 19:15:01,499 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 19:15:01,511 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 19:15:01,512 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 19:15:01,513 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 19:15:10,353 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 19:15:10,355 - INFO - WebScraper initialized successfully
+2024-11-29 19:15:10,405 - INFO - Search Bar Request for:NVDA
+2024-11-29 19:15:10,406 - ERROR - Error processing company NVDA: 'WebScraper' object has no attribute 'diver'
+2024-11-29 19:15:10,501 - INFO - Successfully saved 1 results
+2024-11-29 19:15:10,501 - INFO - Script completed
+2024-11-29 19:17:52,628 - INFO - Script started
+2024-11-29 19:17:52,629 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 19:17:52,640 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 19:17:52,642 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 19:17:52,642 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 19:17:58,561 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 19:17:58,562 - INFO - WebScraper initialized successfully
+2024-11-29 19:17:58,593 - INFO - Search Bar Request for:NVDA
+2024-11-29 19:17:58,593 - ERROR - Error processing company NVDA: 'WebScraper' object has no attribute 'diver'
+2024-11-29 19:17:58,669 - WARNING - No results to save
+2024-11-29 19:17:58,669 - INFO - Script completed
+2024-11-29 19:21:50,376 - INFO - Script started
+2024-11-29 19:21:50,376 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 19:21:50,389 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 19:21:50,390 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 19:21:50,390 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 19:21:58,012 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 19:21:58,013 - INFO - WebScraper initialized successfully
+2024-11-29 19:21:58,059 - INFO - Search Bar Request for:NVDA
+2024-11-29 19:21:58,060 - ERROR - Error processing company NVDA: 'WebScraper' object has no attribute 'diver'
+2024-11-29 19:21:58,136 - WARNING - No results to save
+2024-11-29 19:21:58,136 - INFO - Script completed
+2024-11-29 19:27:52,677 - INFO - Script started
+2024-11-29 19:27:52,677 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 19:27:52,689 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 19:27:52,690 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 19:27:52,690 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 19:28:04,650 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 19:28:04,651 - INFO - WebScraper initialized successfully
+2024-11-29 19:28:04,693 - INFO - Search bar request for:NVDA
+2024-11-29 19:28:04,693 - INFO - Search bar request failed 'WebScraper' object has no attribute 'diver'
+2024-11-29 19:28:18,252 - WARNING - Timeout while waiting for element: //li[@data-type='quotes']
+2024-11-29 19:28:18,278 - ERROR - Error processing company NVDA: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@data-type='quotes']"}
+  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-29 19:28:18,503 - WARNING - No results to save
+2024-11-29 19:28:18,504 - INFO - Script completed
+2024-11-29 19:31:57,420 - INFO - Script started
+2024-11-29 19:31:57,422 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 19:31:57,452 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 19:31:57,456 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 19:31:57,457 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 19:32:09,912 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 19:32:09,913 - INFO - WebScraper initialized successfully
+2024-11-29 19:32:09,951 - INFO - Search bar request for:NVDA
+2024-11-29 19:32:09,952 - INFO - Search bar request failed 'WebScraper' object has no attribute 'diver'
+2024-11-29 19:32:12,993 - ERROR - Error processing company NVDA: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@data-type='quotes']"}
+  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-29 19:32:13,101 - WARNING - No results to save
+2024-11-29 19:32:13,101 - INFO - Script completed
+2024-11-29 21:17:09,165 - INFO - Script started
+2024-11-29 21:17:09,165 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 21:17:09,178 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 21:17:09,180 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 21:17:09,180 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 21:17:14,561 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 21:17:14,587 - INFO - Search bar request for:NVDA
+2024-11-29 21:17:18,280 - ERROR - Error processing company NVDA: object of type 'WebElement' has no len()
+2024-11-29 21:17:18,356 - WARNING - No results to save
+2024-11-29 21:17:18,357 - INFO - Script completed
+2024-11-29 21:18:17,747 - INFO - Script started
+2024-11-29 21:18:17,748 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 21:18:17,760 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 21:18:17,761 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 21:18:17,762 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 21:20:44,783 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-29 21:20:44,825 - INFO - Search bar request for:NVDA
+2024-11-29 21:20:44,825 - WARNING - Error locating item: 'WebScraper' object has no attribute 'driver'
+2024-11-29 21:20:44,825 - WARNING - Search bar request failed 'NoneType' object has no attribute 'clear'
+2024-11-29 21:20:45,330 - WARNING - Error locating item: 'WebScraper' object has no attribute 'driver'
+2024-11-29 21:20:45,331 - ERROR - Error processing company NVDA: 'NoneType' object is not iterable
+2024-11-29 21:22:50,748 - INFO - Script started
+2024-11-29 21:22:50,749 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 21:22:50,776 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 21:22:50,778 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 21:22:50,778 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 21:22:52,875 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 21:22:52,892 - INFO - Search bar request for:NVDA
+2024-11-29 21:22:56,615 - ERROR - Error processing company NVDA: 'WebElement' object is not iterable
+2024-11-29 21:22:56,696 - WARNING - No results to save
+2024-11-29 21:22:56,696 - INFO - Script completed
+2024-11-29 21:28:35,795 - INFO - Script started
+2024-11-29 21:28:35,795 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 21:28:35,806 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 21:28:35,808 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 21:28:35,808 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 21:28:37,815 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 21:28:37,831 - INFO - Search bar request for:NVDA
+2024-11-29 21:28:41,670 - INFO - Found matching ticker: NVDA
+2024-11-29 21:28:44,605 - INFO - Clicked on matching result
+2024-11-29 21:29:00,354 - ERROR - Error processing company NVDA: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+
+2024-11-29 21:29:00,552 - WARNING - No results to save
+2024-11-29 21:29:00,553 - INFO - Script completed
+2024-11-29 21:32:36,120 - INFO - Script started
+2024-11-29 21:32:36,121 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 21:32:36,132 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 21:32:36,133 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 21:32:36,133 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 21:32:38,864 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 21:32:38,887 - INFO - Search bar request for:NVDA
+2024-11-29 21:32:42,637 - INFO - Found matching ticker: NVDA
+2024-11-29 21:32:42,780 - INFO - Clicked on matching result
+2024-11-29 21:32:53,032 - ERROR - Error processing company NVDA: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+
+2024-11-29 21:32:53,249 - WARNING - No results to save
+2024-11-29 21:32:53,250 - INFO - Script completed
+2024-11-29 21:56:53,845 - INFO - Script started
+2024-11-29 21:56:53,846 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 21:56:53,867 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 21:56:53,869 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 21:56:53,869 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 21:56:59,219 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 21:56:59,293 - INFO - Search bar request for: NVDA
+2024-11-29 21:57:02,700 - INFO - Found matching ticker: NVDA
+2024-11-29 21:57:05,123 - INFO - Clicked on matching result
+2024-11-29 21:57:10,185 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[9]/span[2]/fin-streamer
+2024-11-29 21:57:10,200 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[11]/span[2]/fin-streamer
+2024-11-29 21:57:10,211 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[12]/span[2]/fin-streamer
+2024-11-29 21:57:10,222 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/aside/section/nav/ul/li[13]/a/span
+2024-11-29 21:57:16,793 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[1]/div/div/h4
+2024-11-29 21:57:16,806 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[2]/div/div/h4
+2024-11-29 21:57:16,816 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[3]/div/div/h4
+2024-11-29 21:57:16,825 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[4]/div/div/h4
+2024-11-29 21:57:16,829 - ERROR - Error processing company NVDA: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+
+2024-11-29 21:57:16,915 - WARNING - No results to save
+2024-11-29 21:57:16,915 - INFO - Script completed
+2024-11-29 22:00:07,260 - INFO - Script started
+2024-11-29 22:00:07,261 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 22:00:07,272 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 22:00:07,273 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 22:00:07,274 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 22:00:11,941 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 22:00:11,959 - INFO - Search bar request for: NVDA
+2024-11-29 22:00:15,111 - INFO - Found matching ticker: NVDA
+2024-11-29 22:00:15,259 - INFO - Clicked on matching result
+2024-11-29 22:00:20,321 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[9]/span[2]/fin-streamer
+2024-11-29 22:00:20,339 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[11]/span[2]/fin-streamer
+2024-11-29 22:00:20,351 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[12]/span[2]/fin-streamer
+2024-11-29 22:00:20,362 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/aside/section/nav/ul/li[13]/a/span
+2024-11-29 22:00:25,541 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[1]/div/div/h4
+2024-11-29 22:00:25,564 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[2]/div/div/h4
+2024-11-29 22:00:25,575 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[3]/div/div/h4
+2024-11-29 22:00:25,585 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[4]/div/div/h4
+2024-11-29 22:00:25,597 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+
+2024-11-29 22:00:25,691 - WARNING - No results to save
+2024-11-29 22:00:25,691 - INFO - Script completed
+2024-11-29 22:05:35,528 - INFO - Script started
+2024-11-29 22:05:35,529 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 22:05:35,541 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 22:05:35,542 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 22:05:35,543 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 22:05:38,214 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 22:05:38,235 - INFO - Search bar request for: NVDA
+2024-11-29 22:05:41,752 - INFO - Found matching ticker: NVDA
+2024-11-29 22:05:44,007 - INFO - Clicked on matching result
+2024-11-29 22:05:49,036 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[9]/span[2]/fin-streamer
+2024-11-29 22:05:49,059 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[11]/span[2]/fin-streamer
+2024-11-29 22:05:49,074 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[12]/span[2]/fin-streamer
+2024-11-29 22:05:49,089 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/aside/section/nav/ul/li[13]/a/span
+2024-11-29 22:05:55,530 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[1]/div/div/h4
+2024-11-29 22:05:55,549 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[2]/div/div/h4
+2024-11-29 22:05:55,567 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[3]/div/div/h4
+2024-11-29 22:05:55,585 - INFO - Element located successfully: //*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[4]/div/div/h4
+2024-11-29 22:05:55,592 - INFO - Successfully scraped data for NVDA
+2024-11-29 22:05:55,735 - INFO - Successfully saved 1 results
+2024-11-29 22:05:55,735 - INFO - Script completed
+2024-11-29 22:14:29,325 - INFO - Script started
+2024-11-29 22:14:29,325 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 22:14:29,341 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 22:14:29,342 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 22:14:29,342 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 22:14:31,558 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 22:14:31,576 - INFO - Search bar request for: NVDA
+2024-11-29 22:14:35,346 - INFO - Found matching ticker: NVDA
+2024-11-29 22:14:37,973 - INFO - Clicked on matching result
+2024-11-29 22:14:49,391 - INFO - Successfully scraped data for NVDA
+2024-11-29 22:14:49,496 - INFO - Successfully saved 1 results
+2024-11-29 22:14:49,496 - INFO - Script completed
+2024-11-29 22:15:39,141 - INFO - Script started
+2024-11-29 22:15:39,142 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 22:15:39,153 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 22:15:39,154 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 22:15:39,154 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 22:15:43,942 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 22:15:43,960 - INFO - Search bar request for: NVDA
+2024-11-29 22:15:47,210 - INFO - Found matching ticker: NVDA
+2024-11-29 22:15:51,069 - INFO - Clicked on matching result
+2024-11-29 22:16:03,089 - INFO - Successfully scraped data for NVDA
+2024-11-29 22:16:03,319 - INFO - Successfully saved 1 results
+2024-11-29 22:16:03,319 - INFO - Script completed
+2024-11-29 22:17:00,560 - INFO - Script started
+2024-11-29 22:17:00,561 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 22:17:00,572 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 22:17:00,573 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 22:17:00,573 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 22:18:37,209 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-29 22:18:37,240 - ERROR - Error processing company NVDA: 'WebScraper' object has no attribute 'driver'
+2024-11-29 22:18:43,916 - INFO - Script started
+2024-11-29 22:18:43,916 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 22:18:43,928 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 22:18:43,929 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 22:18:43,930 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 22:18:46,247 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 22:18:47,369 - INFO - Search bar request for: NVDA
+2024-11-29 22:18:50,768 - INFO - Found matching ticker: NVDA
+2024-11-29 22:18:53,017 - INFO - Clicked on matching result
+2024-11-29 22:19:04,653 - INFO - Successfully scraped data for NVDA
+2024-11-29 22:19:04,769 - INFO - Successfully saved 1 results
+2024-11-29 22:19:04,769 - INFO - Script completed
+2024-11-29 22:26:19,436 - INFO - Script started
+2024-11-29 22:26:19,436 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 22:26:19,450 - INFO - Data loaded successfully. Number of records: 10
+2024-11-29 22:26:19,451 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-29 22:26:19,452 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 22:26:21,985 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 22:26:34,816 - INFO - Search bar request for: NVDA
+2024-11-29 22:26:38,030 - INFO - Found matching ticker: NVDA
+2024-11-29 22:26:40,338 - INFO - Clicked on matching result
+2024-11-29 22:26:52,267 - INFO - Successfully scraped data for NVDA
+2024-11-29 22:26:53,135 - INFO - Search bar request for: AAPL
+2024-11-29 22:26:56,790 - INFO - Found matching ticker: AAPL
+2024-11-29 22:26:58,381 - INFO - Clicked on matching result
+2024-11-29 22:27:08,584 - INFO - Successfully scraped data for AAPL
+2024-11-29 22:27:09,924 - INFO - Search bar request for: MSFT
+2024-11-29 22:27:13,065 - INFO - Found matching ticker: MSFT
+2024-11-29 22:27:16,572 - INFO - Clicked on matching result
+2024-11-29 22:27:28,035 - INFO - Successfully scraped data for MSFT
+2024-11-29 22:27:29,817 - INFO - Search bar request for: GOOG
+2024-11-29 22:27:33,171 - INFO - Found matching ticker: GOOG
+2024-11-29 22:27:35,076 - INFO - Clicked on matching result
+2024-11-29 22:27:45,328 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[1]/div/div/h4"}
+  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-29 22:27:45,337 - ERROR - Error processing company GOOG: 'NoneType' object has no attribute 'text'
+2024-11-29 22:27:47,724 - INFO - Search bar request for: GOOGL
+2024-11-29 22:27:50,945 - INFO - Found matching ticker: GOOGL
+2024-11-29 22:27:52,268 - INFO - Clicked on matching result
+2024-11-29 22:28:04,755 - INFO - Successfully scraped data for GOOGL
+2024-11-29 22:28:06,957 - INFO - Search bar request for: AMZN
+2024-11-29 22:28:10,619 - INFO - Found matching ticker: AMZN
+2024-11-29 22:28:13,025 - INFO - Clicked on matching result
+2024-11-29 22:28:25,358 - INFO - Successfully scraped data for AMZN
+2024-11-29 22:28:28,485 - INFO - Search bar request for: META
+2024-11-29 22:28:31,689 - INFO - Found matching ticker: META
+2024-11-29 22:28:35,118 - INFO - Clicked on matching result
+2024-11-29 22:28:47,431 - INFO - Successfully scraped data for META
+2024-11-29 22:28:49,307 - INFO - Search bar request for: TSLA
+2024-11-29 22:28:52,683 - INFO - Found matching ticker: TSLA
+2024-11-29 22:28:55,471 - INFO - Clicked on matching result
+2024-11-29 22:29:07,845 - INFO - Successfully scraped data for TSLA
+2024-11-29 22:29:09,582 - INFO - Search bar request for: BRK-B
+2024-11-29 22:29:13,259 - INFO - Found matching ticker: BRK-B
+2024-11-29 22:29:14,606 - INFO - Clicked on matching result
+2024-11-29 22:29:26,276 - INFO - Successfully scraped data for BRK-B
+2024-11-29 22:29:27,459 - INFO - Search bar request for: AVGO
+2024-11-29 22:29:31,297 - INFO - Found matching ticker: AVGO
+2024-11-29 22:29:33,609 - INFO - Clicked on matching result
+2024-11-29 22:29:46,581 - INFO - Successfully scraped data for AVGO
+2024-11-29 22:29:46,808 - INFO - Successfully saved 9 results
+2024-11-29 22:29:46,808 - INFO - Script completed

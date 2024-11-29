@@ -104,8 +104,10 @@ class WebScraper():
             logging.error("Cookies button not found. Error: %s", e)
         sleep(2)
 
-    def locate_element(self, xpath: str = None, class_name: str = None, 
-                       id_name: str = None, multiple: bool = False) -> WebElement:
+    def locate_element(self, xpath: str = None, 
+                       class_name: str = None, 
+                       id_name: str = None,
+                       multiple: bool = False) -> WebElement:
         '''
         Given xpath or class name, this function locates the corresponding web
         element
@@ -119,19 +121,33 @@ class WebScraper():
         Returns:
             WebElement: element on the website
         '''
-        if xpath and multiple:
-            WebScraper.wait_element_to_load(self, xpath)
-            return self.driver.find_element(By.XPATH, xpath)
-        elif xpath and not multiple:
-            WebScraper.wait_element_to_load(self, xpath)
-            return self.driver.find_element(By.XPATH, xpath)
-        elif class_name and multiple:
-            return self.driver.find_element(By.CLASS_NAME, class_name)
-        elif class_name and not multiple:
-            return self.driver.find_element(By.CLASS_NAME, class_name)
-        if id_name:
-            return self.diver.find_element(By.ID, id_name)
-        return None
+        try:
+            if xpath and not multiple:
+                return self.driver.find_element(By.XPATH, xpath)
+            elif xpath and multiple:
+                return self.driver.find_elements(By.XPATH, xpath)
+            elif class_name:
+                return self.driver.find_element(By.CLASS_NAME, class_name)
+            elif id_name:
+                return self.driver.find_element(By.ID, id_name)
+        except Exception as e:
+            logging.warning("Failed to locate item: %s", e)
+            pass
+    
+    def locate_element_within_element(self, element: WebElement, xpath: str = None, 
+                                      class_name: str = None, id_name: str = None) -> WebElement:
+        '''
+        This function locates an element within another element
+        '''
+        try:
+            if xpath:
+                return element.find_element(By.XPATH, xpath)
+            elif class_name:
+                return element.find_element(By.CLASS_NAME, class_name)
+            elif id_name:
+                return element.find_element(By.ID, id_name)
+        except Exception as e:
+            logging.warning("Failed to locate item: %s", e)
 
     def send_request_to_search_bar(self, search_item,
                                    xpath: str = None, 
@@ -151,25 +167,12 @@ class WebScraper():
         Returns:
             WebElement: webelement of the search bar
         '''
-        logging.info("Search Bar Request for:%s", search_item)
-        search_bar = WebScraper.locate_element(self, xpath, class_name, id_name)
-        search_bar.clear()
-        search_bar.send_keys(search_item)
-        sleep(3)
-        return search_bar
-
-    def restart_driver(self, cookies_xpath):
-        '''
-        This function restarts the website
-
-        Args:
-            xpath (str): The xpath of the 'Accept cookies' button
-
-        Returns:
-            WebScraper instance
-        '''
-        self.driver.quit()
-        sleep(60)
-        bot = WebScraper(self.URL)
-        bot.accept_cookies(cookies_xpath)
-        return bot
+        try:
+            logging.info("Search bar request for: %s", search_item)
+            search_bar = WebScraper.locate_element(self, xpath, class_name, id_name)
+            search_bar.clear()
+            search_bar.send_keys(search_item)
+            sleep(3)
+            return search_bar
+        except Exception as e:
+            logging.warning("Search bar request failed %s", e)
