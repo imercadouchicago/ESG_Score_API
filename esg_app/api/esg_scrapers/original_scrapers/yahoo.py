@@ -164,7 +164,7 @@ for index, row in df.iterrows():
     sleep(2)
 
 # Save the data
-df = bot.convert_dict_to_csv(yahoo, bot.export_path)
+df = bot.convert_dict_to_csv(yahoo, 'esg_app/api/data/yahoo_scores.csv')
 print("\nFinal scraped data:", yahoo)
 bot.driver.quit()
 

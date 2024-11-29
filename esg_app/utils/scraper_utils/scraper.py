@@ -104,8 +104,8 @@ class WebScraper():
             logging.error("Cookies button not found. Error: %s", e)
         sleep(2)
 
-    def locate_element(self, xpath: str = None, class_name: str = None,
-                     multiple: bool = False) -> WebElement:
+    def locate_element(self, xpath: str = None, class_name: str = None, 
+                       id_name: str = None, multiple: bool = False) -> WebElement:
         '''
         Given xpath or class name, this function locates the corresponding web
         element
@@ -129,11 +129,14 @@ class WebScraper():
             return self.driver.find_element(By.CLASS_NAME, class_name)
         elif class_name and not multiple:
             return self.driver.find_element(By.CLASS_NAME, class_name)
+        if id_name:
+            return self.diver.find_element(By.ID, id_name)
         return None
 
-    def send_request_to_search_bar(self, header_name, df: pd.DataFrame, i: int,
-                                   xpath: str = None, class_name: int =
-                                   None) -> WebElement:
+    def send_request_to_search_bar(self, search_item,
+                                   xpath: str = None, 
+                                   class_name: int =None,
+                                   id_name: str = None) -> WebElement:
         '''
         Given xpath or class name, this function locates the search bar
         and enters the company name
@@ -148,11 +151,10 @@ class WebScraper():
         Returns:
             WebElement: webelement of the search bar
         '''
-        Company = str(df.loc[i][header_name])
-        logging.info("Search Bar Request for Company:%s", Company)
-        search_bar = WebScraper.locate_element(self, xpath, class_name)
+        logging.info("Search Bar Request for:%s", search_item)
+        search_bar = WebScraper.locate_element(self, xpath, class_name, id_name)
         search_bar.clear()
-        search_bar.send_keys(Company)
+        search_bar.send_keys(search_item)
         sleep(3)
         return search_bar
 
