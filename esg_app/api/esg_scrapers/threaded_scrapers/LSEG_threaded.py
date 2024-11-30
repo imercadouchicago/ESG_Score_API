@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 
 URL = "https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores"
-headername = 'Shortname'
+headername = 'Longname'
 export_path = 'esg_app/api/data/lseg_esg_scores.csv'
 
 def clean_company_name(name: str) -> str:

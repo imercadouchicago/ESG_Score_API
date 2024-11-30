@@ -56,7 +56,7 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tick
                 if target_result:
                     target_result.click()
                     logging.info(f"Clicked on matching result")
-                    sleep(5)
+                    sleep(2)
 
                     # Extracting profitability metrics
                     market_cap = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[9]/span[2]/fin-streamer").text
@@ -66,7 +66,7 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tick
                     # Click Sustainability tab
                     sustainability_tab = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/aside/section/nav/ul/li[13]/a/span")
                     sustainability_tab.click()
-                    sleep(5)
+                    sleep(2)
 
                     # Extracting ESG scores
                     total_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[1]/div/div/h4").text

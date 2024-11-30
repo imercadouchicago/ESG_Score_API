@@ -1,5 +1,8 @@
 MSCI_Company,MSCI_ESG_Rating,MSCI_Environment_Flag,MSCI_Social_Flag,MSCI_Governance_Flag,MSCI_Customer_Flag,MSCI_Human_Rights_Flag,MSCI_Labor_Rights_Flag
-Alphabet Inc.,BBB,Green,Yellow,Green,Yellow,Yellow,Yellow
+"Meta Platforms, Inc.",B,Green,Orange,Yellow,Orange,Yellow,Yellow
+"Tesla, Inc.",BBB,Green,Orange,Yellow,Orange,Yellow,Yellow
+Broadcom Inc.,A,Green,Yellow,Green,Yellow,Green,Green
 NVIDIA Corporation,AAA,Green,Yellow,Green,Yellow,Green,Green
 Apple Inc.,BBB,Green,Orange,Yellow,Yellow,Green,Orange
 Microsoft Corporation,AA,Green,Yellow,Yellow,Yellow,Green,Yellow
+Alphabet Inc.,BBB,Green,Yellow,Green,Yellow,Yellow,Yellow
