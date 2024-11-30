@@ -5,8 +5,6 @@ import pandas as pd
 from queue import Queue
 from tqdm import tqdm
 from threading import Lock
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
 from time import sleep
 
 # Configure logging
@@ -36,36 +34,26 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
         results = []
 
         # Accept cookies
-        try:
-            cookie_button = bot.driver.find_element(By.ID, "onetrust-accept-btn-handler")
-            cookie_button.click()
-            logging.info("Accepted cookies")
-            sleep(2)
-        except NoSuchElementException:
-            logging.info("No cookie consent found")
+        bot.accept_cookies(id_name="onetrust-accept-btn-handler")
 
-        # Iterate through all companies in this subset
+        # Iterate through companies
         for idx, row in tqdm(company_data.iterrows(),
-                            total=len(company_data),
-                            desc=f"Processing chunk",
-                            position=1,
-                            leave=False):
+                           total=len(company_data),
+                           desc=f"Processing chunk",
+                           position=1,
+                           leave=False):
             try:
-                # Check if ticker has already been processed
+                # Check if company already processed
                 with lock:
                     if row[headername] in processed_tickers:
                         logging.info(f"Skipping already processed company: {row[headername]}")
                         continue
                     processed_tickers.add(row[headername])
 
-                # Reset to main page for each company
-                bot.driver.get(URL)
-                sleep(3)
-
                 company_name = clean_company_name(row[headername])
                 logging.info(f"Processing company: {company_name}")
 
-                # Find and fill search bar
+                # Search for company
                 search_bar = bot.locate_element(xpath='//*[@id="searchInput-1"]')
                 search_bar.clear()
                 search_bar.send_keys(company_name)
@@ -75,7 +63,7 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
                     xpath='//*[@id="esg-data-body"]/div[1]/div/div/div[1]/div/button[2]'
                 )
                 search_button.click()
-                sleep(5)
+                sleep(3)  
 
                 # Extract ESG scores
                 esg_score = bot.locate_element(
@@ -92,7 +80,7 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
                 )
 
                 results.append({
-                    "LSEG_ESG_Company": company_name,
+                    "LSEG_ESG_Company": row[headername],
                     "LSEG_ESG_Score": esg_score.text if esg_score else "N/A",
                     "LSEG_Environment": environment.text if environment else "N/A",
                     "LSEG_Social": social.text if social else "N/A",
@@ -102,9 +90,8 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
 
             except Exception as e:
                 logging.error(f"Error processing company {row[headername]}: {e}")
-                # If anything fails, just add NAs for everything
                 results.append({
-                    "LSEG_ESG_Company": company_name,
+                    "LSEG_ESG_Company": row[headername],
                     "LSEG_ESG_Score": "N/A",
                     "LSEG_Environment": "N/A",
                     "LSEG_Social": "N/A",
