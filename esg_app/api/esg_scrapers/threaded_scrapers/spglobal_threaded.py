@@ -1,5 +1,6 @@
 from esg_app.utils.scraper_utils.scraper import  WebScraper
 from esg_app.utils.scraper_utils.threader import Threader
+from selenium.webdriver.common.keys import Keys
 import logging
 import pandas as pd
 from queue import Queue
@@ -45,7 +46,9 @@ def spglobal_scraper(company_data: pd.DataFrame, user_agents: Queue,
                 logging.debug(f"Processing company: {row[headername]}")
                 
                 # Send request to search bar
-                bot.send_request_to_search_bar(row[headername], class_name='banner-search__input')
+                search_bar = bot.send_request_to_search_bar(row[headername], class_name='banner-search__input')
+                search_bar.send_keys(Keys.RETURN)
+                sleep(3)
 
                 # Extract company details
                 ESG_Company = bot.locate_element('//*[@id="company-name"]')

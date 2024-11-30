@@ -917,3 +917,206 @@
 2024-11-30 04:54:48,097 - INFO - Skipping already processed company: Alphabet Inc.
 2024-11-30 04:54:48,099 - ERROR - Main process error: 'WebScraper' object has no attribute 'driver'
 2024-11-30 04:54:48,099 - INFO - Script completed
+2024-11-30 08:22:59,907 - INFO - Script started
+2024-11-30 08:22:59,907 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 08:22:59,938 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 08:22:59,941 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 08:22:59,941 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 08:24:25,481 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-30 08:24:35,482 - INFO - Attempting to accept cookies.
+2024-11-30 08:24:35,486 - ERROR - Cookies button not found. Error: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:24:37,585 - ERROR - Error processing company NVIDIA Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:24:37,585 - ERROR - Error processing company Apple Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:24:37,586 - ERROR - Error processing company Microsoft Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:24:37,586 - ERROR - Error processing company Alphabet Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:24:37,586 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 08:25:05,352 - INFO - Script started
+2024-11-30 08:25:05,352 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 08:25:05,362 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 08:25:05,364 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-30 08:25:05,364 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 08:25:07,487 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 08:25:11,441 - INFO - Search bar request for: NVDA
+2024-11-30 08:25:14,784 - INFO - Found matching ticker: NVDA
+2024-11-30 08:25:16,365 - INFO - Clicked on matching result
+2024-11-30 08:25:29,222 - INFO - Successfully scraped data for NVDA
+2024-11-30 08:25:30,692 - INFO - Search bar request for: AAPL
+2024-11-30 08:25:34,420 - INFO - Found matching ticker: AAPL
+2024-11-30 08:25:36,925 - INFO - Clicked on matching result
+2024-11-30 08:25:47,405 - INFO - Successfully scraped data for AAPL
+2024-11-30 08:25:48,499 - INFO - Search bar request for: MSFT
+2024-11-30 08:25:52,046 - INFO - Found matching ticker: MSFT
+2024-11-30 08:25:54,420 - INFO - Clicked on matching result
+2024-11-30 08:26:04,914 - INFO - Successfully scraped data for MSFT
+2024-11-30 08:26:09,551 - INFO - Search bar request for: GOOG
+2024-11-30 08:26:12,963 - INFO - Found matching ticker: GOOG
+2024-11-30 08:26:18,739 - INFO - Clicked on matching result
+2024-11-30 08:26:31,156 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[1]/div/div/h4"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:26:31,160 - ERROR - Error processing company GOOG: 'NoneType' object has no attribute 'text'
+2024-11-30 08:26:32,606 - INFO - Search bar request for: GOOGL
+2024-11-30 08:26:35,983 - INFO - Found matching ticker: GOOGL
+2024-11-30 08:26:39,939 - INFO - Clicked on matching result
+2024-11-30 08:26:52,021 - INFO - Successfully scraped data for GOOGL
+2024-11-30 08:26:52,177 - INFO - Successfully saved 4 results
+2024-11-30 08:26:52,177 - INFO - Script completed
+2024-11-30 08:28:14,527 - INFO - Script started
+2024-11-30 08:28:14,527 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 08:28:14,538 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 08:28:14,539 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-30 08:28:14,540 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 08:28:17,794 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 08:28:17,795 - INFO - Attempting to accept cookies.
+2024-11-30 08:28:18,896 - INFO - Cookies accepted successfully.
+2024-11-30 08:28:20,929 - INFO - Search bar request for: NVIDIA Corporation
+2024-11-30 08:28:24,090 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-name"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,104 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"css selector","selector":".scoreModule__score"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,115 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-country"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,124 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-industry"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,132 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-ticker"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,140 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[1]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,147 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[2]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,154 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[3]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,155 - ERROR - Error processing company NVIDIA Corporation: 'NoneType' object has no attribute 'text'
+2024-11-30 08:28:24,156 - INFO - Search bar request for: Apple Inc.
+2024-11-30 08:28:27,262 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-name"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,269 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"css selector","selector":".scoreModule__score"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,277 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-country"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,285 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-industry"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,296 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-ticker"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,310 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[1]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,319 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[2]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,327 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[3]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,328 - ERROR - Error processing company Apple Inc.: 'NoneType' object has no attribute 'text'
+2024-11-30 08:28:27,330 - INFO - Search bar request for: Microsoft Corporation
+2024-11-30 08:28:30,560 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-name"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,577 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"css selector","selector":".scoreModule__score"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,588 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-country"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,597 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-industry"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,605 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-ticker"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,612 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[1]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,618 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[2]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,625 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[3]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,625 - ERROR - Error processing company Microsoft Corporation: 'NoneType' object has no attribute 'text'
+2024-11-30 08:28:30,628 - INFO - Search bar request for: Alphabet Inc.
+2024-11-30 08:28:33,750 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-name"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,756 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"css selector","selector":".scoreModule__score"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,762 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-country"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,773 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-industry"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,779 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-ticker"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,787 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[1]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,793 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[2]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,799 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[3]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,800 - ERROR - Error processing company Alphabet Inc.: 'NoneType' object has no attribute 'text'
+2024-11-30 08:28:33,803 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 08:28:33,925 - INFO - Successfully saved 4 results
+2024-11-30 08:28:33,925 - INFO - Script completed
+2024-11-30 08:33:16,163 - INFO - Script started
+2024-11-30 08:33:16,163 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 08:33:16,175 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 08:33:16,176 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-30 08:33:16,176 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 08:34:26,183 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-30 08:34:26,185 - INFO - Attempting to accept cookies.
+2024-11-30 08:34:26,186 - ERROR - Cookies button not found. Error: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:34:28,213 - INFO - Search bar request for: NVIDIA Corporation
+2024-11-30 08:34:28,213 - WARNING - Failed to locate item: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:34:28,213 - WARNING - Search bar request failed 'NoneType' object has no attribute 'clear'
+2024-11-30 08:34:28,213 - ERROR - Error processing company NVIDIA Corporation: 'NoneType' object has no attribute 'send_keys'
+2024-11-30 08:34:28,213 - INFO - Search bar request for: Apple Inc.
+2024-11-30 08:34:28,213 - WARNING - Failed to locate item: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:34:28,213 - WARNING - Search bar request failed 'NoneType' object has no attribute 'clear'
+2024-11-30 08:34:28,214 - ERROR - Error processing company Apple Inc.: 'NoneType' object has no attribute 'send_keys'
+2024-11-30 08:34:28,214 - INFO - Search bar request for: Microsoft Corporation
+2024-11-30 08:34:28,214 - WARNING - Failed to locate item: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:34:28,214 - WARNING - Search bar request failed 'NoneType' object has no attribute 'clear'
+2024-11-30 08:34:28,214 - ERROR - Error processing company Microsoft Corporation: 'NoneType' object has no attribute 'send_keys'
+2024-11-30 08:34:28,214 - INFO - Search bar request for: Alphabet Inc.
+2024-11-30 08:34:28,214 - WARNING - Failed to locate item: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:34:28,214 - WARNING - Search bar request failed 'NoneType' object has no attribute 'clear'
+2024-11-30 08:34:28,214 - ERROR - Error processing company Alphabet Inc.: 'NoneType' object has no attribute 'send_keys'
+2024-11-30 08:34:28,214 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 08:34:33,704 - INFO - Script started
+2024-11-30 08:34:33,704 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 08:34:33,730 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 08:34:33,732 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-30 08:34:33,732 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 08:34:35,575 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 08:34:35,578 - INFO - Attempting to accept cookies.
+2024-11-30 08:34:36,853 - INFO - Cookies accepted successfully.
+2024-11-30 08:34:38,906 - INFO - Search bar request for: NVIDIA Corporation
+2024-11-30 08:34:45,251 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-30 08:34:45,255 - INFO - Search bar request for: Apple Inc.
+2024-11-30 08:34:51,525 - INFO - Successfully scraped data for Apple Inc.
+2024-11-30 08:34:51,529 - INFO - Search bar request for: Microsoft Corporation
+2024-11-30 08:34:57,779 - INFO - Successfully scraped data for Microsoft Corporation
+2024-11-30 08:34:57,782 - INFO - Search bar request for: Alphabet Inc.
+2024-11-30 08:35:04,057 - INFO - Successfully scraped data for Alphabet Inc.
+2024-11-30 08:35:04,059 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 08:35:04,165 - INFO - Successfully saved 4 results
+2024-11-30 08:35:04,165 - INFO - Script completed
