@@ -28,38 +28,44 @@ print(f"Number of missing rows: {len(missing_rows)}")
 print("\nMissing symbols:")
 print(missing_rows[16:31])
 
-# Alternative versions of functions in threaded_scraper
-def wait_element_to_load(self, xpath: str):
-    logging.debug("Waiting for element to load: %s", xpath)
-    delay = 10  # seconds
-    ignored_exceptions = (NoSuchElementException,
-                          StaleElementReferenceException,)
-    try:
-        sleep(0.5)
-        WebDriverWait(self.driver, delay,
-                      ignored_exceptions=ignored_exceptions).until(
-            EC.presence_of_element_located((By.XPATH, xpath)))
-        logging.debug("Element loaded successfully: %s", xpath)
-        return True
-    except TimeoutException:
-        logging.error("Timeout while waiting for element: %s", xpath)
-        return False
+# # Alternative versions of functions in threaded_scraper
+# def wait_element_to_load(self, xpath: str):
+#     logging.debug("Waiting for element to load: %s", xpath)
+#     delay = 10  # seconds
+#     ignored_exceptions = (NoSuchElementException,
+#                           StaleElementReferenceException,)
+#     try:
+#         sleep(0.5)
+#         WebDriverWait(self.driver, delay,
+#                       ignored_exceptions=ignored_exceptions).until(
+#             EC.presence_of_element_located((By.XPATH, xpath)))
+#         logging.debug("Element loaded successfully: %s", xpath)
+#         return True
+#     except TimeoutException:
+#         logging.error("Timeout while waiting for element: %s", xpath)
+#         return False
 
-def locate_element(self, xpath: str = None, class_name: str = None,
-                 multiple: bool = False) -> WebElement:
-    if xpath:
-        if not WebScraper.wait_element_to_load(self, xpath):
-            logging.error(f"Failed to locate element with xpath: {xpath}")
-            return None
-        try:
-            return self.driver.find_element(By.XPATH, xpath)
-        except NoSuchElementException as e:
-            logging.error(f"Element not found after wait - xpath: {xpath}. Error: {str(e)}")
-            return None
-    elif class_name:
-        try:
-            return self.driver.find_element(By.CLASS_NAME, class_name)
-        except NoSuchElementException as e:
-            logging.error(f"Element not found - class: {class_name}. Error: {str(e)}")
-            return None
-    return None
+# def locate_element(self, xpath: str = None, class_name: str = None,
+#                  multiple: bool = False) -> WebElement:
+#     if xpath:
+#         if not WebScraper.wait_element_to_load(self, xpath):
+#             logging.error(f"Failed to locate element with xpath: {xpath}")
+#             return None
+#         try:
+#             return self.driver.find_element(By.XPATH, xpath)
+#         except NoSuchElementException as e:
+#             logging.error(f"Element not found after wait - xpath: {xpath}. Error: {str(e)}")
+#             return None
+#     elif class_name:
+#         try:
+#             return self.driver.find_element(By.CLASS_NAME, class_name)
+#         except NoSuchElementException as e:
+#             logging.error(f"Element not found - class: {class_name}. Error: {str(e)}")
+#             return None
+#     return None
+
+lol = data.iloc[[4]]
+print("Data:", lol)
+print("Length", len(lol))
+lmao = np.array_split(lol, 1)
+print("Chunk:", lmao)

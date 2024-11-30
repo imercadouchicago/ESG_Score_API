@@ -44,7 +44,7 @@ msci = {
 
 try:
     df = pd.read_csv(bot.filepath)
-    df = df.head(2)
+    df = df.head(10)
     print(f"\nProcessing {len(df)} companies...")
 except Exception as e:
     print(f"Error reading CSV: {e}")
@@ -259,7 +259,7 @@ for index, row in df.iterrows():
 
 # Save the data
 df = pd.DataFrame(msci)
-df.to_csv(bot.export_path, index=False)
+df.to_csv("esg_app/api/data/msci_scores.csv", index=False)
 print("\nFinal scraped data:", msci)
 print("\nSearch completed")
 bot.driver.quit()

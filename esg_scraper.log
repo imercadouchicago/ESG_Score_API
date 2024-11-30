@@ -48,3 +48,7 @@
 2024-11-29 21:49:11,323 - INFO - WebDriver initialized and URL accessed successfully.
 2024-11-29 21:50:03,862 - INFO - Converting dictionary to CSV: esg_app/api/data/yahoo_scores.csv
 2024-11-29 21:50:03,887 - INFO - New CSV created at: esg_app/api/data/yahoo_scores.csv
+2024-11-29 23:43:44,396 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-29 23:43:49,058 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 01:31:23,687 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 01:31:26,877 - INFO - WebDriver initialized and URL accessed successfully.

@@ -35,11 +35,11 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tick
                         logging.info(f"Skipping already processed company: {row[headername]}")
                         continue
                     processed_tickers.add(row[headername])
-
-                bot.driver.get(URL)
-                
                 logging.debug(f"Processing company: {row[headername]}")
-                search_bar = bot.send_request_to_search_bar(row[headername], id_name="ybar-sbq")
+                
+                # Send request to search bar
+                bot.driver.get(URL)
+                bot.send_request_to_search_bar(row[headername], id_name="ybar-sbq")
 
                 # Wait for dropdown and find results
                 results = bot.locate_element(xpath="//li[@data-type='quotes']", multiple = True)

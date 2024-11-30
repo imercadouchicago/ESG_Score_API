@@ -478,3 +478,645 @@
 2024-11-29 22:29:46,581 - INFO - Successfully scraped data for AVGO
 2024-11-29 22:29:46,808 - INFO - Successfully saved 9 results
 2024-11-29 22:29:46,808 - INFO - Script completed
+2024-11-29 23:47:38,419 - INFO - Script started
+2024-11-29 23:47:38,420 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 23:47:38,431 - INFO - Data loaded successfully. Number of records: 10
+2024-11-29 23:47:38,432 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-29 23:47:38,432 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 23:47:38,433 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-29 23:47:38,433 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 23:48:14,504 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-29 23:48:14,505 - INFO - Attempting to accept cookies using xpath: None
+2024-11-29 23:48:14,505 - ERROR - Cookies button not found. Error: 'WebScraper' object has no attribute 'driver'
+2024-11-29 23:48:14,505 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-29 23:48:14,505 - INFO - Attempting to accept cookies using xpath: None
+2024-11-29 23:48:14,506 - ERROR - Cookies button not found. Error: 'WebScraper' object has no attribute 'driver'
+2024-11-29 23:48:16,532 - ERROR - Error processing company NVIDIA Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-29 23:48:16,533 - ERROR - Error processing company Apple Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-29 23:48:16,533 - ERROR - Error processing company Microsoft Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-29 23:48:16,533 - ERROR - Error processing company Alphabet Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-29 23:48:16,533 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-29 23:48:16,533 - ERROR - Error processing company Amazon.com, Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-29 23:48:16,534 - ERROR - Error processing company Meta Platforms, Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-29 23:48:16,534 - ERROR - Error processing company Tesla, Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-29 23:48:16,534 - ERROR - Error processing company Berkshire Hathaway Inc. New: 'WebScraper' object has no attribute 'driver'
+2024-11-29 23:48:16,534 - ERROR - Error processing company Broadcom Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-29 23:48:50,552 - INFO - Script started
+2024-11-29 23:48:50,553 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 23:48:50,566 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 23:48:50,567 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-29 23:48:50,567 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 23:48:53,966 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 23:48:53,966 - INFO - Attempting to accept cookies using xpath: None
+2024-11-29 23:48:55,044 - ERROR - Cookies button not found. Error: Message: element click intercepted: Element is not clickable at point (332, 475)
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-29 23:48:57,874 - INFO - Search bar request for: nvidia
+2024-11-29 23:49:01,092 - ERROR - Error processing company NVIDIA Corporation: 'WebElement' object is not iterable
+2024-11-29 23:49:01,165 - WARNING - No results to save
+2024-11-29 23:49:01,165 - INFO - Script completed
+2024-11-29 23:58:05,155 - INFO - Script started
+2024-11-29 23:58:05,155 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 23:58:05,166 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 23:58:05,167 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-29 23:58:05,167 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 23:58:08,181 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 23:58:08,182 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: element_to_be_clickable() takes 1 positional argument but 2 were given
+2024-11-29 23:58:08,273 - WARNING - No results to save
+2024-11-29 23:58:08,274 - INFO - Script completed
+2024-11-29 23:59:47,754 - INFO - Script started
+2024-11-29 23:59:47,755 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-29 23:59:47,767 - INFO - Data loaded successfully. Number of records: 1
+2024-11-29 23:59:47,768 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-29 23:59:47,768 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-29 23:59:49,877 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-29 23:59:49,903 - INFO - Attempting to accept cookies using xpath: None
+2024-11-29 23:59:50,991 - ERROR - Cookies button not found. Error: Message: element click intercepted: Element is not clickable at point (332, 461)
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-29 23:59:53,758 - INFO - Search bar request for: nvidia
+2024-11-29 23:59:56,854 - ERROR - Error processing company NVIDIA Corporation: 'WebElement' object is not iterable
+2024-11-29 23:59:56,925 - WARNING - No results to save
+2024-11-29 23:59:56,926 - INFO - Script completed
+2024-11-30 00:10:32,044 - INFO - Script started
+2024-11-30 00:10:32,045 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 00:10:32,057 - INFO - Data loaded successfully. Number of records: 1
+2024-11-30 00:10:32,059 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 00:10:32,059 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 00:10:35,082 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 00:10:35,117 - INFO - Attempting to accept cookies using xpath: None
+2024-11-30 00:10:36,174 - ERROR - Cookies button not found. Error: Message: element click intercepted: Element is not clickable at point (332, 487)
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-30 00:10:39,044 - INFO - Search bar request for: nvidia
+2024-11-30 00:10:48,303 - ERROR - Error processing company NVIDIA Corporation: Message: element click intercepted: Element <a id="esg-transparency-toggle-link" href="#" class="cw-toggler-clicker" data-cw_toggler_content="esg-transparency-toggle">...</a> is not clickable at point (382, 388). Other element would receive the click: <button id="onetrust-accept-btn-handler">...</button>
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-30 00:10:48,390 - WARNING - No results to save
+2024-11-30 00:10:48,390 - INFO - Script completed
+2024-11-30 00:21:51,938 - INFO - Script started
+2024-11-30 00:21:51,939 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 00:21:51,950 - INFO - Data loaded successfully. Number of records: 1
+2024-11-30 00:21:51,951 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 00:21:51,951 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 00:21:55,157 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 00:21:55,184 - INFO - Attempting to accept cookies using xpath: None
+2024-11-30 00:21:56,270 - ERROR - Cookies button not found. Error: Message: element click intercepted: Element is not clickable at point (332, 477)
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-30 00:21:59,417 - INFO - Search bar request for: nvidia
+2024-11-30 00:22:02,607 - INFO - Found match in dropdown: nvidia
+2024-11-30 00:22:08,767 - ERROR - Error processing company NVIDIA Corporation: Message: element click intercepted: Element <a id="esg-transparency-toggle-link" href="#" class="cw-toggler-clicker" data-cw_toggler_content="esg-transparency-toggle">...</a> is not clickable at point (382, 388). Other element would receive the click: <button id="onetrust-accept-btn-handler">...</button>
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-30 00:22:08,883 - WARNING - No results to save
+2024-11-30 00:22:08,883 - INFO - Script completed
+2024-11-30 00:27:04,509 - INFO - Script started
+2024-11-30 00:27:04,509 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 00:27:04,521 - INFO - Data loaded successfully. Number of records: 1
+2024-11-30 00:27:04,522 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 00:27:04,522 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 00:27:06,738 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 00:27:06,764 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: 'NoneType' object has no attribute 'click'
+2024-11-30 00:27:06,829 - WARNING - No results to save
+2024-11-30 00:27:06,829 - INFO - Script completed
+2024-11-30 00:28:11,271 - INFO - Script started
+2024-11-30 00:28:11,272 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 00:28:11,284 - INFO - Data loaded successfully. Number of records: 1
+2024-11-30 00:28:11,286 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 00:28:11,286 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 00:28:14,511 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 00:28:15,584 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: Message: element click intercepted: Element is not clickable at point (332, 479)
+  (Session info: chrome=131.0.6778.69)
+
+2024-11-30 00:28:15,649 - WARNING - No results to save
+2024-11-30 00:28:15,649 - INFO - Script completed
+2024-11-30 00:34:45,361 - INFO - Script started
+2024-11-30 00:34:45,362 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 00:34:45,373 - INFO - Data loaded successfully. Number of records: 1
+2024-11-30 00:34:45,374 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 00:34:45,374 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 00:34:47,738 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 00:34:58,963 - INFO - Search bar request for: nvidia
+2024-11-30 00:35:02,199 - INFO - Found match in dropdown: nvidia
+2024-11-30 00:35:07,357 - INFO - Clicked ESG transparency toggle
+2024-11-30 00:35:12,428 - INFO - ESG Rating: AAA
+2024-11-30 00:35:12,508 - INFO - Clicked controversies toggle
+2024-11-30 00:35:17,718 - INFO - Successfully saved 1 results
+2024-11-30 00:35:17,719 - INFO - Script completed
+2024-11-30 00:38:07,117 - INFO - Script started
+2024-11-30 00:38:07,118 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 00:38:07,132 - INFO - Data loaded successfully. Number of records: 1
+2024-11-30 00:38:07,133 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 00:38:07,133 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 00:38:10,884 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 00:38:21,871 - INFO - Search bar request for: nvidia
+2024-11-30 00:38:25,044 - INFO - Found match in dropdown: nvidia
+2024-11-30 00:38:30,290 - INFO - Clicked ESG transparency toggle
+2024-11-30 00:38:35,346 - INFO - ESG Rating: AAA
+2024-11-30 00:38:35,454 - INFO - Clicked controversies toggle
+2024-11-30 00:38:40,673 - INFO - Successfully saved 1 results
+2024-11-30 00:38:40,673 - INFO - Script completed
+2024-11-30 00:39:29,970 - INFO - Script started
+2024-11-30 00:39:29,970 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 00:39:29,982 - INFO - Data loaded successfully. Number of records: 10
+2024-11-30 00:39:29,983 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 00:39:29,983 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 00:41:04,893 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-30 00:41:14,902 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: 'WebScraper' object has no attribute 'driver'
+2024-11-30 00:41:34,419 - INFO - Script started
+2024-11-30 00:41:34,419 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 00:41:34,431 - INFO - Data loaded successfully. Number of records: 10
+2024-11-30 00:41:34,432 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 00:41:34,432 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 00:41:36,791 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 00:41:47,996 - INFO - Search bar request for: nvidia
+2024-11-30 00:41:51,224 - INFO - Found match in dropdown: nvidia
+2024-11-30 00:41:56,363 - INFO - Clicked ESG transparency toggle
+2024-11-30 00:42:01,551 - INFO - ESG Rating: AAA
+2024-11-30 00:42:01,635 - INFO - Clicked controversies toggle
+2024-11-30 00:42:07,515 - INFO - Search bar request for: apple
+2024-11-30 00:42:10,771 - INFO - Found match in dropdown: apple
+2024-11-30 00:42:15,892 - INFO - Clicked ESG transparency toggle
+2024-11-30 00:42:20,979 - INFO - ESG Rating: BBB
+2024-11-30 00:42:21,074 - INFO - Clicked controversies toggle
+2024-11-30 00:42:26,930 - INFO - Search bar request for: microsoft
+2024-11-30 00:42:30,096 - INFO - Found match in dropdown: microsoft
+2024-11-30 00:42:35,200 - INFO - Clicked ESG transparency toggle
+2024-11-30 00:42:40,265 - INFO - ESG Rating: AA
+2024-11-30 00:42:40,359 - INFO - Clicked controversies toggle
+2024-11-30 00:42:46,814 - INFO - Search bar request for: alphabet
+2024-11-30 00:42:49,964 - INFO - Found match in dropdown: alphabet
+2024-11-30 00:43:05,290 - WARNING - Timeout while waiting for element: None
+2024-11-30 00:43:05,297 - ERROR - Error processing company Alphabet Inc.: 'NoneType' object has no attribute 'click'
+2024-11-30 00:43:05,305 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 00:43:06,161 - INFO - Search bar request for: amazoncom
+2024-11-30 00:43:10,089 - INFO - Search bar request for: meta platforms
+2024-11-30 00:43:13,222 - INFO - Found match in dropdown: meta platforms
+2024-11-30 00:43:28,590 - WARNING - Timeout while waiting for element: None
+2024-11-30 00:43:28,591 - ERROR - Error processing company Meta Platforms, Inc.: 'NoneType' object has no attribute 'click'
+2024-11-30 00:43:29,807 - INFO - Search bar request for: tesla
+2024-11-30 00:43:32,988 - INFO - Found match in dropdown: tesla
+2024-11-30 00:43:48,416 - WARNING - Timeout while waiting for element: None
+2024-11-30 00:43:48,418 - ERROR - Error processing company Tesla, Inc.: 'NoneType' object has no attribute 'click'
+2024-11-30 00:43:49,745 - INFO - Search bar request for: berkshire hathaway new
+2024-11-30 00:43:53,711 - INFO - Search bar request for: broadcom
+2024-11-30 00:43:56,882 - INFO - Found match in dropdown: broadcom
+2024-11-30 00:44:12,211 - WARNING - Timeout while waiting for element: None
+2024-11-30 00:44:12,214 - ERROR - Error processing company Broadcom Inc.: 'NoneType' object has no attribute 'click'
+2024-11-30 00:44:12,334 - INFO - Successfully saved 3 results
+2024-11-30 00:44:12,334 - INFO - Script completed
+2024-11-30 00:52:06,579 - INFO - Script started
+2024-11-30 00:52:06,579 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 00:52:06,591 - INFO - Data loaded successfully. Number of records: 10
+2024-11-30 00:52:06,592 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 00:52:06,592 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 00:53:12,427 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-30 00:53:22,435 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: 'WebScraper' object has no attribute 'driver'
+2024-11-30 00:53:33,375 - INFO - Script started
+2024-11-30 00:53:33,375 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 00:53:33,386 - INFO - Data loaded successfully. Number of records: 10
+2024-11-30 00:53:33,388 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 00:53:33,388 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 00:53:38,945 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 00:53:50,054 - INFO - Search bar request for: nvidia
+2024-11-30 00:53:53,216 - INFO - Found match in dropdown: nvidia
+2024-11-30 00:54:03,400 - INFO - Clicked ESG transparency toggle
+2024-11-30 00:54:08,441 - INFO - ESG Rating: AAA
+2024-11-30 00:54:08,536 - INFO - Clicked controversies toggle
+2024-11-30 00:54:14,357 - INFO - Search bar request for: apple
+2024-11-30 00:54:17,484 - INFO - Found match in dropdown: apple
+2024-11-30 00:54:27,625 - INFO - Clicked ESG transparency toggle
+2024-11-30 00:54:32,677 - INFO - ESG Rating: BBB
+2024-11-30 00:54:32,745 - INFO - Clicked controversies toggle
+2024-11-30 00:54:39,076 - INFO - Search bar request for: microsoft
+2024-11-30 00:54:42,256 - INFO - Found match in dropdown: microsoft
+2024-11-30 00:54:52,412 - INFO - Clicked ESG transparency toggle
+2024-11-30 00:54:57,465 - INFO - ESG Rating: AA
+2024-11-30 00:54:57,531 - INFO - Clicked controversies toggle
+2024-11-30 00:55:03,557 - INFO - Search bar request for: alphabet
+2024-11-30 00:55:06,690 - INFO - Found match in dropdown: alphabet
+2024-11-30 00:55:27,085 - WARNING - Timeout while waiting for element: None
+2024-11-30 00:55:27,090 - ERROR - Error processing company Alphabet Inc.: 'NoneType' object has no attribute 'click'
+2024-11-30 00:55:27,095 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 00:55:27,910 - INFO - Search bar request for: amazoncom
+2024-11-30 00:55:32,052 - INFO - Search bar request for: meta platforms
+2024-11-30 00:55:35,185 - INFO - Found match in dropdown: meta platforms
+2024-11-30 00:55:55,512 - WARNING - Timeout while waiting for element: None
+2024-11-30 00:55:55,515 - ERROR - Error processing company Meta Platforms, Inc.: 'NoneType' object has no attribute 'click'
+2024-11-30 01:00:36,247 - INFO - Search bar request for: tesla
+2024-11-30 01:00:39,399 - INFO - Found match in dropdown: tesla
+2024-11-30 01:00:59,741 - WARNING - Timeout while waiting for element: None
+2024-11-30 01:00:59,746 - ERROR - Error processing company Tesla, Inc.: 'NoneType' object has no attribute 'click'
+2024-11-30 01:01:01,123 - INFO - Search bar request for: berkshire hathaway new
+2024-11-30 01:01:04,939 - INFO - Search bar request for: broadcom
+2024-11-30 01:01:08,068 - INFO - Found match in dropdown: broadcom
+2024-11-30 01:01:28,456 - WARNING - Timeout while waiting for element: None
+2024-11-30 01:01:28,458 - ERROR - Error processing company Broadcom Inc.: 'NoneType' object has no attribute 'click'
+2024-11-30 01:01:28,560 - INFO - Successfully saved 3 results
+2024-11-30 01:01:28,560 - INFO - Script completed
+2024-11-30 02:14:04,356 - INFO - Script started
+2024-11-30 02:14:04,356 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 02:14:04,371 - INFO - Data loaded successfully. Number of records: 1
+2024-11-30 02:14:04,372 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 02:14:04,372 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 02:14:29,015 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-30 02:14:39,024 - ERROR - Error with user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36: 'WebScraper' object has no attribute 'driver'
+2024-11-30 02:14:42,779 - INFO - Script started
+2024-11-30 02:14:42,780 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 02:14:42,795 - INFO - Data loaded successfully. Number of records: 1
+2024-11-30 02:14:42,796 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 02:14:42,796 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 02:14:44,731 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 02:14:56,070 - INFO - Search bar request for: alphabet
+2024-11-30 02:14:59,251 - INFO - Found match in dropdown: alphabet
+2024-11-30 02:15:09,418 - INFO - Clicked ESG transparency toggle
+2024-11-30 02:15:14,498 - INFO - ESG Rating: BBB
+2024-11-30 02:15:14,588 - INFO - Clicked controversies toggle
+2024-11-30 02:15:19,799 - INFO - Successfully saved 1 results
+2024-11-30 02:15:19,799 - INFO - Script completed
+2024-11-30 02:16:37,820 - INFO - Script started
+2024-11-30 02:16:37,820 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 02:16:37,832 - INFO - Data loaded successfully. Number of records: 1
+2024-11-30 02:16:37,833 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 02:16:37,834 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 02:16:40,018 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 02:16:51,118 - INFO - Search bar request for: alphabet
+2024-11-30 02:16:54,322 - INFO - Found match in dropdown: alphabet
+2024-11-30 02:17:04,510 - INFO - Clicked ESG transparency toggle
+2024-11-30 02:17:09,570 - INFO - ESG Rating: BBB
+2024-11-30 02:17:09,651 - INFO - Clicked controversies toggle
+2024-11-30 02:17:14,873 - INFO - Successfully saved 1 results
+2024-11-30 02:17:14,873 - INFO - Script completed
+2024-11-30 02:18:51,539 - INFO - Script started
+2024-11-30 02:18:51,540 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 02:18:51,553 - INFO - Data loaded successfully. Number of records: 1
+2024-11-30 02:18:51,555 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 02:18:51,555 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 02:18:54,795 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 02:19:05,637 - INFO - Search bar request for: alphabet
+2024-11-30 02:19:08,812 - INFO - Found match in dropdown: alphabet
+2024-11-30 02:19:13,903 - INFO - Clicked ESG transparency toggle
+2024-11-30 02:19:18,972 - INFO - ESG Rating: BBB
+2024-11-30 02:19:19,038 - INFO - Clicked controversies toggle
+2024-11-30 02:19:24,253 - INFO - Successfully saved 1 results
+2024-11-30 02:19:24,253 - INFO - Script completed
+2024-11-30 02:21:13,210 - INFO - Script started
+2024-11-30 02:21:13,210 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 02:21:13,222 - INFO - Data loaded successfully. Number of records: 1
+2024-11-30 02:21:13,223 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 02:21:13,223 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 02:21:15,805 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 02:21:25,809 - INFO - Attempting to accept cookies using xpath: None
+2024-11-30 02:21:25,944 - INFO - Cookies accepted successfully.
+2024-11-30 02:21:28,835 - INFO - Search bar request for: alphabet
+2024-11-30 02:21:31,961 - INFO - Found match in dropdown: alphabet
+2024-11-30 02:21:37,073 - INFO - Clicked ESG transparency toggle
+2024-11-30 02:21:42,144 - INFO - ESG Rating: BBB
+2024-11-30 02:21:42,231 - INFO - Clicked controversies toggle
+2024-11-30 02:21:47,439 - INFO - Successfully saved 1 results
+2024-11-30 02:21:47,440 - INFO - Script completed
+2024-11-30 02:22:53,512 - INFO - Script started
+2024-11-30 02:22:53,513 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 02:22:53,524 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 02:22:53,525 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 02:22:53,526 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 02:22:55,343 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 02:23:05,350 - INFO - Attempting to accept cookies using xpath: None
+2024-11-30 02:23:05,494 - INFO - Cookies accepted successfully.
+2024-11-30 02:23:08,489 - INFO - Search bar request for: nvidia
+2024-11-30 02:23:11,630 - INFO - Found match in dropdown: nvidia
+2024-11-30 02:23:16,756 - INFO - Clicked ESG transparency toggle
+2024-11-30 02:23:21,846 - INFO - ESG Rating: AAA
+2024-11-30 02:23:21,945 - INFO - Clicked controversies toggle
+2024-11-30 02:23:27,781 - INFO - Search bar request for: apple
+2024-11-30 02:23:30,938 - INFO - Found match in dropdown: apple
+2024-11-30 02:23:36,094 - INFO - Clicked ESG transparency toggle
+2024-11-30 02:23:41,148 - INFO - ESG Rating: BBB
+2024-11-30 02:23:41,224 - INFO - Clicked controversies toggle
+2024-11-30 02:23:47,117 - INFO - Search bar request for: microsoft
+2024-11-30 02:23:50,252 - INFO - Found match in dropdown: microsoft
+2024-11-30 02:23:55,424 - INFO - Clicked ESG transparency toggle
+2024-11-30 02:24:00,455 - INFO - ESG Rating: AA
+2024-11-30 02:24:00,541 - INFO - Clicked controversies toggle
+2024-11-30 02:24:08,225 - INFO - Search bar request for: alphabet
+2024-11-30 02:24:11,380 - INFO - Found match in dropdown: alphabet
+2024-11-30 02:24:16,410 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="esg-transparency-toggle-link"]"}
+  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 02:24:16,413 - ERROR - Error processing company Alphabet Inc.: 'NoneType' object has no attribute 'click'
+2024-11-30 02:24:16,417 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 02:24:16,498 - INFO - Successfully saved 3 results
+2024-11-30 02:24:16,498 - INFO - Script completed
+2024-11-30 04:20:06,521 - INFO - Script started
+2024-11-30 04:20:06,521 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 04:20:06,536 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 04:20:06,538 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 04:20:06,538 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 04:21:00,765 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-30 04:21:10,772 - INFO - Attempting to accept cookies using xpath: None
+2024-11-30 04:21:10,776 - ERROR - Cookies button not found. Error: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:21:12,848 - ERROR - Error processing company NVIDIA Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:21:12,848 - ERROR - Error processing company Apple Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:21:12,848 - ERROR - Error processing company Microsoft Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:21:12,849 - ERROR - Error processing company Alphabet Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:21:12,849 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 04:21:27,501 - INFO - Script started
+2024-11-30 04:21:27,501 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 04:21:27,521 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 04:21:27,522 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 04:21:27,523 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 04:23:11,085 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-30 04:23:21,095 - INFO - Attempting to accept cookies using xpath: None
+2024-11-30 04:23:21,104 - ERROR - Cookies button not found. Error: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:23:23,163 - ERROR - Error processing company NVIDIA Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:23:23,163 - ERROR - Error processing company Apple Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:23:23,164 - ERROR - Error processing company Microsoft Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:23:23,164 - ERROR - Error processing company Alphabet Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:23:23,164 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 04:28:17,464 - INFO - Script started
+2024-11-30 04:28:17,464 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 04:28:17,478 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 04:28:17,479 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 04:28:17,480 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 04:28:21,829 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 04:28:31,846 - INFO - Attempting to accept cookies using xpath: None
+2024-11-30 04:28:42,287 - WARNING - Timeout while waiting for element: None
+2024-11-30 04:28:42,441 - INFO - Cookies accepted successfully.
+2024-11-30 04:28:45,709 - INFO - Search bar request for: nvidia
+2024-11-30 04:28:49,047 - INFO - Found match in dropdown: nvidia
+2024-11-30 04:29:04,388 - WARNING - Timeout while waiting for element: None
+2024-11-30 04:29:04,389 - INFO - Subscription form appeared
+2024-11-30 04:29:04,429 - WARNING - Error while filling the subscription form: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="_esgratingsprofile_firstName"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 04:29:04,697 - INFO - Clicked ESG transparency toggle
+2024-11-30 04:29:09,759 - INFO - ESG Rating: AAA
+2024-11-30 04:29:09,840 - INFO - Clicked controversies toggle
+2024-11-30 04:29:16,072 - INFO - Search bar request for: apple
+2024-11-30 04:29:19,351 - INFO - Found match in dropdown: apple
+2024-11-30 04:29:34,743 - WARNING - Timeout while waiting for element: None
+2024-11-30 04:29:34,744 - INFO - Subscription form appeared
+2024-11-30 04:29:34,760 - WARNING - Error while filling the subscription form: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="_esgratingsprofile_firstName"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 04:29:34,949 - INFO - Clicked ESG transparency toggle
+2024-11-30 04:29:40,035 - INFO - ESG Rating: BBB
+2024-11-30 04:29:40,142 - INFO - Clicked controversies toggle
+2024-11-30 04:29:46,876 - INFO - Search bar request for: microsoft
+2024-11-30 04:29:50,111 - INFO - Found match in dropdown: microsoft
+2024-11-30 04:30:05,456 - WARNING - Timeout while waiting for element: None
+2024-11-30 04:30:05,457 - INFO - Subscription form appeared
+2024-11-30 04:30:05,489 - WARNING - Error while filling the subscription form: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="_esgratingsprofile_firstName"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 04:30:05,646 - INFO - Clicked ESG transparency toggle
+2024-11-30 04:30:10,703 - INFO - ESG Rating: AA
+2024-11-30 04:30:10,793 - INFO - Clicked controversies toggle
+2024-11-30 04:30:17,378 - INFO - Search bar request for: alphabet
+2024-11-30 04:30:20,553 - INFO - Found match in dropdown: alphabet
+2024-11-30 04:30:35,945 - WARNING - Timeout while waiting for element: None
+2024-11-30 04:30:35,954 - INFO - Subscription form appeared
+2024-11-30 04:30:35,986 - WARNING - Error while filling the subscription form: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="_esgratingsprofile_firstName"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 04:30:36,013 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="esg-transparency-toggle-link"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 04:30:36,014 - ERROR - Error processing company Alphabet Inc.: 'NoneType' object has no attribute 'click'
+2024-11-30 04:30:36,020 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 04:30:36,166 - INFO - Successfully saved 3 results
+2024-11-30 04:30:36,166 - INFO - Script completed
+2024-11-30 04:37:19,608 - INFO - Script started
+2024-11-30 04:37:19,608 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 04:37:19,623 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 04:37:19,625 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 04:37:19,626 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 04:43:28,519 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-30 04:43:38,527 - INFO - Attempting to accept cookies.
+2024-11-30 04:43:38,530 - ERROR - Cookies button not found. Error: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:43:40,593 - ERROR - Error processing company NVIDIA Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:43:40,594 - ERROR - Error processing company Apple Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:43:40,594 - ERROR - Error processing company Microsoft Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:43:40,594 - ERROR - Error processing company Alphabet Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:43:40,594 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 04:44:34,721 - INFO - Script started
+2024-11-30 04:44:34,722 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 04:44:34,742 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 04:44:34,744 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 04:44:34,744 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 04:54:35,978 - ERROR - Failed to initialize WebDriver or access URL. Error: Message: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=131.0.6778.85)
+
+2024-11-30 04:54:46,009 - INFO - Attempting to accept cookies.
+2024-11-30 04:54:46,021 - ERROR - Cookies button not found. Error: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:54:48,096 - ERROR - Error processing company NVIDIA Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:54:48,096 - ERROR - Error processing company Apple Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:54:48,097 - ERROR - Error processing company Microsoft Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:54:48,097 - ERROR - Error processing company Alphabet Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:54:48,097 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 04:54:48,099 - ERROR - Main process error: 'WebScraper' object has no attribute 'driver'
+2024-11-30 04:54:48,099 - INFO - Script completed
+2024-11-30 08:22:59,907 - INFO - Script started
+2024-11-30 08:22:59,907 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 08:22:59,938 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 08:22:59,941 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-11-30 08:22:59,941 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 08:24:25,481 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-30 08:24:35,482 - INFO - Attempting to accept cookies.
+2024-11-30 08:24:35,486 - ERROR - Cookies button not found. Error: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:24:37,585 - ERROR - Error processing company NVIDIA Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:24:37,585 - ERROR - Error processing company Apple Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:24:37,586 - ERROR - Error processing company Microsoft Corporation: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:24:37,586 - ERROR - Error processing company Alphabet Inc.: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:24:37,586 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 08:25:05,352 - INFO - Script started
+2024-11-30 08:25:05,352 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 08:25:05,362 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 08:25:05,364 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-11-30 08:25:05,364 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 08:25:07,487 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 08:25:11,441 - INFO - Search bar request for: NVDA
+2024-11-30 08:25:14,784 - INFO - Found matching ticker: NVDA
+2024-11-30 08:25:16,365 - INFO - Clicked on matching result
+2024-11-30 08:25:29,222 - INFO - Successfully scraped data for NVDA
+2024-11-30 08:25:30,692 - INFO - Search bar request for: AAPL
+2024-11-30 08:25:34,420 - INFO - Found matching ticker: AAPL
+2024-11-30 08:25:36,925 - INFO - Clicked on matching result
+2024-11-30 08:25:47,405 - INFO - Successfully scraped data for AAPL
+2024-11-30 08:25:48,499 - INFO - Search bar request for: MSFT
+2024-11-30 08:25:52,046 - INFO - Found matching ticker: MSFT
+2024-11-30 08:25:54,420 - INFO - Clicked on matching result
+2024-11-30 08:26:04,914 - INFO - Successfully scraped data for MSFT
+2024-11-30 08:26:09,551 - INFO - Search bar request for: GOOG
+2024-11-30 08:26:12,963 - INFO - Found matching ticker: GOOG
+2024-11-30 08:26:18,739 - INFO - Clicked on matching result
+2024-11-30 08:26:31,156 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[1]/div/div/h4"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:26:31,160 - ERROR - Error processing company GOOG: 'NoneType' object has no attribute 'text'
+2024-11-30 08:26:32,606 - INFO - Search bar request for: GOOGL
+2024-11-30 08:26:35,983 - INFO - Found matching ticker: GOOGL
+2024-11-30 08:26:39,939 - INFO - Clicked on matching result
+2024-11-30 08:26:52,021 - INFO - Successfully scraped data for GOOGL
+2024-11-30 08:26:52,177 - INFO - Successfully saved 4 results
+2024-11-30 08:26:52,177 - INFO - Script completed
+2024-11-30 08:28:14,527 - INFO - Script started
+2024-11-30 08:28:14,527 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 08:28:14,538 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 08:28:14,539 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-30 08:28:14,540 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 08:28:17,794 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 08:28:17,795 - INFO - Attempting to accept cookies.
+2024-11-30 08:28:18,896 - INFO - Cookies accepted successfully.
+2024-11-30 08:28:20,929 - INFO - Search bar request for: NVIDIA Corporation
+2024-11-30 08:28:24,090 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-name"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,104 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"css selector","selector":".scoreModule__score"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,115 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-country"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,124 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-industry"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,132 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-ticker"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,140 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[1]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,147 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[2]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,154 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[3]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:24,155 - ERROR - Error processing company NVIDIA Corporation: 'NoneType' object has no attribute 'text'
+2024-11-30 08:28:24,156 - INFO - Search bar request for: Apple Inc.
+2024-11-30 08:28:27,262 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-name"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,269 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"css selector","selector":".scoreModule__score"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,277 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-country"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,285 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-industry"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,296 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-ticker"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,310 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[1]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,319 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[2]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,327 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[3]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:27,328 - ERROR - Error processing company Apple Inc.: 'NoneType' object has no attribute 'text'
+2024-11-30 08:28:27,330 - INFO - Search bar request for: Microsoft Corporation
+2024-11-30 08:28:30,560 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-name"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,577 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"css selector","selector":".scoreModule__score"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,588 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-country"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,597 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-industry"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,605 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-ticker"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,612 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[1]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,618 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[2]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,625 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[3]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:30,625 - ERROR - Error processing company Microsoft Corporation: 'NoneType' object has no attribute 'text'
+2024-11-30 08:28:30,628 - INFO - Search bar request for: Alphabet Inc.
+2024-11-30 08:28:33,750 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-name"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,756 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"css selector","selector":".scoreModule__score"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,762 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-country"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,773 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-industry"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,779 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="company-ticker"]"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,787 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[1]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,793 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[2]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,799 - WARNING - Failed to locate item: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[3]/div[2]/ul/li[1]/span"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2024-11-30 08:28:33,800 - ERROR - Error processing company Alphabet Inc.: 'NoneType' object has no attribute 'text'
+2024-11-30 08:28:33,803 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 08:28:33,925 - INFO - Successfully saved 4 results
+2024-11-30 08:28:33,925 - INFO - Script completed
+2024-11-30 08:33:16,163 - INFO - Script started
+2024-11-30 08:33:16,163 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 08:33:16,175 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 08:33:16,176 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-30 08:33:16,176 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 08:34:26,183 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-30 08:34:26,185 - INFO - Attempting to accept cookies.
+2024-11-30 08:34:26,186 - ERROR - Cookies button not found. Error: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:34:28,213 - INFO - Search bar request for: NVIDIA Corporation
+2024-11-30 08:34:28,213 - WARNING - Failed to locate item: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:34:28,213 - WARNING - Search bar request failed 'NoneType' object has no attribute 'clear'
+2024-11-30 08:34:28,213 - ERROR - Error processing company NVIDIA Corporation: 'NoneType' object has no attribute 'send_keys'
+2024-11-30 08:34:28,213 - INFO - Search bar request for: Apple Inc.
+2024-11-30 08:34:28,213 - WARNING - Failed to locate item: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:34:28,213 - WARNING - Search bar request failed 'NoneType' object has no attribute 'clear'
+2024-11-30 08:34:28,214 - ERROR - Error processing company Apple Inc.: 'NoneType' object has no attribute 'send_keys'
+2024-11-30 08:34:28,214 - INFO - Search bar request for: Microsoft Corporation
+2024-11-30 08:34:28,214 - WARNING - Failed to locate item: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:34:28,214 - WARNING - Search bar request failed 'NoneType' object has no attribute 'clear'
+2024-11-30 08:34:28,214 - ERROR - Error processing company Microsoft Corporation: 'NoneType' object has no attribute 'send_keys'
+2024-11-30 08:34:28,214 - INFO - Search bar request for: Alphabet Inc.
+2024-11-30 08:34:28,214 - WARNING - Failed to locate item: 'WebScraper' object has no attribute 'driver'
+2024-11-30 08:34:28,214 - WARNING - Search bar request failed 'NoneType' object has no attribute 'clear'
+2024-11-30 08:34:28,214 - ERROR - Error processing company Alphabet Inc.: 'NoneType' object has no attribute 'send_keys'
+2024-11-30 08:34:28,214 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 08:34:33,704 - INFO - Script started
+2024-11-30 08:34:33,704 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-11-30 08:34:33,730 - INFO - Data loaded successfully. Number of records: 5
+2024-11-30 08:34:33,732 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-11-30 08:34:33,732 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-11-30 08:34:35,575 - INFO - WebDriver initialized and URL accessed successfully.
+2024-11-30 08:34:35,578 - INFO - Attempting to accept cookies.
+2024-11-30 08:34:36,853 - INFO - Cookies accepted successfully.
+2024-11-30 08:34:38,906 - INFO - Search bar request for: NVIDIA Corporation
+2024-11-30 08:34:45,251 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-11-30 08:34:45,255 - INFO - Search bar request for: Apple Inc.
+2024-11-30 08:34:51,525 - INFO - Successfully scraped data for Apple Inc.
+2024-11-30 08:34:51,529 - INFO - Search bar request for: Microsoft Corporation
+2024-11-30 08:34:57,779 - INFO - Successfully scraped data for Microsoft Corporation
+2024-11-30 08:34:57,782 - INFO - Search bar request for: Alphabet Inc.
+2024-11-30 08:35:04,057 - INFO - Successfully scraped data for Alphabet Inc.
+2024-11-30 08:35:04,059 - INFO - Skipping already processed company: Alphabet Inc.
+2024-11-30 08:35:04,165 - INFO - Successfully saved 4 results
+2024-11-30 08:35:04,165 - INFO - Script completed
