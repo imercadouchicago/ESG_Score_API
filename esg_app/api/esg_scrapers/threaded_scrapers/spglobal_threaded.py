@@ -5,7 +5,6 @@ import pandas as pd
 from queue import Queue
 from tqdm import tqdm
 from threading import Lock
-from selenium.webdriver.common.keys import Keys
 from time import sleep
 
 # Configure logging
@@ -43,13 +42,10 @@ def spglobal_scraper(company_data: pd.DataFrame, user_agents: Queue,
                         logging.info(f"Skipping already processed company: {row[headername]}")
                         continue
                     processed_tickers.add(row[headername])
-
                 logging.debug(f"Processing company: {row[headername]}")
+                
                 # Send request to search bar
-                search_bar = bot.send_request_to_search_bar(
-                    row[headername], class_name='banner-search__input')
-                search_bar.send_keys(Keys.RETURN)
-                sleep(3)
+                bot.send_request_to_search_bar(row[headername], class_name='banner-search__input')
 
                 # Extract company details
                 ESG_Company = bot.locate_element('//*[@id="company-name"]')
