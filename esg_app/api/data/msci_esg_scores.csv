@@ -1,4 +1,456 @@
 MSCI_Company,MSCI_ESG_Rating,MSCI_Environment_Flag,MSCI_Social_Flag,MSCI_Governance_Flag,MSCI_Customer_Flag,MSCI_Human_Rights_Flag,MSCI_Labor_Rights_Flag
+Vulcan Materials Company,A,Yellow,Green,Green,Green,Green,Green
+Arch Capital Group Ltd.,A,Green,Green,Green,Green,Green,Green
+Sysco Corporation,A,Green,Orange,Green,Green,Green,Orange
+"Yum! Brands, Inc.",BBB,Green,Yellow,Yellow,Yellow,Green,Yellow
+"Martin Marietta Materials, Inc.",AA,Green,Green,Green,Green,Green,Green
+The Hershey Company,A,Green,Yellow,Green,Green,Green,Yellow
+ResMed Inc.,A,Green,Green,Green,Green,Green,Green
+Microchip Technology Incorporated,A,Green,Green,Green,Green,Green,Green
+Nucor Corporation,AA,Green,Green,Green,Green,Green,Green
+Extra Space Storage Inc.,BB,Green,Green,Green,Green,Green,Green
+HP Inc.,AA,Green,Yellow,Green,Green,Green,Yellow
+Las Vegas Sands Corp.,BBB,Green,Green,Green,Green,Green,Green
+"General Mills, Inc.",AAA,Green,Yellow,Green,Green,Green,Yellow
+"IDEXX Laboratories, Inc.",AAA,Green,Yellow,Green,Yellow,Green,Green
+"DuPont de Nemours, Inc.",A,Yellow,Orange,Green,Green,Orange,Orange
+Westinghouse Air Brake Technologies Corporation,A,Green,Yellow,Green,Green,Green,Yellow
+"The Hartford Financial Services Group, Inc.",A,Green,Yellow,Green,Yellow,Green,Green
+Humana Inc.,AA,Green,Yellow,Yellow,Yellow,Green,Green
+"Consolidated Edison, Inc.",A,Green,Yellow,Green,Green,Green,Yellow
+Iron Mountain Incorporated,AA,Green,Green,Green,Green,Green,Green
+Equifax Inc.,BBB,Green,Yellow,Green,Yellow,Green,Green
+"Raymond James Financial, Inc.",AA,Green,Green,Green,Green,Green,Green
+VICI Properties Inc.,A,Green,Green,Green,Green,Green,Green
+"AvalonBay Communities, Inc.",A,Green,Yellow,Green,Yellow,Green,Green
+"Brown & Brown, Inc.",BBB,Green,Green,Green,Green,Green,Green
+Edison International,A,Green,Orange,Yellow,Yellow,Orange,Green
+Entergy Corporation,BBB,Green,Yellow,Yellow,Yellow,Yellow,Green
+Willis Towers Watson Public Limited Company,AA,Green,Green,Green,Green,Green,Green
+"Take-Two Interactive Software, Inc.",A,Green,Green,Green,Green,Green,Green
+Fifth Third Bancorp,A,Green,Orange,Yellow,Orange,Green,Green
+Dow Inc.,AA,Yellow,Yellow,Green,Yellow,Yellow,Green
+"Rockwell Automation, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Monolithic Power Systems, Inc.",BBB,Green,Green,Green,Green,Green,Green
+"WEC Energy Group, Inc.",A,Green,Green,Green,Green,Green,Green
+"CoStar Group, Inc.",BBB,Green,Yellow,Green,Yellow,Green,Green
+Xylem Inc.,AAA,Green,Green,Green,Green,Green,Green
+"ANSYS, Inc.",AAA,Green,Green,Green,Green,Green,Green
+"Live Nation Entertainment, Inc.",BBB,Green,Yellow,Green,Yellow,Green,Green
+ON Semiconductor Corporation,A,Green,Green,Green,Green,Green,Green
+"Cardinal Health, Inc.",AA,Green,Green,Orange,Green,Green,Green
+Tractor Supply Company,AAA,Green,Green,Green,Green,Green,Green
+Global Payments Inc.,BBB,Green,Green,Green,Green,Green,Green
+Centene Corporation,AA,Green,Green,Yellow,Green,Green,Green
+eBay Inc.,A,Green,Yellow,Green,Yellow,Green,Green
+"DexCom, Inc.",A,Green,Green,Green,Green,Green,Green
+Equity Residential,BBB,Green,Yellow,Green,Yellow,Green,Green
+"PPG Industries, Inc.",AAA,Green,Green,Green,Green,Green,Green
+Hewlett Packard Enterprise Company,AAA,Green,Yellow,Green,Green,Green,Yellow
+"Keysight Technologies, Inc.",AAA,Green,Green,Green,Green,Green,Green
+Kellanova,AAA,Green,Yellow,Green,Green,Green,Yellow
+"NVR, Inc.",A,Green,Green,Green,Green,Green,Green
+State Street Corporation,AA,Green,Green,Green,Green,Green,Green
+Dover Corporation,AA,Green,Green,Green,Green,Green,Green
+LyondellBasell Industries N.V.,AA,Green,Yellow,Green,Green,Green,Yellow
+"Ventas, Inc.",BBB,Green,Green,Green,Green,Green,Green
+Deckers Outdoor Corporation,AAA,Green,Green,Green,Green,Green,Green
+"Leidos Holdings, Inc.",AA,Green,Green,Yellow,Green,Green,Green
+Mettler-Toledo International Inc.,AA,Green,Green,Green,Green,Green,Green
+Halliburton Company,A,Green,Green,Green,Green,Green,Green
+"Broadridge Financial Solutions, Inc.",AAA,Green,Green,Green,Green,Green,Green
+"Tyler Technologies, Inc.",A,Green,Green,Green,Green,Green,Green
+"Church & Dwight Co., Inc.",AA,Green,Green,Green,Green,Green,Green
+"PulteGroup, Inc.",AA,Green,Green,Green,Green,Green,Green
+GoDaddy Inc.,AA,Green,Green,Green,Green,Green,Green
+"T. Rowe Price Group, Inc.",AA,Green,Green,Green,Green,Green,Green
+EQT Corporation,AA,Green,Green,Green,Green,Green,Green
+"Corpay, Inc.",BB,Green,Yellow,Green,Yellow,Green,Green
+Fortive Corporation,AA,Green,Green,Green,Green,Green,Green
+"American Water Works Company, Inc.",A,Green,Green,Green,Green,Green,Green
+Veralto Corporation,AAA,Green,Green,Green,Green,Green,Green
+Huntington Bancshares Incorporated,AA,Green,Green,Green,Green,Green,Green
+CDW Corporation,A,Green,Green,Green,Green,Green,Green
+Synchrony Financial,AA,Green,Green,Green,Green,Green,Green
+Devon Energy Corporation,A,Yellow,Green,Green,Green,Green,Green
+DTE Energy Company,AA,Yellow,Orange,Green,Orange,Green,Green
+"NetApp, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Rollins, Inc.",BBB,Green,Green,Green,Green,Green,Green
+Archer-Daniels-Midland Company,AA,Yellow,Green,Yellow,Green,Green,Green
+Ameren Corporation,A,Yellow,Yellow,Green,Green,Yellow,Green
+PPL Corporation,BBB,Green,Green,Green,Green,Green,Green
+Biogen Inc.,AA,Green,Green,Green,Green,Green,Green
+Hubbell Incorporated,AA,Green,Green,Green,Green,Green,Green
+FirstEnergy Corp.,A,Green,Yellow,Green,Yellow,Green,Green
+Regions Financial Corporation,A,Green,Green,Green,Green,Green,Green
+"West Pharmaceutical Services, Inc.",AA,Green,Green,Green,Green,Green,Green
+Cincinnati Financial Corporation,BBB,Green,Green,Green,Green,Green,Green
+SBA Communications Corporation,AA,Green,Green,Green,Green,Green,Green
+"Expedia Group, Inc.",BB,Green,Yellow,Yellow,Yellow,Green,Green
+PTC Inc.,AA,Green,Green,Green,Green,Green,Green
+W. R. Berkley Corporation,BB,Green,Yellow,Green,Green,Green,Yellow
+Waters Corporation,AAA,Green,Green,Green,Green,Green,Green
+International Flavors & Fragrances Inc.,AA,Green,Yellow,Yellow,Yellow,Green,Green
+Atmos Energy Corporation,A,Green,Yellow,Green,Green,Green,Yellow
+Teledyne Technologies Incorporated,A,Green,Green,Green,Green,Green,Green
+"Warner Bros. Discovery, Inc.",BBB,Green,Green,Green,Green,Green,Green
+"Tyson Foods, Inc.",BBB,Yellow,Orange,Green,Orange,Yellow,Yellow
+Weyerhaeuser Company,AA,Green,Yellow,Green,Green,Green,Yellow
+Eversource Energy,AA,Green,Green,Yellow,Green,Green,Green
+Western Digital Corporation,AA,Green,Green,Green,Green,Green,Green
+"Steel Dynamics, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Zimmer Biomet Holdings, Inc.",AA,Green,Green,Green,Green,Green,Green
+Erie Indemnity Company,B,Green,Green,Green,Green,Green,Green
+Packaging Corporation of America,BB,Green,Green,Green,Green,Green,Green
+Northern Trust Corporation,A,Green,Green,Green,Green,Green,Green
+"Cboe Global Markets, Inc.",AA,Green,Green,Yellow,Green,Green,Green
+Zebra Technologies Corporation,A,Green,Green,Green,Green,Green,Green
+Fox Corporation,A,Green,Orange,Yellow,Orange,Green,Yellow
+"Builders FirstSource, Inc.",A,Green,Green,Green,Green,Green,Green
+"McCormick & Company, Incorporated",AA,Green,Green,Green,Green,Green,Green
+Invitation Homes Inc.,BBB,Green,Yellow,Green,Yellow,Green,Green
+"Citizens Financial Group, Inc.",A,Green,Yellow,Green,Yellow,Green,Green
+Labcorp Holdings Inc.,AA,Green,Orange,Yellow,Orange,Green,Green
+The Clorox Company,AAA,Yellow,Yellow,Green,Yellow,Green,Green
+CMS Energy Corporation,AA,Green,Orange,Yellow,Orange,Green,Green
+"The Cooper Companies, Inc.",AA,Green,Orange,Green,Orange,Green,Green
+Omnicom Group Inc.,BBB,Green,Yellow,Green,Green,Green,Yellow
+"Essex Property Trust, Inc.",BB,Green,Yellow,Green,Yellow,Green,Green
+"Principal Financial Group, Inc.",A,Green,Green,Green,Green,Green,Green
+International Paper Company,AA,Green,Green,Green,Green,Green,Green
+"CenterPoint Energy, Inc.",A,Green,Yellow,Green,Yellow,Green,Green
+"Darden Restaurants, Inc.",BBB,Green,Green,Green,Green,Green,Green
+"First Solar, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Best Buy Co., Inc.",AAA,Green,Green,Green,Green,Green,Green
+Insulet Corporation,A,Green,Green,Green,Green,Green,Green
+Southwest Airlines Co.,B,Green,Orange,Yellow,Yellow,Green,Orange
+"Mid-America Apartment Communities, Inc.",BB,Green,Green,Green,Green,Green,Green
+Brown-Forman Corporation,AA,Green,Green,Green,Green,Green,Green
+KeyCorp,A,Green,Green,Green,Green,Green,Green
+"Alexandria Real Estate Equities, Inc.",BBB,Green,Green,Green,Green,Green,Green
+Snap-on Incorporated,BBB,Green,Green,Green,Green,Green,Green
+Gen Digital Inc.,AA,Green,Green,Green,Green,Green,Green
+"NRG Energy, Inc.",BB,Green,Yellow,Green,Yellow,Yellow,Green
+Coterra Energy Inc.,BBB,Green,Green,Green,Green,Green,Green
+"Hologic, Inc.",AA,Green,Green,Green,Green,Green,Green
+FactSet Research Systems Inc.,AA,Green,Green,Green,Green,Green,Green
+Jacobs Solutions Inc.,AA,Green,Yellow,Green,Green,Green,Yellow
+"Molina Healthcare, Inc.",AA,Green,Green,Yellow,Green,Green,Green
+Ball Corporation,AAA,Green,Green,Green,Green,Green,Green
+Quest Diagnostics Incorporated,AAA,Green,Yellow,Green,Yellow,Green,Green
+Loews Corporation,BB,Green,Green,Green,Green,Green,Green
+"Ulta Beauty, Inc.",AA,Green,Yellow,Green,Green,Green,Yellow
+Trimble Inc.,AA,Green,Green,Green,Green,Green,Green
+"VeriSign, Inc.",A,Green,Green,Green,Green,Green,Green
+"Teradyne, Inc.",A,Green,Green,Green,Green,Green,Green
+News Corporation,BBB,Green,Yellow,Yellow,Yellow,Green,Green
+IDEX Corporation,AA,Green,Green,Green,Green,Green,Green
+Genuine Parts Company,A,Green,Green,Green,Green,Green,Green
+Masco Corporation,BBB,Green,Green,Green,Green,Green,Green
+NiSource Inc.,AAA,Green,Green,Green,Green,Green,Green
+"Moderna, Inc.",AA,Green,Yellow,Green,Yellow,Green,Green
+Hormel Foods Corporation,AA,Green,Yellow,Green,Yellow,Green,Green
+Kimco Realty Corporation,BBB,Green,Green,Green,Green,Green,Green
+"UDR, Inc.",BB,Green,Yellow,Green,Yellow,Green,Green
+"Expeditors International of Washington, Inc.",AAA,Green,Green,Green,Green,Green,Green
+Dollar General Corporation,A,Green,Yellow,Green,Green,Green,Yellow
+"Align Technology, Inc.",A,Green,Green,Green,Green,Green,Green
+Avery Dennison Corporation,AA,Green,Green,Green,Green,Green,Green
+Textron Inc.,A,Green,Yellow,Green,Yellow,Green,Green
+"Everest Group, Ltd.",A,Green,Green,Green,Green,Green,Green
+Incyte Corporation,AA,Green,Green,Green,Green,Green,Green
+Viatris Inc.,BBB,Green,Orange,Green,Orange,Green,Green
+Alliant Energy Corporation,AA,Green,Green,Green,Green,Green,Green
+"Healthpeak Properties, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Domino's Pizza, Inc.",BBB,Green,Green,Green,Green,Green,Green
+Jabil Inc.,A,Green,Green,Green,Green,Green,Green
+Nordson Corporation,BBB,Green,Green,Green,Green,Green,Green
+Amcor plc,A,Green,Green,Green,Green,Green,Green
+"CF Industries Holdings, Inc.",BBB,Green,Green,Green,Green,Green,Green
+"Revvity, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Evergy, Inc.",A,Green,Green,Green,Green,Green,Green
+"F5, Inc.",AA,Green,Green,Green,Green,Green,Green
+"EPAM Systems, Inc.",A,Green,Green,Green,Green,Green,Green
+"BXP, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Skyworks Solutions, Inc.",A,Green,Green,Green,Green,Green,Green
+"Akamai Technologies, Inc.",AA,Green,Green,Green,Green,Green,Green
+Pool Corporation,AA,Green,Green,Green,Green,Green,Green
+"Universal Health Services, Inc.",CCC,Green,Red,Green,Red,Green,Yellow
+"Stanley Black & Decker, Inc.",BBB,Green,Green,Green,Green,Green,Green
+Regency Centers Corporation,AA,Green,Green,Green,Green,Green,Green
+"Dollar Tree, Inc.",A,Green,Yellow,Green,Yellow,Green,Yellow
+Aptiv PLC,AA,Green,Yellow,Green,Green,Green,Yellow
+"Conagra Brands, Inc.",AA,Green,Yellow,Green,Yellow,Green,Green
+"Paycom Software, Inc.",A,Green,Green,Green,Green,Green,Green
+DaVita Inc.,AA,Green,Yellow,Yellow,Yellow,Green,Yellow
+"Jack Henry & Associates, Inc.",A,Green,Green,Green,Green,Green,Green
+"C.H. Robinson Worldwide, Inc.",AAA,Green,Yellow,Green,Green,Green,Yellow
+Camden Property Trust,BB,Green,Yellow,Green,Yellow,Green,Green
+"Juniper Networks, Inc.",AA,Green,Green,Green,Green,Green,Green
+Molson Coors Beverage Company,AAA,Green,Green,Green,Green,Green,Green
+"Host Hotels & Resorts, Inc.",A,Green,Green,Green,Green,Green,Green
+"Super Micro Computer, Inc.",B,Green,Green,Green,Green,Green,Green
+Dayforce Inc,AA,Green,Green,Green,Green,Green,Green
+Solventum Corporation,AA,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+Bunge Global SA,AAA,Yellow,Green,Green,Green,Green,Green
+Albemarle Corporation,A,Green,Green,Yellow,Green,Green,Green
+The J. M. Smucker Company,A,Green,Green,Green,Green,Green,Green
+"CarMax, Inc.",AA,Green,Green,Green,Green,Green,Green
+Bio-Techne Corporation,A,Green,Green,Green,Green,Green,Green
+"Lamb Weston Holdings, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Franklin Resources, Inc.",BBB,Green,Green,Yellow,Green,Green,Green
+"Charles River Laboratories International, Inc.",A,Green,Green,Yellow,Green,Green,Green
+MGM Resorts International,BBB,Green,Yellow,Green,Green,Green,Yellow
+"The Interpublic Group of Companies, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Assurant, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Catalent, Inc.",A,Green,Green,Green,Green,Green,Green
+A. O. Smith Corporation,BBB,Green,Green,Green,Green,Green,Green
+MarketAxess Holdings Inc.,AA,Green,Green,Green,Green,Green,Green
+LKQ Corporation,AAA,Green,Green,Green,Green,Green,Green
+The AES Corporation,AA,Yellow,Orange,Green,Green,Orange,Green
+"Wynn Resorts, Limited",BB,Green,Green,Green,Green,Green,Green
+Teleflex Incorporated,AA,Green,Green,Green,Green,Green,Green
+"Henry Schein, Inc.",A,Green,Green,Green,Green,Green,Green
+Celanese Corporation,A,Green,Green,Green,Green,Green,Green
+The Mosaic Company,A,Green,Yellow,Green,Green,Green,Yellow
+"Enphase Energy, Inc.",AA,Green,Green,Green,Green,Green,Green
+APA Corporation,A,Green,Green,Green,Green,Green,Green
+"Huntington Ingalls Industries, Inc.",AA,Green,Yellow,Green,Green,Green,Yellow
+"Match Group, Inc.",BB,Green,Orange,Green,Orange,Green,Yellow
+"Walgreens Boots Alliance, Inc.",A,Green,Yellow,Yellow,Yellow,Green,Green
+"Qorvo, Inc.",A,Green,Green,Green,Green,Green,Green
 NVIDIA Corporation,AAA,Green,Yellow,Green,Yellow,Green,Green
 Apple Inc.,BBB,Green,Orange,Yellow,Yellow,Green,Orange
 Microsoft Corporation,AA,Green,Yellow,Yellow,Yellow,Green,Yellow
+Alphabet Inc.,BBB,Green,Yellow,Green,Yellow,Yellow,Yellow
+"Meta Platforms, Inc.",B,Green,Orange,Yellow,Orange,Yellow,Yellow
+"Tesla, Inc.",BBB,Green,Orange,Yellow,Orange,Yellow,Yellow
+Berkshire Hathaway Inc.,BB,Green,Orange,Green,Yellow,Orange,Yellow
+Broadcom Inc.,A,Green,Yellow,Green,Yellow,Green,Green
+Eli Lilly and Company,A,Green,Yellow,Yellow,Yellow,Green,Yellow
+Walmart Inc.,BBB,Green,Orange,Orange,Yellow,Green,Orange
+JPMorgan Chase & Co.,A,Green,Yellow,Orange,Yellow,Green,Green
+Visa Inc.,AA,Green,Yellow,Green,Yellow,Green,Green
+UnitedHealth Group Incorporated,A,Green,Orange,Orange,Orange,Green,Orange
+Exxon Mobil Corporation,BBB,Orange,Orange,Yellow,Yellow,Orange,Yellow
+Oracle Corporation,A,Green,Yellow,Green,Green,Green,Yellow
+Mastercard Incorporated,AA,Green,Yellow,Green,Yellow,Green,Green
+Costco Wholesale Corporation,A,Green,Orange,Green,Yellow,Green,Orange
+"The Home Depot, Inc.",AA,Green,Yellow,Green,Green,Green,Yellow
+The Procter & Gamble Company,A,Orange,Yellow,Green,Green,Green,Yellow
+Johnson & Johnson,A,Green,Orange,Yellow,Orange,Yellow,Green
+Bank of America Corporation,A,Green,Yellow,Orange,Yellow,Green,Yellow
+"Netflix, Inc.",BB,Green,Yellow,Yellow,Yellow,Green,Yellow
+"Salesforce, Inc.",AA,Green,Yellow,Green,Green,Yellow,Green
+AbbVie Inc.,A,Green,Orange,Green,Orange,Green,Green
+"T-Mobile US, Inc.",BB,Green,Orange,Green,Orange,Orange,Green
+Chevron Corporation,A,Yellow,Yellow,Green,Yellow,Yellow,Yellow
+The Coca-Cola Company,AA,Orange,Yellow,Orange,Yellow,Green,Yellow
+"Merck & Co., Inc.",A,Green,Yellow,Green,Yellow,Green,Green
+Wells Fargo & Company,BB,Green,Orange,Orange,Orange,Green,Orange
+"Cisco Systems, Inc.",AA,Green,Yellow,Green,Yellow,Green,Yellow
+"Advanced Micro Devices, Inc.",AA,Green,Green,Green,Green,Green,Green
+Adobe Inc.,AAA,Green,Yellow,Green,Yellow,Green,Green
+"PepsiCo, Inc.",AA,Orange,Yellow,Green,Yellow,Green,Green
+Blackstone Inc.,BB,Green,Yellow,Green,Yellow,Green,Yellow
+"ServiceNow, Inc.",AAA,Green,Green,Green,Green,Green,Green
+McDonald's Corporation,A,Green,Orange,Yellow,Yellow,Green,Orange
+Morgan Stanley,AA,Green,Green,Orange,Green,Green,Green
+Thermo Fisher Scientific Inc.,BB,Green,Yellow,Green,Yellow,Yellow,Green
+American Express Company,AA,Green,Yellow,Green,Yellow,Green,Green
+Abbott Laboratories,BB,Green,Orange,Green,Orange,Green,Green
+Intuit Inc.,AAA,Green,Green,Green,Green,Green,Green
+International Business Machines Corporation,AA,Green,Orange,Green,Green,Green,Orange
+Texas Instruments Incorporated,AAA,Green,Green,Green,Green,Green,Green
+Philip Morris International Inc.,BBB,Orange,Orange,Green,Orange,Green,Yellow
+"Intuitive Surgical, Inc.",A,Green,Orange,Green,Orange,Green,Green
+Caterpillar Inc.,AA,Green,Yellow,Green,Green,Green,Yellow
+"The Goldman Sachs Group, Inc.",A,Green,Yellow,Orange,Green,Green,Yellow
+The Walt Disney Company,A,Green,Orange,Yellow,Yellow,Green,Orange
+QUALCOMM Incorporated,A,Green,Green,Green,Green,Green,Green
+Danaher Corporation,A,Green,Green,Green,Green,Green,Green
+Verizon Communications Inc.,A,Green,Yellow,Green,Yellow,Green,Yellow
+Comcast Corporation,BBB,Green,Green,Green,Green,Green,Green
+Booking Holdings Inc.,A,Green,Green,Yellow,Green,Green,Green
+RTX Corporation,A,Yellow,Orange,Yellow,Green,Orange,Green
+Amgen Inc.,A,Green,Yellow,Orange,Yellow,Green,Green
+S&P Global Inc.,AA,Green,Green,Green,Green,Green,Green
+"Applied Materials, Inc.",AAA,Green,Green,Yellow,Green,Green,Green
+The Progressive Corporation,A,Green,Green,Green,Green,Green,Green
+"BlackRock, Inc.",A,Green,Yellow,Yellow,Green,Green,Yellow
+"Lowe's Companies, Inc.",AA,Green,Yellow,Green,Green,Green,Yellow
+"NextEra Energy, Inc.",AA,Yellow,Yellow,Yellow,Yellow,Green,Yellow
+"Uber Technologies, Inc.",A,Green,Orange,Orange,Yellow,Green,Orange
+Pfizer Inc.,A,Green,Orange,Yellow,Orange,Green,Green
+Stryker Corporation,A,Green,Green,Yellow,Green,Green,Green
+Union Pacific Corporation,AA,Green,Yellow,Green,Yellow,Green,Green
+The Charles Schwab Corporation,BBB,Green,Green,Green,Green,Green,Green
+KKR & Co. Inc.,BBB,Green,Orange,Green,Green,Orange,Green
+Palantir Technologies Inc.,B,Green,Yellow,Green,Green,Yellow,Green
+"The TJX Companies, Inc.",A,Green,Yellow,Green,Yellow,Green,Green
+Lockheed Martin Corporation,AA,Green,Yellow,Green,Yellow,Yellow,Green
+Boston Scientific Corporation,BB,Green,Yellow,Green,Yellow,Green,Green
+Citigroup Inc.,A,Green,Yellow,Orange,Green,Green,Yellow
+"Palo Alto Networks, Inc.",AA,Green,Green,Green,Green,Green,Green
+ConocoPhillips,AA,Yellow,Orange,Green,Green,Orange,Green
+Vertex Pharmaceuticals Incorporated,AA,Green,Yellow,Green,Yellow,Green,Green
+"Automatic Data Processing, Inc.",AAA,Green,Green,Green,Green,Green,Green
+"Arista Networks, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Fiserv, Inc.",A,Green,Green,Green,Green,Green,Green
+"Gilead Sciences, Inc.",AAA,Green,Orange,Green,Orange,Green,Green
+"Micron Technology, Inc.",A,Green,Green,Green,Green,Green,Green
+"NIKE, Inc.",BB,Green,Orange,Green,Green,Green,Orange
+Chubb Limited,BBB,Green,Green,Green,Green,Green,Green
+Starbucks Corporation,A,Green,Orange,Green,Yellow,Green,Orange
+"United Parcel Service, Inc.",BBB,Green,Orange,Green,Yellow,Orange,Orange
+"Marsh & McLennan Companies, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Analog Devices, Inc.",A,Green,Green,Green,Green,Green,Green
+The Boeing Company,BB,Green,Orange,Orange,Orange,Yellow,Green
+Deere & Company,AA,Green,Yellow,Green,Yellow,Green,Yellow
+"Prologis, Inc.",A,Green,Green,Green,Green,Green,Green
+Intel Corporation,AAA,Green,Yellow,Green,Yellow,Green,Green
+Lam Research Corporation,AAA,Green,Green,Green,Green,Green,Green
+The Sherwin-Williams Company,A,Green,Green,Green,Green,Green,Green
+The Southern Company,A,Green,Yellow,Yellow,Yellow,Yellow,Green
+Dell Technologies Inc.,A,Green,Yellow,Green,Green,Green,Yellow
+"Elevance Health, Inc.",AAA,Green,Green,Yellow,Green,Green,Green
+The Cigna Group,AA,Green,Orange,Green,Orange,Green,Green
+Trane Technologies plc,AAA,Green,Yellow,Green,Yellow,Green,Yellow
+"Altria Group, Inc.",A,Green,Orange,Orange,Orange,Green,Green
+Cintas Corporation,A,Green,Yellow,Green,Yellow,Green,Green
+American Tower Corporation,AAA,Green,Green,Green,Green,Green,Green
+"Regeneron Pharmaceuticals, Inc.",A,Green,Green,Yellow,Green,Green,Green
+"Waste Management, Inc.",A,Green,Yellow,Green,Green,Green,Yellow
+Parker-Hannifin Corporation,BBB,Green,Green,Green,Green,Green,Green
+"Intercontinental Exchange, Inc.",AA,Green,Green,Green,Green,Green,Green
+GE Vernova Inc.,A,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+"Mondelez International, Inc.",A,Orange,Yellow,Green,Green,Green,Yellow
+KLA Corporation,A,Green,Green,Green,Green,Green,Green
+"HCA Healthcare, Inc.",A,Green,Yellow,Green,Yellow,Green,Yellow
+"Equinix, Inc.",AA,Green,Green,Yellow,Green,Green,Green
+Amphenol Corporation,BBB,Green,Green,Green,Green,Green,Green
+"PayPal Holdings, Inc.",A,Green,Yellow,Green,Yellow,Green,Green
+Duke Energy Corporation,AA,Green,Yellow,Green,Yellow,Yellow,Green
+Moody's Corporation,AA,Green,Green,Green,Green,Green,Green
+General Dynamics Corporation,A,Green,Yellow,Green,Green,Yellow,Yellow
+"Synopsys, Inc.",AA,Green,Green,Green,Green,Green,Green
+Welltower Inc.,AA,Green,Green,Green,Green,Green,Green
+"CrowdStrike Holdings, Inc.",BB,Green,Yellow,Green,Yellow,Green,Green
+"The PNC Financial Services Group, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Airbnb, Inc.",BB,Green,Yellow,Yellow,Yellow,Green,Green
+"Motorola Solutions, Inc.",AA,Green,Green,Green,Green,Green,Green
+Aon plc,A,Green,Yellow,Green,Yellow,Green,Green
+"Chipotle Mexican Grill, Inc.",BBB,Green,Yellow,Green,Green,Green,Yellow
+"Cadence Design Systems, Inc.",AA,Green,Green,Green,Green,Green,Green
+CME Group Inc.,BBB,Green,Green,Green,Green,Green,Green
+Illinois Tool Works Inc.,A,Green,Green,Green,Green,Green,Green
+"Marriott International, Inc.",BBB,Green,Orange,Green,Orange,Yellow,Yellow
+Zoetis Inc.,AAA,Green,Yellow,Green,Yellow,Green,Green
+McKesson Corporation,AA,Green,Green,Yellow,Green,Green,Green
+Northrop Grumman Corporation,A,Green,Orange,Yellow,Green,Yellow,Orange
+TransDigm Group Incorporated,BB,Green,Yellow,Green,Green,Green,Yellow
+"Fortinet, Inc.",BBB,Green,Green,Green,Green,Green,Green
+"EOG Resources, Inc.",A,Green,Yellow,Green,Yellow,Green,Yellow
+Colgate-Palmolive Company,A,Orange,Yellow,Green,Green,Green,Yellow
+Emerson Electric Co.,BBB,Green,Green,Green,Green,Green,Green
+Target Corporation,AA,Green,Yellow,Green,Yellow,Green,Green
+"O'Reilly Automotive, Inc.",BBB,Green,Green,Green,Green,Green,Green
+Constellation Energy Corporation,BBB,Green,Yellow,Green,Green,Green,Yellow
+Capital One Financial Corporation,A,Green,Yellow,Green,Yellow,Green,Green
+3M Company,AAA,Yellow,Orange,Green,Orange,Orange,Green
+Ecolab Inc.,AAA,Yellow,Yellow,Green,Green,Yellow,Green
+FedEx Corporation,A,Green,Orange,Green,Yellow,Orange,Orange
+CSX Corporation,AA,Green,Yellow,Green,Yellow,Yellow,Green
+"The Williams Companies, Inc.",AA,Green,Yellow,Green,Yellow,Yellow,Green
+"Air Products and Chemicals, Inc.",A,Green,Green,Green,Green,Green,Green
+CVS Health Corporation,BBB,Green,Yellow,Yellow,Yellow,Green,Yellow
+Carrier Global Corporation,AA,Yellow,Orange,Green,Green,Orange,Green
+"Simon Property Group, Inc.",BBB,Green,Green,Green,Green,Green,Green
+"Becton, Dickinson and Company",BBB,Green,Orange,Green,Orange,Orange,Green
+"Autodesk, Inc.",AAA,Green,Green,Green,Green,Green,Green
+"Republic Services, Inc.",A,Green,Green,Green,Green,Green,Green
+Arthur J. Gallagher & Co.,A,Green,Green,Green,Green,Green,Green
+Royal Caribbean Cruises Ltd.,BBB,Green,Yellow,Green,Yellow,Green,Green
+General Motors Company,BBB,Green,Yellow,Green,Yellow,Green,Yellow
+"ONEOK, Inc.",AAA,Green,Yellow,Green,Green,Yellow,Green
+Freeport-McMoRan Inc.,BBB,Orange,Orange,Green,Green,Orange,Yellow
+Truist Financial Corporation,A,Green,Green,Green,Green,Green,Green
+Aflac Incorporated,A,Green,Green,Green,Green,Green,Green
+PACCAR Inc,A,Green,Green,Green,Green,Green,Green
+"Digital Realty Trust, Inc.",AA,Green,Green,Green,Green,Green,Green
+Hilton Worldwide Holdings Inc.,A,Green,Yellow,Green,Green,Green,Yellow
+"Roper Technologies, Inc.",A,Green,Green,Green,Green,Green,Green
+Norfolk Southern Corporation,A,Yellow,Orange,Green,Yellow,Orange,Yellow
+"Kinder Morgan, Inc.",AAA,Green,Yellow,Yellow,Green,Green,Yellow
+"W.W. Grainger, Inc.",AAA,Green,Green,Green,Green,Green,Green
+"The Travelers Companies, Inc.",A,Green,Green,Green,Green,Green,Green
+Sempra,A,Green,Orange,Yellow,Orange,Yellow,Green
+Public Storage,BBB,Green,Green,Green,Green,Green,Green
+Fair Isaac Corporation,AA,Green,Green,Green,Green,Green,Green
+NXP Semiconductors N.V.,AAA,Green,Green,Green,Green,Green,Green
+"United Rentals, Inc.",AA,Green,Green,Green,Green,Green,Green
+"MetLife, Inc.",AA,Green,Yellow,Green,Yellow,Green,Green
+Johnson Controls International plc,AA,Yellow,Orange,Green,Green,Orange,Green
+The Bank of New York Mellon Corporation,AA,Green,Green,Yellow,Green,Green,Green
+"Charter Communications, Inc.",BBB,Green,Yellow,Green,Green,Green,Yellow
+"Copart, Inc.",A,Green,Yellow,Green,Green,Green,Yellow
+Monster Beverage Corporation,BB,Green,Green,Green,Green,Green,Green
+"Ameriprise Financial, Inc.",A,Green,Green,Green,Green,Green,Green
+"AutoZone, Inc.",A,Green,Green,Green,Green,Green,Green
+"Paychex, Inc.",AA,Green,Green,Green,Green,Green,Green
+Phillips 66,AA,Yellow,Orange,Green,Green,Orange,Green
+"Diamondback Energy, Inc.",AA,Green,Yellow,Green,Yellow,Green,Green
+The Allstate Corporation,A,Green,Orange,Green,Orange,Green,Green
+"D.R. Horton, Inc.",A,Green,Green,Green,Green,Green,Green
+Marathon Petroleum Corporation,BBB,Yellow,Orange,Green,Green,Orange,Yellow
+"L3Harris Technologies, Inc.",A,Green,Orange,Green,Green,Green,Orange
+"American Electric Power Company, Inc.",A,Green,Yellow,Yellow,Yellow,Green,Green
+"Cencora, Inc.",AA,Green,Yellow,Yellow,Yellow,Green,Green
+Cummins Inc.,AAA,Green,Yellow,Green,Green,Green,Yellow
+Vistra Corp.,BB,Green,Yellow,Green,Yellow,Green,Green
+"Old Dominion Freight Line, Inc.",AA,Green,Yellow,Green,Green,Green,Yellow
+"Quanta Services, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Dominion Energy, Inc.",AA,Green,Yellow,Green,Green,Green,Yellow
+Fastenal Company,A,Green,Yellow,Green,Green,Green,Yellow
+Newmont Corporation,AA,Green,Yellow,Green,Green,Green,Yellow
+"Fidelity National Information Services, Inc.",AA,Green,Green,Green,Green,Green,Green
+Occidental Petroleum Corporation,A,Yellow,Yellow,Green,Green,Yellow,Green
+"American International Group, Inc.",BBB,Green,Yellow,Green,Green,Green,Yellow
+"Ross Stores, Inc.",BBB,Green,Green,Green,Green,Green,Green
+Howmet Aerospace Inc.,A,Green,Green,Green,Green,Green,Green
+"Nasdaq, Inc.",AA,Green,Green,Green,Green,Green,Green
+Kenvue Inc.,AA,Green,Green,Green,Green,Green,Green
+Keurig Dr Pepper Inc.,AA,Green,Green,Green,Green,Green,Green
+"AMETEK, Inc.",A,Green,Green,Green,Green,Green,Green
+Lennar Corporation,BB,Green,Green,Green,Green,Green,Green
+"Prudential Financial, Inc.",AAA,Green,Green,Green,Green,Green,Green
+Discover Financial Services,AA,Green,Green,Green,Green,Green,Green
+Crown Castle Inc.,AAA,Green,Green,Green,Green,Green,Green
+Ford Motor Company,BB,Green,Orange,Green,Orange,Green,Yellow
+Kimberly-Clark Corporation,AA,Green,Yellow,Green,Green,Green,Yellow
+Hess Corporation,AAA,Yellow,Yellow,Green,Yellow,Yellow,Green
+Valero Energy Corporation,AA,Yellow,Yellow,Green,Green,Yellow,Yellow
+"Constellation Brands, Inc.",A,Green,Green,Green,Green,Green,Green
+Baker Hughes Company,AA,Green,Yellow,Green,Green,Green,Yellow
+Public Service Enterprise Group Incorporated,AAA,Green,Green,Green,Green,Green,Green
+The Kroger Co.,AA,Green,Orange,Yellow,Green,Green,Orange
+Electronic Arts Inc.,AA,Green,Yellow,Green,Yellow,Green,Green
+"Gartner, Inc.",AA,Green,Green,Green,Green,Green,Green
+Targa Resources Corp.,AA,Green,Green,Green,Green,Green,Green
+Ingersoll Rand Inc.,AA,Green,Green,Green,Green,Green,Green
+Corning Incorporated,BBB,Green,Green,Green,Green,Green,Green
+"Delta Air Lines, Inc.",AA,Green,Yellow,Green,Yellow,Yellow,Yellow
+Garmin Ltd.,A,Green,Green,Green,Green,Green,Green
+"CBRE Group, Inc.",AA,Green,Green,Green,Green,Green,Green
+"Verisk Analytics, Inc.",A,Green,Green,Green,Green,Green,Green
+Cognizant Technology Solutions Corporation,A,Green,Yellow,Yellow,Green,Green,Yellow
+Otis Worldwide Corporation,A,Green,Yellow,Green,Green,Green,Yellow
+Lululemon Athletica Inc.,AA,Yellow,Yellow,Green,Green,Yellow,Yellow
+Xcel Energy Inc.,AA,Green,Orange,Green,Yellow,Orange,Green
+"Corteva, Inc.",BBB,Orange,Orange,Green,Orange,Orange,Orange
+Edwards Lifesciences Corporation,AAA,Green,Green,Green,Green,Green,Green
+GE HealthCare Technologies Inc.,A,Green,Green,Green,Green,Green,Green
+IQVIA Holdings Inc.,AA,Green,Green,Green,Green,Green,Green
+The Kraft Heinz Company,AA,Green,Yellow,Green,Green,Green,Yellow
+"Agilent Technologies, Inc.",AA,Green,Green,Green,Green,Green,Green
+Exelon Corporation,AA,Green,Yellow,Green,Yellow,Green,Yellow
