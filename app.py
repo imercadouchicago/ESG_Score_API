@@ -1,7 +1,7 @@
 """This module creates a flask app by registering routes."""
 
 from flask import Flask
-from esg_app.api.routes import all_routes
+from esg_app.api.routes.routes import all_routes
 
 
 def create_app():

@@ -1,0 +1,218 @@
+from esg_app.utils.scraper_utils.scraper import WebScraper
+from esg_app.utils.scraper_utils.threader import Threader
+from esg_app.utils.scraper_utils.msci_utils import (clean_company_name,
+get_flag_color)
+import logging
+import pandas as pd
+from queue import Queue
+from tqdm import tqdm
+from threading import Lock
+from time import sleep
+
+
+# Configure logging
+logging.basicConfig(
+    filename='parallel_scraping.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
+
+URL = "https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool"
+headername = 'Longname'
+export_path = 'esg_app/api/data/msci_esg_scores.csv'
+
+def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tickers: set, lock: Lock) -> list[dict]:
+    output = []
+    companies_processed = 0
+    
+    # Save original user agents to reuse
+    original_agents = []
+    while not user_agents.empty():
+        original_agents.append(user_agents.get())
+    
+    try:
+        # Initialize first browser instance
+        for agent in original_agents:
+            user_agents.put(agent)
+        
+        bot = WebScraper(URL, user_agents)
+        if not hasattr(bot, 'driver'):
+            logging.error("Failed to initialize WebDriver")
+            return None
+            
+        sleep(5)
+        
+        # Accept initial cookies
+        cookies_path = "onetrust-accept-btn-handler"
+        cookie_button = bot.accept_cookies(id_name=cookies_path)
+
+        for index, row in tqdm(company_data.iterrows(),
+                             total=len(company_data),
+                             desc=f"Processing chunk",
+                             position=1,
+                             leave=False):
+            
+            # Restart browser every 2 companies
+            if companies_processed > 0 and companies_processed % 2 == 0:
+                logging.info("Restarting browser with clean cache")
+                bot.driver.quit()
+                sleep(2)
+                
+                # Refill user agents queue
+                for agent in original_agents:
+                    user_agents.put(agent)
+                
+                # Initialize new browser instance
+                bot = WebScraper(URL, user_agents)
+                if not hasattr(bot, 'driver'):
+                    logging.error("Failed to initialize WebDriver during restart")
+                    continue
+                    
+                sleep(5)
+                
+                # Accept cookies for new session
+                cookie_button = bot.accept_cookies(id_name=cookies_path)
+            
+            try:
+                with lock:
+                    if row[headername] in processed_tickers:
+                        logging.info(f"Skipping already processed company: {row[headername]}")
+                        continue
+                    processed_tickers.add(row[headername])
+                
+                logging.debug(f"Processing company: {row[headername]}")
+                company_name = row[headername]
+                cleaned_name = clean_company_name(company_name)
+                
+                # Navigate to URL
+                bot.driver.get(URL)
+                sleep(2)
+                
+                # Search for company
+                bot.send_request_to_search_bar(cleaned_name, id_name="_esgratingsprofile_keywords")
+                dropdown = bot.locate_element(class_name="ui-autocomplete")
+                results = bot.locate_element_within_element(dropdown, class_name="msci-ac-search-section-title", multiple=True)
+
+                for result in results:
+                    result_name = result.get_attribute('data-value')
+                    cleaned_result = clean_company_name(result_name)
+                    if cleaned_result == cleaned_name:
+                        try:
+                            bot.driver.execute_script("arguments[0].click();", result)
+                        except:
+                            try:
+                                result.click()
+                            except:
+                                parent = bot.locate_element_within_element(result, xpath="..")
+                                bot.driver.execute_script("arguments[0].click();", parent)
+                        
+                        logging.info("Found match in dropdown: %s", cleaned_result)
+                        sleep(3)
+
+                        # Get ESG data
+                        toggle_path = "esg-transparency-toggle-link"
+                        toggle = bot.locate_element(id_name=toggle_path)
+                        toggle.click()
+                        logging.info("Clicked ESG transparency toggle")
+                        sleep(3)
+
+                        # Get ESG Rating
+                        rating_map = {
+                            "esg-rating-circle-aaa": "AAA",
+                            "esg-rating-circle-aa": "AA",
+                            "esg-rating-circle-a": "A",
+                            "esg-rating-circle-bbb": "BBB",
+                            "esg-rating-circle-bb": "BB",
+                            "esg-rating-circle-b": "B",
+                            "esg-rating-circle-ccc": "CCC",
+                        }
+                        rating_section = bot.locate_element(class_name="ratingdata-container")
+                        outer_circle = bot.locate_element(class_name="ratingdata-outercircle")
+                        rating_div = bot.locate_element_within_element(outer_circle, class_name="ratingdata-company-rating")
+                        class_str = rating_div.get_attribute("class")
+                        esg_rating = next((rating for key, rating in rating_map.items() if key in class_str), "Unknown")
+                        logging.info("ESG Rating: %s", esg_rating)
+
+                        # Get controversies
+                        controversies_toggle = bot.locate_element(id_name="esg-controversies-toggle-link")
+                        controversies_toggle.click()
+                        logging.info("Clicked controversies toggle")
+                        sleep(3)
+
+                        controversies_table = bot.locate_element(id_name="controversies-table")
+                        env_flag = bot.locate_element_within_element(controversies_table, xpath=".//div[contains(@class, 'column-controversy') and contains(text(), 'Environment')]")
+                        social_flag = bot.locate_element_within_element(controversies_table, xpath=".//div[contains(@class, 'column-controversy') and contains(text(), 'Social')]")
+                        gov_flag = bot.locate_element_within_element(controversies_table, xpath=".//div[contains(@class, 'column-controversy') and contains(text(), 'Governance')]")
+                        customer_flag = bot.locate_element_within_element(controversies_table, xpath=".//div[contains(@class, 'subcolumn-controversy') and contains(text(), 'Customers')]")
+                        hr_flag = bot.locate_element_within_element(controversies_table, xpath=".//div[contains(@class, 'subcolumn-controversy') and contains(text(), 'Human Rights')]")
+                        labor_flag = bot.locate_element_within_element(controversies_table, xpath=".//div[contains(@class, 'subcolumn-controversy') and contains(text(), 'Labor Rights')]")
+
+                        output.append({
+                            "MSCI_Company": company_name,
+                            "MSCI_ESG_Rating": esg_rating,
+                            "MSCI_Environment_Flag": get_flag_color(env_flag),
+                            "MSCI_Social_Flag": get_flag_color(social_flag),
+                            "MSCI_Governance_Flag": get_flag_color(gov_flag),
+                            "MSCI_Customer_Flag": get_flag_color(customer_flag),
+                            "MSCI_Human_Rights_Flag": get_flag_color(hr_flag),
+                            "MSCI_Labor_Rights_Flag": get_flag_color(labor_flag)
+                        })
+
+                companies_processed += 1
+
+            except Exception as e:
+                logging.error(f"Error processing company {row[headername]}: {e}")
+                continue
+
+        return output
+
+    except Exception as e:
+        logging.error(f"Error in scraper: {e}")
+        return None
+    finally:
+        if 'bot' in locals() and hasattr(bot, 'driver'):
+            bot.driver.quit()
+
+
+if __name__ == "__main__":
+    Threader(msci_scraper, export_path)
+
+# Isa to change this code here, so that we can identify more companies. Not exactly sure how to change the company_df input which Isa can change slightly 
+'''
+    try:
+        msci_df = pd.read_csv('esg_app/api/data/msci_esg_scores.csv')
+        sp500_df = pd.read_csv('esg_app/api/data/SP500.csv')
+        
+        # Get lists of companies
+        msci_companies = set(msci_df['MSCI_Company'])
+        sp500_companies = set(sp500_df['Longname'])
+        
+        # Find missing companies
+        missing_companies = list(sp500_companies - msci_companies)
+        
+        # Create DataFrame in correct format
+        company_data = pd.DataFrame({
+            'Longname': missing_companies  # This matches the headername used in msci_scraper
+        })
+        
+        # Run scraper with missing companies
+        URL = "https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool"
+        headername = 'Longname'
+        export_path = 'esg_app/api/data/msci_esg_scores_missing.csv'
+        
+        Threader(msci_scraper, export_path, company_data)  # Pass company_data directly
+        
+        # Combine results
+        try:
+            original_data = pd.read_csv('esg_app/api/data/msci_esg_scores.csv')
+            new_data = pd.read_csv('esg_app/api/data/msci_esg_scores_missing.csv')
+            combined_data = pd.concat([original_data, new_data], ignore_index=True)
+            combined_data.to_csv('esg_app/api/data/msci_esg_scores.csv', index=False)
+            print(f"Successfully added {len(new_data)} companies to main dataset")
+            
+        except Exception as e:
+            print(f"Error combining datasets: {e}")
+            
+    except Exception as e:
+        print(f"Error processing missing companies: {e}")
+'''
