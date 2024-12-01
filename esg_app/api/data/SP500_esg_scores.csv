@@ -10,7 +10,7 @@ Berkshire Hathaway Inc. ESG Score,15,Location: United States of America,Industry
 Broadcom Inc. ESG Score,36,Location: United States of America,Industry: SEM Semiconductors & Semiconductor Equipment,Ticker: AVGO,32,40,38
 Eli Lilly and Company ESG Score,39,Location: United States of America,Industry: DRG Pharmaceuticals,Ticker: LLY,56,33,37
 Walmart Inc. ESG Score,52,Location: United States of America,Industry: FDR Food & Staples Retailing,Ticker: WMT,67,36,53
-JPMorgan Chase & Co. ESG Score,35,Location: United States of America,Industry: BNK Banks,Ticker: JPM,39,36,33
+JPMorgan Chase & Co. ESG Score,33,Location: United States of America,Industry: BNK Banks,Ticker: JPM,39,36,30
 Visa Inc. ESG Score,57,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: V,85,64,43
 UnitedHealth Group Incorporated ESG Score,51,Location: United States of America,Industry: HEA Health Care Providers & Services,Ticker: UNH,58,61,38
 Exxon Mobil Corporation ESG Score,38,Location: United States of America,Industry: OGX Oil & Gas Upstream & Integrated,Ticker: XOM,33,34,47
@@ -32,7 +32,7 @@ Wells Fargo & Company ESG Score,38,Location: United States of America,Industry: 
 "Cisco Systems, Inc. ESG Score",67,Location: United States of America,Industry: CMT Communications Equipment,Ticker: CSCO,73,66,62
 "Advanced Micro Devices, Inc. ESG Score",50,Location: United States of America,Industry: SEM Semiconductors & Semiconductor Equipment,Ticker: AMD,44,50,56
 Adobe Inc. ESG Score,57,Location: United States of America,Industry: SOF Software,Ticker: ADBE,66,45,63
-"PepsiCo, Inc. ESG Score",47,Location: United States of America,Industry: BVG Beverages,Ticker: PEP,53,46,41
+"PepsiCo, Inc. ESG Score",46,Location: United States of America,Industry: BVG Beverages,Ticker: PEP,52,46,40
 Accenture plc ESG Score,54,Location: Ireland,Industry: TSV IT services,Ticker: ACN,68,44,55
 Blackstone Inc. ESG Score,27,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: BX,22,23,32
 Linde plc ESG Score,79,Location: United Kingdom of Great Britain and Northern Ireland,Industry: CHM Chemicals,Ticker: LIN,87,75,72
@@ -41,6 +41,7 @@ McDonald's Corporation ESG Score,30,Location: United States of America,Industry:
 Morgan Stanley ESG Score,37,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: MS,50,38,33
 Thermo Fisher Scientific Inc. ESG Score,50,Location: United States of America,Industry: LIF Life Sciences Tools & Services,Ticker: TMO,60,44,51
 American Express Company ESG Score,44,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: AXP,44,38,47
+Abbott Laboratories ESG Score,64,Location: United States of America,Industry: MTC Health Care Equipment & Supplies,Ticker: ABT,66,66,60
 Abbott Laboratories ESG Score,64,Location: United States of America,Industry: MTC Health Care Equipment & Supplies,Ticker: ABT,66,66,60
 Intuit Inc. ESG Score,46,Location: United States of America,Industry: SOF Software,Ticker: INTU,52,32,57
 International Business Machines Corporation ESG Score,60,Location: United States of America,Industry: TSV IT services,Ticker: IBM,76,49,60
@@ -81,6 +82,7 @@ Citigroup Inc. ESG Score,39,Location: United States of America,Industry: BNK Ban
 ConocoPhillips ESG Score,56,Location: United States of America,Industry: OGX Oil & Gas Upstream & Integrated,Ticker: COP,54,61,55
 Vertex Pharmaceuticals Incorporated ESG Score,39,Location: United States of America,Industry: BTC Biotechnology,Ticker: VRTX,37,35,43
 "Automatic Data Processing, Inc. ESG Score",40,Location: United States of America,Industry: PRO Professional Services,Ticker: ADP,46,31,49
+"Arista Networks, Inc. ESG Score",37,Location: United States of America,Industry: CMT Communications Equipment,Ticker: ANET,36,31,44
 "Fiserv, Inc. ESG Score",41,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: FI,35,33,48
 Bristol-Myers Squibb Company ESG Score,48,Location: United States of America,Industry: DRG Pharmaceuticals,Ticker: BMY,46,41,56
 "Gilead Sciences, Inc. ESG Score",63,Location: United States of America,Industry: BTC Biotechnology,Ticker: GILD,64,68,58
@@ -110,8 +112,10 @@ American Tower Corporation ESG Score,45,Location: United States of America,Indus
 "Waste Management, Inc. ESG Score",60,Location: United States of America,Industry: ICS Commercial Services & Supplies,Ticker: WM,69,53,59
 Parker-Hannifin Corporation ESG Score,36,Location: United States of America,Industry: IEQ Machinery and Electrical Equipment,Ticker: PH,37,29,39
 "Intercontinental Exchange, Inc. ESG Score",42,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: ICE,56,32,44
+"Intercontinental Exchange, Inc. ESG Score",42,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: ICE,56,32,44
 "Mondelez International, Inc. ESG Score",63,Location: United States of America,Industry: FOA Food Products,Ticker: MDLZ,69,62,54
 KLA Corporation ESG Score,57,Location: United States of America,Industry: SEM Semiconductors & Semiconductor Equipment,Ticker: KLAC,59,51,60
+"HCA Healthcare, Inc. ESG Score",32,Location: United States of America,Industry: HEA Health Care Providers & Services,Ticker: HCA,30,32,33
 "Equinix, Inc. ESG Score",60,Location: United States of America,Industry: REI Equity Real Estate Investment Trusts (REITs),Ticker: EQIX,70,46,62
 Amphenol Corporation ESG Score,42,Location: United States of America,"Industry: ITC Electronic Equipment, Instruments & Components",Ticker: APH,47,29,49
 "PayPal Holdings, Inc. ESG Score",61,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: PYPL,79,48,63
@@ -161,7 +165,7 @@ General Motors Company ESG Score,50,Location: United States of America,Industry:
 "ONEOK, Inc. ESG Score",60,Location: United States of America,Industry: PIP Oil & Gas Storage & Transportation,Ticker: OKE,60,59,60
 Freeport-McMoRan Inc. ESG Score,69,Location: United States of America,Industry: MNX Metals & Mining,Ticker: FCX,67,69,69
 Schlumberger Limited ESG Score,62,Location: United States of America,Industry: OIE Energy Equipment & Services,Ticker: SLB,77,52,55
-Truist Financial Corporation ESG Score,41,Location: United States of America,Industry: BNK Banks,Ticker: TFC,32,31,51
+Schlumberger Limited ESG Score,62,Location: United States of America,Industry: OIE Energy Equipment & Services,Ticker: SLB,77,52,55
 Aflac Incorporated ESG Score,45,Location: United States of America,Industry: INS Insurance,Ticker: AFL,42,36,51
 PACCAR Inc ESG Score,39,Location: United States of America,Industry: IEQ Machinery and Electrical Equipment,Ticker: PCAR,47,32,37
 "Digital Realty Trust, Inc. ESG Score",65,Location: United States of America,Industry: REI Equity Real Estate Investment Trusts (REITs),Ticker: DLR,83,49,59
@@ -198,6 +202,7 @@ Marathon Petroleum Corporation ESG Score,51,Location: United States of America,I
 Cummins Inc. ESG Score,51,Location: United States of America,Industry: IEQ Machinery and Electrical Equipment,Ticker: CMI,54,47,49
 Vistra Corp. ESG Score,54,Location: United States of America,Industry: ELC Electric Utilities,Ticker: VST,57,43,59
 "Old Dominion Freight Line, Inc. ESG Score",30,Location: United States of America,Industry: TRA Transportation and Transportation Infrastructure,Ticker: ODFL,25,28,40
+"Quanta Services, Inc. ESG Score",37,Location: United States of America,Industry: CON Construction & Engineering,Ticker: PWR,39,23,47
 "Dominion Energy, Inc. ESG Score",38,Location: United States of America,Industry: MUW Multi and Water Utilities,Ticker: D,36,39,40
 Fastenal Company ESG Score,32,Location: United States of America,Industry: TCD Trading Companies & Distributors,Ticker: FAST,35,28,34
 Newmont Corporation ESG Score,78,Location: United States of America,Industry: MNX Metals & Mining,Ticker: NEM,69,82,84
@@ -205,7 +210,7 @@ MSCI Inc. ESG Score,51,Location: United States of America,Industry: FBN Diversif
 "Fidelity National Information Services, Inc. ESG Score",49,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: FIS,50,42,53
 Occidental Petroleum Corporation ESG Score,42,Location: United States of America,Industry: OGX Oil & Gas Upstream & Integrated,Ticker: OXY,47,31,43
 "American International Group, Inc. ESG Score",41,Location: United States of America,Industry: INS Insurance,Ticker: AIG,38,32,49
-"Ross Stores, Inc. ESG Score",29,Location: United States of America,Industry: RTS Retailing,Ticker: ROST,33,21,35
+"American International Group, Inc. ESG Score",41,Location: United States of America,Industry: INS Insurance,Ticker: AIG,38,32,49
 Howmet Aerospace Inc. ESG Score,51,Location: United States of America,Industry: ARO Aerospace & Defense,Ticker: HWM,53,50,51
 TE Connectivity plc ESG Score,55,Location: Ireland,"Industry: ITC Electronic Equipment, Instruments & Components",Ticker: TEL,54,54,59
 "Nasdaq, Inc. ESG Score",66,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: NDAQ,91,56,64
@@ -228,9 +233,11 @@ The Kroger Co. ESG Score,45,Location: United States of America,Industry: FDR Foo
 Electronic Arts Inc. ESG Score,33,Location: United States of America,"Industry: IMS Interactive Media, Services & Home Entertainment",Ticker: EA,30,25,44
 "Gartner, Inc. ESG Score",46,Location: United States of America,Industry: TSV IT services,Ticker: IT,48,39,52
 Targa Resources Corp. ESG Score,40,Location: United States of America,Industry: PIP Oil & Gas Storage & Transportation,Ticker: TRGP,37,39,42
+Ingersoll Rand Inc. ESG Score,81,Location: United States of America,Industry: IEQ Machinery and Electrical Equipment,Ticker: IR,77,85,81
 Corning Incorporated ESG Score,48,Location: United States of America,"Industry: ITC Electronic Equipment, Instruments & Components",Ticker: GLW,44,52,47
 "Delta Air Lines, Inc. ESG Score",35,Location: United States of America,Industry: AIR Airlines,Ticker: DAL,40,36,28
 Garmin Ltd. ESG Score,27,Location: Swiss Confederation,Industry: LEG Leisure Equipment & Products and Consumer Electronics,Ticker: GRMN,22,30,29
+"CBRE Group, Inc. ESG Score",73,Location: United States of America,Industry: REM Real Estate Management & Development,Ticker: CBRE,81,66,70
 "Verisk Analytics, Inc. ESG Score",53,Location: United States of America,Industry: PRO Professional Services,Ticker: VRSK,59,46,58
 Cognizant Technology Solutions Corporation ESG Score,48,Location: United States of America,Industry: TSV IT services,Ticker: CTSH,63,31,54
 Otis Worldwide Corporation ESG Score,44,Location: United States of America,Industry: IEQ Machinery and Electrical Equipment,Ticker: OTIS,44,41,47
@@ -315,6 +322,7 @@ GoDaddy Inc. ESG Score,43,Location: United States of America,Industry: TSV IT se
 EQT Corporation ESG Score,44,Location: United States of America,Industry: OGX Oil & Gas Upstream & Integrated,Ticker: EQT,49,30,50
 "Corpay, Inc. ESG Score",26,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: CPAY,12,16,37
 Fortive Corporation ESG Score,38,Location: United States of America,Industry: IEQ Machinery and Electrical Equipment,Ticker: FTV,35,34,46
+"American Water Works Company, Inc. ESG Score",48,Location: United States of America,Industry: MUW Multi and Water Utilities,Ticker: AWK,40,56,52
 "American Water Works Company, Inc. ESG Score",48,Location: United States of America,Industry: MUW Multi and Water Utilities,Ticker: AWK,40,56,52
 Huntington Bancshares Incorporated ESG Score,48,Location: United States of America,Industry: BNK Banks,Ticker: HBAN,51,45,49
 CDW Corporation ESG Score,30,Location: United States of America,"Industry: ITC Electronic Equipment, Instruments & Components",Ticker: CDW,27,29,36
@@ -413,6 +421,7 @@ Textron Inc. ESG Score,27,Location: United States of America,Industry: ARO Aeros
 "Everest Group, Ltd. ESG Score",29,Location: Bermuda,Industry: INS Insurance,Ticker: EG,13,23,38
 Marathon Oil Corporation ESG Score,35,Location: United States of America,Industry: OGX Oil & Gas Upstream & Integrated,Ticker: N/A,24,40,44
 Incyte Corporation ESG Score,40,Location: United States of America,Industry: BTC Biotechnology,Ticker: INCY,29,44,40
+Viatris Inc. ESG Score,43,Location: United States of America,Industry: DRG Pharmaceuticals,Ticker: VTRS,47,41,42
 Alliant Energy Corporation ESG Score,35,Location: United States of America,Industry: ELC Electric Utilities,Ticker: LNT,38,28,37
 "Healthpeak Properties, Inc. ESG Score",64,Location: United States of America,Industry: REI Equity Real Estate Investment Trusts (REITs),Ticker: DOC,72,55,63
 "Domino's Pizza, Inc. ESG Score",23,Location: United States of America,Industry: REX Restaurants & Leisure Facilities,Ticker: DPZ,29,17,27
@@ -435,6 +444,7 @@ Regency Centers Corporation ESG Score,50,Location: United States of America,Indu
 Aptiv PLC ESG Score,53,Location: Ireland,Industry: ATX Auto Components,Ticker: APTV,71,31,55
 "Conagra Brands, Inc. ESG Score",44,Location: United States of America,Industry: FOA Food Products,Ticker: CAG,48,38,44
 "Paycom Software, Inc. ESG Score",31,Location: United States of America,Industry: PRO Professional Services,Ticker: PAYC,16,30,38
+"Paycom Software, Inc. ESG Score",31,Location: United States of America,Industry: PRO Professional Services,Ticker: PAYC,16,30,38
 Ralph Lauren Corporation ESG Score,50,Location: United States of America,"Industry: TEX Textiles, Apparel & Luxury Goods",Ticker: RL,57,39,54
 DaVita Inc. ESG Score,64,Location: United States of America,Industry: HEA Health Care Providers & Services,Ticker: DVA,75,65,58
 "Jack Henry & Associates, Inc. ESG Score",37,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: JKHY,33,29,43
@@ -447,10 +457,11 @@ Molson Coors Beverage Company ESG Score,43,Location: United States of America,In
 Dayforce Inc. ESG Score,53,Location: United States of America,Industry: PRO Professional Services,Ticker: DAY,62,48,56
 Allegion plc ESG Score,37,Location: Ireland,Industry: BLD Building Products,Ticker: ALLE,38,34,39
 Norwegian Cruise Line Holdings Ltd. ESG Score,52,Location: United States of America,"Industry: TRT Hotels, Resorts & Cruise Lines",Ticker: NCLH,60,48,51
+Norwegian Cruise Line Holdings Ltd. ESG Score,52,Location: United States of America,"Industry: TRT Hotels, Resorts & Cruise Lines",Ticker: NCLH,60,48,51
 Bunge Global SA ESG Score,38,Location: United States of America,Industry: FOA Food Products,Ticker: BG,44,32,40
 Albemarle Corporation ESG Score,60,Location: United States of America,Industry: CHM Chemicals,Ticker: ALB,59,65,56
+Albemarle Corporation ESG Score,60,Location: United States of America,Industry: CHM Chemicals,Ticker: ALB,59,65,56
 "Tapestry, Inc. ESG Score",41,Location: United States of America,"Industry: TEX Textiles, Apparel & Luxury Goods",Ticker: TPR,49,28,46
-The J. M. Smucker Company ESG Score,46,Location: United States of America,Industry: FOA Food Products,Ticker: SJM,45,42,51
 "CarMax, Inc. ESG Score",26,Location: United States of America,Industry: RTS Retailing,Ticker: KMX,22,23,31
 Bio-Techne Corporation ESG Score,29,Location: United States of America,Industry: LIF Life Sciences Tools & Services,Ticker: TECH,24,24,36
 Eastman Chemical Company ESG Score,48,Location: United States of America,Industry: CHM Chemicals,Ticker: EMN,50,37,56
@@ -484,6 +495,7 @@ Paramount Global ESG Score,44,Location: United States of America,"Industry: PUB 
 Invesco Ltd. ESG Score,37,Location: United States of America,Industry: FBN Diversified Financial Services and Capital Markets,Ticker: IVZ,51,36,34
 "Match Group, Inc. ESG Score",33,Location: United States of America,"Industry: IMS Interactive Media, Services & Home Entertainment",Ticker: MTCH,27,30,40
 "Walgreens Boots Alliance, Inc. ESG Score",52,Location: United States of America,Industry: FDR Food & Staples Retailing,Ticker: WBA,57,58,38
+BorgWarner Inc. ESG Score,49,Location: United States of America,Industry: ATX Auto Components,Ticker: BWA,52,49,45
 BorgWarner Inc. ESG Score,49,Location: United States of America,Industry: ATX Auto Components,Ticker: BWA,52,49,45
 FMC Corporation ESG Score,58,Location: United States of America,Industry: CHM Chemicals,Ticker: FMC,63,56,55
 "Qorvo, Inc. ESG Score",39,Location: United States of America,Industry: SEM Semiconductors & Semiconductor Equipment,Ticker: QRVO,41,34,40

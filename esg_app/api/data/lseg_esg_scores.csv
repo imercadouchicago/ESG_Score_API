@@ -1,0 +1,501 @@
+LSEG_ESG_Company,LSEG_ESG_Score,LSEG_Environment,LSEG_Social,LSEG_Governance
+Vulcan Materials Company,48.0,66.0,39.0,30.0
+Arch Capital Group Ltd.,59.0,63.0,60.0,64.0
+Sysco Corporation,75.0,70.0,75.0,81.0
+"Yum! Brands, Inc.",80.0,87.0,90.0,57.0
+"Martin Marietta Materials, Inc.",42.0,18.0,39.0,88.0
+The Hershey Company,N/A,N/A,N/A,N/A
+ResMed Inc.,68.0,74.0,87.0,40.0
+Microchip Technology Incorporated,61.0,70.0,67.0,43.0
+Nucor Corporation,54.0,54.0,65.0,34.0
+Extra Space Storage Inc.,63.0,72.0,82.0,35.0
+HP Inc.,77.0,62.0,80.0,84.0
+Las Vegas Sands Corp.,70.0,87.0,64.0,64.0
+"General Mills, Inc.",78.0,86.0,91.0,44.0
+M&T Bank Corporation,83.0,91.0,81.0,86.0
+"IDEXX Laboratories, Inc.",71.0,69.0,85.0,55.0
+"DuPont de Nemours, Inc.",71.0,73.0,68.0,74.0
+Westinghouse Air Brake Technologies Corporation,72.0,68.0,85.0,59.0
+"The Hartford Financial Services Group, Inc.",,,,
+Humana Inc.,71.0,72.0,64.0,79.0
+"Consolidated Edison, Inc.",66.0,57.0,67.0,80.0
+Iron Mountain Incorporated,73.0,75.0,74.0,70.0
+Equifax Inc.,45.0,40.0,32.0,67.0
+Carnival Corporation & plc,,,,
+"Raymond James Financial, Inc.",57.0,78.0,58.0,51.0
+VICI Properties Inc.,72.0,76.0,65.0,75.0
+"AvalonBay Communities, Inc.",70.0,70.0,79.0,62.0
+"Brown & Brown, Inc.",33.0,24.0,40.0,33.0
+Edison International,78.0,60.0,87.0,96.0
+Entergy Corporation,50.0,39.0,54.0,65.0
+Willis Towers Watson Public Limited Company,,,,
+"Take-Two Interactive Software, Inc.",45.0,23.0,68.0,32.0
+Fifth Third Bancorp,68.0,80.0,78.0,56.0
+Dow Inc.,87.0,86.0,89.0,88.0
+"Rockwell Automation, Inc.",62.0,75.0,59.0,51.0
+"Monolithic Power Systems, Inc.",42.0,31.0,41.0,56.0
+"WEC Energy Group, Inc.",60.0,65.0,60.0,49.0
+"CoStar Group, Inc.",67.0,65.0,62.0,73.0
+Xylem Inc.,82.0,76.0,81.0,91.0
+"ANSYS, Inc.",57.0,62.0,82.0,33.0
+"Live Nation Entertainment, Inc.",42.0,21.0,44.0,46.0
+ON Semiconductor Corporation,64.0,53.0,71.0,64.0
+"Cardinal Health, Inc.",75.0,71.0,74.0,80.0
+Tractor Supply Company,77.0,80.0,69.0,83.0
+Global Payments Inc.,41.0,45.0,47.0,32.0
+Centene Corporation,71.0,63.0,78.0,66.0
+eBay Inc.,74.0,48.0,73.0,82.0
+"United Airlines Holdings, Inc.",56.0,43.0,52.0,78.0
+"DexCom, Inc.",57.0,43.0,64.0,53.0
+Equity Residential,64.0,71.0,66.0,54.0
+"PPG Industries, Inc.",76.0,82.0,77.0,64.0
+Hewlett Packard Enterprise Company,75.0,60.0,71.0,93.0
+"Keysight Technologies, Inc.",70.0,85.0,85.0,35.0
+Kellanova,,,,
+"NVR, Inc.",34.0,23.0,16.0,76.0
+State Street Corporation,80.0,84.0,76.0,83.0
+Dover Corporation,66.0,80.0,46.0,76.0
+LyondellBasell Industries N.V.,79.0,73.0,86.0,78.0
+"Ventas, Inc.",78.0,84.0,69.0,79.0
+Deckers Outdoor Corporation,61.0,65.0,68.0,47.0
+"Leidos Holdings, Inc.",80.0,73.0,88.0,76.0
+Mettler-Toledo International Inc.,76.0,72.0,72.0,88.0
+Halliburton Company,83.0,85.0,93.0,67.0
+"Broadridge Financial Solutions, Inc.",67.0,67.0,77.0,53.0
+"Tyler Technologies, Inc.",64.0,40.0,60.0,74.0
+"Church & Dwight Co., Inc.",72.0,69.0,76.0,67.0
+"PulteGroup, Inc.",59.0,41.0,64.0,76.0
+Smurfit Westrock Plc,82.0,78.0,84.0,85.0
+GoDaddy Inc.,53.0,31.0,64.0,50.0
+"T. Rowe Price Group, Inc.",,,,
+EQT Corporation,41.0,33.0,40.0,54.0
+"Corpay, Inc.",49.0,29.0,34.0,84.0
+Fortive Corporation,67.0,60.0,66.0,75.0
+"American Water Works Company, Inc.",,,,
+Veralto Corporation,71.0,75.0,73.0,66.0
+Huntington Bancshares Incorporated,74.0,85.0,78.0,69.0
+CDW Corporation,51.0,31.0,50.0,68.0
+Synchrony Financial,56.0,41.0,74.0,43.0
+Devon Energy Corporation,53.0,44.0,68.0,39.0
+DTE Energy Company,71.0,92.0,55.0,55.0
+"NetApp, Inc.",64.0,53.0,59.0,83.0
+"Rollins, Inc.",26.0,5.0,39.0,24.0
+Archer-Daniels-Midland Company,78.0,71.0,80.0,82.0
+Ameren Corporation,44.0,38.0,43.0,57.0
+PPL Corporation,63.0,48.0,62.0,94.0
+Biogen Inc.,76.0,81.0,86.0,58.0
+Hubbell Incorporated,72.0,74.0,62.0,83.0
+FirstEnergy Corp.,62.0,63.0,67.0,53.0
+Regions Financial Corporation,80.0,87.0,78.0,84.0
+"West Pharmaceutical Services, Inc.",80.0,47.0,83.0,91.0
+Cincinnati Financial Corporation,56.0,51.0,55.0,70.0
+SBA Communications Corporation,65.0,73.0,52.0,69.0
+"Expedia Group, Inc.",51.0,74.0,55.0,24.0
+PTC Inc.,63.0,63.0,79.0,50.0
+W. R. Berkley Corporation,,,,
+Waters Corporation,81.0,75.0,74.0,92.0
+International Flavors & Fragrances Inc.,75.0,82.0,87.0,48.0
+Atmos Energy Corporation,40.0,19.0,31.0,82.0
+Teledyne Technologies Incorporated,41.0,39.0,47.0,39.0
+"Warner Bros. Discovery, Inc.",58.0,43.0,70.0,48.0
+The Estée Lauder Companies Inc.,,,,
+"Tyson Foods, Inc.",70.0,63.0,71.0,75.0
+Weyerhaeuser Company,83.0,81.0,74.0,95.0
+Eversource Energy,72.0,86.0,78.0,39.0
+Western Digital Corporation,61.0,58.0,69.0,47.0
+STERIS plc,55.0,49.0,77.0,27.0
+"Steel Dynamics, Inc.",59.0,65.0,45.0,73.0
+"Zimmer Biomet Holdings, Inc.",65.0,39.0,82.0,53.0
+Erie Indemnity Company,42.0,16.0,33.0,65.0
+Packaging Corporation of America,70.0,76.0,64.0,70.0
+Northern Trust Corporation,,,,
+Seagate Technology Holdings plc,,,,
+"Cboe Global Markets, Inc.",67,44,65,79
+Zebra Technologies Corporation,59,54,62,64
+Fox Corporation,63,41,77,52
+"Builders FirstSource, Inc.",43,31,41,61
+"McCormick & Company, Incorporated",,,,
+Invitation Homes Inc.,51,25,52,81
+"Citizens Financial Group, Inc.",60,65,47,83
+Labcorp Holdings Inc.,76,73,86,65
+The Clorox Company,,,,
+CMS Energy Corporation,57,52,54,71
+"The Cooper Companies, Inc.",,,,
+Omnicom Group Inc.,70,60,68,76
+"Essex Property Trust, Inc.",70,64,61,84
+"Principal Financial Group, Inc.",64,94,78,44
+International Paper Company,66,72,68,55
+"CenterPoint Energy, Inc.",46,35,29,90
+"Darden Restaurants, Inc.",53,47,63,43
+"First Solar, Inc.",73,63,82,78
+"J.B. Hunt Transport Services, Inc.",,,,
+"Best Buy Co., Inc.",81,79,78,85
+Insulet Corporation,71,57,66,83
+Southwest Airlines Co.,78,76,83,72
+"Mid-America Apartment Communities, Inc.",62,51,54,82
+Brown-Forman Corporation,58,56,53,68
+KeyCorp,73,74,75,76
+"Alexandria Real Estate Equities, Inc.",72,59,78,82
+Snap-on Incorporated,47,32,55,54
+Gen Digital Inc.,76,76,72,80
+"NRG Energy, Inc.",70,72,63,78
+Coterra Energy Inc.,,,,
+"Hologic, Inc.",58,51,57,63
+FactSet Research Systems Inc.,68,55,64,82
+Jacobs Solutions Inc.,,,,
+"Molina Healthcare, Inc.",51,31,48,65
+Ball Corporation,73,82,82,43
+Quest Diagnostics Incorporated,68,70,83,49
+Loews Corporation,38,60,29,49
+"Ulta Beauty, Inc.",46,41,61,32
+Trimble Inc.,57,69,79,33
+"VeriSign, Inc.",57,24,56,68
+"Teradyne, Inc.",58,41,60,75
+News Corporation,69,74,59,80
+IDEX Corporation,56,56,40,77
+Baxter International Inc.,83,76,85,83
+Pentair plc,61,76,71,31
+Genuine Parts Company,53,28,60,76
+Masco Corporation,71,65,72,76
+NiSource Inc.,63,57,53,88
+"Moderna, Inc.",80,87,77,77
+Hormel Foods Corporation,70,53,93,49
+Kimco Realty Corporation,81,72,79,93
+"UDR, Inc.",69,59,66,85
+"Expeditors International of Washington, Inc.",60,55,50,79
+Dollar General Corporation,44,16,58,56
+"Align Technology, Inc.",48,33,43,62
+Avery Dennison Corporation,74,83,66,74
+Textron Inc.,71,71,68,74
+"Everest Group, Ltd.",53,33,39,80
+Marathon Oil Corporation,,,,
+Incyte Corporation,56,51,45,76
+Viatris Inc.,74,69,90,53
+Alliant Energy Corporation,71,82,57,71
+"Healthpeak Properties, Inc.",,,,
+"Domino's Pizza, Inc.",64,65,59,73
+Jabil Inc.,65,82,59,51
+Nordson Corporation,67,60,81,57
+Amcor plc,73,72,68,82
+"CF Industries Holdings, Inc.",63,43,72,82
+"Revvity, Inc.",72,70,78,67
+"Evergy, Inc.",69,62,60,94
+"F5, Inc.",,,,
+"EPAM Systems, Inc.",55,16,77,47
+"BXP, Inc.",,,,
+"Skyworks Solutions, Inc.",58,44,61,69
+"Akamai Technologies, Inc.",70,70,61,79
+Pool Corporation,51,19,36,83
+"Universal Health Services, Inc.",46,38,55,38
+"Stanley Black & Decker, Inc.",74,83,69,68
+Regency Centers Corporation,75,72,90,65
+"Dollar Tree, Inc.",59,52,66,58
+Aptiv PLC,62,55,67,64
+"Conagra Brands, Inc.",71,65,74,72
+"Paycom Software, Inc.",46,51,74,21
+Campbell Soup Company,70,73,80,49
+Ralph Lauren Corporation,79,80,87,62
+DaVita Inc.,73,83,62,82
+"Jack Henry & Associates, Inc.",56,30,60,61
+"C.H. Robinson Worldwide, Inc.",41,41,57,20
+Camden Property Trust,60,46,54,82
+"Juniper Networks, Inc.",70,88,65,65
+Molson Coors Beverage Company,65,55,67,74
+"Host Hotels & Resorts, Inc.",85,95,73,85
+"Super Micro Computer, Inc.",40,38,39,41
+Dayforce Inc,65,42,76,63
+Allegion plc,54,67,63,38
+Norwegian Cruise Line Holdings Ltd.,75,80,70,76
+Solventum Corporation,,,,
+Bunge Global SA,73,84,66,73
+Albemarle Corporation,73,64,88,62
+"Tapestry, Inc.",73,72,75,70
+The J. M. Smucker Company,,,,
+"CarMax, Inc.",56,48,45,72
+Bio-Techne Corporation,64,41,89,57
+Eastman Chemical Company,83,82,91,73
+"Lamb Weston Holdings, Inc.",67,61,67,73
+Generac Holdings Inc.,40,18,41,65
+"Franklin Resources, Inc.",50,71,62,40
+"Charles River Laboratories International, Inc.",71,75,86,55
+MGM Resorts International,72,91,59,75
+"The Interpublic Group of Companies, Inc.",,,,
+"Assurant, Inc.",63,46,59,78
+"Catalent, Inc.",53,59,58,39
+A. O. Smith Corporation,,,,
+Pinnacle West Capital Corporation,68,87,66,41
+MarketAxess Holdings Inc.,55,44,70,50
+LKQ Corporation,50,36,42,83
+Federal Realty Investment Trust,84,91,66,94
+The AES Corporation,,,,
+"Wynn Resorts, Limited",,,,
+Globe Life Inc.,55,62,65,48
+Teleflex Incorporated,66,51,88,45
+"Mohawk Industries, Inc.",64,58,64,70
+"Hasbro, Inc.",80,48,94,73
+"Henry Schein, Inc.",69,71,81,52
+"Caesars Entertainment, Inc.",67,60,75,61
+Celanese Corporation,71,73,64,78
+The Mosaic Company,,,,
+"Enphase Energy, Inc.",52,59,58,39
+APA Corporation,,,,
+Paramount Global,71,63,80,62
+"Huntington Ingalls Industries, Inc.",39,30,46,37
+Invesco Ltd.,77,77,74,83
+"Match Group, Inc.",45,30,66,32
+"Walgreens Boots Alliance, Inc.",91,87,94,88
+BorgWarner Inc.,64,76,59,54
+"Amentum Holdings, Inc.",,,,
+FMC Corporation,83,94,75,78
+"Qorvo, Inc.",62,63,54,75
+NVIDIA Corporation,75.0,67.0,72.0,88.0
+Apple Inc.,78.0,68.0,75.0,91.0
+Microsoft Corporation,91.0,78.0,94.0,92.0
+Alphabet Inc.,81.0,77.0,87.0,78.0
+"Amazon.com, Inc.",,,,
+"Meta Platforms, Inc.",67.0,74.0,62.0,70.0
+"Tesla, Inc.",73.0,82.0,79.0,48.0
+Berkshire Hathaway Inc.,25.0,33.0,23.0,19.0
+Broadcom Inc.,77.0,81.0,78.0,69.0
+Eli Lilly and Company,66.0,79.0,84.0,29.0
+Walmart Inc.,81.0,79.0,76.0,92.0
+JPMorgan Chase & Co.,78.0,90.0,77.0,80.0
+Visa Inc.,65.0,50.0,76.0,60.0
+UnitedHealth Group Incorporated,79.0,74.0,71.0,90.0
+Exxon Mobil Corporation,70.0,65.0,74.0,73.0
+Oracle Corporation,48.0,78.0,75.0,16.0
+Mastercard Incorporated,69.0,78.0,74.0,62.0
+Costco Wholesale Corporation,70.0,86.0,46.0,80.0
+"The Home Depot, Inc.",,,,
+The Procter & Gamble Company,,,,
+Johnson & Johnson,85.0,93.0,98.0,60.0
+Bank of America Corporation,87.0,97.0,89.0,80.0
+"Netflix, Inc.",40.0,36.0,56.0,28.0
+"Salesforce, Inc.",,,,
+AbbVie Inc.,73.0,66.0,94.0,46.0
+"T-Mobile US, Inc.",58.0,79.0,63.0,31.0
+Chevron Corporation,71.0,55.0,75.0,89.0
+The Coca-Cola Company,,,,
+"Merck & Co., Inc.",77.0,81.0,91.0,51.0
+Wells Fargo & Company,75.0,90.0,76.0,72.0
+"Cisco Systems, Inc.",83.0,70.0,89.0,83.0
+"Advanced Micro Devices, Inc.",68.0,71.0,70.0,61.0
+Adobe Inc.,70.0,76.0,78.0,62.0
+"PepsiCo, Inc.",86.0,74.0,90.0,92.0
+Accenture plc,82.0,78.0,78.0,86.0
+Blackstone Inc.,,,,
+Linde plc,89.0,96.0,94.0,66.0
+"ServiceNow, Inc.",65.0,51.0,74.0,61.0
+McDonald's Corporation,65.0,74.0,75.0,42.0
+Morgan Stanley,69.0,73.0,73.0,67.0
+Thermo Fisher Scientific Inc.,80.0,76.0,91.0,66.0
+American Express Company,69.0,66.0,75.0,74.0
+Abbott Laboratories,83.0,79.0,87.0,80.0
+GE Aerospace,,,,
+Intuit Inc.,82.0,80.0,90.0,76.0
+International Business Machines Corporation,73.0,78.0,95.0,53.0
+Texas Instruments Incorporated,77.0,97.0,85.0,40.0
+Philip Morris International Inc.,87.0,94.0,89.0,78.0
+"Intuitive Surgical, Inc.",60.0,48.0,44.0,86.0
+Caterpillar Inc.,83.0,86.0,75.0,91.0
+"The Goldman Sachs Group, Inc.",,,,
+The Walt Disney Company,,,,
+QUALCOMM Incorporated,80.0,69.0,85.0,85.0
+Danaher Corporation,79.0,72.0,89.0,68.0
+Verizon Communications Inc.,71.0,74.0,74.0,63.0
+Comcast Corporation,69.0,69.0,68.0,70.0
+Booking Holdings Inc.,56.0,59.0,45.0,71.0
+RTX Corporation,,,,
+Amgen Inc.,77.0,75.0,82.0,72.0
+AT&T Inc.,82.0,79.0,92.0,62.0
+S&P Global Inc.,85.0,79.0,85.0,89.0
+"Applied Materials, Inc.",86.0,83.0,89.0,85.0
+The Progressive Corporation,,,,
+"BlackRock, Inc.",78.0,96.0,79.0,71.0
+"Lowe's Companies, Inc.",80.0,70.0,86.0,78.0
+"NextEra Energy, Inc.",72.0,81.0,69.0,60.0
+Honeywell International Inc.,75.0,84.0,76.0,61.0
+"Uber Technologies, Inc.",79.0,68.0,70.0,90.0
+Pfizer Inc.,80.0,88.0,90.0,59.0
+Stryker Corporation,79.0,59.0,79.0,87.0
+Eaton Corporation plc,,,,
+Union Pacific Corporation,76.0,53.0,94.0,80.0
+The Charles Schwab Corporation,,,,
+KKR & Co. Inc.,40.0,60.0,72.0,12.0
+Palantir Technologies Inc.,30.0,2.0,26.0,41.0
+"The TJX Companies, Inc.",,,,
+Lockheed Martin Corporation,70.0,86.0,66.0,62.0
+Boston Scientific Corporation,81.0,58.0,91.0,78.0
+Citigroup Inc.,87.0,92.0,77.0,92.0
+"Palo Alto Networks, Inc.",45.0,49.0,68.0,24.0
+ConocoPhillips,63.0,66.0,74.0,37.0
+Vertex Pharmaceuticals Incorporated,61.0,55.0,95.0,33.0
+"Automatic Data Processing, Inc.",64.0,38.0,65.0,71.0
+"Arista Networks, Inc.",57.0,60.0,53.0,59.0
+"Fiserv, Inc.",53.0,48.0,49.0,61.0
+Bristol-Myers Squibb Company,78.0,79.0,86.0,64.0
+"Gilead Sciences, Inc.",83.0,76.0,87.0,81.0
+"Micron Technology, Inc.",70.0,56.0,79.0,73.0
+"NIKE, Inc.",69.0,85.0,83.0,35.0
+Chubb Limited,,,,
+Medtronic plc,78.0,77.0,88.0,65.0
+Starbucks Corporation,74.0,83.0,70.0,71.0
+"United Parcel Service, Inc.",57.0,48.0,63.0,60.0
+"Marsh & McLennan Companies, Inc.",65.0,65.0,66.0,72.0
+"Analog Devices, Inc.",69.0,59.0,69.0,82.0
+The Boeing Company,,,,
+Deere & Company,82.0,88.0,82.0,75.0
+"Prologis, Inc.",74.0,75.0,68.0,78.0
+Intel Corporation,91.0,90.0,90.0,96.0
+Lam Research Corporation,78.0,71.0,82.0,81.0
+The Sherwin-Williams Company,,,,
+The Southern Company,,,,
+Dell Technologies Inc.,66.0,83.0,67.0,49.0
+"Elevance Health, Inc.",81.0,85.0,86.0,73.0
+The Cigna Group,,,,
+Trane Technologies plc,79.0,68.0,91.0,76.0
+"Altria Group, Inc.",88.0,91.0,94.0,76.0
+Cintas Corporation,59.0,61.0,62.0,55.0
+American Tower Corporation,84.0,83.0,75.0,92.0
+"Regeneron Pharmaceuticals, Inc.",58.0,55.0,96.0,24.0
+"Waste Management, Inc.",84.0,67.0,89.0,90.0
+Parker-Hannifin Corporation,64.0,71.0,64.0,57.0
+"Intercontinental Exchange, Inc.",69.0,66.0,57.0,84.0
+GE Vernova Inc.,,,,
+"Mondelez International, Inc.",82.0,86.0,91.0,62.0
+KLA Corporation,56.0,44.0,57.0,66.0
+"HCA Healthcare, Inc.",65.0,65.0,72.0,56.0
+"Equinix, Inc.",58.0,63.0,61.0,49.0
+Amphenol Corporation,75.0,66.0,73.0,90.0
+"PayPal Holdings, Inc.",80.0,66.0,82.0,88.0
+Duke Energy Corporation,71,78,73,58
+Moody's Corporation,67,65,74,61
+General Dynamics Corporation,67,48,65,83
+"Synopsys, Inc.",61,72,64,55
+Welltower Inc.,74,69,75,78
+"CrowdStrike Holdings, Inc.",25,20,29,23
+"The PNC Financial Services Group, Inc.",,,,
+"Airbnb, Inc.",37,16,62,22
+"Motorola Solutions, Inc.",82,66,89,83
+Aon plc,60,67,62,63
+"Chipotle Mexican Grill, Inc.",61,45,81,45
+"Cadence Design Systems, Inc.",74,67,89,63
+CME Group Inc.,60,33,69,63
+Illinois Tool Works Inc.,65,60,72,59
+"Marriott International, Inc.",77,76,89,59
+U.S. Bancorp,,,,
+Zoetis Inc.,70,66,72,68
+McKesson Corporation,61,57,61,62
+Northrop Grumman Corporation,70,57,85,59
+TransDigm Group Incorporated,45,21,59,43
+"Fortinet, Inc.",56,68,70,40
+"EOG Resources, Inc.",57,48,53,77
+Colgate-Palmolive Company,92,93,93,89
+Emerson Electric Co.,73,80,68,71
+Target Corporation,85,89,90,75
+"O'Reilly Automotive, Inc.",42,17,29,69
+Constellation Energy Corporation,59,62,67,43
+Capital One Financial Corporation,72,73,77,71
+3M Company,92,92,94,87
+Ecolab Inc.,77,75,92,54
+FedEx Corporation,72,73,65,80
+CSX Corporation,63,69,66,52
+"The Williams Companies, Inc.",,,,
+"Air Products and Chemicals, Inc.",82,91,78,72
+CVS Health Corporation,89,92,89,89
+Carrier Global Corporation,66,51,79,66
+"Simon Property Group, Inc.",65,64,62,70
+"Becton, Dickinson and Company",83,78,95,69
+"Autodesk, Inc.",80,71,73,89
+"Republic Services, Inc.",80,92,73,81
+Arthur J. Gallagher & Co.,51,54,52,54
+Royal Caribbean Cruises Ltd.,69,82,75,50
+General Motors Company,78,70,89,72
+"ONEOK, Inc.",72,76,68,72
+Freeport-McMoRan Inc.,82,82,76,93
+Schlumberger Limited,,,,
+Truist Financial Corporation,76,76,82,74
+Aflac Incorporated,49,51,50,53
+PACCAR Inc,65,81,52,64
+"Digital Realty Trust, Inc.",67,74,56,68
+Hilton Worldwide Holdings Inc.,78,90,71,76
+"Roper Technologies, Inc.",55,49,45,65
+Norfolk Southern Corporation,,,,
+"Kinder Morgan, Inc.",85,91,88,73
+"W.W. Grainger, Inc.",,,,
+"The Travelers Companies, Inc.",,,,
+Sempra,,,,
+Public Storage,73,74,67,78
+Fair Isaac Corporation,44,22,51,45
+NXP Semiconductors N.V.,77,71,81,78
+"United Rentals, Inc.",79,69,82,81
+"MetLife, Inc.",66,91,71,55
+Johnson Controls International plc,79,96,95,38
+The Bank of New York Mellon Corporation,,,,
+"Charter Communications, Inc.",39,40,44,29
+PG&E Corporation,80,83,91,59
+"Copart, Inc.",60,15,76,59
+Monster Beverage Corporation,40,23,43,56
+"Ameriprise Financial, Inc.",76,62,79,83
+"AutoZone, Inc.",62,44,77,53
+"Paychex, Inc.",59,68,60,51
+Phillips 66,69,87,63,53
+"Diamondback Energy, Inc.",61,51,60,78
+The Allstate Corporation,,,,
+"D.R. Horton, Inc.",,,,
+Realty Income Corporation,79,91,62,82
+Marathon Petroleum Corporation,78,67,87,77
+"L3Harris Technologies, Inc.",67,62,66,71
+"American Electric Power Company, Inc.",,,,
+"Cencora, Inc.",70,53,68,82
+Cummins Inc.,69,64,82,55
+Vistra Corp.,62,63,44,85
+"Old Dominion Freight Line, Inc.",35,34,38,32
+"Quanta Services, Inc.",74,80,59,87
+"Dominion Energy, Inc.",81,80,77,89
+Fastenal Company,63,82,46,63
+Newmont Corporation,,,,
+MSCI Inc.,66,73,67,59
+"Fidelity National Information Services, Inc.",57,54,94,27
+Occidental Petroleum Corporation,74,59,81,85
+"American International Group, Inc.",72,69,62,90
+"Ross Stores, Inc.",59,44,56,70
+Howmet Aerospace Inc.,72,52,72,86
+TE Connectivity plc,69,77,85,42
+"Nasdaq, Inc.",75,66,81,80
+"Axon Enterprise, Inc.",36,20,41,42
+Kenvue Inc.,51,31,49,75
+Keurig Dr Pepper Inc.,67,65,70,65
+"AMETEK, Inc.",58,67,54,54
+Lennar Corporation,38,59,25,31
+"Prudential Financial, Inc.",71,86,78,61
+Discover Financial Services,54,37,55,65
+Crown Castle Inc.,,,,
+Ford Motor Company,72,87,85,30
+Kimberly-Clark Corporation,75,68,76,79
+Hess Corporation,73,64,83,69
+Valero Energy Corporation,67,64,71,63
+"Constellation Brands, Inc.",37,19,54,26
+Baker Hughes Company,91,89,92,91
+Public Service Enterprise Group Incorporated,58,55,51,73
+The Kroger Co.,,,,
+Electronic Arts Inc.,69,47,72,72
+"Gartner, Inc.",75,48,71,87
+Targa Resources Corp.,59,63,43,78
+Ingersoll Rand Inc.,53,43,82,26
+Corning Incorporated,63,51,69,73
+"Delta Air Lines, Inc.",67,63,75,61
+Garmin Ltd.,63,51,70,64
+"CBRE Group, Inc.",84,80,81,92
+"Verisk Analytics, Inc.",60,73,81,38
+Cognizant Technology Solutions Corporation,73,78,76,70
+Otis Worldwide Corporation,63,45,61,88
+Lululemon Athletica Inc.,56,65,41,77
+Xcel Energy Inc.,81,83,76,85
+"Corteva, Inc.",63,60,57,79
+Edwards Lifesciences Corporation,73,64,80,67
+GE HealthCare Technologies Inc.,39,36,34,48
+IQVIA Holdings Inc.,57,36,80,51
+The Kraft Heinz Company,,,,
+"Agilent Technologies, Inc.",82,80,93,67
+Exelon Corporation,61,55,53,80
