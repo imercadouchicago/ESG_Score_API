@@ -23,9 +23,6 @@ from time import sleep
 ### Come back to this, not sure why it's not working... 
     # Now process missing companies up to 3 times
 
-URL = "https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores"
-
-
 # Configure logging
 logging.basicConfig(
     filename='lseg_scraping.log',

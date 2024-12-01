@@ -7,13 +7,20 @@ import zipfile
 from pathlib import Path
 import logging
 
+# Configure logging
+logging.basicConfig(
+    filename='database_loading.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
+
 DB_PATH = os.environ["DB_PATH"]
 
 def create_empty_sqlite_db(db_path=None):
     """Creates an empty SQLite database at the specified path.
 
-    Parameters:
-        path (str): The file path where the SQLite database will be created.
+    Args:
+        db_path (str): The file path where the SQLite database will be created.
 
     """
     if not db_path:
@@ -132,75 +139,66 @@ def create_yahoo_table(conn, table_name):
     """
     execute_sql_command(conn, create_table_stocks)
 
-def headername_lists(table_name):
-    if 'csrhub' in table_name:
-        return ['company', 'esg_score', 'num_sources']
-    if 'lseg' in table_name:
-        return ['company', 'esg_score', 'environment_score', 
-                'social_score', 'governance_score']
-    if 'msci' in table_name:
-        return ['company', 'esg_score', 'environment_flag', 
-                'social_flag', 'governance_flag', 'customer_flag', 
-                'human_rights_flag', 'labor_rights_flag']
-    if 'spglobal' in table_name:
-        return ['company', 'esg_score', 'country', 
-                'industry', 'ticker', 'environment_score', 
-                'social_score', 'governance_score']
-    if 'yahoo' in table_name:
-        return ['company', 'market_cap', 'pe_ratio', 
-                'eps', 'esg_score', 'social_score',
-                'governance_score']
 
-
-def load_csv_to_db(conn, data_dir, table_name):
+def load_csv_to_db(conn, data_dir, table_name, csv_file_name):
     """Load CSV files into an existing SQLite table.
 
     Args:
         conn: SQLite connection
-        data_dir: Path to the directory containing CSV files
-        table_name: [str] Name of existing table
+        data_dir (str): Path to the directory containing CSV files
+        table_name (str): Name of existing table
+        csv_file_name (str): Name of CSV file to load
 
     Returns:
-        bool: True if all files are loaded successfully
+        bool: True if file is loaded successfully
     """
     cur = conn.cursor()
-    success = True  # Track if the process is fully successful
 
-    list_of_headers = headername_lists(table_name)
-
-    # Iterate through files in the specified directory
-    for file_name in os.listdir(data_dir):
-        file_path = os.path.join(data_dir, file_name)
-        if not file_name.endswith('.csv'):
-            logging.warning(f"Skipping non-CSV file: {file_name}")
-            continue
-        try:
-            logging.info(f"Reading file: {file_name}")
-            with open(file_path, mode='r', encoding='utf-8') as csv_file:
-                reader = csv.reader(csv_file)
-                # Skip header row in the CSV file
-                next(reader, None)
-
-                # Generate placeholders for parameterized query
-                placeholders = ', '.join('?' for _ in list_of_headers)
-                insert_query = f"""
-                    INSERT INTO {table_name} ({', '.join(list_of_headers)})
-                    VALUES ({placeholders})
+    if csv_file_name in os.listdir(data_dir):
+        logging.info(f"Reading file: {csv_file_name}")
+        file_path = os.path.join(data_dir, csv_file_name)
+        with open(file_path, mode='r', encoding='utf-8') as csv_file:
+            reader = csv.reader(csv_file)
+            next(reader, None)  # Skip header row
+            data_to_insert = [tuple(row) for row in reader]
+            
+            # Get number of columns from first row of data
+            num_columns = len(data_to_insert[0]) if data_to_insert else 0
+            placeholders = ','.join(['?' for _ in range(num_columns)])
+                
+            insert_query = f"""
+                INSERT INTO {table_name} 
+                VALUES ({placeholders})
                 """
-
-                # Insert rows into the database
-                data_to_insert = [tuple(row) for row in reader]
-                cur.executemany(insert_query, data_to_insert)
-                logging.info(f"Loaded data from {file_name} into {table_name}")
-        except Exception as e:
-            logging.error(f"Error processing file {file_name}: {e}")
-            success = False
-            continue
-
-    # Commit the changes and return the result
+                
+            cur.executemany(insert_query, data_to_insert)
+            logging.info(f"Loaded data from {csv_file_name} into {table_name}")
+    else:
+        raise FileNotFoundError(f"CSV file not found: {csv_file_name}")
     conn.commit()
-    logging.info("Finished loading data from all CSV files.")
-    return success
+    return True
+
+
+def create_tables_and_load_data(data_path, csrhub_table_name, 
+                                lseg_table_name, msci_table_name,
+                                spglobal_table_name, yahoo_table_name):
+    """Creates accounts, stocks_owned, and stocks tables and loads data"""
+    conn = create_db_connection()
+
+    # Mapping of table names to their corresponding table creation functions and csv file names
+    table_config = {
+        csrhub_table_name: (create_csrhub_table, "csrhub_scores.csv"),
+        lseg_table_name: (create_lseg_table, "lseg_esg_scores.csv"),
+        msci_table_name: (create_msci_table, "msci_esg_scores.csv"),
+        spglobal_table_name: (create_spglobal_table, "spglobal_esg_scores.csv"),
+        yahoo_table_name: (create_yahoo_table, "yahoo_esg_scores.csv")
+    }
+
+    # Iterate through the configuration and create tables
+    for table_name, (create_table_func, csv_file_name) in table_config.items():
+        create_table_func(conn, table_name)
+        load_csv_to_db(conn, data_path, table_name, csv_file_name)
+
 
 def rm_db(db_path=None):
     """Delete the Database file not recoverable, be careful"""
@@ -213,26 +211,3 @@ def rm_db(db_path=None):
     print(f"Database at {db_path} removed")
 
     return None
-    
-
-def create_tables_and_load_data(data_path, csrhub_table_name, 
-                                lseg_table_name, msci_table_name,
-                                spglobal_table_name, yahoo_table_name):
-    """Creates accounts, stocks_owned, and stocks tables and loads data"""
-    conn = create_db_connection()
-
-    # Mapping of table names to their corresponding table creation functions
-    table_config = {
-        csrhub_table_name: create_csrhub_table,
-        lseg_table_name: create_lseg_table,
-        msci_table_name: create_msci_table,
-        spglobal_table_name: create_spglobal_table,
-        yahoo_table_name: create_yahoo_table
-    }
-
-    # Iterate through the configuration and create tables
-    for table_name, create_table_func in table_config.items():
-        create_table_func(conn, table_name)
-    
-    # Load csv files data into stocks table
-    load_csv_to_db(conn, data_path, stocks_table_name)

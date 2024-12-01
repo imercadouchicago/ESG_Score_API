@@ -1,3 +1,6 @@
+''' This module contains a function 'yahoo_scraper' for webscraping Yahoo Finance. 
+    When this module is run, it uses multithreading to scrape Yahoo Finance. '''
+
 from esg_app.utils.scraper_utils.scraper import WebScraper
 from esg_app.utils.scraper_utils.threader import Threader
 import logging
@@ -18,18 +21,33 @@ URL = "https://finance.yahoo.com/lookup/"
 export_path = 'esg_app/api/data/yahoo_esg_scores.csv'
 headername = 'Symbol'
 
-def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tickers: set, lock: Lock) -> list[dict]:
+def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, 
+                  processed_tickers: set, lock: Lock) -> list[dict]:
+    '''
+    This function scrapes Yahoo Finance. 
+
+    Args:
+        company_data (dataframe) : Dataframe containing list of companies thread will scrape.
+        user_agents (queue) : Queue of user agents.
+        processed_tickers (set) : Tickers of companies that have been processed by all threads.
+        lock (lock) : Places a lock on a company as it is being processed to avoid conflicts between threads.
+
+    Returns:
+        list[dict] : List of dictionaries where each dictionary contains the scraping results for 1 company.
+    '''
     try:
         # Initialize browser
         bot = WebScraper(URL, user_agents)
         output = []
 
+        # Iterate through all companies in this subset
         for index, row in tqdm(company_data.iterrows(),
                               total=len(company_data),
                               desc=f"Processing chunk",
                               position=1,
                               leave=False):
             try:
+                # Check if ticker has already been processed
                 with lock:
                     if row[headername] in processed_tickers:
                         logging.info(f"Skipping already processed company: {row[headername]}")
@@ -52,7 +70,8 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tick
                         target_result = result
                         logging.info(f"Found matching ticker: {symbol}")
                         break
-
+                
+                # Click on exact ticker match
                 if target_result:
                     target_result.click()
                     logging.info(f"Clicked on matching result")
@@ -63,7 +82,7 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tick
                     pe_ratio = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[11]/span[2]/fin-streamer").text
                     eps = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/div[2]/ul/li[12]/span[2]/fin-streamer").text
 
-                    # Click Sustainability tab
+                    # Locate and click Sustainability tab
                     sustainability_tab = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/aside/section/nav/ul/li[13]/a/span")
                     sustainability_tab.click()
                     sleep(2)
@@ -74,6 +93,7 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tick
                     social_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[3]/div/div/h4").text
                     governance_score = bot.locate_element(xpath="//*[@id='nimbus-app']/section/section/section/article/section[2]/section[1]/div/section[4]/div/div/h4").text
 
+                    # Append dictionary with company results to list
                     output.append({
                                     "Yahoo_ESG_Company": row[headername],
                                     "Yahoo_Market_Cap": market_cap,
@@ -92,10 +112,13 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tick
     except Exception as e:
         logging.error(f"Error with user agent {bot.user_agent}: {e}")
         return None
+    
+    # Quit the webdriver once finished with assigned companies
     finally:
         if 'bot' in locals():
             bot.driver.quit()
                             
-
+# If file is run, applies Threader function to yahoo_scraper function 
+# and outputs results to export_path
 if __name__ == "__main__":
     Threader(yahoo_scraper, export_path)

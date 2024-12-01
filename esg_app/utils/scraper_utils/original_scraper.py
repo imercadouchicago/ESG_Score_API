@@ -33,7 +33,7 @@ class WebScraper():
     def __init__(self, URL: str):
         '''
         This function initializes a Chrome Webdriver and accesses the
-        specified URL
+        specified URL.
         '''
         logging.info("Initializing WebScraper for URL: %s", URL)
         self.URL = URL
@@ -58,11 +58,11 @@ class WebScraper():
     def wait_element_to_load(self, xpath: str):
         '''
         This function waits until the specified xpath is accessible on the
-        website
+        website.
 
         Args:
             xpath ('str'): The xpath of the element to be located on the
-            webpage
+            webpage.
 
         '''
         logging.debug("Waiting for element to load: %s", xpath)
@@ -81,10 +81,10 @@ class WebScraper():
 
     def accept_cookies(self, xpath: str):
         '''
-        This function clicks on 'Accept cookies' button on the website
+        This function clicks on 'Accept cookies' button on the website.
 
         Args:
-            xpath (str): The xpath of the 'Accept cookies' button
+            xpath (str): The xpath of the 'Accept cookies' button.
         '''
         logging.info("Attempting to accept cookies using xpath: %s", xpath)
         try:
@@ -101,7 +101,7 @@ class WebScraper():
     def convert_dict_to_csv(dict_name: str, export_path: str) -> pd.DataFrame:
         '''
         This function converts the dictionary to a pandas dataframe and the
-        latter is converted a csv file
+        latter is converted a csv file.
 
         Args:
             dict_name (str): Name of the dictionary
@@ -130,7 +130,7 @@ class WebScraper():
     @staticmethod
     def append_empty_values(dictionary: dict) -> dict:
         '''
-        This function appends empty values to the dictionary
+        This function appends empty values to the dictionary.
 
         Args:
             dict (dict): Dictionary to be appended

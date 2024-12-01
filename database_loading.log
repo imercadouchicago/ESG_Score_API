@@ -1,0 +1,10 @@
+2024-12-01 20:19:29,952 - INFO - Reading file: csrhub_scores.csv
+2024-12-01 20:19:29,960 - INFO - Loaded data from csrhub_scores.csv into csrhub_table
+2024-12-01 20:19:29,991 - INFO - Reading file: lseg_esg_scores.csv
+2024-12-01 20:19:29,995 - INFO - Loaded data from lseg_esg_scores.csv into lseg_table
+2024-12-01 20:19:30,000 - INFO - Reading file: msci_esg_scores.csv
+2024-12-01 20:19:30,009 - INFO - Loaded data from msci_esg_scores.csv into msci_table
+2024-12-01 20:19:30,016 - INFO - Reading file: spglobal_esg_scores.csv
+2024-12-01 20:19:30,018 - INFO - Loaded data from spglobal_esg_scores.csv into spglobal_table
+2024-12-01 20:19:30,021 - INFO - Reading file: yahoo_esg_scores.csv
+2024-12-01 20:19:30,023 - INFO - Loaded data from yahoo_esg_scores.csv into yahoo_table

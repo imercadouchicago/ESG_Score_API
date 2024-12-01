@@ -64,6 +64,48 @@ print(missing_rows[16:31])
 #             return None
 #     return None
 
+    # def is_subscription_form_present(self, xpath: str = None, 
+    #                                  class_name: str = None, 
+    #                                  id_name: str = None) -> bool:
+    #     '''Check if the subscription form is present.
+    #     Args:
+    #         xpath (str) : The xpath of the web element.
+    #         class_name (str) : The class name of the web element.
+    #         id_name (str) : The id name of the web element.
+
+    #     Returns:
+    #         (bool) : True if located; False otherwise.
+    #     '''
+    #     try:
+    #         self.wait_element_to_load(xpath, class_name, id_name)
+    #         form = self.locate_element(xpath, class_name, id_name)
+    #         if form:
+    #             logging.info("Subscription form appeared.")
+    #             return True
+    #     except:
+    #         return False
+    # def fill_field(self, entry: str,
+    #                     xpath: str = None, 
+    #                     class_name: str = None, 
+    #                     id_name: str = None):
+    #     """Fill out the subscription form."""
+    #     try:
+    #         field = self.locate_element(xpath, class_name, id_name)
+    #         field.clear()
+    #         field.send_keys(entry)
+    #     except Exception as e:
+    #         logging.warning("Error while filling in field: %s", e)
+
+    # def select_dropdown(self, selection,
+    #                     xpath: str = None, 
+    #                     class_name: str = None, 
+    #                     id_name: str = None):
+    #     try:
+    #         segment_dropdown = Select(self.locate_element(xpath, class_name, id_name))
+    #         segment_dropdown.select_by_value(selection)
+    #     except Exception as e:
+    #         logging.warning("Error while selecting from dropdown: %s", e)
+
 lol = data.iloc[[4]]
 print("Data:", lol)
 print("Length", len(lol))

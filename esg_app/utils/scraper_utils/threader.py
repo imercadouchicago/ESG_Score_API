@@ -1,3 +1,5 @@
+''' This module contains a function for applying multithreading to selenium-based webscraping functions.'''
+
 from queue import Queue
 import numpy as np
 import pandas as pd
@@ -17,6 +19,14 @@ USER_AGENTS = [
 
 
 def Threader(website_function: Callable, export_path: str):
+    '''
+    This function using multithreading for running webscraper functions in parallel 
+    and aggregates and exports results from each thread to a csv.
+
+    Args:
+    website_function (callable): The function used to webscrape a website.
+    export_path (str): The path for the exported csv.
+        '''
     logging.info("Script started")
     
     # Create queue with user agents

@@ -1,14 +1,16 @@
+''' This module contains a function 'msci_scraper' for webscraping MSCI. 
+    When this module is run, it uses multithreading to scrape MSCI. '''
+
 from esg_app.utils.scraper_utils.scraper import WebScraper
 from esg_app.utils.scraper_utils.threader import Threader
 from esg_app.utils.scraper_utils.msci_utils import (clean_company_name,
-get_flag_color)
+                                                    clean_flag_element)
 import logging
 import pandas as pd
 from queue import Queue
 from tqdm import tqdm
 from threading import Lock
 from time import sleep
-
 
 # Configure logging
 logging.basicConfig(
@@ -21,7 +23,42 @@ URL = "https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-sear
 headername = 'Longname'
 export_path = 'esg_app/api/data/msci_esg_scores.csv'
 
-def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tickers: set, lock: Lock) -> list[dict]:
+def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, 
+                 processed_tickers: set, lock: Lock) -> list[dict]:
+    '''
+    This function scrapes MSCI's ESG Ratings Climate Search Tool. 
+
+    Args:
+        company_data (dataframe) : Dataframe containing list of companies thread will scrape.
+        user_agents (queue) : Queue of user agents.
+        processed_tickers (set) : Tickers of companies that have been processed by all threads.
+        lock (lock) : Places a lock on a company as it is being processed to avoid conflicts between threads.
+
+    Returns:
+        list[dict] : List of dictionaries where each dictionary contains the scraping results for 1 company.
+    '''
+    # Helper function for resetting queue and initalizing webscraper
+    def reset_and_initialize(list_of_agents: list, first_attempt: bool = False):
+        '''
+        Helper function for resetting queue and initalizing webscraper.
+
+        Args:
+            list_of_agents (list) : List of user agents.
+            first_attempt (bool) : Whether this is the first attempt at initializing the webscraper.
+
+        Returns:
+            bot (webscraper) : Webscraper object.
+        '''
+        for agent in list_of_agents:
+            user_agents.put(agent)
+        
+        bot = WebScraper(URL, user_agents)
+        if not hasattr(bot, 'driver') and first_attempt == True:
+            logging.error("Failed to initialize WebDriver")
+            return None    
+        sleep(5)
+        return bot
+    
     output = []
     companies_processed = 0
     
@@ -32,15 +69,7 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
     
     try:
         # Initialize first browser instance
-        for agent in original_agents:
-            user_agents.put(agent)
-        
-        bot = WebScraper(URL, user_agents)
-        if not hasattr(bot, 'driver'):
-            logging.error("Failed to initialize WebDriver")
-            return None
-            
-        sleep(5)
+        bot = reset_and_initialize(original_agents, first_attempt=True)
         
         # Accept initial cookies
         cookies_path = "onetrust-accept-btn-handler"
@@ -56,31 +85,25 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
             if companies_processed > 0 and companies_processed % 2 == 0:
                 logging.info("Restarting browser with clean cache")
                 bot.driver.quit()
-                sleep(2)
-                
-                # Refill user agents queue
-                for agent in original_agents:
-                    user_agents.put(agent)
-                
-                # Initialize new browser instance
-                bot = WebScraper(URL, user_agents)
+                sleep(2)               
+                bot = reset_and_initialize(original_agents)
                 if not hasattr(bot, 'driver'):
-                    logging.error("Failed to initialize WebDriver during restart")
+                    logging.error("Failed to initialize WebDriver")
                     continue
-                    
-                sleep(5)
                 
                 # Accept cookies for new session
                 cookie_button = bot.accept_cookies(id_name=cookies_path)
             
             try:
+                # Check if company has already been processed
                 with lock:
                     if row[headername] in processed_tickers:
                         logging.info(f"Skipping already processed company: {row[headername]}")
                         continue
                     processed_tickers.add(row[headername])
-                
                 logging.debug(f"Processing company: {row[headername]}")
+
+                # Clean company name to input into search bar
                 company_name = row[headername]
                 cleaned_name = clean_company_name(company_name)
                 
@@ -88,14 +111,22 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
                 bot.driver.get(URL)
                 sleep(2)
                 
-                # Search for company
+                # Send request to search bar
                 bot.send_request_to_search_bar(cleaned_name, id_name="_esgratingsprofile_keywords")
+
+                # Record results from dropdown menu
                 dropdown = bot.locate_element(class_name="ui-autocomplete")
                 results = bot.locate_element_within_element(dropdown, class_name="msci-ac-search-section-title", multiple=True)
 
+                # Iterate through results from dropdown menu
                 for result in results:
                     result_name = result.get_attribute('data-value')
+                    
+                    # Clean company name of result
                     cleaned_result = clean_company_name(result_name)
+                    
+                    # If the result matches the company being searched for, then try 
+                    # different methods of clicking on the company
                     if cleaned_result == cleaned_name:
                         try:
                             bot.driver.execute_script("arguments[0].click();", result)
@@ -104,19 +135,18 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
                                 result.click()
                             except:
                                 parent = bot.locate_element_within_element(result, xpath="..")
-                                bot.driver.execute_script("arguments[0].click();", parent)
-                        
+                                bot.driver.execute_script("arguments[0].click();", parent)                        
                         logging.info("Found match in dropdown: %s", cleaned_result)
                         sleep(3)
 
-                        # Get ESG data
+                        # Click on ESG Transparency toggle
                         toggle_path = "esg-transparency-toggle-link"
                         toggle = bot.locate_element(id_name=toggle_path)
                         toggle.click()
                         logging.info("Clicked ESG transparency toggle")
                         sleep(3)
 
-                        # Get ESG Rating
+                        # Locate and clean ESG rating
                         rating_map = {
                             "esg-rating-circle-aaa": "AAA",
                             "esg-rating-circle-aa": "AA",
@@ -133,12 +163,13 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
                         esg_rating = next((rating for key, rating in rating_map.items() if key in class_str), "Unknown")
                         logging.info("ESG Rating: %s", esg_rating)
 
-                        # Get controversies
+                        # Click on Controversies toggle
                         controversies_toggle = bot.locate_element(id_name="esg-controversies-toggle-link")
                         controversies_toggle.click()
                         logging.info("Clicked controversies toggle")
                         sleep(3)
 
+                        # Locate colors of flags representative of different causes
                         controversies_table = bot.locate_element(id_name="controversies-table")
                         env_flag = bot.locate_element_within_element(controversies_table, xpath=".//div[contains(@class, 'column-controversy') and contains(text(), 'Environment')]")
                         social_flag = bot.locate_element_within_element(controversies_table, xpath=".//div[contains(@class, 'column-controversy') and contains(text(), 'Social')]")
@@ -147,15 +178,16 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
                         hr_flag = bot.locate_element_within_element(controversies_table, xpath=".//div[contains(@class, 'subcolumn-controversy') and contains(text(), 'Human Rights')]")
                         labor_flag = bot.locate_element_within_element(controversies_table, xpath=".//div[contains(@class, 'subcolumn-controversy') and contains(text(), 'Labor Rights')]")
 
+                        # Append dictionary with company results to list
                         output.append({
                             "MSCI_Company": company_name,
                             "MSCI_ESG_Rating": esg_rating,
-                            "MSCI_Environment_Flag": get_flag_color(env_flag),
-                            "MSCI_Social_Flag": get_flag_color(social_flag),
-                            "MSCI_Governance_Flag": get_flag_color(gov_flag),
-                            "MSCI_Customer_Flag": get_flag_color(customer_flag),
-                            "MSCI_Human_Rights_Flag": get_flag_color(hr_flag),
-                            "MSCI_Labor_Rights_Flag": get_flag_color(labor_flag)
+                            "MSCI_Environment_Flag": clean_flag_element(env_flag),
+                            "MSCI_Social_Flag": clean_flag_element(social_flag),
+                            "MSCI_Governance_Flag": clean_flag_element(gov_flag),
+                            "MSCI_Customer_Flag": clean_flag_element(customer_flag),
+                            "MSCI_Human_Rights_Flag": clean_flag_element(hr_flag),
+                            "MSCI_Labor_Rights_Flag": clean_flag_element(labor_flag)
                         })
 
                 companies_processed += 1
@@ -163,17 +195,18 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
             except Exception as e:
                 logging.error(f"Error processing company {row[headername]}: {e}")
                 continue
-
         return output
-
     except Exception as e:
         logging.error(f"Error in scraper: {e}")
         return None
+    
+    # Quit the webdriver once finished with assigned companies
     finally:
         if 'bot' in locals() and hasattr(bot, 'driver'):
             bot.driver.quit()
 
-
+# If file is run, applies Threader function to msci_scraper function 
+# and outputs results to export_path
 if __name__ == "__main__":
     Threader(msci_scraper, export_path)
 

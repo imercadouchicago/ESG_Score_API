@@ -1,7 +1,14 @@
-
+''' This module contains helper functions used within msci_threaded.py.'''
 
 def clean_company_name(name: str) -> str:
-    """Clean company name for comparison"""
+    """Clean a company name.
+    
+    Args:
+        name (str) : The name of the company to be cleaned.
+
+    Returns:
+        (str) : The cleaned company name.
+    """
     replacements = {
         'Incorporated': 'Inc',
         'Limited': 'Ltd',
@@ -20,7 +27,15 @@ def clean_company_name(name: str) -> str:
     
     return ' '.join(name.split())
 
-def get_flag_color(element):
+def clean_flag_element(element) -> str:
+    """Clean a flag's web element.
+    
+    Args:
+        element : The flag web element to be cleaned.
+
+    Returns:
+        (str) : The flag color within the web element.
+    """
     classes = element.get_attribute("class")
     if "Green" in classes: return "Green"
     if "Yellow" in classes: return "Yellow"
