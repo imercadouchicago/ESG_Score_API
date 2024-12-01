@@ -25,7 +25,7 @@ from time import sleep
 
 URL = "https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores"
 
-'''
+
 # Configure logging
 logging.basicConfig(
     filename='lseg_scraping.log',
@@ -169,7 +169,7 @@ if __name__ == "__main__":
 
     # Run scraper
     Threader(lseg_scraper, export_path) 
-'''
+
 
 ################################################################################
 # RETRY LOGIC FOR MISSING VALUES - STARTS HERE
@@ -182,18 +182,35 @@ if __name__ == "__main__":
 ### Come back to this, not sure why it's not working... 
     # Now process missing companies up to 3 times
 
-'''def clean_company_name(name: str) -> str:
-    """Simple cleaning of company names"""
-    name = name.replace("the", "").strip()
-    name = name.replace(".", "").replace(",", "")
-    name = " ".join(name.split())
-    name = name.replace("Corporation", "Corp")
-    name = name.replace("Company", "Co")
-    name = name.replace("Incorporated","Inc")
-    name = name.replace('"', '')  # This is the correct way to replace quotes
-    logging.debug(f"Original: {name} -> Cleaned: {name}")
-    return name
-
+def clean_company_name(name: str) -> str:
+    """Improved company name cleaning"""
+    print(f"Starting name: {name}")
+    
+    # Convert to lowercase first
+    name = name.lower()
+    
+    # Define replacements with word boundaries
+    replacements = {
+        ' the ': ' ',
+        'corporation': 'corp',
+        'company': 'co',
+        'incorporated': 'inc',
+        'limited': 'ltd',
+        ',': '',
+        '.': '',
+        '"': '',
+        "'": ''
+    }
+    
+    # Apply replacements
+    for old, new in replacements.items():
+        name = name.replace(old.lower(), new)
+    
+    # Fix multiple spaces
+    name = ' '.join(name.split())
+    
+    print(f"Final cleaned name: {name}")
+    return name.strip()
 
 for attempt in range(3):
     try:
@@ -326,5 +343,5 @@ for attempt in range(3):
         print(f"Error in retry attempt {attempt + 1}: {e}")
         logging.error(f"Error in retry attempt {attempt + 1}: {e}")
         if 'bot' in locals() and bot and hasattr(bot, 'driver'):
-            bot.driver.quit()'''
+            bot.driver.quit()
 
