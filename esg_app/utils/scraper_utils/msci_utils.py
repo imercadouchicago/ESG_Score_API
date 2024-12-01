@@ -3,10 +3,10 @@
 def clean_company_name(name: str) -> str:
     """Clean company name for comparison"""
     replacements = {
-        'Corporation': 'Corp',
         'Incorporated': 'Inc',
         'Limited': 'Ltd',
-        ',': '',
+        'PLC': 'Public Limited Company',
+        ',' : '',
         '.': '',
         '&': 'and',
         ' Inc': '',

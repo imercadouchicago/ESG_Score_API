@@ -9,6 +9,7 @@ from tqdm import tqdm
 from threading import Lock
 from time import sleep
 
+
 # Configure logging
 logging.basicConfig(
     filename='parallel_scraping.log',
@@ -172,5 +173,46 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_ticke
         if 'bot' in locals() and hasattr(bot, 'driver'):
             bot.driver.quit()
 
+
 if __name__ == "__main__":
     Threader(msci_scraper, export_path)
+
+# Isa to change this code here, so that we can identify more companies. Not exactly sure how to change the company_df input which Isa can change slightly 
+'''
+    try:
+        msci_df = pd.read_csv('esg_app/api/data/msci_esg_scores.csv')
+        sp500_df = pd.read_csv('esg_app/api/data/SP500.csv')
+        
+        # Get lists of companies
+        msci_companies = set(msci_df['MSCI_Company'])
+        sp500_companies = set(sp500_df['Longname'])
+        
+        # Find missing companies
+        missing_companies = list(sp500_companies - msci_companies)
+        
+        # Create DataFrame in correct format
+        company_data = pd.DataFrame({
+            'Longname': missing_companies  # This matches the headername used in msci_scraper
+        })
+        
+        # Run scraper with missing companies
+        URL = "https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool"
+        headername = 'Longname'
+        export_path = 'esg_app/api/data/msci_esg_scores_missing.csv'
+        
+        Threader(msci_scraper, export_path, company_data)  # Pass company_data directly
+        
+        # Combine results
+        try:
+            original_data = pd.read_csv('esg_app/api/data/msci_esg_scores.csv')
+            new_data = pd.read_csv('esg_app/api/data/msci_esg_scores_missing.csv')
+            combined_data = pd.concat([original_data, new_data], ignore_index=True)
+            combined_data.to_csv('esg_app/api/data/msci_esg_scores.csv', index=False)
+            print(f"Successfully added {len(new_data)} companies to main dataset")
+            
+        except Exception as e:
+            print(f"Error combining datasets: {e}")
+            
+    except Exception as e:
+        print(f"Error processing missing companies: {e}")
+'''

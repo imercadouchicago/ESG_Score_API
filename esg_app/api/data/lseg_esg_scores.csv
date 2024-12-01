@@ -1,0 +1,501 @@
+LSEG_ESG_Company,LSEG_ESG_Score,LSEG_Environment,LSEG_Social,LSEG_Governance
+Vulcan Materials Company,48,66,39,30
+Arch Capital Group Ltd.,59,63,60,64
+Sysco Corporation,75,70,75,81
+"Yum! Brands, Inc.",80,87,90,57
+"Martin Marietta Materials, Inc.",42,18,39,88
+The Hershey Company,N/A,N/A,N/A,N/A
+ResMed Inc.,68,74,87,40
+Microchip Technology Incorporated,61,70,67,43
+Nucor Corporation,54,54,65,34
+Extra Space Storage Inc.,63,72,82,35
+HP Inc.,77,62,80,84
+Las Vegas Sands Corp.,70,87,64,64
+"General Mills, Inc.",78,86,91,44
+M&T Bank Corporation,83,91,81,86
+"IDEXX Laboratories, Inc.",71,69,85,55
+"DuPont de Nemours, Inc.",71,73,68,74
+Westinghouse Air Brake Technologies Corporation,72,68,85,59
+"The Hartford Financial Services Group, Inc.",N/A,N/A,N/A,N/A
+Humana Inc.,71,72,64,79
+"Consolidated Edison, Inc.",66,57,67,80
+Iron Mountain Incorporated,73,75,74,70
+Equifax Inc.,45,40,32,67
+Carnival Corporation & plc,N/A,N/A,N/A,N/A
+"Raymond James Financial, Inc.",57,78,58,51
+VICI Properties Inc.,72,76,65,75
+"AvalonBay Communities, Inc.",70,70,79,62
+"Brown & Brown, Inc.",33,24,40,33
+Edison International,78,60,87,96
+Entergy Corporation,50,39,54,65
+Willis Towers Watson Public Limited Company,N/A,N/A,N/A,N/A
+"Take-Two Interactive Software, Inc.",45,23,68,32
+Fifth Third Bancorp,68,80,78,56
+Dow Inc.,87,86,89,88
+"Rockwell Automation, Inc.",62,75,59,51
+"Monolithic Power Systems, Inc.",42,31,41,56
+"WEC Energy Group, Inc.",60,65,60,49
+"CoStar Group, Inc.",67,65,62,73
+Xylem Inc.,82,76,81,91
+"ANSYS, Inc.",57,62,82,33
+"Live Nation Entertainment, Inc.",42,21,44,46
+ON Semiconductor Corporation,64,53,71,64
+"Cardinal Health, Inc.",75,71,74,80
+Tractor Supply Company,77,80,69,83
+Global Payments Inc.,41,45,47,32
+Centene Corporation,71,63,78,66
+eBay Inc.,74,48,73,82
+"United Airlines Holdings, Inc.",56,43,52,78
+"DexCom, Inc.",57,43,64,53
+Equity Residential,64,71,66,54
+"PPG Industries, Inc.",76,82,77,64
+Hewlett Packard Enterprise Company,75,60,71,93
+"Keysight Technologies, Inc.",70,85,85,35
+Kellanova,N/A,N/A,N/A,N/A
+"NVR, Inc.",34,23,16,76
+State Street Corporation,80,84,76,83
+Dover Corporation,66,80,46,76
+LyondellBasell Industries N.V.,79,73,86,78
+"Ventas, Inc.",78,84,69,79
+Deckers Outdoor Corporation,61,65,68,47
+"Leidos Holdings, Inc.",80,73,88,76
+Mettler-Toledo International Inc.,76,72,72,88
+Halliburton Company,83,85,93,67
+"Broadridge Financial Solutions, Inc.",67,67,77,53
+"Tyler Technologies, Inc.",64,40,60,74
+"Church & Dwight Co., Inc.",72,69,76,67
+"PulteGroup, Inc.",59,41,64,76
+Smurfit Westrock Plc,82,78,84,85
+GoDaddy Inc.,53,31,64,50
+"T. Rowe Price Group, Inc.",N/A,N/A,N/A,N/A
+EQT Corporation,41,33,40,54
+"Corpay, Inc.",49,29,34,84
+Fortive Corporation,67,60,66,75
+"American Water Works Company, Inc.",N/A,N/A,N/A,N/A
+Veralto Corporation,71,75,73,66
+Huntington Bancshares Incorporated,74,85,78,69
+CDW Corporation,51,31,50,68
+Synchrony Financial,56,41,74,43
+Devon Energy Corporation,53,44,68,39
+DTE Energy Company,71,92,55,55
+"NetApp, Inc.",64,53,59,83
+"Rollins, Inc.",26,5,39,24
+Archer-Daniels-Midland Company,78,71,80,82
+Ameren Corporation,44,38,43,57
+PPL Corporation,63,48,62,94
+Biogen Inc.,76,81,86,58
+Hubbell Incorporated,72,74,62,83
+FirstEnergy Corp.,62,63,67,53
+Regions Financial Corporation,80,87,78,84
+"West Pharmaceutical Services, Inc.",80,47,83,91
+Cincinnati Financial Corporation,56,51,55,70
+SBA Communications Corporation,65,73,52,69
+"Expedia Group, Inc.",51,74,55,24
+PTC Inc.,63,63,79,50
+W. R. Berkley Corporation,N/A,N/A,N/A,N/A
+Waters Corporation,81,75,74,92
+International Flavors & Fragrances Inc.,75,82,87,48
+Atmos Energy Corporation,40,19,31,82
+Teledyne Technologies Incorporated,41,39,47,39
+"Warner Bros. Discovery, Inc.",58,43,70,48
+The Estée Lauder Companies Inc.,N/A,N/A,N/A,N/A
+"Tyson Foods, Inc.",70,63,71,75
+Weyerhaeuser Company,83,81,74,95
+Eversource Energy,72,86,78,39
+Western Digital Corporation,61,58,69,47
+STERIS plc,55,49,77,27
+"Steel Dynamics, Inc.",59,65,45,73
+"Zimmer Biomet Holdings, Inc.",65,39,82,53
+Erie Indemnity Company,42,16,33,65
+Packaging Corporation of America,70,76,64,70
+Northern Trust Corporation,N/A,N/A,N/A,N/A
+Seagate Technology Holdings plc,N/A,N/A,N/A,N/A
+"Cboe Global Markets, Inc.",N/A,N/A,N/A,N/A
+Zebra Technologies Corporation,N/A,N/A,N/A,N/A
+Fox Corporation,N/A,N/A,N/A,N/A
+"Builders FirstSource, Inc.",N/A,N/A,N/A,N/A
+"McCormick & Company, Incorporated",N/A,N/A,N/A,N/A
+Invitation Homes Inc.,N/A,N/A,N/A,N/A
+"Citizens Financial Group, Inc.",N/A,N/A,N/A,N/A
+Labcorp Holdings Inc.,N/A,N/A,N/A,N/A
+The Clorox Company,N/A,N/A,N/A,N/A
+CMS Energy Corporation,N/A,N/A,N/A,N/A
+"The Cooper Companies, Inc.",N/A,N/A,N/A,N/A
+Omnicom Group Inc.,N/A,N/A,N/A,N/A
+"Essex Property Trust, Inc.",N/A,N/A,N/A,N/A
+"Principal Financial Group, Inc.",N/A,N/A,N/A,N/A
+International Paper Company,N/A,N/A,N/A,N/A
+"CenterPoint Energy, Inc.",N/A,N/A,N/A,N/A
+"Darden Restaurants, Inc.",N/A,N/A,N/A,N/A
+"First Solar, Inc.",N/A,N/A,N/A,N/A
+"J.B. Hunt Transport Services, Inc.",N/A,N/A,N/A,N/A
+"Best Buy Co., Inc.",N/A,N/A,N/A,N/A
+Insulet Corporation,N/A,N/A,N/A,N/A
+Southwest Airlines Co.,N/A,N/A,N/A,N/A
+"Mid-America Apartment Communities, Inc.",N/A,N/A,N/A,N/A
+Brown-Forman Corporation,N/A,N/A,N/A,N/A
+KeyCorp,N/A,N/A,N/A,N/A
+"Alexandria Real Estate Equities, Inc.",N/A,N/A,N/A,N/A
+Snap-on Incorporated,N/A,N/A,N/A,N/A
+Gen Digital Inc.,N/A,N/A,N/A,N/A
+"NRG Energy, Inc.",N/A,N/A,N/A,N/A
+Coterra Energy Inc.,N/A,N/A,N/A,N/A
+"Hologic, Inc.",N/A,N/A,N/A,N/A
+FactSet Research Systems Inc.,N/A,N/A,N/A,N/A
+Jacobs Solutions Inc.,N/A,N/A,N/A,N/A
+"Molina Healthcare, Inc.",N/A,N/A,N/A,N/A
+Ball Corporation,N/A,N/A,N/A,N/A
+Quest Diagnostics Incorporated,N/A,N/A,N/A,N/A
+Loews Corporation,N/A,N/A,N/A,N/A
+"Ulta Beauty, Inc.",N/A,N/A,N/A,N/A
+Trimble Inc.,N/A,N/A,N/A,N/A
+"VeriSign, Inc.",N/A,N/A,N/A,N/A
+"Teradyne, Inc.",N/A,N/A,N/A,N/A
+News Corporation,N/A,N/A,N/A,N/A
+IDEX Corporation,N/A,N/A,N/A,N/A
+Baxter International Inc.,N/A,N/A,N/A,N/A
+Pentair plc,N/A,N/A,N/A,N/A
+Genuine Parts Company,N/A,N/A,N/A,N/A
+Masco Corporation,N/A,N/A,N/A,N/A
+NiSource Inc.,N/A,N/A,N/A,N/A
+"Moderna, Inc.",N/A,N/A,N/A,N/A
+Hormel Foods Corporation,N/A,N/A,N/A,N/A
+Kimco Realty Corporation,N/A,N/A,N/A,N/A
+"UDR, Inc.",N/A,N/A,N/A,N/A
+"Expeditors International of Washington, Inc.",N/A,N/A,N/A,N/A
+Dollar General Corporation,N/A,N/A,N/A,N/A
+"Align Technology, Inc.",N/A,N/A,N/A,N/A
+Avery Dennison Corporation,N/A,N/A,N/A,N/A
+Textron Inc.,N/A,N/A,N/A,N/A
+"Everest Group, Ltd.",N/A,N/A,N/A,N/A
+Marathon Oil Corporation,N/A,N/A,N/A,N/A
+Incyte Corporation,N/A,N/A,N/A,N/A
+Viatris Inc.,N/A,N/A,N/A,N/A
+Alliant Energy Corporation,N/A,N/A,N/A,N/A
+"Healthpeak Properties, Inc.",N/A,N/A,N/A,N/A
+"Domino's Pizza, Inc.",N/A,N/A,N/A,N/A
+Jabil Inc.,N/A,N/A,N/A,N/A
+Nordson Corporation,N/A,N/A,N/A,N/A
+Amcor plc,N/A,N/A,N/A,N/A
+"CF Industries Holdings, Inc.",N/A,N/A,N/A,N/A
+"Revvity, Inc.",N/A,N/A,N/A,N/A
+"Evergy, Inc.",N/A,N/A,N/A,N/A
+"F5, Inc.",N/A,N/A,N/A,N/A
+"EPAM Systems, Inc.",N/A,N/A,N/A,N/A
+"BXP, Inc.",N/A,N/A,N/A,N/A
+"Skyworks Solutions, Inc.",N/A,N/A,N/A,N/A
+"Akamai Technologies, Inc.",N/A,N/A,N/A,N/A
+Pool Corporation,N/A,N/A,N/A,N/A
+"Universal Health Services, Inc.",N/A,N/A,N/A,N/A
+"Stanley Black & Decker, Inc.",N/A,N/A,N/A,N/A
+Regency Centers Corporation,N/A,N/A,N/A,N/A
+"Dollar Tree, Inc.",N/A,N/A,N/A,N/A
+Aptiv PLC,N/A,N/A,N/A,N/A
+"Conagra Brands, Inc.",N/A,N/A,N/A,N/A
+"Paycom Software, Inc.",N/A,N/A,N/A,N/A
+Campbell Soup Company,N/A,N/A,N/A,N/A
+Ralph Lauren Corporation,N/A,N/A,N/A,N/A
+DaVita Inc.,N/A,N/A,N/A,N/A
+"Jack Henry & Associates, Inc.",N/A,N/A,N/A,N/A
+"C.H. Robinson Worldwide, Inc.",N/A,N/A,N/A,N/A
+Camden Property Trust,N/A,N/A,N/A,N/A
+"Juniper Networks, Inc.",N/A,N/A,N/A,N/A
+Molson Coors Beverage Company,N/A,N/A,N/A,N/A
+"Host Hotels & Resorts, Inc.",N/A,N/A,N/A,N/A
+"Super Micro Computer, Inc.",N/A,N/A,N/A,N/A
+Dayforce Inc,N/A,N/A,N/A,N/A
+Allegion plc,N/A,N/A,N/A,N/A
+Norwegian Cruise Line Holdings Ltd.,N/A,N/A,N/A,N/A
+Solventum Corporation,N/A,N/A,N/A,N/A
+Bunge Global SA,N/A,N/A,N/A,N/A
+Albemarle Corporation,N/A,N/A,N/A,N/A
+"Tapestry, Inc.",N/A,N/A,N/A,N/A
+The J. M. Smucker Company,N/A,N/A,N/A,N/A
+"CarMax, Inc.",N/A,N/A,N/A,N/A
+Bio-Techne Corporation,N/A,N/A,N/A,N/A
+Eastman Chemical Company,N/A,N/A,N/A,N/A
+"Lamb Weston Holdings, Inc.",N/A,N/A,N/A,N/A
+Generac Holdings Inc.,N/A,N/A,N/A,N/A
+"Franklin Resources, Inc.",N/A,N/A,N/A,N/A
+"Charles River Laboratories International, Inc.",N/A,N/A,N/A,N/A
+MGM Resorts International,N/A,N/A,N/A,N/A
+"The Interpublic Group of Companies, Inc.",N/A,N/A,N/A,N/A
+"Assurant, Inc.",N/A,N/A,N/A,N/A
+"Catalent, Inc.",N/A,N/A,N/A,N/A
+A. O. Smith Corporation,N/A,N/A,N/A,N/A
+Pinnacle West Capital Corporation,N/A,N/A,N/A,N/A
+MarketAxess Holdings Inc.,N/A,N/A,N/A,N/A
+LKQ Corporation,N/A,N/A,N/A,N/A
+Federal Realty Investment Trust,N/A,N/A,N/A,N/A
+The AES Corporation,N/A,N/A,N/A,N/A
+"Wynn Resorts, Limited",N/A,N/A,N/A,N/A
+Globe Life Inc.,N/A,N/A,N/A,N/A
+Teleflex Incorporated,N/A,N/A,N/A,N/A
+"Mohawk Industries, Inc.",N/A,N/A,N/A,N/A
+"Hasbro, Inc.",N/A,N/A,N/A,N/A
+"Henry Schein, Inc.",N/A,N/A,N/A,N/A
+"Caesars Entertainment, Inc.",N/A,N/A,N/A,N/A
+Celanese Corporation,N/A,N/A,N/A,N/A
+The Mosaic Company,N/A,N/A,N/A,N/A
+"Enphase Energy, Inc.",N/A,N/A,N/A,N/A
+APA Corporation,N/A,N/A,N/A,N/A
+Paramount Global,N/A,N/A,N/A,N/A
+"Huntington Ingalls Industries, Inc.",N/A,N/A,N/A,N/A
+Invesco Ltd.,N/A,N/A,N/A,N/A
+"Match Group, Inc.",N/A,N/A,N/A,N/A
+"Walgreens Boots Alliance, Inc.",N/A,N/A,N/A,N/A
+BorgWarner Inc.,N/A,N/A,N/A,N/A
+"Amentum Holdings, Inc.",N/A,N/A,N/A,N/A
+FMC Corporation,N/A,N/A,N/A,N/A
+"Qorvo, Inc.",N/A,N/A,N/A,N/A
+NVIDIA Corporation,75,67,72,88
+Apple Inc.,78,68,75,91
+Microsoft Corporation,91,78,94,92
+Alphabet Inc.,81,77,87,78
+"Amazon.com, Inc.",N/A,N/A,N/A,N/A
+"Meta Platforms, Inc.",67,74,62,70
+"Tesla, Inc.",73,82,79,48
+Berkshire Hathaway Inc.,25,33,23,19
+Broadcom Inc.,77,81,78,69
+Eli Lilly and Company,66,79,84,29
+Walmart Inc.,81,79,76,92
+JPMorgan Chase & Co.,78,90,77,80
+Visa Inc.,65,50,76,60
+UnitedHealth Group Incorporated,79,74,71,90
+Exxon Mobil Corporation,70,65,74,73
+Oracle Corporation,48,78,75,16
+Mastercard Incorporated,69,78,74,62
+Costco Wholesale Corporation,70,86,46,80
+"The Home Depot, Inc.",N/A,N/A,N/A,N/A
+The Procter & Gamble Company,N/A,N/A,N/A,N/A
+Johnson & Johnson,85,93,98,60
+Bank of America Corporation,87,97,89,80
+"Netflix, Inc.",40,36,56,28
+"Salesforce, Inc.",N/A,N/A,N/A,N/A
+AbbVie Inc.,73,66,94,46
+"T-Mobile US, Inc.",58,79,63,31
+Chevron Corporation,71,55,75,89
+The Coca-Cola Company,N/A,N/A,N/A,N/A
+"Merck & Co., Inc.",77,81,91,51
+Wells Fargo & Company,75,90,76,72
+"Cisco Systems, Inc.",83,70,89,83
+"Advanced Micro Devices, Inc.",68,71,70,61
+Adobe Inc.,70,76,78,62
+"PepsiCo, Inc.",86,74,90,92
+Accenture plc,82,78,78,86
+Blackstone Inc.,N/A,N/A,N/A,N/A
+Linde plc,89,96,94,66
+"ServiceNow, Inc.",65,51,74,61
+McDonald's Corporation,65,74,75,42
+Morgan Stanley,69,73,73,67
+Thermo Fisher Scientific Inc.,80,76,91,66
+American Express Company,69,66,75,74
+Abbott Laboratories,83,79,87,80
+GE Aerospace,N/A,N/A,N/A,N/A
+Intuit Inc.,82,80,90,76
+International Business Machines Corporation,73,78,95,53
+Texas Instruments Incorporated,77,97,85,40
+Philip Morris International Inc.,87,94,89,78
+"Intuitive Surgical, Inc.",60,48,44,86
+Caterpillar Inc.,83,86,75,91
+"The Goldman Sachs Group, Inc.",N/A,N/A,N/A,N/A
+The Walt Disney Company,N/A,N/A,N/A,N/A
+QUALCOMM Incorporated,80,69,85,85
+Danaher Corporation,79,72,89,68
+Verizon Communications Inc.,71,74,74,63
+Comcast Corporation,69,69,68,70
+Booking Holdings Inc.,56,59,45,71
+RTX Corporation,N/A,N/A,N/A,N/A
+Amgen Inc.,77,75,82,72
+AT&T Inc.,82,79,92,62
+S&P Global Inc.,85,79,85,89
+"Applied Materials, Inc.",86,83,89,85
+The Progressive Corporation,N/A,N/A,N/A,N/A
+"BlackRock, Inc.",78,96,79,71
+"Lowe's Companies, Inc.",80,70,86,78
+"NextEra Energy, Inc.",72,81,69,60
+Honeywell International Inc.,75,84,76,61
+"Uber Technologies, Inc.",79,68,70,90
+Pfizer Inc.,80,88,90,59
+Stryker Corporation,79,59,79,87
+Eaton Corporation plc,N/A,N/A,N/A,N/A
+Union Pacific Corporation,76,53,94,80
+The Charles Schwab Corporation,N/A,N/A,N/A,N/A
+KKR & Co. Inc.,40,60,72,12
+Palantir Technologies Inc.,30,2,26,41
+"The TJX Companies, Inc.",N/A,N/A,N/A,N/A
+Lockheed Martin Corporation,70,86,66,62
+Boston Scientific Corporation,81,58,91,78
+Citigroup Inc.,87,92,77,92
+"Palo Alto Networks, Inc.",45,49,68,24
+ConocoPhillips,63,66,74,37
+Vertex Pharmaceuticals Incorporated,61,55,95,33
+"Automatic Data Processing, Inc.",64,38,65,71
+"Arista Networks, Inc.",57,60,53,59
+"Fiserv, Inc.",53,48,49,61
+Bristol-Myers Squibb Company,78,79,86,64
+"Gilead Sciences, Inc.",83,76,87,81
+"Micron Technology, Inc.",70,56,79,73
+"NIKE, Inc.",69,85,83,35
+Chubb Limited,N/A,N/A,N/A,N/A
+Medtronic plc,78,77,88,65
+Starbucks Corporation,74,83,70,71
+"United Parcel Service, Inc.",57,48,63,60
+"Marsh & McLennan Companies, Inc.",65,65,66,72
+"Analog Devices, Inc.",69,59,69,82
+The Boeing Company,N/A,N/A,N/A,N/A
+Deere & Company,82,88,82,75
+"Prologis, Inc.",74,75,68,78
+Intel Corporation,91,90,90,96
+Lam Research Corporation,78,71,82,81
+The Sherwin-Williams Company,N/A,N/A,N/A,N/A
+The Southern Company,N/A,N/A,N/A,N/A
+Dell Technologies Inc.,66,83,67,49
+"Elevance Health, Inc.",81,85,86,73
+The Cigna Group,N/A,N/A,N/A,N/A
+Trane Technologies plc,79,68,91,76
+"Altria Group, Inc.",88,91,94,76
+Cintas Corporation,59,61,62,55
+American Tower Corporation,84,83,75,92
+"Regeneron Pharmaceuticals, Inc.",58,55,96,24
+"Waste Management, Inc.",84,67,89,90
+Parker-Hannifin Corporation,64,71,64,57
+"Intercontinental Exchange, Inc.",69,66,57,84
+GE Vernova Inc.,N/A,N/A,N/A,N/A
+"Mondelez International, Inc.",82,86,91,62
+KLA Corporation,56,44,57,66
+"HCA Healthcare, Inc.",65,65,72,56
+"Equinix, Inc.",58,63,61,49
+Amphenol Corporation,75,66,73,90
+"PayPal Holdings, Inc.",80,66,82,88
+Duke Energy Corporation,N/A,N/A,N/A,N/A
+Moody's Corporation,N/A,N/A,N/A,N/A
+General Dynamics Corporation,N/A,N/A,N/A,N/A
+"Synopsys, Inc.",N/A,N/A,N/A,N/A
+Welltower Inc.,N/A,N/A,N/A,N/A
+"CrowdStrike Holdings, Inc.",N/A,N/A,N/A,N/A
+"The PNC Financial Services Group, Inc.",N/A,N/A,N/A,N/A
+"Airbnb, Inc.",N/A,N/A,N/A,N/A
+"Motorola Solutions, Inc.",N/A,N/A,N/A,N/A
+Aon plc,N/A,N/A,N/A,N/A
+"Chipotle Mexican Grill, Inc.",N/A,N/A,N/A,N/A
+"Cadence Design Systems, Inc.",N/A,N/A,N/A,N/A
+CME Group Inc.,N/A,N/A,N/A,N/A
+Illinois Tool Works Inc.,N/A,N/A,N/A,N/A
+"Marriott International, Inc.",N/A,N/A,N/A,N/A
+U.S. Bancorp,N/A,N/A,N/A,N/A
+Zoetis Inc.,N/A,N/A,N/A,N/A
+McKesson Corporation,N/A,N/A,N/A,N/A
+Northrop Grumman Corporation,N/A,N/A,N/A,N/A
+TransDigm Group Incorporated,N/A,N/A,N/A,N/A
+"Fortinet, Inc.",N/A,N/A,N/A,N/A
+"EOG Resources, Inc.",N/A,N/A,N/A,N/A
+Colgate-Palmolive Company,N/A,N/A,N/A,N/A
+Emerson Electric Co.,N/A,N/A,N/A,N/A
+Target Corporation,N/A,N/A,N/A,N/A
+"O'Reilly Automotive, Inc.",N/A,N/A,N/A,N/A
+Constellation Energy Corporation,N/A,N/A,N/A,N/A
+Capital One Financial Corporation,N/A,N/A,N/A,N/A
+3M Company,N/A,N/A,N/A,N/A
+Ecolab Inc.,N/A,N/A,N/A,N/A
+FedEx Corporation,N/A,N/A,N/A,N/A
+CSX Corporation,N/A,N/A,N/A,N/A
+"The Williams Companies, Inc.",N/A,N/A,N/A,N/A
+"Air Products and Chemicals, Inc.",N/A,N/A,N/A,N/A
+CVS Health Corporation,N/A,N/A,N/A,N/A
+Carrier Global Corporation,N/A,N/A,N/A,N/A
+"Simon Property Group, Inc.",N/A,N/A,N/A,N/A
+"Becton, Dickinson and Company",N/A,N/A,N/A,N/A
+"Autodesk, Inc.",N/A,N/A,N/A,N/A
+"Republic Services, Inc.",N/A,N/A,N/A,N/A
+Arthur J. Gallagher & Co.,N/A,N/A,N/A,N/A
+Royal Caribbean Cruises Ltd.,N/A,N/A,N/A,N/A
+General Motors Company,N/A,N/A,N/A,N/A
+"ONEOK, Inc.",N/A,N/A,N/A,N/A
+Freeport-McMoRan Inc.,N/A,N/A,N/A,N/A
+Schlumberger Limited,N/A,N/A,N/A,N/A
+Truist Financial Corporation,N/A,N/A,N/A,N/A
+Aflac Incorporated,N/A,N/A,N/A,N/A
+PACCAR Inc,N/A,N/A,N/A,N/A
+"Digital Realty Trust, Inc.",N/A,N/A,N/A,N/A
+Hilton Worldwide Holdings Inc.,N/A,N/A,N/A,N/A
+"Roper Technologies, Inc.",N/A,N/A,N/A,N/A
+Norfolk Southern Corporation,N/A,N/A,N/A,N/A
+"Kinder Morgan, Inc.",N/A,N/A,N/A,N/A
+"W.W. Grainger, Inc.",N/A,N/A,N/A,N/A
+"The Travelers Companies, Inc.",N/A,N/A,N/A,N/A
+Sempra,N/A,N/A,N/A,N/A
+Public Storage,N/A,N/A,N/A,N/A
+Fair Isaac Corporation,N/A,N/A,N/A,N/A
+NXP Semiconductors N.V.,N/A,N/A,N/A,N/A
+"United Rentals, Inc.",N/A,N/A,N/A,N/A
+"MetLife, Inc.",N/A,N/A,N/A,N/A
+Johnson Controls International plc,N/A,N/A,N/A,N/A
+The Bank of New York Mellon Corporation,N/A,N/A,N/A,N/A
+"Charter Communications, Inc.",N/A,N/A,N/A,N/A
+PG&E Corporation,N/A,N/A,N/A,N/A
+"Copart, Inc.",N/A,N/A,N/A,N/A
+Monster Beverage Corporation,N/A,N/A,N/A,N/A
+"Ameriprise Financial, Inc.",N/A,N/A,N/A,N/A
+"AutoZone, Inc.",N/A,N/A,N/A,N/A
+"Paychex, Inc.",N/A,N/A,N/A,N/A
+Phillips 66,N/A,N/A,N/A,N/A
+"Diamondback Energy, Inc.",N/A,N/A,N/A,N/A
+The Allstate Corporation,N/A,N/A,N/A,N/A
+"D.R. Horton, Inc.",N/A,N/A,N/A,N/A
+Realty Income Corporation,N/A,N/A,N/A,N/A
+Marathon Petroleum Corporation,N/A,N/A,N/A,N/A
+"L3Harris Technologies, Inc.",N/A,N/A,N/A,N/A
+"American Electric Power Company, Inc.",N/A,N/A,N/A,N/A
+"Cencora, Inc.",N/A,N/A,N/A,N/A
+Cummins Inc.,N/A,N/A,N/A,N/A
+Vistra Corp.,N/A,N/A,N/A,N/A
+"Old Dominion Freight Line, Inc.",N/A,N/A,N/A,N/A
+"Quanta Services, Inc.",N/A,N/A,N/A,N/A
+"Dominion Energy, Inc.",N/A,N/A,N/A,N/A
+Fastenal Company,N/A,N/A,N/A,N/A
+Newmont Corporation,N/A,N/A,N/A,N/A
+MSCI Inc.,N/A,N/A,N/A,N/A
+"Fidelity National Information Services, Inc.",N/A,N/A,N/A,N/A
+Occidental Petroleum Corporation,N/A,N/A,N/A,N/A
+"American International Group, Inc.",N/A,N/A,N/A,N/A
+"Ross Stores, Inc.",N/A,N/A,N/A,N/A
+Howmet Aerospace Inc.,N/A,N/A,N/A,N/A
+TE Connectivity plc,N/A,N/A,N/A,N/A
+"Nasdaq, Inc.",N/A,N/A,N/A,N/A
+"Axon Enterprise, Inc.",N/A,N/A,N/A,N/A
+Kenvue Inc.,N/A,N/A,N/A,N/A
+Keurig Dr Pepper Inc.,N/A,N/A,N/A,N/A
+"AMETEK, Inc.",N/A,N/A,N/A,N/A
+Lennar Corporation,N/A,N/A,N/A,N/A
+"Prudential Financial, Inc.",N/A,N/A,N/A,N/A
+Discover Financial Services,N/A,N/A,N/A,N/A
+Crown Castle Inc.,N/A,N/A,N/A,N/A
+Ford Motor Company,N/A,N/A,N/A,N/A
+Kimberly-Clark Corporation,N/A,N/A,N/A,N/A
+Hess Corporation,N/A,N/A,N/A,N/A
+Valero Energy Corporation,N/A,N/A,N/A,N/A
+"Constellation Brands, Inc.",N/A,N/A,N/A,N/A
+Baker Hughes Company,N/A,N/A,N/A,N/A
+Public Service Enterprise Group Incorporated,N/A,N/A,N/A,N/A
+The Kroger Co.,N/A,N/A,N/A,N/A
+Electronic Arts Inc.,N/A,N/A,N/A,N/A
+"Gartner, Inc.",N/A,N/A,N/A,N/A
+Targa Resources Corp.,N/A,N/A,N/A,N/A
+Ingersoll Rand Inc.,N/A,N/A,N/A,N/A
+Corning Incorporated,N/A,N/A,N/A,N/A
+"Delta Air Lines, Inc.",N/A,N/A,N/A,N/A
+Garmin Ltd.,N/A,N/A,N/A,N/A
+"CBRE Group, Inc.",N/A,N/A,N/A,N/A
+"Verisk Analytics, Inc.",N/A,N/A,N/A,N/A
+Cognizant Technology Solutions Corporation,N/A,N/A,N/A,N/A
+Otis Worldwide Corporation,N/A,N/A,N/A,N/A
+Lululemon Athletica Inc.,N/A,N/A,N/A,N/A
+Xcel Energy Inc.,N/A,N/A,N/A,N/A
+"Corteva, Inc.",N/A,N/A,N/A,N/A
+Edwards Lifesciences Corporation,N/A,N/A,N/A,N/A
+GE HealthCare Technologies Inc.,N/A,N/A,N/A,N/A
+IQVIA Holdings Inc.,N/A,N/A,N/A,N/A
+The Kraft Heinz Company,N/A,N/A,N/A,N/A
+"Agilent Technologies, Inc.",N/A,N/A,N/A,N/A
+Exelon Corporation,N/A,N/A,N/A,N/A
