@@ -100,7 +100,7 @@ esg_score_api $ make interactive
 
 ### Scraper Commands
 Each ESG provider has its own scraper module that can be run independently using the following commands.
-The export paths in each of the scraper modules has already been changed so that the existing data would not be overwritten. 
+The export paths in each of the scraper modules has already been changed so that the existing data will not be overwritten. 
 The dataframe number of rows has been set to 1 in the Threader function so the scrapers can be tested efficiently. 
 If you would like to test the scrapers, then feel free to run the following commands.
 
