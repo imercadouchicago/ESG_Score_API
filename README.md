@@ -154,15 +154,15 @@ Note: For the following routes, the table name must be one of the following:
 
 If running on port 5001, the base URL will be http://0.0.0.0:5001/.
 
-1. [GET] Returns the table with the given name in JSON format.
+1. [GET] Returns the specified table in JSON format.
 
     URL: `esg_api/<string:table_name>`
 
-2. [GET] Returns the company data from the table with the given name in JSON format.
+2. [GET] Returns the specified company's data from the specified table in JSON format.
 
     URL: `esg_api/<string:table_name>/<string:ticker>`
 
-3. [GET] Returns the ESG scores from all tables for a company in JSON format.
+3. [GET] Returns the ESG scores from all tables for a specified company in JSON format.
 
     URL: `esg_api/all_tables/<string:ticker>`
 
