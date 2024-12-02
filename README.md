@@ -1,7 +1,7 @@
 # ESG Score API
 
 ## Overview
-A comprehensive containerized API for collecting, aggregating, and querying Environmental, Social, and Governance (ESG) scores from multiple major providers:
+A comprehensive Docker-based API for collecting, aggregating, and querying Environmental, Social, and Governance (ESG) scores from multiple major providers:
 - CSRHub
 - LSEG
 - MSCI
@@ -87,7 +87,7 @@ git clone https://github.com/yourusername/esg_score_api.git
 cd esg_score_api
 ```
 
-3. Interact with Docker using the make commands contained in the Makefile:
+3. Interact with the Docker container using the make commands contained in the Makefile:
 
 ```bash
 esg_score_api $ make <command>
