@@ -160,5 +160,5 @@ Isabella Mercado - imercado@uchicago.edu
 
 Lucas Kopinski - lkopinski@uchicago.edu
 
-Project Link: https://github.com/imercado/esg_score_api
+Project Link: https://github.com/imercadouchicago/esg_score_api
 ```
