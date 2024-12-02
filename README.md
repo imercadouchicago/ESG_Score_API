@@ -1,7 +1,7 @@
 # ESG Score API
 
 ## Overview
-A comprehensive API for collecting, aggregating, and querying Environmental, Social, and Governance (ESG) scores from multiple major providers:
+A comprehensive containerized API for collecting, aggregating, and querying Environmental, Social, and Governance (ESG) scores from multiple major providers:
 - CSRHub
 - LSEG
 - MSCI
@@ -9,13 +9,22 @@ A comprehensive API for collecting, aggregating, and querying Environmental, Soc
 - Yahoo Finance
 
 ## Features
-- Multi-threaded web scraping for efficient data collection
+The folder 'esg_scrapers' contains a scraper module for each of the 5 ESG score providers above.
+These modules rely on the util files within the 'scraper_utils' folder and contain the following features:
+- Multi-threaded Selenium web scraping for efficient data collection
+- Thread locking to keep track of processed companies
+- A queue system to assign each thread to a unique user agent
 - Automated cookie handling and browser management
 - Robust error handling and retry mechanisms
 - Detailed logging system
-- SQLite database integration
-- Flask API for querying data
-- Support for S&P 500 companies
+
+The folder 'data' contains csv files with the raw esg data aggregated by running each of the scraper modules 
+on the list of companies in the file 'sp500.csv' (which contains the S&P 500 companies).
+Each of the csv files have been loaded into a separate SQL table within the SQLite database 'esg_scores.db' using the commands created in 'data_utils/db_manage.py' with the helper functions associated with these commands in 'data_utils/loading_utils.py'.
+
+The file 'app.py' builds a Flask app with the api endpoints located in 'routes/routes.py' and the helper functions 
+associated with these endpoints located in 'route_utils/route_utils.py'. These endpoint helper functions query the SQL tables 
+within the SQLite database. 
 
 ## Technology Stack
 - Python
@@ -23,7 +32,7 @@ A comprehensive API for collecting, aggregating, and querying Environmental, Soc
 - Docker
 - Flask
 - Selenium WebDriver
-- Concurrent Futures
+- Concurrent Futures 
 - SQLite
 - A variety of Python packages
 
