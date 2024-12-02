@@ -2,7 +2,7 @@
 
 ## Overview
 A comprehensive API for collecting, aggregating, and querying Environmental, Social, and Governance (ESG) scores from multiple major providers:
-- CSRHUB
+- CSRHub
 - LSEG
 - MSCI
 - S&P Global
@@ -93,6 +93,7 @@ All make commands include a dependency on the make build command, which allows t
 ```bash
 # Build the Docker container
 esg_score_api $ make build 
+
 # Run the container interactively
 esg_score_api $ make interactive 
 ```
@@ -116,12 +117,16 @@ esg_score_api $ make yahoo
 ```bash
 # Create a sqlite database file and associated tables
 esg_score_api $ make db_create 
+
 # Load data into the created sqlite database
 esg_score_api $ make db_load 
+
 # Delete the created database file
 esg_score_api $ make db_rm 
+
 # Delete the created database file and reload data
 esg_score_api $ make db_clean 
+
 # Create interactive sqlite session with database
 esg_score_api $ make db_interactive 
 ```
