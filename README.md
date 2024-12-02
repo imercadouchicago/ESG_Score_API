@@ -2,7 +2,7 @@
 
 ## Overview
 A comprehensive API for collecting, aggregating, and querying Environmental, Social, and Governance (ESG) scores from multiple major providers:
-- CSRHUB
+- CSRHub
 - LSEG
 - MSCI
 - S&P Global
@@ -25,7 +25,7 @@ A comprehensive API for collecting, aggregating, and querying Environmental, Soc
 - Selenium WebDriver
 - Concurrent Futures
 - SQLite
-- (other packages)
+- A variety of Python packages
 
 ## Project Structure
 ```
@@ -79,7 +79,7 @@ git clone https://github.com/yourusername/esg_score_api.git
 cd esg_score_api
 ```
 
-3. Interact with Docker using the Makefile:
+3. Interact with Docker using the make commands contained in the Makefile:
 
 ```bash
 esg_score_api $ make <command>
@@ -91,13 +91,16 @@ All make commands include a dependency on the make build command, which allows t
 ### Docker Commands
 
 ```bash
-esg_score_api $ make build # Build the Docker container
-esg_score_api $ make interactive # Run the container interactively
+# Build the Docker container
+esg_score_api $ make build 
+
+# Run the container interactively
+esg_score_api $ make interactive 
 ```
 
 ### Scraper Commands
 Each ESG provider has its own scraper module that can be run independently using the following commands.
-The export paths in each of the scraper modules has already been changed so that the existing data would not be overwritten. 
+The export paths in each of the scraper modules has already been changed so that the existing data will not be overwritten. 
 The dataframe number of rows has been set to 1 in the Threader function so the scrapers can be tested efficiently. 
 If you would like to test the scrapers, then feel free to run the following commands.
 
@@ -112,11 +115,20 @@ esg_score_api $ make yahoo
 ### Database Commands
 
 ```bash
-esg_score_api $ make db_create # Create a sqlite database file and associated tables
-esg_score_api $ make db_load # Load data into the created sqlite database
-esg_score_api $ make db_rm # Delete the created database file
-esg_score_api $ make db_clean # Delete the created database file and reload data
-esg_score_api $ make db_interactive # Create interactive sqlite session with database
+# Create a sqlite database file and associated tables
+esg_score_api $ make db_create 
+
+# Load data into the created sqlite database
+esg_score_api $ make db_load 
+
+# Delete the created database file
+esg_score_api $ make db_rm 
+
+# Delete the created database file and reload data
+esg_score_api $ make db_clean 
+
+# Create interactive sqlite session with database
+esg_score_api $ make db_interactive 
 ```
 
 ### Flask Command
@@ -135,15 +147,15 @@ If running on port 5001, the base URL will be http://0.0.0.0:5001/.
 
 1. [GET] Returns the table with the given name in JSON format.
 
-    URL: `/esg_api/<string:table_name>`
+    URL: `esg_api/<string:table_name>`
 
 2. [GET] Returns the company data from the table with the given name in JSON format.
 
-    URL: `/esg_api/<string:table_name>/<string:ticker>`
+    URL: `esg_api/<string:table_name>/<string:ticker>`
 
 3. [GET] Returns the ESG scores from all tables for a company in JSON format.
 
-    URL: `/esg_api/all_tables/<string:ticker>`
+    URL: `esg_api/all_tables/<string:ticker>`
 
 ## Acknowledgments
 The docker-compose.yml file was sourced from:
