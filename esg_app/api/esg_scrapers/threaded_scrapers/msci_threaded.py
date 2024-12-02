@@ -29,10 +29,10 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
     This function scrapes MSCI's ESG Ratings Climate Search Tool. 
 
     Args:
-        company_data (dataframe) : Dataframe containing list of companies thread will scrape.
-        user_agents (queue) : Queue of user agents.
-        processed_tickers (set) : Tickers of companies that have been processed by all threads.
-        lock (lock) : Places a lock on a company as it is being processed to avoid conflicts between threads.
+        company_data: [dataframe] Dataframe containing list of companies thread will scrape.
+        user_agents: [queue] Queue of user agents.
+        processed_tickers: [set] Tickers of companies that have been processed by all threads.
+        lock: [lock] Places a lock on a company as it is being processed to avoid conflicts between threads.
 
     Returns:
         list[dict] : List of dictionaries where each dictionary contains the scraping results for 1 company.
@@ -43,11 +43,11 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
         Helper function for resetting queue and initalizing webscraper.
 
         Args:
-            list_of_agents (list) : List of user agents.
-            first_attempt (bool) : Whether this is the first attempt at initializing the webscraper.
+            list_of_agents: [list] List of user agents.
+            first_attempt: [bool] Whether this is the first attempt at initializing the webscraper.
 
         Returns:
-            bot (webscraper) : Webscraper object.
+            bot: [webscraper] Webscraper object.
         '''
         for agent in list_of_agents:
             user_agents.put(agent)

@@ -3,4 +3,3 @@ Flask==3.0.3
 gunicorn==21.2.0
 selenium==4.15.2
 tqdm==4.66.1
-censusname==0.2.2

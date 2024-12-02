@@ -24,9 +24,9 @@ def Threader(website_function: Callable, export_path: str):
     and aggregates and exports results from each thread to a csv.
 
     Args:
-    website_function (callable): The function used to webscrape a website.
-    export_path (str): The path for the exported csv.
-        '''
+        website_function:  [callable] The function used to webscrape a website.
+        export_path: [str] The path for the exported csv.
+    '''
     logging.info("Script started")
     
     # Create queue with user agents

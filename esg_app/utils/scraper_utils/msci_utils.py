@@ -4,10 +4,10 @@ def clean_company_name(name: str) -> str:
     """Clean a company name.
     
     Args:
-        name (str) : The name of the company to be cleaned.
+        name: [str] The name of the company to be cleaned.
 
     Returns:
-        (str) : The cleaned company name.
+        [str] : The cleaned company name.
     """
     replacements = {
         'Incorporated': 'Inc',
@@ -31,10 +31,10 @@ def clean_flag_element(element) -> str:
     """Clean a flag's web element.
     
     Args:
-        element : The flag web element to be cleaned.
+        element: [element] The flag web element to be cleaned.
 
     Returns:
-        (str) : The flag color within the web element.
+        [str] : The flag color within the web element.
     """
     classes = element.get_attribute("class")
     if "Green" in classes: return "Green"

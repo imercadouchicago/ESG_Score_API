@@ -106,6 +106,15 @@ print(missing_rows[16:31])
     #     except Exception as e:
     #         logging.warning("Error while selecting from dropdown: %s", e)
 
+# Dockerfile
+    # py3-setuptools \
+    # py3-pip \
+    # py3-wheel
+    # RUN pip install --upgrade pip setuptools wheel
+
+# requirements.txt
+# censusname==0.2.2
+
 lol = data.iloc[[4]]
 print("Data:", lol)
 print("Length", len(lol))

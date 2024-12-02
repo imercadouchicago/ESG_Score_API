@@ -1,3 +1,5 @@
+''' This module contains utility functions for the routes. '''
+
 from flask import jsonify
 from esg_app.utils.data_utils.loading_utils import create_db_connection
 

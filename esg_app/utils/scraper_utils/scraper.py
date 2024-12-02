@@ -29,8 +29,8 @@ class WebScraper():
     This class is used to scrape a website.
 
     Attributes:
-        URL (str) : The website URL.
-        user_agent (str) : The selected user agent. 
+        URL: [str] The website URL.
+        user_agent: [str] The selected user agent. 
     '''
 
     def __init__(self, URL: str, user_agents: Queue):
@@ -72,11 +72,11 @@ class WebScraper():
         website.
 
         Args:
-            xpath (str) : The xpath of the web element.
-            class_name (str) : The class name of the web element.
-            id_name (str) : The id name of the web element.
+            xpath: [str] The xpath of the web element.
+            class_name: [str] The class name of the web element.
+            id_name: [str] The id name of the web element.
         '''
-        logging.debug("Waiting for element to load: %s", xpath)
+        logging.info("Waiting for element to load: %s", xpath)
         delay = 10  # seconds
         ignored_exceptions = (NoSuchElementException,
                               StaleElementReferenceException,)
@@ -88,7 +88,7 @@ class WebScraper():
                 return wait.until(EC.presence_of_element_located((By.CLASS_NAME, xpath)))
             elif id_name:
                 return wait.until(EC.presence_of_element_located((By.ID, xpath)))
-            logging.debug("Element loaded successfully: %s", xpath)
+            logging.info("Element loaded successfully: %s", xpath)
         except TimeoutException:
             if xpath: logging.warning("Timeout while waiting for element: %s", xpath)
             if class_name: logging.warning("Timeout while waiting for element: %s", class_name)
@@ -103,14 +103,14 @@ class WebScraper():
         This function locates a web element.
 
         Args:
-            xpath (str) : The xpath of the web element.
-            class_name (str) : The class name of the web element.
-            id_name (str) : The id name of the web element.
-            multiple (bool) : True if multiple elements to be located; False
+            xpath: [str] The xpath of the web element.
+            class_name: [str] The class name of the web element.
+            id_name: [str] The id name of the web element.
+            multiple: [bool] True if multiple elements to be located; False
             otherwise.
 
         Returns:
-            WebElement: The element on the website.
+            [WebElement] : The element on the website.
         '''
         try:
             if xpath and not multiple:
@@ -138,14 +138,15 @@ class WebScraper():
         This function locates an element within another element.
         
         Args:
-            xpath (str) : The xpath of the web element.
-            class_name (str) : The class name of the web element.
-            id_name (str) : The id name of the web element.
-            multiple (bool) : True if multiple elements to be located; False
+            element: [WebElement] The parent element.
+            xpath: [str] The xpath of the web element.
+            class_name: [str] The class name of the web element.
+            id_name: [str] The id name of the web element.
+            multiple: [bool] True if multiple elements to be located; False
             otherwise.
 
         Returns:
-            WebElement: The element on the website.
+            [WebElement] : The element on the website.
         '''
         try:
             if xpath and not multiple:
@@ -170,9 +171,9 @@ class WebScraper():
         This function clicks on 'Accept cookies' button on the website.
 
         Args:
-            xpath (str): The xpath of the 'Accept cookies' button.
-            class_name (str) : The class name of the 'Accept cookies' button.
-            id_name (str) : The id name of the'Accept cookies' button.
+            xpath: [str] The xpath of the 'Accept cookies' button.
+            class_name: [str] The class name of the 'Accept cookies' button.
+            id_name: [str] The id name of the'Accept cookies' button.
         '''
         logging.info("Attempting to accept cookies.")
         try:
@@ -192,13 +193,13 @@ class WebScraper():
         This function locates the search bar and enters the company name.
 
         Args:
-            search_item (str) : The item to enter into search bar.
-            xpath (str) : The xpath of the search bar.
-            class_name (str) : The class name of the search bar.
-            id_name (str) : The id name of the search bar.
+            search_item: [str] The item to enter into search bar.
+            xpath: [str] The xpath of the search bar.
+            class_name: [str] The class name of the search bar.
+            id_name: [str] The id name of the search bar.
 
         Returns:
-            WebElement: The webelement of the search bar.
+            [WebElement] : The webelement of the search bar.
         '''
         try:
             logging.info("Search bar request for: %s", search_item)

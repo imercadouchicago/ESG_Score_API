@@ -1,8 +1,7 @@
-"""This module provides for database management utilies"""
+"""This module provides for database management utilies."""
 
 import argparse
 import os
-
 from loading_utils import (
     create_tables_and_load_data,
     create_empty_sqlite_db,

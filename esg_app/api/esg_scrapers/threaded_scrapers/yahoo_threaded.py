@@ -27,13 +27,13 @@ def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue,
     This function scrapes Yahoo Finance. 
 
     Args:
-        company_data (dataframe) : Dataframe containing list of companies thread will scrape.
-        user_agents (queue) : Queue of user agents.
-        processed_tickers (set) : Tickers of companies that have been processed by all threads.
-        lock (lock) : Places a lock on a company as it is being processed to avoid conflicts between threads.
+        company_data: [dataframe] Dataframe containing list of companies thread will scrape.
+        user_agents: [queue] Queue of user agents.
+        processed_tickers: [set] Tickers of companies that have been processed by all threads.
+        lock: [lock] Places a lock on a company as it is being processed to avoid conflicts between threads.
 
     Returns:
-        list[dict] : List of dictionaries where each dictionary contains the scraping results for 1 company.
+        [list[dict]] : List of dictionaries where each dictionary contains the scraping results for 1 company.
     '''
     try:
         # Initialize browser

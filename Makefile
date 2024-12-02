@@ -12,6 +12,7 @@ ENV_VARS = \
 	-e FLASK_DEBUG='1' \
 	-e FLASK_ENV='development' \
 	-e PYTHONPATH='/app/src' \
+	-e PYTHONDONTWRITEBYTECODE=1 \
 	-e DB_PATH=$(DB_PATH) \
 	-e DATA_DIR=$(DATA_DIR) \
 	-e DB_MANAGE_PATH=$(DB_MANAGE_PATH)
