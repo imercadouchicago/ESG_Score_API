@@ -8,3 +8,59 @@
 2024-12-01 20:19:30,018 - INFO - Loaded data from spglobal_esg_scores.csv into spglobal_table
 2024-12-01 20:19:30,021 - INFO - Reading file: yahoo_esg_scores.csv
 2024-12-01 20:19:30,023 - INFO - Loaded data from yahoo_esg_scores.csv into yahoo_table
+2024-12-01 20:27:09,601 - INFO - Reading file: csrhub_scores.csv
+2024-12-01 20:27:09,602 - INFO - Loaded data from csrhub_scores.csv into csrhub_table
+2024-12-01 20:27:09,604 - INFO - Reading file: lseg_esg_scores.csv
+2024-12-01 20:27:09,606 - INFO - Loaded data from lseg_esg_scores.csv into lseg_table
+2024-12-01 20:27:09,608 - INFO - Reading file: msci_esg_scores.csv
+2024-12-01 20:27:09,610 - INFO - Loaded data from msci_esg_scores.csv into msci_table
+2024-12-01 20:27:09,613 - INFO - Reading file: spglobal_esg_scores.csv
+2024-12-01 20:27:09,614 - INFO - Loaded data from spglobal_esg_scores.csv into spglobal_table
+2024-12-01 20:27:09,617 - INFO - Reading file: yahoo_esg_scores.csv
+2024-12-01 20:27:09,618 - INFO - Loaded data from yahoo_esg_scores.csv into yahoo_table
+2024-12-02 00:11:44,489 - INFO - Database at /app/src/esg_app/api/data/esg_scores.db removed
+2024-12-02 00:11:44,508 - INFO - Database created at /app/src/esg_app/api/data/esg_scores.db
+2024-12-02 00:11:44,542 - INFO - Reading file: csrhub_scores.csv
+2024-12-02 00:11:44,565 - INFO - Loaded data from csrhub_scores.csv into csrhub_table
+2024-12-02 00:13:40,362 - INFO - Database at /app/src/esg_app/api/data/esg_scores.db removed
+2024-12-02 00:13:40,364 - INFO - Database created at /app/src/esg_app/api/data/esg_scores.db
+2024-12-02 00:13:40,366 - INFO - Reading file: csrhub_scores.csv
+2024-12-02 00:13:40,369 - INFO - Loaded data from csrhub_scores.csv into csrhub_table
+2024-12-02 00:16:03,125 - INFO - Database at /app/src/esg_app/api/data/esg_scores.db removed
+2024-12-02 00:16:03,127 - INFO - Database created at /app/src/esg_app/api/data/esg_scores.db
+2024-12-02 00:16:37,445 - INFO - Database at /app/src/esg_app/api/data/esg_scores.db removed
+2024-12-02 00:16:37,447 - INFO - Database created at /app/src/esg_app/api/data/esg_scores.db
+2024-12-02 00:16:59,198 - INFO - Database at /app/src/esg_app/api/data/esg_scores.db removed
+2024-12-02 00:16:59,200 - INFO - Database created at /app/src/esg_app/api/data/esg_scores.db
+2024-12-02 00:16:59,202 - INFO - Reading file: SP500.csv
+2024-12-02 00:16:59,208 - INFO - Loaded data from SP500.csv into sp500_table
+2024-12-02 00:16:59,214 - INFO - Reading file: csrhub_scores.csv
+2024-12-02 00:16:59,217 - INFO - Loaded data from csrhub_scores.csv into csrhub_table
+2024-12-02 00:18:22,229 - INFO - Database at /app/src/esg_app/api/data/esg_scores.db removed
+2024-12-02 00:18:22,231 - INFO - Database created at /app/src/esg_app/api/data/esg_scores.db
+2024-12-02 00:18:22,234 - INFO - Reading file: SP500.csv
+2024-12-02 00:18:22,240 - INFO - Loaded data from SP500.csv into sp500_table
+2024-12-02 00:18:22,246 - INFO - Reading file: csrhub_scores.csv
+2024-12-02 00:18:22,248 - INFO - Loaded data from csrhub_scores.csv into csrhub_table
+2024-12-02 00:18:22,299 - INFO - Reading file: lseg_esg_scores.csv
+2024-12-02 00:18:22,306 - INFO - Loaded data from lseg_esg_scores.csv into lseg_table
+2024-12-02 00:18:22,383 - INFO - Reading file: msci_esg_scores.csv
+2024-12-02 00:18:22,394 - INFO - Loaded data from msci_esg_scores.csv into msci_table
+2024-12-02 00:18:22,450 - INFO - Reading file: spglobal_esg_scores.csv
+2024-12-02 00:18:22,455 - INFO - Loaded data from spglobal_esg_scores.csv into spglobal_table
+2024-12-02 00:18:22,532 - INFO - Reading file: yahoo_esg_scores.csv
+2024-12-02 00:18:22,538 - INFO - Loaded data from yahoo_esg_scores.csv into yahoo_table
+2024-12-02 00:35:30,989 - INFO - Database at /app/src/esg_app/api/data/esg_scores.db removed
+2024-12-02 00:35:30,991 - INFO - Database created at /app/src/esg_app/api/data/esg_scores.db
+2024-12-02 00:35:30,994 - INFO - Reading file: SP500.csv
+2024-12-02 00:35:31,002 - INFO - Loaded data from SP500.csv into sp500_table
+2024-12-02 00:35:31,012 - INFO - Reading file: csrhub_scores.csv
+2024-12-02 00:35:31,015 - INFO - Loaded data from csrhub_scores.csv into csrhub_table
+2024-12-02 00:35:31,055 - INFO - Reading file: lseg_esg_scores.csv
+2024-12-02 00:35:31,058 - INFO - Loaded data from lseg_esg_scores.csv into lseg_table
+2024-12-02 00:35:31,090 - INFO - Reading file: msci_esg_scores.csv
+2024-12-02 00:35:31,094 - INFO - Loaded data from msci_esg_scores.csv into msci_table
+2024-12-02 00:35:31,120 - INFO - Reading file: spglobal_esg_scores.csv
+2024-12-02 00:35:31,122 - INFO - Loaded data from spglobal_esg_scores.csv into spglobal_table
+2024-12-02 00:35:31,157 - INFO - Reading file: yahoo_esg_scores.csv
+2024-12-02 00:35:31,159 - INFO - Loaded data from yahoo_esg_scores.csv into yahoo_table

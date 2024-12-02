@@ -25,6 +25,7 @@ if __name__ == "__main__":
     msci_table_name = "msci_table"
     spglobal_table_name = "spglobal_table"
     yahoo_table_name = "yahoo_table"
+    sp500_table_name = "sp500_table"
 
 
     if args.command == "db_create":
@@ -32,7 +33,8 @@ if __name__ == "__main__":
     if args.command == "db_load":
         create_tables_and_load_data(DATA_DIR, csrhub_table_name, 
                                     lseg_table_name , msci_table_name,
-                                    spglobal_table_name, yahoo_table_name)
+                                    spglobal_table_name, yahoo_table_name,
+                                    sp500_table_name)
     if args.command == "db_rm":
         rm_db()
     if args.command == "db_clean":
@@ -40,4 +42,5 @@ if __name__ == "__main__":
         create_empty_sqlite_db()
         create_tables_and_load_data(DATA_DIR, csrhub_table_name, 
                                     lseg_table_name , msci_table_name,
-                                    spglobal_table_name, yahoo_table_name)
+                                    spglobal_table_name, yahoo_table_name,
+                                    sp500_table_name)
