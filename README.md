@@ -158,9 +158,6 @@ If running on port 5001, the base URL will be http://0.0.0.0:5001/.
     URL: `esg_api/all_tables/<string:ticker>`
 
 ## Acknowledgments
-The docker-compose.yml file was sourced from:
-- https://github.com/tonyp7/docker-flask-selenium-chromedriver/tree/main
-
 The sp500.csv data was sourced from:
 - https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?resource=download&select=sp500_companies.csv
 

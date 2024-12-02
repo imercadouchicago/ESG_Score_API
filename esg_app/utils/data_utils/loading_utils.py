@@ -46,7 +46,6 @@ def create_empty_sqlite_db(db_path: str = None) -> bool:
     logging.info(f"Database created at {db_path}")
     return True
 
-
 def create_db_connection(db_path: str = None) -> sqlite3.Connection:
     """SQLite specific connection function takes in the db_path"""
     # If no db_path is provided, use the default path
@@ -61,14 +60,12 @@ def create_db_connection(db_path: str = None) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     return conn
 
-
 def execute_sql_command(conn, sql_query: str) -> None:
     """Executes the given SQL command"""
     cur = conn.cursor()
     cur.execute(sql_query)
     conn.commit()
     return None
-
 
 def create_csrhub_table(conn, table_name: str) -> None:
     """Create a table for scraped CSRHub data."""
@@ -80,7 +77,6 @@ def create_csrhub_table(conn, table_name: str) -> None:
     )
     """
     execute_sql_command(conn, create_table_owned_stocks)
-
 
 def create_lseg_table(conn, table_name: str) -> None:
     """Create a table for scraped LSEG data."""
@@ -94,7 +90,6 @@ def create_lseg_table(conn, table_name: str) -> None:
     )
     """
     execute_sql_command(conn, create_table_stocks)
-
 
 def create_msci_table(conn, table_name: str) -> None:
     """Create a table for scraped MSCI data."""
@@ -128,7 +123,6 @@ def create_spglobal_table(conn, table_name: str) -> None:
     """
     execute_sql_command(conn, create_table_stocks)
 
-
 def create_yahoo_table(conn, table_name: str) -> None:
     """Create a table for scraped Yahoo Finance data."""
     create_table_stocks = f"""
@@ -145,7 +139,6 @@ def create_yahoo_table(conn, table_name: str) -> None:
     """
     execute_sql_command(conn, create_table_stocks)
 
-
 def create_sp500_table(conn, table_name: str) -> None:
     """Create a table for scraped S&P 500 data."""
     create_table_stocks = f"""
@@ -159,7 +152,6 @@ def create_sp500_table(conn, table_name: str) -> None:
     )
     """
     execute_sql_command(conn, create_table_stocks)
-
 
 def load_csv_to_db(conn, data_dir: str, 
                    table_name: str, csv_file_name: str, 
@@ -253,7 +245,6 @@ def create_tables_and_load_data(data_path, csrhub_table_name: str,
         if table_name == spglobal_table_name: clean_spglobal_company_column(conn, table_name)
         if table_name != sp500_table_name: clean_tables(conn, table_name)
     
-
 def rm_db(db_path: str = None) -> None:
     """Delete the Database file not recoverable, be careful."""
     # If no db_path is provided, use the default path
