@@ -1,3 +1,6 @@
+''' This module contains a function 'spglobal_scraper' for webscraping SP Global. 
+    When this module is run, it uses multithreading to scrape SP Global. '''
+
 from esg_app.utils.scraper_utils.scraper import  WebScraper
 from esg_app.utils.scraper_utils.threader import Threader
 from selenium.webdriver.common.keys import Keys
@@ -17,10 +20,22 @@ logging.basicConfig(
 
 URL = "https://www.spglobal.com/esg/scores/"
 headername = 'Longname'
-export_path = 'esg_app/api/data/SP500_esg_scores.csv'
+export_path = 'esg_app/api/data/spglobal_esg_scores.csv'
 
 def spglobal_scraper(company_data: pd.DataFrame, user_agents: Queue, 
                     processed_tickers: set, lock: Lock) -> list[dict]:
+    '''
+    This function scrapes SPGlobal. 
+
+    Args:
+        company_data: [dataframe] Dataframe containing list of companies thread will scrape.
+        user_agents: [queue] Queue of user agents.
+        processed_tickers: [set] Tickers of companies that have been processed by all threads.
+        lock: [lock] Places a lock on a company as it is being processed to avoid conflicts between threads.
+
+    Returns:
+        [list[dict]] : List of dictionaries where each dictionary contains the scraping results for 1 company.
+    '''
     try:
         # Initialize browser
         bot = WebScraper(URL, user_agents)
@@ -60,6 +75,7 @@ def spglobal_scraper(company_data: pd.DataFrame, user_agents: Queue,
                 ESG_social = bot.locate_element(xpath="/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[2]/div[2]/ul/li[1]/span")
                 ESG_governance = bot.locate_element(xpath="/html/body/div[3]/div[10]/div[1]/div/div[3]/div/div[3]/div/div/figure/div[3]/div[2]/ul/li[1]/span")
 
+                # Append dictionary with company results to list
                 results.append({
                     "SnP_ESG_Company": ESG_Company.text,
                     "SnP_ESG_Score": ESG_Score.text,
@@ -73,7 +89,8 @@ def spglobal_scraper(company_data: pd.DataFrame, user_agents: Queue,
                 logging.info(f"Successfully scraped data for {row[headername]}")
             except Exception as e:
                 logging.error(f"Error processing company {row[headername]}: {e}")
-                # If anything fails, just add NAs for everything
+                
+                # If error processing company, append company with N/A for all values.
                 results.append({
                     "SnP_ESG_Company": row[headername],
                     "SnP_ESG_Score": "N/A",
@@ -89,10 +106,13 @@ def spglobal_scraper(company_data: pd.DataFrame, user_agents: Queue,
     except Exception as e:
         logging.error(f"Error with user agent {bot.user_agent}: {e}")
         return None
+    
+    # Quit the webdriver once finished with assigned companies
     finally:
         if 'bot' in locals():
             bot.driver.quit()
 
-
+# If file is run, applies Threader function to spglobal_scraper function 
+# and outputs results to export_path
 if __name__ == "__main__":
     Threader(spglobal_scraper, export_path)

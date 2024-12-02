@@ -27,13 +27,13 @@ class WebScraper():
     This class is used to scrape a website.
 
     Attributes:
-        URL (str): The website URL.
+        URL: [str] The website URL.
     '''
 
     def __init__(self, URL: str):
         '''
         This function initializes a Chrome Webdriver and accesses the
-        specified URL
+        specified URL.
         '''
         logging.info("Initializing WebScraper for URL: %s", URL)
         self.URL = URL
@@ -58,11 +58,11 @@ class WebScraper():
     def wait_element_to_load(self, xpath: str):
         '''
         This function waits until the specified xpath is accessible on the
-        website
+        website.
 
         Args:
-            xpath ('str'): The xpath of the element to be located on the
-            webpage
+            xpath: [str] The xpath of the element to be located on the
+            webpage.
 
         '''
         logging.debug("Waiting for element to load: %s", xpath)
@@ -81,10 +81,10 @@ class WebScraper():
 
     def accept_cookies(self, xpath: str):
         '''
-        This function clicks on 'Accept cookies' button on the website
+        This function clicks on 'Accept cookies' button on the website.
 
         Args:
-            xpath (str): The xpath of the 'Accept cookies' button
+            xpath: [str] The xpath of the 'Accept cookies' button.
         '''
         logging.info("Attempting to accept cookies using xpath: %s", xpath)
         try:
@@ -101,15 +101,15 @@ class WebScraper():
     def convert_dict_to_csv(dict_name: str, export_path: str) -> pd.DataFrame:
         '''
         This function converts the dictionary to a pandas dataframe and the
-        latter is converted a csv file
+        latter is converted a csv file.
 
         Args:
-            dict_name (str): Name of the dictionary
-            export_path (str) : Filepath, incl. the output filename in
+            dict_name: [str] Name of the dictionary
+            export_path: [str] Filepath, incl. the output filename in
             which csv file is to be exported
 
         Returns:
-            pd.DataFrame: Pandas Dataframe generated from the dictionary
+            [DataFrame] : Pandas Dataframe generated from the dictionary
         '''
         logging.info("Converting dictionary to CSV: %s", export_path)
         # If the file already exists, append the new data
@@ -130,13 +130,13 @@ class WebScraper():
     @staticmethod
     def append_empty_values(dictionary: dict) -> dict:
         '''
-        This function appends empty values to the dictionary
+        This function appends empty values to the dictionary.
 
         Args:
-            dict (dict): Dictionary to be appended
+            dictionary: [dict] Dictionary to be appended
 
         Returns:
-            dict: Dictionary appended with empty values
+            [dict] : Dictionary appended with empty values
         '''
         for key in dictionary.keys():
             dictionary[key].append(None)
@@ -149,13 +149,13 @@ class WebScraper():
         element
 
         Args:
-            xpath (str) : xpath of the web element
-            class_name (str) : class name of the web element
-            multiple (bool) : True if multiple elements to be located; False
+            xpath: [str] xpath of the web element
+            class_name: [str] class name of the web element
+            multiple: [bool] True if multiple elements to be located; False
             otherwise
 
         Returns:
-            WebElement: element on the website
+            [WebElement] : element on the website
         '''
         if xpath and multiple:
             WebScraper.wait_element_to_load(self, xpath)
@@ -177,14 +177,14 @@ class WebScraper():
         and enters the company name
 
         Args:
-            df (dataframe) : input pandas datframe containing Companies name
-            xpath (str) : xpath of the search bar
-            class_name (str) : class name of the search bar
-            multiple (bool) : True if multiple elements to be located;
+            df: [dataframe] input pandas datframe containing Companies name
+            xpath: [str] xpath of the search bar
+            class_name: [str] class name of the search bar
+            multiple: [bool] True if multiple elements to be located;
             False otherwise
 
         Returns:
-            WebElement: webelement of the search bar
+            [WebElement] : webelement of the search bar
         '''
         Company = str(df.loc[i][header_name])
         logging.info("Search Bar Request for Company:%s", Company)
@@ -201,10 +201,10 @@ class WebScraper():
         This function restarts the website
 
         Args:
-            xpath (str): The xpath of the 'Accept cookies' button
+            xpath: [str] The xpath of the 'Accept cookies' button
 
         Returns:
-            WebScraper instance
+            [WebScraper] : WebScraper instance
         '''
         self.driver.quit()
         sleep(60)

@@ -29,17 +29,17 @@ class WebScraper():
     This class is used to scrape a website.
 
     Attributes:
-        URL (str): The website URL.
+        URL: [str] The website URL.
+        user_agent: [str] The selected user agent. 
     '''
 
     def __init__(self, URL: str, user_agents: Queue):
         '''
         This function initializes a Chrome Webdriver and accesses the
-        specified URL
+        specified URL.
         '''
         logging.info("Initializing WebScraper for URL: %s", URL)
         self.URL = URL
-        self.filepath = 'esg_app/api/data/SP500.csv'
         
         try:
             options = webdriver.ChromeOptions()
@@ -69,14 +69,14 @@ class WebScraper():
                              id_name: str = None):
         '''
         This function waits until the specified xpath is accessible on the
-        website
+        website.
 
         Args:
-            xpath (str) : xpath of the web element
-            class_name (str) : class name of the web element
-            id_name (str) : id name of the web element
+            xpath: [str] The xpath of the web element.
+            class_name: [str] The class name of the web element.
+            id_name: [str] The id name of the web element.
         '''
-        logging.debug("Waiting for element to load: %s", xpath)
+        logging.info("Waiting for element to load: %s", xpath)
         delay = 10  # seconds
         ignored_exceptions = (NoSuchElementException,
                               StaleElementReferenceException,)
@@ -88,7 +88,7 @@ class WebScraper():
                 return wait.until(EC.presence_of_element_located((By.CLASS_NAME, xpath)))
             elif id_name:
                 return wait.until(EC.presence_of_element_located((By.ID, xpath)))
-            logging.debug("Element loaded successfully: %s", xpath)
+            logging.info("Element loaded successfully: %s", xpath)
         except TimeoutException:
             if xpath: logging.warning("Timeout while waiting for element: %s", xpath)
             if class_name: logging.warning("Timeout while waiting for element: %s", class_name)
@@ -100,18 +100,17 @@ class WebScraper():
                        id_name: str = None,
                        multiple: bool = False) -> WebElement:
         '''
-        Given xpath or class name, this function locates the corresponding web
-        element
+        This function locates a web element.
 
         Args:
-            xpath (str) : xpath of the web element
-            class_name (str) : class name of the web element
-            id_name (str) : id name of the web element
-            multiple (bool) : True if multiple elements to be located; False
-            otherwise
+            xpath: [str] The xpath of the web element.
+            class_name: [str] The class name of the web element.
+            id_name: [str] The id name of the web element.
+            multiple: [bool] True if multiple elements to be located; False
+            otherwise.
 
         Returns:
-            WebElement: element on the website
+            [WebElement] : The element on the website.
         '''
         try:
             if xpath and not multiple:
@@ -136,12 +135,18 @@ class WebScraper():
                                       id_name: str = None,
                                       multiple: bool = False) -> WebElement:
         '''
-        This function locates an element within another element
+        This function locates an element within another element.
         
         Args:
-            xpath (str) : xpath of the web element
-            class_name (str) : class name of the web element
-            id_name (str) : id name of the web element
+            element: [WebElement] The parent element.
+            xpath: [str] The xpath of the web element.
+            class_name: [str] The class name of the web element.
+            id_name: [str] The id name of the web element.
+            multiple: [bool] True if multiple elements to be located; False
+            otherwise.
+
+        Returns:
+            [WebElement] : The element on the website.
         '''
         try:
             if xpath and not multiple:
@@ -163,12 +168,12 @@ class WebScraper():
                        class_name: str = None, 
                        id_name: str = None):
         '''
-        This function clicks on 'Accept cookies' button on the website
+        This function clicks on 'Accept cookies' button on the website.
 
         Args:
-            xpath (str): The xpath of the 'Accept cookies' button
-            class_name (str) : class name of the 'Accept cookies' button
-            id_name (str) : id name of the'Accept cookies' button
+            xpath: [str] The xpath of the 'Accept cookies' button.
+            class_name: [str] The class name of the 'Accept cookies' button.
+            id_name: [str] The id name of the'Accept cookies' button.
         '''
         logging.info("Attempting to accept cookies.")
         try:
@@ -185,18 +190,16 @@ class WebScraper():
                                    class_name: int =None,
                                    id_name: str = None) -> WebElement:
         '''
-        Given xpath or class name, this function locates the search bar
-        and enters the company name
+        This function locates the search bar and enters the company name.
 
         Args:
-            df (dataframe) : input pandas datframe containing Companies name
-            xpath (str) : xpath of the search bar
-            class_name (str) : class name of the search bar
-            multiple (bool) : True if multiple elements to be located;
-            False otherwise
+            search_item: [str] The item to enter into search bar.
+            xpath: [str] The xpath of the search bar.
+            class_name: [str] The class name of the search bar.
+            id_name: [str] The id name of the search bar.
 
         Returns:
-            WebElement: webelement of the search bar
+            [WebElement] : The webelement of the search bar.
         '''
         try:
             logging.info("Search bar request for: %s", search_item)
@@ -208,38 +211,5 @@ class WebScraper():
         except Exception as e:
             logging.warning("Search bar request failed %s", e)
 
-    def is_subscription_form_present(self, xpath: str = None, 
-                                     class_name: str = None, 
-                                     id_name: str = None) -> bool:
-        """Check if the subscription form is present."""
-        try:
-            self.wait_element_to_load(xpath, class_name, id_name)
-            form = self.locate_element(xpath, class_name, id_name)
-            if form:
-                logging.info("Subscription form appeared.")
-                return True
-        except:
-            return False
         
-    def fill_field(self, entry: str,
-                        xpath: str = None, 
-                        class_name: str = None, 
-                        id_name: str = None):
-        """Fill out the subscription form."""
-        try:
-            field = self.locate_element(xpath, class_name, id_name)
-            field.clear()
-            field.send_keys(entry)
-        except Exception as e:
-            logging.warning("Error while filling in field: %s", e)
-
-    def select_dropdown(self, selection,
-                        xpath: str = None, 
-                        class_name: str = None, 
-                        id_name: str = None):
-        try:
-            segment_dropdown = Select(self.locate_element(xpath, class_name, id_name))
-            segment_dropdown.select_by_value(selection)
-        except Exception as e:
-            logging.warning("Error while selecting from dropdown: %s", e)
             

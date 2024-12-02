@@ -20,10 +20,7 @@ RUN apk update && apk add --no-cache \
     mesa-egl \
     udev \
     cups-libs \
-    nss \
-    py3-setuptools \
-    py3-pip \
-    py3-wheel
+    nss
 
 # Prevents creation of .pyc files
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -44,7 +41,6 @@ RUN adduser \
 # Install packages in requirements.txt
 COPY requirements.txt /app/src
 RUN pip install --upgrade pip
-RUN pip install --upgrade pip setuptools wheel
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Switch to the non-privileged user to run the application.

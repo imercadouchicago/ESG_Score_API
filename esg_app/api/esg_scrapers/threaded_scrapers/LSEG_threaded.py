@@ -1,3 +1,6 @@
+''' This module contains a function 'lseg_scraper' for webscraping LSEG. 
+    When this module is run, it uses multithreading to scrape LSEG. '''
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -23,9 +26,6 @@ from time import sleep
 ### Come back to this, not sure why it's not working... 
     # Now process missing companies up to 3 times
 
-URL = "https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores"
-
-
 # Configure logging
 logging.basicConfig(
     filename='lseg_scraping.log',
@@ -49,7 +49,20 @@ def clean_company_name(name: str) -> str:
     logging.debug(f"Original: {name} -> Cleaned: {name}")
     return name
 
-def lseg_scraper(company_data: pd.DataFrame, user_agents: Queue, processed_tickers: set, lock: Lock) -> list[dict]:
+def lseg_scraper(company_data: pd.DataFrame, user_agents: 
+                 Queue, processed_tickers: set, lock: Lock) -> list[dict]:
+    '''
+    This function scrapes LSEG. 
+
+    Args:
+        company_data: [dataframe] Dataframe containing list of companies thread will scrape.
+        user_agents: [queue] Queue of user agents.
+        processed_tickers: [set] Tickers of companies that have been processed by all threads.
+        lock: [lock] Places a lock on a company as it is being processed to avoid conflicts between threads.
+
+    Returns:
+        list[dict] : List of dictionaries where each dictionary contains the scraping results for 1 company.
+    '''
     results = []
     bot = None
     try:

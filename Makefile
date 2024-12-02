@@ -4,6 +4,7 @@ LOCAL_HOST_DIR = $(shell pwd)
 CONTAINER_SRC_DIR = /app/src
 DATA_DIR = /app/src/esg_app/api/data
 DB_PATH=$(DATA_DIR)/esg_scores.db
+DB_MANAGE_PATH=/app/src/esg_app/utils/data_utils/db_manage.py
 
 # Environment Variables
 ENV_VARS = \
@@ -11,8 +12,10 @@ ENV_VARS = \
 	-e FLASK_DEBUG='1' \
 	-e FLASK_ENV='development' \
 	-e PYTHONPATH='/app/src' \
+	-e PYTHONDONTWRITEBYTECODE=1 \
 	-e DB_PATH=$(DB_PATH) \
-	-e DATA_DIR=$(DATA_DIR)
+	-e DATA_DIR=$(DATA_DIR) \
+	-e DB_MANAGE_PATH=$(DB_MANAGE_PATH)
 
 # Docker Flags
 ALL_FLAGS = \
@@ -41,22 +44,22 @@ flask: build
 # Create a sqlite database file and associated tables
 db_create: build
 	docker run $(ALL_FLAGS) $(IMAGE_NAME) \
-		python /app/src/stock_app/data_utils/db_manage.py db_create
+		python $(DB_MANAGE_PATH) db_create
 
 # Load data into the sqlite database
 db_load: build
 	docker run $(ALL_FLAGS) $(IMAGE_NAME) \
-		python /app/src/stock_app/data_utils/db_manage.py db_load
+		python $(DB_MANAGE_PATH) db_load
 
 # Delete the database file
 db_rm: build
 	docker run $(ALL_FLAGS) $(IMAGE_NAME) \
-		python /app/src/stock_app/data_utils/db_manage.py db_rm
+		python $(DB_MANAGE_PATH) db_rm
 
 # Delete the database file and reload data
 db_clean: build
 	docker run $(ALL_FLAGS) $(IMAGE_NAME) \
-		python /app/src/stock_app/data_utils/db_manage.py db_clean
+		python $(DB_MANAGE_PATH) db_clean
 
 # Create interactive sqlite session with database
 db_interactive: build
