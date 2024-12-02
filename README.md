@@ -20,7 +20,7 @@ These modules rely on the util files within the 'scraper_utils' folder and conta
 
 The folder 'data' contains csv files with the raw esg data aggregated by running each of the scraper modules 
 on the list of companies in the file 'sp500.csv' (which contains the S&P 500 companies).
-Each of the csv files have been loaded into a separate SQL table within the SQLite database 'esg_scores.db' using the commands created in 'data_utils/db_manage.py' with the helper functions associated with these commands in 'data_utils/loading_utils.py'.
+Each of the csv files have been loaded into a separate SQL table within the SQLite database 'esg_scores.db' using the commands created in 'data_utils/db_manage.py' and the helper functions associated with these commands in 'data_utils/loading_utils.py'.
 
 The file 'app.py' builds a Flask app with the api endpoints located in 'routes/routes.py' and the helper functions 
 associated with these endpoints located in 'route_utils/route_utils.py'. These endpoint helper functions query the SQL tables 
