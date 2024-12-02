@@ -61,7 +61,6 @@ esg_app/
 │   │   │   ├── scraper.py
 │   │   │   └── threader.py
 ├── app.py
-├── docker-compose.yml
 ├── Dockerfile
 ├── Makefile
 ├── README.md
