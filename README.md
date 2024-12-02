@@ -94,6 +94,7 @@ esg_score_api $ make <command>
 ```
 
 ## Usage
+The Makefile contains commands that can be used to test, replicate, and interact with every aspect of the API. 
 All make commands include a dependency on the make build command, which allows the user to run every command without having to first run `make build`.
 
 ### Docker Commands
@@ -170,7 +171,7 @@ The sp500.csv data was sourced from:
 - https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?resource=download&select=sp500_companies.csv
 
 The original_scraper.py file was adapted from:
-- https://github.com/shweta-29/Companies_ESG_Scraper/blob/main/README.md
+- https://github.com/shweta-29/Companies_ESG_Scraper
 
 ## Contact
 Isabella Mercado - imercado@uchicago.edu
