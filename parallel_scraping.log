@@ -1,0 +1,51 @@
+2024-12-02 03:29:05,537 - INFO - Script started
+2024-12-02 03:29:05,537 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-02 03:29:05,550 - INFO - Data loaded successfully. Number of records: 1
+2024-12-02 03:29:05,552 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-12-02 03:29:05,552 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-02 03:29:34,378 - ERROR - Failed to initialize WebDriver or access URL. Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-02 03:29:34,379 - INFO - Attempting to accept cookies.
+2024-12-02 03:29:34,379 - INFO - Waiting for element to load: //*[@id="onetrust-accept-btn-handler"]
+2024-12-02 03:29:34,379 - ERROR - Cookies button not found. Error: 'WebScraper' object has no attribute 'driver'
+2024-12-02 03:29:36,413 - INFO - Search bar request for: NVIDIA Corporation
+2024-12-02 03:29:36,413 - WARNING - Failed to locate item: 'WebScraper' object has no attribute 'driver'
+2024-12-02 03:29:36,413 - WARNING - Search bar request failed 'NoneType' object has no attribute 'clear'
+2024-12-02 03:29:36,413 - ERROR - Error processing company NVIDIA Corporation: 'NoneType' object has no attribute 'send_keys'
+2024-12-02 03:32:12,161 - INFO - Script started
+2024-12-02 03:32:12,161 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-02 03:32:12,173 - INFO - Data loaded successfully. Number of records: 1
+2024-12-02 03:32:12,174 - INFO - Initializing WebScraper for URL: https://www.spglobal.com/esg/scores/
+2024-12-02 03:32:12,175 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-02 03:32:18,049 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-02 03:32:18,050 - INFO - Attempting to accept cookies.
+2024-12-02 03:32:18,050 - INFO - Waiting for element to load: //*[@id="onetrust-accept-btn-handler"]
+2024-12-02 03:32:18,383 - INFO - Cookies accepted successfully.
+2024-12-02 03:32:20,451 - INFO - Search bar request for: NVIDIA Corporation
+2024-12-02 03:32:27,211 - INFO - Successfully scraped data for NVIDIA Corporation
+2024-12-02 03:32:27,291 - INFO - Successfully saved 1 results
+2024-12-02 03:32:27,292 - INFO - Script completed
+2024-12-02 03:35:15,334 - INFO - Script started
+2024-12-02 03:35:15,334 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-02 03:35:15,345 - INFO - Data loaded successfully. Number of records: 1
+2024-12-02 03:35:15,346 - INFO - Initializing WebScraper for URL: https://finance.yahoo.com/lookup/
+2024-12-02 03:35:15,346 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-02 03:35:21,952 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-02 03:35:23,538 - INFO - Search bar request for: NVDA
+2024-12-02 03:35:26,724 - INFO - Found matching ticker: NVDA
+2024-12-02 03:35:28,233 - INFO - Clicked on matching result
+2024-12-02 03:35:33,351 - INFO - Successfully scraped data for NVDA
+2024-12-02 03:35:33,431 - INFO - Successfully saved 1 results
+2024-12-02 03:35:33,431 - INFO - Script completed
+2024-12-02 03:36:08,799 - INFO - Script started
+2024-12-02 03:36:08,800 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-02 03:36:08,815 - INFO - Data loaded successfully. Number of records: 1
+2024-12-02 03:36:08,817 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-12-02 03:36:08,817 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-02 03:36:13,076 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-02 03:36:18,077 - INFO - Attempting to accept cookies.
+2024-12-02 03:36:18,077 - INFO - Waiting for element to load: None
+2024-12-02 03:36:28,416 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-02 03:36:28,560 - INFO - Cookies accepted successfully.
+2024-12-02 03:36:33,646 - INFO - Search bar request for: nvidiaoration
+2024-12-02 03:36:36,862 - WARNING - No results to save
+2024-12-02 03:36:36,862 - INFO - Script completed

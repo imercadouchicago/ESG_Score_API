@@ -18,7 +18,7 @@ logging.basicConfig(
 )
 
 URL = "https://finance.yahoo.com/lookup/"
-export_path = 'esg_app/api/data/yahoo_esg_scores.csv'
+export_path = 'esg_app/api/data/yahoo.csv'
 headername = 'Symbol'
 
 def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, 

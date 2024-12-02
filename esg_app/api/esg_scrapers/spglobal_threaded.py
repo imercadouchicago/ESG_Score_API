@@ -20,7 +20,7 @@ logging.basicConfig(
 
 URL = "https://www.spglobal.com/esg/scores/"
 headername = 'Longname'
-export_path = 'esg_app/api/data/spglobal_esg_scores.csv'
+export_path = 'esg_app/api/data/spglobal.csv'
 
 def spglobal_scraper(company_data: pd.DataFrame, user_agents: Queue, 
                     processed_tickers: set, lock: Lock) -> list[dict]:

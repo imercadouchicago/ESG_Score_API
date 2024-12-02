@@ -86,16 +86,20 @@ esg_score_api $ make <command>
 ```
 
 ## Usage
+All make commands include a dependency on the make build command, which allows the user to run every command without having to first run `make build`.
 
 ### Docker Commands
 
 ```bash
 esg_score_api $ make build # Build the Docker container
-esg_score_api $ make interactive # Build and run the container interactively
+esg_score_api $ make interactive # Run the container interactively
 ```
 
 ### Scraper Commands
-Each ESG provider has its own scraper module that can be run independently.
+Each ESG provider has its own scraper module that can be run independently using the following commands.
+The export paths in each of the scraper modules has already been changed so that the existing data would not be overwritten. 
+The dataframe number of rows has been set to 1 in the Threader function so the scrapers can be tested efficiently. 
+If you would like to test the scrapers, then feel free to run the following commands.
 
 ```bash
 esg_score_api $ make csrhub
@@ -109,9 +113,9 @@ esg_score_api $ make yahoo
 
 ```bash
 esg_score_api $ make db_create # Create a sqlite database file and associated tables
-esg_score_api $ make db_load # Load data into the sqlite database
-esg_score_api $ make db_rm # Delete the database file
-esg_score_api $ make db_clean # Delete the database file and reload data
+esg_score_api $ make db_load # Load data into the created sqlite database
+esg_score_api $ make db_rm # Delete the created database file
+esg_score_api $ make db_clean # Delete the created database file and reload data
 esg_score_api $ make db_interactive # Create interactive sqlite session with database
 ```
 
@@ -127,28 +131,34 @@ esg_score_api $ make flask
 Note: For the following routes, the table name must be one of the following: 
 `csrhub_table`, `lseg_table`, `msci_table`, `spglobal_table`, `yahoo_table`, `sp500_table`.
 
+If running on port 5001, the base URL will be http://0.0.0.0:5001/.
+
 1. [GET] Returns the table with the given name in JSON format.
 
-URL: `/esg_api/<string:table_name>`
+    URL: `/esg_api/<string:table_name>`
 
 2. [GET] Returns the company data from the table with the given name in JSON format.
 
-URL: `/esg_api/<string:table_name>/<string:ticker>`
+    URL: `/esg_api/<string:table_name>/<string:ticker>`
 
 3. [GET] Returns the ESG scores from all tables for a company in JSON format.
 
-URL: `/esg_api/all_tables/<string:ticker>`
+    URL: `/esg_api/all_tables/<string:ticker>`
 
 ## Acknowledgments
 The docker-compose.yml file was sourced from:
 - https://github.com/tonyp7/docker-flask-selenium-chromedriver/tree/main
+
 The sp500.csv data was sourced from:
 - https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?resource=download&select=sp500_companies.csv
+
 The original_scraper.py file was adapted from:
 - https://github.com/shweta-29/Companies_ESG_Scraper/blob/main/README.md
 
 ## Contact
 Isabella Mercado - imercado@uchicago.edu
+
 Lucas Kopinski - lkopinski@uchicago.edu
+
 Project Link: https://github.com/imercado/esg_score_api
 ```

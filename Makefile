@@ -39,23 +39,38 @@ interactive: build
 	--shm-size=2g $(IMAGE_NAME) /bin/sh
 
 # Run LSEG scraper
-lseg: interactive
+lseg: build
+	docker run -it \
+	$(ALL_FLAGS) \
+	--shm-size=2g $(IMAGE_NAME) \
 	python $(SCRAPERS_PATH)/lseg_threaded.py
 
 # Run MSCI scraper
-msci: interactive
+msci: build
+	docker run -it \
+	$(ALL_FLAGS) \
+	--shm-size=2g $(IMAGE_NAME) \
 	python $(SCRAPERS_PATH)/msci_threaded.py
 
 # Run SP Global scraper
-spglobal: interactive
+spglobal: build
+	docker run -it \
+	$(ALL_FLAGS) \
+	--shm-size=2g $(IMAGE_NAME) \
 	python $(SCRAPERS_PATH)/spglobal_threaded.py
 
 # Run Yahoo scraper
-yahoo: interactive
+yahoo: build
+	docker run -it \
+	$(ALL_FLAGS) \
+	--shm-size=2g $(IMAGE_NAME) \
 	python $(SCRAPERS_PATH)/yahoo_threaded.py
 
 # Run CSRHub scraper
-csrhub: interactive
+csrhub: build
+	docker run -it \
+	$(ALL_FLAGS) \
+	--shm-size=2g $(IMAGE_NAME) \
 	python $(SCRAPERS_PATH)/csrhub.py
 
 # Create a sqlite database file and associated tables

@@ -21,7 +21,7 @@ logging.basicConfig(
 
 URL = "https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool"
 headername = 'Longname'
-export_path = 'esg_app/api/data/msci_esg_scores.csv'
+export_path = 'esg_app/api/data/msci.csv'
 
 def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, 
                  processed_tickers: set, lock: Lock) -> list[dict]:

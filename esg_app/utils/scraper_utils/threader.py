@@ -38,6 +38,7 @@ def Threader(website_function: Callable, export_path: str):
     logging.info("Reading input data from: %s", import_path)
     try:
         df = pd.read_csv(import_path)
+        df = df.head(1)
         logging.info("Data loaded successfully. Number of records: %d", len(df))
     except FileNotFoundError as e:
         logging.error("Input file not found. Error: %s", e)
