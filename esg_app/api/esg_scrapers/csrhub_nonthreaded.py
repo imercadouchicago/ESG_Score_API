@@ -1,9 +1,9 @@
 ''' This module contains a function 'csrhub_scraper' for webscraping csrhub. 
-    When this module is run, it uses multithreading to scrape csrhub. '''
+    This module does not use multithreaded webscraping. '''
 
 from selenium.webdriver.common.keys import Keys
 from esg_app.utils.scraper_utils.scraper import WebScraper
-from esg_app.utils.scraper_utils.csrhub_utils import clean_company_name
+from esg_app.utils.scraper_utils.cleaning_utils import csrhub_clean_company_name
 import logging
 import pandas as pd
 from tqdm import tqdm
@@ -12,12 +12,16 @@ import os
 
 # Configure logging 
 logging.basicConfig(
-    filename='csrhub_scraping.log',
+    filename='parallel_scraping.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-def csrhub_scraper(df, output_path='esg_app/api/data/csrhub.csv'):
+URL = "https://www.csrhub.com/search/name/"
+headername = 'Longname'
+export_path = 'esg_app/api/data/csrhub.csv'
+
+def csrhub_scraper(df, export_path):
 
     '''
     This function scrapes csrhub. 
@@ -29,37 +33,27 @@ def csrhub_scraper(df, output_path='esg_app/api/data/csrhub.csv'):
     Returns:
         list[dict] : List of dictionaries where each dictionary contains the scraping results for 1 company.
     '''
-        
-    # specify URL 
-    URL = "https://www.csrhub.com/search/name/"
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
     logging.info(f"Starting scraping process for {len(df)} companies")
 
-    # dictionary containing information
+    # Initialize progress bar and empty dictionary
     csrhub = {
         'Company': [],
         'ESG_Score': [],
         'Num_Sources': []
     }
-
-    # Initialize progress bar
     pbar = tqdm(total=len(df), desc="Scraping Progress", position=0)
 
-    # scrape through each company 
+    # Iterate through companies
     for index, row in df.iterrows():
         bot = WebScraper(URL, threaded=False)
-        company_name = row['Longname']
+        company_name = row[headername]
         logging.info(f"\nProcessing company {index + 1}: {company_name}")
         sleep(3)
 
         try:
-            try:
-                # Accept cookies
-                cookies_xpath = "//*[@id='body-content-holder']/div[2]/div/div/span[2]/button"
-                bot.accept_cookies(cookies_xpath)
-                logging.info("Accepted cookies")
-            except Exception as e:
-                logging.warning(f"Error accepting cookies: {e}")
+            # Accept cookies
+            cookies_xpath = "//*[@id='body-content-holder']/div[2]/div/div/span[2]/button"
+            bot.accept_cookies(cookies_xpath)
 
             try:
                 # Close any popups 
@@ -70,7 +64,7 @@ def csrhub_scraper(df, output_path='esg_app/api/data/csrhub.csv'):
                 logging.info("No popup found")
             
             # Clean company name to input into search bar
-            cleaned_input_name = clean_company_name(company_name)
+            cleaned_input_name = csrhub_clean_company_name(company_name)
 
             # Send request to search bar
             search_bar = bot.send_request_to_search_bar(cleaned_input_name, id_name="search_company_names_0")
@@ -99,7 +93,7 @@ def csrhub_scraper(df, output_path='esg_app/api/data/csrhub.csv'):
                         result_name = link.text
                         
                         # Clean company name of result
-                        cleaned_result_name = clean_company_name(result_name)
+                        cleaned_result_name = csrhub_clean_company_name(result_name)
 
                         # If the result matches the company being searched for, then click on it
                         if cleaned_input_name == cleaned_result_name:
@@ -130,7 +124,7 @@ def csrhub_scraper(df, output_path='esg_app/api/data/csrhub.csv'):
                 logging.info(f"Extracted Data for {company_name}:")
                 logging.info(f"ESG Score: {esg_score}")
                 logging.info(f"Number of Sources: {num_sources}")
-                pd.DataFrame(csrhub).to_csv(output_path, index=False)
+                pd.DataFrame(csrhub).to_csv(export_path, index=False)
 
         except Exception as e:
             logging.error(f"Error processing company: {e}")
@@ -148,16 +142,17 @@ def csrhub_scraper(df, output_path='esg_app/api/data/csrhub.csv'):
     logging.info("Scraping completed")
     return pd.DataFrame(csrhub)
 
+# If file is run, runs csrhub_scraper function 
+# and outputs results to export_path
 if __name__ == "__main__":
     df = pd.read_csv('esg_app/api/data/SP500.csv')
     df = df.head(4)
-    results_df = csrhub_scraper(df)
-
-    logging.info("Checking for missing companies")
+    results_df = csrhub_scraper(df, export_path)
 
     # Search for missing companies 
     try: 
-        csrhub_df = pd.read_csv('esg_app/api/data/csrhub.csv')
+        logging.info("Checking for missing companies")
+        csrhub_df = pd.read_csv(export_path)
         sp500_df = pd.read_csv('esg_app/api/data/SP500.csv')
         sp500_df = sp500_df.head(4)
 
@@ -169,7 +164,7 @@ if __name__ == "__main__":
         
         # If there are missing companies, then run csrhub for the missing companies 
         if missing_companies is not None: 
-            csrhub_scraper(missing_companies)
+            csrhub_scraper(missing_companies, export_path)
     except: 
         logging.error("Error processing missing companies")
 

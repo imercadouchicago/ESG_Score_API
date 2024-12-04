@@ -231,7 +231,7 @@ def create_tables_and_load_data(data_path, csrhub_table_name: str,
     # Mapping of table names to their corresponding table creation functions and csv file names
     table_config = {
         sp500_table_name: (create_sp500_table, "SP500.csv", 6),
-        csrhub_table_name: (create_csrhub_table, "csrhub_scores.csv", 3),
+        csrhub_table_name: (create_csrhub_table, "csrhub_esg_scores.csv", 3),
         lseg_table_name: (create_lseg_table, "lseg_esg_scores.csv", 5),
         msci_table_name: (create_msci_table, "msci_esg_scores.csv", 8),
         spglobal_table_name: (create_spglobal_table, "spglobal_esg_scores.csv", 8),
