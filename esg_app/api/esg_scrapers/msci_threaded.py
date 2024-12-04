@@ -3,7 +3,7 @@
 
 from esg_app.utils.scraper_utils.scraper import WebScraper
 from esg_app.utils.scraper_utils.threader import Threader
-from esg_app.utils.scraper_utils.msci_utils import (clean_company_name,
+from esg_app.utils.scraper_utils.cleaning_utils import (clean_company_name,
                                                     clean_flag_element)
 import logging
 import pandas as pd
@@ -70,8 +70,9 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
         
         # Accept initial cookies
         cookies_path = "onetrust-accept-btn-handler"
-        cookie_button = bot.accept_cookies(id_name=cookies_path)
+        bot.accept_cookies(id_name=cookies_path)
 
+        # Iterate through companies
         for index, row in tqdm(company_data.iterrows(),
                              total=len(company_data),
                              desc=f"Processing chunk",
@@ -88,8 +89,8 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
                     logging.error("Failed to initialize WebDriver")
                     continue
                 
-                # Accept cookies for new session
-                cookie_button = bot.accept_cookies(id_name=cookies_path)
+                # Accept cookies
+                bot.accept_cookies(id_name=cookies_path)
             
             try:
                 # Check if company has already been processed
@@ -205,14 +206,16 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
         if 'bot' in locals() and hasattr(bot, 'driver'):
             bot.driver.quit()
 
-# If file is run, applies Threader function to msci_scraper function and outputs results to export_path runs the files directly such 
+# If file is run, applies Threader function to msci_scraper function 
+# and outputs results to export_path
 if __name__ == "__main__":
     Threader(msci_scraper, export_path)
-    logging.info("Checking for missing companies")
-    try: 
+    
+    try:
+        logging.info("Checking for missing companies") 
         msci_df = pd.read_csv(export_path)
         sp500_df = pd.read_csv('esg_app/api/data/SP500.csv')
-        sp500_df = sp500_df.head(4) #needs to match the number of inputs in the Threader class 
+        sp500_df = sp500_df.head(4)  # Needs to match number of inputs in the threader function 
 
         msci_companies = set(msci_df['MSCI_company']) 
         sp500_companies = set(sp500_df['Longname'])
@@ -220,7 +223,7 @@ if __name__ == "__main__":
         missing_companies = list(sp500_companies - msci_companies)
         logging.info(f"Found {len(missing_companies)} missing companies")
         
-        # if there are missing companies, it runs csrhub for the missing companies 
+        # Re-run Threader function if missing companies identified
         if missing_companies is not None: 
             Threader(missing_companies, msci_scraper, export_path)
     except: 

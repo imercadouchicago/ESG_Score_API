@@ -31,7 +31,6 @@ class WebScraper():
     Attributes:
         URL: [str] The website URL.
         user_agent: [str] The selected user agent (optional). 
-        threaded: [bool] True if multithreading is used; False otherwise.
     '''
 
     def __init__(self, URL: str, user_agents: Queue = None, threaded: bool = True):
@@ -40,7 +39,7 @@ class WebScraper():
         specified URL.
         '''
         logging.info("Initializing WebScraper for URL: %s", URL)
-        print("initializing webscraper")
+        print("Initializing webscraper.")
         self.URL = URL
         
         try:
@@ -63,7 +62,7 @@ class WebScraper():
                 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36")
             
             self.driver = webdriver.Chrome(options=options)
-            print(f"driver initialized")
+            print(f"Webdriver initialized.")
             self.driver.get(URL)
             logging.info("WebDriver initialized and URL accessed successfully.")
         except Exception as e:
@@ -210,7 +209,7 @@ class WebScraper():
 
     def send_request_to_search_bar(self, search_item,
                                    xpath: str = None, 
-                                   class_name: int =None,
+                                   class_name: int = None,
                                    id_name: str = None) -> WebElement:
         '''
         This function locates the search bar and enters the company name.

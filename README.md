@@ -48,7 +48,6 @@ esg_app/
 │   │   ├── spglobal_esg_scores.csv
 │   │   ├── csrhub_esg_scores.csv
 │   │   └── yahoo_esg_scores.csv
-│   ├── draft_scrapers/
 │   ├── esg_scrapers/
 │   │   ├── csrhub_nonthreaded.py
 │   │   ├── lseg_threaded.py
@@ -65,8 +64,7 @@ esg_app/
 │   │   ├── route_utils/
 │   │   │   └── route_utils.py
 │   │   └── scraper_utils/
-│   │   │   ├── csrhub_utils.py
-│   │   │   ├── msci_utils.py
+│   │   │   ├── cleaning_utils.py
 │   │   │   ├── scraper.py
 │   │   │   └── threader.py
 ├── app.py

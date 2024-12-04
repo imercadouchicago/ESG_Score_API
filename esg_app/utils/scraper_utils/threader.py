@@ -32,6 +32,7 @@ def Threader(website_function: Callable, export_path: str, missing_companies: li
     Args:
         website_function:  [callable] The function used to webscrape a website.
         export_path: [str] The path for the exported csv.
+        missing_companies: [list] A list of companies missed when initially ran Threader.
     '''
     logging.info("Script started")
     
@@ -42,7 +43,7 @@ def Threader(website_function: Callable, export_path: str, missing_companies: li
 
     try: 
         if missing_companies is not None:
-            # If missing_companies is provided, then just create a Dataframe from it
+            # If missing_companies list provided, then assign name 'df' to list
             logging.info(f"Processing {len(missing_companies)} missing companies")
             df = missing_companies
         else: 

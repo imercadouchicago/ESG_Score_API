@@ -1,12 +1,9 @@
 ''' This module contains a function 'lseg_scraper' for webscraping LSEG. 
     When this module is run, it uses multithreading to scrape LSEG. '''
 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from esg_app.utils.scraper_utils.scraper import WebScraper
 from esg_app.utils.scraper_utils.threader import Threader
+from esg_app.utils.scraper_utils.cleaning_utils import clean_company_name
 import logging
 import pandas as pd
 from queue import Queue
@@ -14,29 +11,16 @@ from tqdm import tqdm
 from threading import Lock
 from time import sleep
 
-
 # Configure logging
 logging.basicConfig(
-    filename='lseg_scraping.log',
+    filename='parallel_scraping.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
 )
+
 URL = "https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores"
 headername = 'Longname'
 export_path = 'esg_app/api/data/lseg.csv'
-
-# cleaning company definition 
-def clean_company_name(name: str) -> str:
-    """Simple cleaning of company names"""
-    name = name.replace("the", "").strip()
-    name = name.replace(".", "").replace(",", "")
-    name = " ".join(name.split())
-    name = name.replace("Corporation", "Corp")
-    name = name.replace("Company", "Co")
-    name = name.replace("Incorporated","Inc")
-    name = name.replace('"', '') 
-    logging.debug(f"Original: {name} -> Cleaned: {name}")
-    return name
 
 def lseg_scraper(company_data: pd.DataFrame, user_agents: 
                  Queue, processed_tickers: set, lock: Lock) -> list[dict]:
@@ -55,7 +39,6 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents:
     results = []
     bot = None
     try:
-        logging.info("Initializing WebScraper...")
         # Initialize user agents if needed
         if user_agents.empty():
             user_agents.put("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
@@ -66,14 +49,8 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents:
             logging.error("Failed to initialize WebScraper")
             return None
             
-        logging.info("WebScraper initialized successfully")
-        
         # Accept cookies
-        try:
-            bot.accept_cookies(id_name="onetrust-accept-btn-handler")
-            logging.info("Cookies accepted")
-        except Exception as e:
-            logging.error(f"Error accepting cookies: {e}")
+        bot.accept_cookies(id_name="onetrust-accept-btn-handler")
 
         # Iterate through companies
         for idx, row in tqdm(company_data.iterrows(),
@@ -92,7 +69,7 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents:
                 company_name = clean_company_name(row[headername])
                 logging.info(f"Processing company: {company_name}")
 
-                # Search for company
+                # Send request to search bar
                 search_bar = bot.locate_element(xpath='//*[@id="searchInput-1"]')
                 if search_bar:
                     search_bar.clear()
@@ -104,26 +81,22 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents:
                     sleep(2) 
                     
                     # Click search button
-                    search_button = bot.locate_element(
-                        xpath='//*[@id="esg-data-body"]/div[1]/div/div/div[1]/div/button[2]'
-                    )
+                    search_button = bot.locate_element(xpath='//*[@id="esg-data-body"]/div[1]/div/div/div[1]/div/button[2]')
                     if search_button:
                         search_button.click()
                         logging.info("Clicked search button")
                         sleep(7)
 
                         # Extract ESG scores
-                        esg_score = bot.locate_element(
-                            xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/h3/strong'
-                        )
+                        esg_score = bot.locate_element(xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/h3/strong')
                         sleep(2) 
 
-                        # extract specific ESG scores for sub categories 
+                        # Extract specific ESG scores for sub categories 
                         environment = bot.locate_element(xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[1]/div[2]/b')
                         social = bot.locate_element(xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[5]/div[2]/b')
                         governance = bot.locate_element(xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[10]/div[2]/b')
                         
-                        # appends everything to results
+                        # Append dictionary with company results to list
                         results.append({
                             "LSEG_ESG_Company": row[headername],
                             "LSEG_ESG_Score": esg_score.text, 
@@ -154,18 +127,21 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents:
             logging.info("Closing browser")
             bot.driver.quit()
 
+# If file is run, applies Threader function to lseg_scraper function 
+# and outputs results to export_path
 if __name__ == "__main__": 
     # Initialize user agents queue
     user_agents = Queue()
     user_agents.put("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 
-    # Run scraper
+    # Run threaded scraper
     Threader(lseg_scraper, export_path) 
-    logging.info("Checking for missing companies")
+    
     try: 
+        logging.info("Checking for missing companies")
         lseg_df = pd.read_csv(export_path)
         sp500_df = pd.read_csv('esg_app/api/data/SP500.csv') 
-        sp500_df = sp500_df.head(4)# # Needs to match number of inputs in the threader class 
+        sp500_df = sp500_df.head(4)  # Needs to match number of inputs in the threader function 
 
         lseg_companies = set(lseg_df['LSEG_ESG_Company']) 
         sp500_companies = set(sp500_df['Longname'])
@@ -173,8 +149,8 @@ if __name__ == "__main__":
         missing_companies = list(sp500_companies - sp500_companies)
         logging.info(f"Found {len(missing_companies)} missing companies")
         
-        # if there are missing companies, it runs csrhub for the missing companies 
+        # Re-run Threader function if missing companies identified
         if missing_companies is not None: 
-            Threader(missing_companies, lseg_scraper, export_path)
+            Threader(lseg_scraper, export_path, missing_companies)
     except: 
         logging.error("Error processing missing companies")
