@@ -2,7 +2,6 @@
 
 def clean_company_name(name: str) -> str:
     """Simple cleaning of company names"""
-    print(f"Cleaning name: {name}")
     original = name
     
     # Convert to title case first to standardize

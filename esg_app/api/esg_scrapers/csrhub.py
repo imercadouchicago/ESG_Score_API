@@ -37,7 +37,7 @@ def clean_company_name(name: str) -> str:
         name = name.replace(old.lower(), new.lower())
     return ' '.join(name.split())
 
-def csrhub(df, output_path='esg_app/api/data/csrhub_scores.csv'):
+def csrhub(df, output_path='esg_app/api/data/csrhub.csv'):
 
     '''
     This function scrapes csrhub. 
@@ -190,14 +190,13 @@ def csrhub(df, output_path='esg_app/api/data/csrhub_scores.csv'):
 
 if __name__ == "__main__":
     df = pd.read_csv('esg_app/api/data/SP500.csv')
+    df = df.head(1)
     results_df = csrhub(df)
-
     logging.info("Checking for missing companies")
-
-    # searches for missing companies 
+    # search for missing_companies
     try: 
-        csrhub_df = pd.read_csv('esg_app/api/data/csrhub_scores.csv')
-        sp500_df = pd.read_csv('esg_app/api/data/SP500.csv')
+        csrhub_df = pd.read_csv('esg_app/api/data/csrhub.csv')
+        sp500_df = df
 
         csrhub_companies = set(csrhub_df['Company']) 
         sp500_companies = set(sp500_df['Shortname'])
@@ -207,7 +206,7 @@ if __name__ == "__main__":
         
         # if there are missing companies, it runs csrhub for the missing companies 
         if missing_companies is not None: 
-            csrhub(missing_companies)
+            csrhub(missing_companies, output_path='esg_app/api/data/csrhub.csv')
     except: 
         logging.error("Error processing missing companies")
 

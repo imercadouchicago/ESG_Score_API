@@ -23,7 +23,7 @@ logging.basicConfig(
 )
 URL = "https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores"
 headername = 'Longname'
-export_path = 'esg_app/api/data/lseg_esg_scores.csv'
+export_path = 'esg_app/api/data/lseg.csv'
 
 # cleaning company definition 
 def clean_company_name(name: str) -> str:
@@ -161,43 +161,24 @@ if __name__ == "__main__":
 
     # Run scraper
     Threader(lseg_scraper, export_path) 
+    logging.info("Checking for missing companies")
+    try: 
+        lseg_df = pd.read_csv(export_path)
+        sp500_df = pd.read_csv('esg_app/api/data/SP500.csv') 
+        sp500_df = sp500_df.head(4)# # Needs to match number of inputs in the threader class 
 
-    try:
-        lseg_df = pd.read_csv('esg_app/api/data/lseg_esg_scores.csv')
-        sp500_df = pd.read_csv('esg_app/api/data/SP500.csv')
-        
-        # Get lists of companies
-        lseg_companies = set(lseg_df['LSEG_ESG_Company'])
+        lseg_companies = set(lseg_df['LSEG_ESG_Company']) 
         sp500_companies = set(sp500_df['Longname'])
+
+        missing_companies = list(sp500_companies - sp500_companies)
+        logging.info(f"Found {len(missing_companies)} missing companies")
         
-        # Find missing companies
-        missing_companies = list(sp500_companies - lseg_companies)
-        
-        # Create Dataframe with Longname 
-        missing_companies = pd.DataFrame({
-            'Longname': missing_companies 
-        })
-        
-        # Run scraper with missing companies
-        URL = "https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool"
-        headername = 'Longname'
-        export_path = 'esg_app/api/data/lseg_esg_scores_missing.csv'
-        
-        # Run the lseg scraper now with the missing companies as the input 
-        Threader(lseg_scraper, export_path, missing_companies) 
-        
-        try:
-            original_data = pd.read_csv('esg_app/api/data/msci_esg_scores.csv')
-            new_data = pd.read_csv('esg_app/api/data/msci_esg_scores_missing.csv')
-            combined_data = pd.concat([original_data, new_data], ignore_index=True)
-            combined_data.to_csv('esg_app/api/data/msci_esg_scores.csv', index=False)
-            print(f"Successfully added {len(new_data)} companies to main dataset")
-            
-        except Exception as e:
-            print(f"Error combining datasets: {e}")
-            
-    except Exception as e:
-        print(f"Error processing missing companies: {e}")
+        # if there are missing companies, it runs csrhub for the missing companies 
+        if missing_companies is not None: 
+            Threader(missing_companies, lseg_scraper, export_path)
+    except: 
+        logging.error("Error processing missing companies")
+
 
 
 

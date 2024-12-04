@@ -5606,3 +5606,376 @@
 2024-12-04 00:40:08,625 - WARNING - Timeout while waiting for element: search-result_table
 2024-12-04 00:40:10,699 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
 2024-12-04 00:40:10,700 - INFO - No user agent specified, using default
+2024-12-04 18:36:13,252 - INFO - Script started
+2024-12-04 18:36:13,252 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 18:36:13,262 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 18:36:13,264 - ERROR - Error in scraper: Queue.put() missing 1 required positional argument: 'item'
+2024-12-04 18:36:13,264 - ERROR - Error in scraper: Queue.put() missing 1 required positional argument: 'item'
+2024-12-04 18:36:13,264 - WARNING - No results to save
+2024-12-04 18:36:13,264 - INFO - Script completed
+2024-12-04 18:36:30,687 - INFO - Script started
+2024-12-04 18:36:30,687 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 18:36:30,698 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 18:36:30,699 - ERROR - Error in scraper: Queue.put() missing 1 required positional argument: 'item'
+2024-12-04 18:36:30,699 - ERROR - Error in scraper: Queue.put() missing 1 required positional argument: 'item'
+2024-12-04 18:36:30,699 - WARNING - No results to save
+2024-12-04 18:36:30,700 - INFO - Script completed
+2024-12-04 18:38:47,406 - INFO - Script started
+2024-12-04 18:38:47,406 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 18:38:47,416 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 18:38:47,417 - ERROR - Error in scraper: Queue.put() missing 1 required positional argument: 'item'
+2024-12-04 18:38:47,417 - ERROR - Error in scraper: Queue.put() missing 1 required positional argument: 'item'
+2024-12-04 18:38:47,418 - WARNING - No results to save
+2024-12-04 18:38:47,418 - INFO - Script completed
+2024-12-04 18:41:17,795 - INFO - Script started
+2024-12-04 18:41:17,795 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 18:41:17,807 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 18:41:17,808 - ERROR - Error in scraper: Queue.put() missing 1 required positional argument: 'item'
+2024-12-04 18:41:17,808 - ERROR - Error in scraper: Queue.put() missing 1 required positional argument: 'item'
+2024-12-04 18:41:17,808 - WARNING - No results to save
+2024-12-04 18:41:17,808 - INFO - Script completed
+2024-12-04 18:42:43,512 - INFO - Script started
+2024-12-04 18:42:43,512 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 18:42:43,523 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 18:42:43,524 - ERROR - Error in scraper: Queue.put() missing 1 required positional argument: 'item'
+2024-12-04 18:42:43,525 - ERROR - Error in scraper: Queue.put() missing 1 required positional argument: 'item'
+2024-12-04 18:42:43,525 - WARNING - No results to save
+2024-12-04 18:42:43,525 - INFO - Script completed
+2024-12-04 18:44:35,701 - INFO - Script started
+2024-12-04 18:44:35,701 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 18:44:35,712 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 18:44:35,713 - INFO - Initializing WebScraper...
+2024-12-04 18:44:35,713 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-12-04 18:44:35,714 - INFO - Initializing WebScraper...
+2024-12-04 18:44:35,714 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-12-04 18:44:35,714 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+2024-12-04 18:44:35,714 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-04 18:44:39,810 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 18:44:39,810 - INFO - WebScraper initialized successfully
+2024-12-04 18:44:39,810 - INFO - Attempting to accept cookies.
+2024-12-04 18:44:39,811 - INFO - Waiting for element to load: None
+2024-12-04 18:44:39,810 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 18:44:39,811 - INFO - WebScraper initialized successfully
+2024-12-04 18:44:39,811 - INFO - Attempting to accept cookies.
+2024-12-04 18:44:39,811 - INFO - Waiting for element to load: None
+2024-12-04 18:44:50,131 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 18:44:50,132 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 18:44:50,235 - INFO - Cookies accepted successfully.
+2024-12-04 18:44:50,236 - INFO - Cookies accepted successfully.
+2024-12-04 18:44:52,237 - INFO - Cookies accepted
+2024-12-04 18:44:52,237 - INFO - Cookies accepted
+2024-12-04 18:44:52,255 - INFO - Processing company: NVIDIA Corp
+2024-12-04 18:44:52,254 - INFO - Processing company: Microsoft Corp
+2024-12-04 18:44:54,801 - INFO - Entered company name: NVIDIA Corp
+2024-12-04 18:44:55,185 - INFO - Entered company name: Microsoft Corp
+2024-12-04 18:44:56,902 - INFO - Clicked search button
+2024-12-04 18:44:57,283 - INFO - Clicked search button
+2024-12-04 18:45:06,024 - INFO - Successfully scraped data for NVIDIA Corp
+2024-12-04 18:45:06,371 - INFO - Successfully scraped data for Microsoft Corp
+2024-12-04 18:45:09,240 - INFO - Processing company: Apple Inc
+2024-12-04 18:45:09,881 - INFO - Processing company: Alphabet Inc
+2024-12-04 18:45:11,476 - INFO - Entered company name: Apple Inc
+2024-12-04 18:45:12,526 - INFO - Entered company name: Alphabet Inc
+2024-12-04 18:45:13,571 - INFO - Clicked search button
+2024-12-04 18:45:14,628 - INFO - Clicked search button
+2024-12-04 18:45:22,667 - INFO - Successfully scraped data for Apple Inc
+2024-12-04 18:45:23,707 - INFO - Successfully scraped data for Alphabet Inc
+2024-12-04 18:45:25,904 - INFO - Closing browser
+2024-12-04 18:45:26,412 - INFO - Closing browser
+2024-12-04 18:45:26,479 - INFO - Successfully saved 4 results
+2024-12-04 18:45:26,479 - INFO - Script completed
+2024-12-04 18:55:37,086 - INFO - Script started
+2024-12-04 18:55:37,086 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 18:55:37,098 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 18:55:37,099 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-12-04 18:55:37,099 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-04 18:55:37,099 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-12-04 18:55:37,100 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+2024-12-04 18:55:42,096 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 18:55:42,255 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 18:55:47,097 - INFO - Attempting to accept cookies.
+2024-12-04 18:55:47,099 - INFO - Waiting for element to load: None
+2024-12-04 18:55:47,259 - INFO - Attempting to accept cookies.
+2024-12-04 18:55:47,261 - INFO - Waiting for element to load: None
+2024-12-04 18:55:57,452 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 18:55:57,555 - INFO - Cookies accepted successfully.
+2024-12-04 18:55:57,592 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 18:55:57,672 - INFO - Cookies accepted successfully.
+2024-12-04 18:56:02,576 - INFO - Search bar request for: Nvidia Corp
+2024-12-04 18:56:02,587 - INFO - Search bar request for: Microsoft Corp
+2024-12-04 18:56:09,768 - INFO - Found match in dropdown: Microsoft Corp
+2024-12-04 18:56:09,770 - INFO - Found match in dropdown: Nvidia Corp
+2024-12-04 18:56:12,876 - INFO - Clicked ESG transparency toggle
+2024-12-04 18:56:12,878 - INFO - Clicked ESG transparency toggle
+2024-12-04 18:56:15,936 - INFO - ESG Rating: AAA
+2024-12-04 18:56:15,936 - INFO - ESG Rating: AA
+2024-12-04 18:56:16,020 - INFO - Clicked controversies toggle
+2024-12-04 18:56:16,020 - INFO - Clicked controversies toggle
+2024-12-04 18:56:22,032 - INFO - Search bar request for: Alphabet Inc
+2024-12-04 18:56:22,095 - INFO - Search bar request for: Apple Inc
+2024-12-04 18:56:29,198 - INFO - Found match in dropdown: Alphabet Inc
+2024-12-04 18:56:29,226 - INFO - Found match in dropdown: Apple Inc
+2024-12-04 18:56:32,295 - INFO - Clicked ESG transparency toggle
+2024-12-04 18:56:32,308 - INFO - Clicked ESG transparency toggle
+2024-12-04 18:56:35,342 - INFO - ESG Rating: BBB
+2024-12-04 18:56:35,346 - INFO - ESG Rating: BBB
+2024-12-04 18:56:35,416 - INFO - Clicked controversies toggle
+2024-12-04 18:56:35,421 - INFO - Clicked controversies toggle
+2024-12-04 18:56:38,668 - INFO - Successfully saved 4 results
+2024-12-04 18:56:38,668 - INFO - Script completed
+2024-12-04 19:20:41,443 - INFO - Script started
+2024-12-04 19:20:41,443 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 19:20:41,454 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 19:20:41,456 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-12-04 19:20:41,456 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-04 19:20:41,456 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-12-04 19:20:41,457 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+2024-12-04 19:20:45,546 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:20:45,727 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:20:50,548 - INFO - Attempting to accept cookies.
+2024-12-04 19:20:50,549 - INFO - Waiting for element to load: None
+2024-12-04 19:20:50,731 - INFO - Attempting to accept cookies.
+2024-12-04 19:20:50,734 - INFO - Waiting for element to load: None
+2024-12-04 19:21:00,900 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:21:00,985 - INFO - Cookies accepted successfully.
+2024-12-04 19:21:01,092 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:21:01,179 - INFO - Cookies accepted successfully.
+2024-12-04 19:21:05,944 - INFO - Search bar request for: Microsoft Corp
+2024-12-04 19:21:06,087 - INFO - Search bar request for: Nvidia Corp
+2024-12-04 19:21:13,140 - INFO - Found match in dropdown: Microsoft Corp
+2024-12-04 19:21:13,239 - INFO - Found match in dropdown: Nvidia Corp
+2024-12-04 19:21:16,255 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:21:16,333 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:21:19,299 - INFO - ESG Rating: AA
+2024-12-04 19:21:19,373 - INFO - ESG Rating: AAA
+2024-12-04 19:21:19,385 - INFO - Clicked controversies toggle
+2024-12-04 19:21:19,453 - INFO - Clicked controversies toggle
+2024-12-04 19:21:25,427 - INFO - Search bar request for: Apple Inc
+2024-12-04 19:21:25,442 - INFO - Search bar request for: Alphabet Inc
+2024-12-04 19:21:32,585 - INFO - Found match in dropdown: Alphabet Inc
+2024-12-04 19:21:32,585 - INFO - Found match in dropdown: Apple Inc
+2024-12-04 19:21:35,672 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:21:35,673 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:21:38,720 - INFO - ESG Rating: BBB
+2024-12-04 19:21:38,728 - INFO - ESG Rating: BBB
+2024-12-04 19:21:38,809 - INFO - Clicked controversies toggle
+2024-12-04 19:21:38,818 - INFO - Clicked controversies toggle
+2024-12-04 19:21:42,073 - INFO - Successfully saved 4 results
+2024-12-04 19:21:42,073 - INFO - Script completed
+2024-12-04 19:23:36,432 - INFO - Script started
+2024-12-04 19:23:36,432 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 19:23:36,443 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 19:23:36,444 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-12-04 19:23:36,444 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-04 19:23:36,444 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-12-04 19:23:36,445 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+2024-12-04 19:23:39,319 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:23:39,431 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:23:44,321 - INFO - Attempting to accept cookies.
+2024-12-04 19:23:44,322 - INFO - Waiting for element to load: None
+2024-12-04 19:23:44,433 - INFO - Attempting to accept cookies.
+2024-12-04 19:23:44,434 - INFO - Waiting for element to load: None
+2024-12-04 19:23:54,671 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:23:54,784 - INFO - Cookies accepted successfully.
+2024-12-04 19:23:54,812 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:23:54,896 - INFO - Cookies accepted successfully.
+2024-12-04 19:23:59,831 - INFO - Search bar request for: Microsoft Corp
+2024-12-04 19:23:59,886 - INFO - Search bar request for: Nvidia Corp
+2024-12-04 19:24:07,031 - INFO - Found match in dropdown: Microsoft Corp
+2024-12-04 19:24:07,061 - INFO - Found match in dropdown: Nvidia Corp
+2024-12-04 19:24:10,143 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:24:10,168 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:24:13,193 - INFO - ESG Rating: AA
+2024-12-04 19:24:13,213 - INFO - ESG Rating: AAA
+2024-12-04 19:24:13,279 - INFO - Clicked controversies toggle
+2024-12-04 19:24:13,301 - INFO - Clicked controversies toggle
+2024-12-04 19:24:19,393 - INFO - Search bar request for: Apple Inc
+2024-12-04 19:24:19,397 - INFO - Search bar request for: Alphabet Inc
+2024-12-04 19:24:26,543 - INFO - Found match in dropdown: Apple Inc
+2024-12-04 19:24:26,544 - INFO - Found match in dropdown: Alphabet Inc
+2024-12-04 19:24:29,632 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:24:29,632 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:24:32,669 - INFO - ESG Rating: BBB
+2024-12-04 19:24:32,678 - INFO - ESG Rating: BBB
+2024-12-04 19:24:32,765 - INFO - Clicked controversies toggle
+2024-12-04 19:24:32,772 - INFO - Clicked controversies toggle
+2024-12-04 19:24:36,027 - INFO - Successfully saved 4 results
+2024-12-04 19:24:36,027 - INFO - Script completed
+2024-12-04 19:27:43,606 - INFO - Script started
+2024-12-04 19:27:43,607 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 19:27:43,618 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 19:27:43,619 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-12-04 19:27:43,619 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-12-04 19:27:43,619 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-04 19:27:43,619 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+2024-12-04 19:27:47,681 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:27:47,834 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:27:52,683 - INFO - Attempting to accept cookies.
+2024-12-04 19:27:52,684 - INFO - Waiting for element to load: None
+2024-12-04 19:27:52,836 - INFO - Attempting to accept cookies.
+2024-12-04 19:27:52,845 - INFO - Waiting for element to load: None
+2024-12-04 19:28:03,009 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:28:03,114 - INFO - Cookies accepted successfully.
+2024-12-04 19:28:03,125 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:28:03,211 - INFO - Cookies accepted successfully.
+2024-12-04 19:28:08,126 - INFO - Search bar request for: Nvidia Corp
+2024-12-04 19:28:08,213 - INFO - Search bar request for: Microsoft Corp
+2024-12-04 19:28:15,314 - INFO - Found match in dropdown: Nvidia Corp
+2024-12-04 19:28:15,376 - INFO - Found match in dropdown: Microsoft Corp
+2024-12-04 19:28:18,426 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:28:18,473 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:28:21,482 - INFO - ESG Rating: AAA
+2024-12-04 19:28:21,513 - INFO - ESG Rating: AA
+2024-12-04 19:28:21,566 - INFO - Clicked controversies toggle
+2024-12-04 19:28:21,596 - INFO - Clicked controversies toggle
+2024-12-04 19:28:27,563 - INFO - Search bar request for: Apple Inc
+2024-12-04 19:28:27,667 - INFO - Search bar request for: Alphabet Inc
+2024-12-04 19:28:34,733 - INFO - Found match in dropdown: Apple Inc
+2024-12-04 19:28:34,795 - INFO - Found match in dropdown: Alphabet Inc
+2024-12-04 19:28:37,834 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:28:37,878 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:28:40,869 - INFO - ESG Rating: BBB
+2024-12-04 19:28:40,909 - INFO - ESG Rating: BBB
+2024-12-04 19:28:40,957 - INFO - Clicked controversies toggle
+2024-12-04 19:28:41,011 - INFO - Clicked controversies toggle
+2024-12-04 19:28:44,255 - INFO - Successfully saved 4 results
+2024-12-04 19:28:44,255 - INFO - Script completed
+2024-12-04 19:28:44,256 - INFO - Checking for missing companies
+2024-12-04 19:28:44,267 - ERROR - Error processing missing companies
+2024-12-04 19:38:38,085 - INFO - Script started
+2024-12-04 19:38:38,085 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 19:38:38,096 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 19:38:38,098 - INFO - Initializing WebScraper...
+2024-12-04 19:38:38,098 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-12-04 19:38:38,098 - INFO - Initializing WebScraper...
+2024-12-04 19:38:38,099 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-12-04 19:38:38,099 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+2024-12-04 19:38:38,098 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-04 19:38:41,628 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:38:41,628 - INFO - WebScraper initialized successfully
+2024-12-04 19:38:41,628 - INFO - Attempting to accept cookies.
+2024-12-04 19:38:41,628 - INFO - Waiting for element to load: None
+2024-12-04 19:38:42,110 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:38:42,110 - INFO - WebScraper initialized successfully
+2024-12-04 19:38:42,110 - INFO - Attempting to accept cookies.
+2024-12-04 19:38:42,110 - INFO - Waiting for element to load: None
+2024-12-04 19:38:51,939 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:38:52,049 - INFO - Cookies accepted successfully.
+2024-12-04 19:38:52,458 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:38:52,545 - INFO - Cookies accepted successfully.
+2024-12-04 19:38:54,050 - INFO - Cookies accepted
+2024-12-04 19:38:54,073 - INFO - Processing company: NVIDIA Corp
+2024-12-04 19:38:54,549 - INFO - Cookies accepted
+2024-12-04 19:38:54,552 - INFO - Processing company: Microsoft Corp
+2024-12-04 19:38:56,639 - INFO - Entered company name: NVIDIA Corp
+2024-12-04 19:38:57,501 - INFO - Entered company name: Microsoft Corp
+2024-12-04 19:38:58,739 - INFO - Clicked search button
+2024-12-04 19:38:59,592 - INFO - Clicked search button
+2024-12-04 19:39:07,850 - INFO - Successfully scraped data for NVIDIA Corp
+2024-12-04 19:39:08,695 - INFO - Successfully scraped data for Microsoft Corp
+2024-12-04 19:39:11,957 - INFO - Processing company: Apple Inc
+2024-12-04 19:39:12,377 - INFO - Processing company: Alphabet Inc
+2024-12-04 19:39:14,220 - INFO - Entered company name: Apple Inc
+2024-12-04 19:39:15,019 - INFO - Entered company name: Alphabet Inc
+2024-12-04 19:39:16,321 - INFO - Clicked search button
+2024-12-04 19:39:17,113 - INFO - Clicked search button
+2024-12-04 19:39:25,416 - INFO - Successfully scraped data for Apple Inc
+2024-12-04 19:39:26,190 - INFO - Successfully scraped data for Alphabet Inc
+2024-12-04 19:39:28,291 - INFO - Closing browser
+2024-12-04 19:39:29,154 - INFO - Closing browser
+2024-12-04 19:39:29,218 - INFO - Successfully saved 4 results
+2024-12-04 19:39:29,218 - INFO - Script completed
+2024-12-04 19:39:29,219 - INFO - Checking for missing companies
+2024-12-04 19:39:29,232 - INFO - Found 0 missing companies
+2024-12-04 19:39:29,232 - INFO - Script started
+2024-12-04 19:39:29,232 - INFO - Processing 25 missing companies
+2024-12-04 19:39:29,232 - ERROR - Error processing missing companies
+2024-12-04 19:39:58,640 - INFO - Script started
+2024-12-04 19:39:58,641 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 19:39:58,652 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 19:39:58,653 - INFO - Initializing WebScraper...
+2024-12-04 19:39:58,653 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-12-04 19:39:58,653 - INFO - Initializing WebScraper...
+2024-12-04 19:39:58,654 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-04 19:39:58,654 - INFO - Initializing WebScraper for URL: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+2024-12-04 19:39:58,654 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+2024-12-04 19:40:01,915 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:40:01,915 - INFO - WebScraper initialized successfully
+2024-12-04 19:40:01,915 - INFO - Attempting to accept cookies.
+2024-12-04 19:40:01,915 - INFO - Waiting for element to load: None
+2024-12-04 19:40:02,008 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:40:02,008 - INFO - WebScraper initialized successfully
+2024-12-04 19:40:02,011 - INFO - Attempting to accept cookies.
+2024-12-04 19:40:02,011 - INFO - Waiting for element to load: None
+2024-12-04 19:40:12,233 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:40:12,342 - INFO - Cookies accepted successfully.
+2024-12-04 19:40:12,398 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:40:12,482 - INFO - Cookies accepted successfully.
+2024-12-04 19:40:14,343 - INFO - Cookies accepted
+2024-12-04 19:40:14,367 - INFO - Processing company: NVIDIA Corp
+2024-12-04 19:40:14,484 - INFO - Cookies accepted
+2024-12-04 19:40:14,485 - INFO - Processing company: Microsoft Corp
+2024-12-04 19:40:16,845 - INFO - Entered company name: NVIDIA Corp
+2024-12-04 19:40:17,346 - INFO - Entered company name: Microsoft Corp
+2024-12-04 19:40:18,933 - INFO - Clicked search button
+2024-12-04 19:40:19,434 - INFO - Clicked search button
+2024-12-04 19:40:28,035 - INFO - Successfully scraped data for NVIDIA Corp
+2024-12-04 19:40:28,528 - INFO - Successfully scraped data for Microsoft Corp
+2024-12-04 19:40:31,750 - INFO - Processing company: Apple Inc
+2024-12-04 19:40:32,729 - INFO - Processing company: Alphabet Inc
+2024-12-04 19:40:34,004 - INFO - Entered company name: Apple Inc
+2024-12-04 19:40:35,402 - INFO - Entered company name: Alphabet Inc
+2024-12-04 19:40:36,095 - INFO - Clicked search button
+2024-12-04 19:40:37,495 - INFO - Clicked search button
+2024-12-04 19:40:45,181 - INFO - Successfully scraped data for Apple Inc
+2024-12-04 19:40:46,596 - INFO - Successfully scraped data for Alphabet Inc
+2024-12-04 19:40:48,043 - INFO - Closing browser
+2024-12-04 19:40:49,082 - INFO - Closing browser
+2024-12-04 19:40:49,150 - INFO - Successfully saved 4 results
+2024-12-04 19:40:49,150 - INFO - Script completed
+2024-12-04 19:40:49,150 - INFO - Checking for missing companies
+2024-12-04 19:40:49,161 - INFO - Found 0 missing companies
+2024-12-04 19:40:49,161 - INFO - Script started
+2024-12-04 19:40:49,161 - INFO - Processing 25 missing companies
+2024-12-04 19:40:49,161 - ERROR - Error processing missing companies
+2024-12-04 19:41:02,106 - INFO - Script started
+2024-12-04 19:41:02,106 - INFO - Reading input data from: esg_app/api/data/SP500.csv
+2024-12-04 19:41:02,117 - INFO - Data loaded successfully. Number of records: 4
+2024-12-04 19:41:02,119 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-12-04 19:41:02,119 - INFO - Using user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+2024-12-04 19:41:02,119 - INFO - Initializing WebScraper for URL: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+2024-12-04 19:41:02,120 - INFO - Using user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+2024-12-04 19:41:07,030 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:41:07,787 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:41:12,034 - INFO - Attempting to accept cookies.
+2024-12-04 19:41:12,035 - INFO - Waiting for element to load: None
+2024-12-04 19:41:12,788 - INFO - Attempting to accept cookies.
+2024-12-04 19:41:12,789 - INFO - Waiting for element to load: None
+2024-12-04 19:41:22,369 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:41:22,485 - INFO - Cookies accepted successfully.
+2024-12-04 19:41:23,128 - WARNING - Timeout while waiting for element: onetrust-accept-btn-handler
+2024-12-04 19:41:23,240 - INFO - Cookies accepted successfully.
+2024-12-04 19:41:27,504 - INFO - Search bar request for: Microsoft Corp
+2024-12-04 19:41:28,270 - INFO - Search bar request for: Nvidia Corp
+2024-12-04 19:41:34,711 - INFO - Found match in dropdown: Microsoft Corp
+2024-12-04 19:41:35,447 - INFO - Found match in dropdown: Nvidia Corp
+2024-12-04 19:41:37,825 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:41:38,573 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:41:40,881 - INFO - ESG Rating: AA
+2024-12-04 19:41:40,965 - INFO - Clicked controversies toggle
+2024-12-04 19:41:41,631 - INFO - ESG Rating: AAA
+2024-12-04 19:41:41,711 - INFO - Clicked controversies toggle
+2024-12-04 19:41:47,008 - INFO - Search bar request for: Alphabet Inc
+2024-12-04 19:41:47,773 - INFO - Search bar request for: Apple Inc
+2024-12-04 19:41:54,183 - INFO - Found match in dropdown: Alphabet Inc
+2024-12-04 19:41:54,903 - INFO - Found match in dropdown: Apple Inc
+2024-12-04 19:41:57,282 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:41:58,003 - INFO - Clicked ESG transparency toggle
+2024-12-04 19:42:00,328 - INFO - ESG Rating: BBB
+2024-12-04 19:42:00,401 - INFO - Clicked controversies toggle
+2024-12-04 19:42:01,048 - INFO - ESG Rating: BBB
+2024-12-04 19:42:01,123 - INFO - Clicked controversies toggle
+2024-12-04 19:42:04,360 - INFO - Successfully saved 4 results
+2024-12-04 19:42:04,360 - INFO - Script completed
+2024-12-04 19:42:04,360 - INFO - Checking for missing companies
+2024-12-04 19:42:04,371 - ERROR - Error processing missing companies

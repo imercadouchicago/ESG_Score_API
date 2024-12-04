@@ -1133,3 +1133,158 @@ Processing company 63: Applied Materials, Inc.
 2024-12-04 02:02:12,769 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff7df5f020>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8b29d1cbe5dda4bcef06f72280db48a9
 2024-12-04 02:02:12,769 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff7df5ecf0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8b29d1cbe5dda4bcef06f72280db48a9
 2024-12-04 02:02:12,770 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff7df5dbf0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8b29d1cbe5dda4bcef06f72280db48a9
+2024-12-04 18:34:37,748 - INFO - Starting scraping process for 503 companies
+2024-12-04 18:34:37,761 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 18:34:41,513 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 18:34:43,515 - INFO - 
+Processing company 1: NVIDIA Corporation
+2024-12-04 18:34:44,594 - INFO - Accepted cookies
+2024-12-04 18:34:46,715 - INFO - No popup found
+2024-12-04 18:34:46,852 - INFO - Searching for: NVIDIA Corporation
+2024-12-04 18:34:48,979 - INFO - Found 1 results
+2024-12-04 18:34:48,996 - INFO - Single result found, clicking directly
+2024-12-04 18:34:54,508 - INFO - Extracted Data for NVIDIA Corporation:
+2024-12-04 18:34:54,508 - INFO - ESG Score: 98
+2024-12-04 18:34:54,509 - INFO - Number of Sources: 
+                  65
+                
+2024-12-04 18:34:54,510 - INFO - Closing browser for NVIDIA Corporation
+2024-12-04 18:34:55,579 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 18:34:58,938 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 18:35:00,941 - INFO - 
+Processing company 2: Apple Inc.
+2024-12-04 18:35:01,988 - INFO - Accepted cookies
+2024-12-04 18:35:04,143 - INFO - No popup found
+2024-12-04 18:35:04,276 - INFO - Searching for: Apple Inc.
+2024-12-04 18:35:06,171 - INFO - Found 1 results
+2024-12-04 18:35:06,188 - INFO - Single result found, clicking directly
+2024-12-04 18:35:10,910 - INFO - Extracted Data for Apple Inc.:
+2024-12-04 18:35:10,910 - INFO - ESG Score: 91
+2024-12-04 18:35:10,910 - INFO - Number of Sources: 
+                  92
+                
+2024-12-04 18:35:10,912 - INFO - Closing browser for Apple Inc.
+2024-12-04 18:35:11,978 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 18:35:14,015 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 18:35:16,016 - INFO - 
+Processing company 3: Microsoft Corporation
+2024-12-04 18:35:17,024 - INFO - Accepted cookies
+2024-12-04 18:35:19,166 - INFO - No popup found
+2024-12-04 18:35:19,304 - INFO - Searching for: Microsoft Corporation
+2024-12-04 18:35:21,452 - INFO - Found 1 results
+2024-12-04 18:35:21,462 - INFO - Single result found, clicking directly
+2024-12-04 18:35:26,920 - INFO - Extracted Data for Microsoft Corporation:
+2024-12-04 18:35:26,920 - INFO - ESG Score: 99
+2024-12-04 18:35:26,920 - INFO - Number of Sources: 
+                  101
+                
+2024-12-04 18:35:26,921 - INFO - Closing browser for Microsoft Corporation
+2024-12-04 18:35:27,983 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 18:35:30,969 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 18:35:32,974 - INFO - 
+Processing company 4: Alphabet Inc.
+2024-12-04 18:35:33,944 - INFO - Accepted cookies
+2024-12-04 18:35:36,053 - INFO - No popup found
+2024-12-04 18:35:36,189 - INFO - Searching for: Alphabet Inc.
+2024-12-04 18:35:38,109 - INFO - Found 1 results
+2024-12-04 18:35:38,119 - INFO - Single result found, clicking directly
+2024-12-04 18:35:42,520 - INFO - Extracted Data for Alphabet Inc.:
+2024-12-04 18:35:42,520 - INFO - ESG Score: 89
+2024-12-04 18:35:42,520 - INFO - Number of Sources: 
+                  99
+                
+2024-12-04 18:35:42,522 - INFO - Closing browser for Alphabet Inc.
+2024-12-04 18:35:43,588 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 18:35:46,199 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 18:35:48,204 - INFO - 
+Processing company 5: Alphabet Inc.
+2024-12-04 18:35:49,093 - INFO - Accepted cookies
+2024-12-04 18:35:51,185 - INFO - No popup found
+2024-12-04 18:35:51,315 - INFO - Searching for: Alphabet Inc.
+2024-12-04 18:35:53,261 - INFO - Found 1 results
+2024-12-04 18:35:53,270 - INFO - Single result found, clicking directly
+2024-12-04 18:35:58,125 - INFO - Extracted Data for Alphabet Inc.:
+2024-12-04 18:35:58,125 - INFO - ESG Score: 89
+2024-12-04 18:35:58,125 - INFO - Number of Sources: 
+                  99
+                
+2024-12-04 18:35:58,126 - INFO - Closing browser for Alphabet Inc.
+2024-12-04 18:35:59,195 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 18:36:01,639 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:19:00,679 - INFO - Starting scraping process for 503 companies
+2024-12-04 19:19:00,691 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 19:19:03,439 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:19:05,441 - INFO - 
+Processing company 1: NVIDIA Corporation
+2024-12-04 19:19:06,488 - INFO - Accepted cookies
+2024-12-04 19:19:08,606 - INFO - No popup found
+2024-12-04 19:19:08,753 - INFO - Searching for: NVIDIA Corporation
+2024-12-04 19:19:10,715 - INFO - Found 1 results
+2024-12-04 19:19:10,725 - INFO - Single result found, clicking directly
+2024-12-04 19:19:15,319 - INFO - Extracted Data for NVIDIA Corporation:
+2024-12-04 19:19:15,320 - INFO - ESG Score: 98
+2024-12-04 19:19:15,320 - INFO - Number of Sources: 
+                  65
+                
+2024-12-04 19:19:15,321 - INFO - Closing browser for NVIDIA Corporation
+2024-12-04 19:19:16,395 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 19:19:19,169 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:19:21,179 - INFO - 
+Processing company 2: Apple Inc.
+2024-12-04 19:19:22,295 - INFO - Accepted cookies
+2024-12-04 19:19:24,412 - INFO - No popup found
+2024-12-04 19:19:24,551 - INFO - Searching for: Apple Inc.
+2024-12-04 19:19:26,662 - INFO - Found 1 results
+2024-12-04 19:19:26,672 - INFO - Single result found, clicking directly
+2024-12-04 19:19:32,112 - INFO - Extracted Data for Apple Inc.:
+2024-12-04 19:19:32,112 - INFO - ESG Score: 91
+2024-12-04 19:19:32,112 - INFO - Number of Sources: 
+                  92
+                
+2024-12-04 19:19:32,113 - INFO - Closing browser for Apple Inc.
+2024-12-04 19:19:33,177 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 19:19:35,604 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:19:37,605 - INFO - 
+Processing company 3: Microsoft Corporation
+2024-12-04 19:19:38,462 - INFO - Accepted cookies
+2024-12-04 19:19:40,562 - INFO - No popup found
+2024-12-04 19:19:40,693 - INFO - Searching for: Microsoft Corporation
+2024-12-04 19:19:42,769 - INFO - Found 1 results
+2024-12-04 19:19:42,786 - INFO - Single result found, clicking directly
+2024-12-04 19:19:47,276 - INFO - Extracted Data for Microsoft Corporation:
+2024-12-04 19:19:47,276 - INFO - ESG Score: 99
+2024-12-04 19:19:47,276 - INFO - Number of Sources: 
+                  101
+                
+2024-12-04 19:19:47,278 - INFO - Closing browser for Microsoft Corporation
+2024-12-04 19:19:48,346 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 19:19:50,679 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:19:52,688 - INFO - 
+Processing company 4: Alphabet Inc.
+2024-12-04 19:19:53,480 - INFO - Closing browser for Alphabet Inc.
+2024-12-04 19:19:53,481 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff911d3490>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9de5ce9a1b58398c009eb68189f8959d
+2024-12-04 19:19:53,482 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff910555b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9de5ce9a1b58398c009eb68189f8959d
+2024-12-04 19:19:53,482 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff910607c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9de5ce9a1b58398c009eb68189f8959d
+2024-12-04 19:35:10,308 - INFO - Starting scraping process for 1 companies
+2024-12-04 19:35:10,322 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 19:37:19,614 - INFO - Starting scraping process for 1 companies
+2024-12-04 19:37:19,629 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 19:37:22,362 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 19:37:24,365 - INFO - 
+Processing company 1: NVIDIA Corporation
+2024-12-04 19:37:25,353 - INFO - Accepted cookies
+2024-12-04 19:37:27,462 - INFO - No popup found
+2024-12-04 19:37:27,616 - INFO - Searching for: NVIDIA Corporation
+2024-12-04 19:37:29,452 - INFO - Found 1 results
+2024-12-04 19:37:29,469 - INFO - Single result found, clicking directly
+2024-12-04 19:37:34,116 - INFO - Extracted Data for NVIDIA Corporation:
+2024-12-04 19:37:34,116 - INFO - ESG Score: 98
+2024-12-04 19:37:34,116 - INFO - Number of Sources: 
+                  65
+                
+2024-12-04 19:37:34,118 - INFO - Closing browser for NVIDIA Corporation
+2024-12-04 19:37:35,186 - INFO - Scraping completed
+2024-12-04 19:37:35,189 - INFO - Checking for missing companies
+2024-12-04 19:37:35,192 - INFO - Found 0 missing companies
+2024-12-04 19:37:35,192 - INFO - Starting scraping process for 0 companies
+2024-12-04 19:37:35,193 - INFO - Scraping completed

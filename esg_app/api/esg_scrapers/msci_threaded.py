@@ -48,7 +48,6 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
         
         for agent in list_of_agents:
             user_agents.put(agent)
-            user_agents.put()
         
         bot = WebScraper(URL, user_agents)
         if not hasattr(bot, 'driver') and first_attempt:
@@ -117,12 +116,8 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
                 # Record results from dropdown menu
                 dropdown = bot.locate_element(class_name="ui-autocomplete")
 
-                # debugging code... 
                 if dropdown:
-                    print("Dropdown found")
                     results = bot.locate_element_within_element(dropdown, class_name="msci-ac-search-section-title", multiple=True)
-                    print(f"Number of results found: {len(results) if results else 0}")
-                # debugging code
 
                 results = bot.locate_element_within_element(dropdown, class_name="msci-ac-search-section-title", multiple=True)
 
@@ -131,8 +126,7 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
                     result_name = result.get_attribute('data-value')
                     cleaned_result = clean_company_name(result_name)
                     
-                    # If the result matches the company being searched for, then try 
-                    # different methods of clicking on the company
+                    # If the result matches the company being searched for, then try different methods of clicking on the company
                     if cleaned_result == cleaned_name:
                         try:
                             bot.driver.execute_script("arguments[0].click();", result)
@@ -214,39 +208,22 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
 # If file is run, applies Threader function to msci_scraper function and outputs results to export_path runs the files directly such 
 if __name__ == "__main__":
     Threader(msci_scraper, export_path)
-    try:
-        msci_df = pd.read_csv('esg_app/api/data/msci_esg_scores.csv')
+    logging.info("Checking for missing companies")
+    try: 
+        msci_df = pd.read_csv(export_path)
         sp500_df = pd.read_csv('esg_app/api/data/SP500.csv')
-        
-        # Get lists of companies
-        msci_companies = set(msci_df['MSCI_Company'])
+        sp500_df = sp500_df.head(4) #needs to match the number of inputs in the Threader class 
+
+        msci_companies = set(msci_df['MSCI_company']) 
         sp500_companies = set(sp500_df['Longname'])
-        
-        # Find missing companies
+
         missing_companies = list(sp500_companies - msci_companies)
+        logging.info(f"Found {len(missing_companies)} missing companies")
         
-        # Create DataFrame in correct format
-        missing_companies = pd.DataFrame({
-            'Longname': missing_companies  # This matches the headername used in msci_scraper
-        })
-        
-        # Run scraper with missing companies
-        URL = "https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool"
-        headername = 'Longname'
-        export_path = 'esg_app/api/data/msci_esg_scores_missing.csv'
-        
-        Threader(msci_scraper, export_path, missing_companies)  # Pass missing_companies directly
-        
-        # Combine results
-        try:
-            original_data = pd.read_csv('esg_app/api/data/msci_esg_scores.csv')
-            new_data = pd.read_csv('esg_app/api/data/msci_esg_scores_missing.csv')
-            combined_data = pd.concat([original_data, new_data], ignore_index=True)
-            combined_data.to_csv('esg_app/api/data/msci_esg_scores.csv', index=False)
-            print(f"Successfully added {len(new_data)} companies to main dataset")
-            
-        except Exception as e:
-            print(f"Error combining datasets: {e}")
-            
-    except Exception as e:
-        print(f"Error processing missing companies: {e}")
+        # if there are missing companies, it runs csrhub for the missing companies 
+        if missing_companies is not None: 
+            Threader(missing_companies, msci_scraper, export_path)
+    except: 
+        logging.error("Error processing missing companies")
+
+

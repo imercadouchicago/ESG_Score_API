@@ -2,10 +2,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import logging
 import pandas as pd
 from time import sleep
 from esg_app.utils.scraper_utils.original_scraper import WebScraper
 import os
+
+
 
 def clean_company_name(name: str) -> str:
     """Clean company name for comparison"""
@@ -161,6 +164,18 @@ for index, company_row in df.iterrows():
         print(f"Closing browser for {company_name}")
         bot.driver.quit()
         sleep(1)
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Second and third passes: Retry missing companies
 for attempt in range(2):
