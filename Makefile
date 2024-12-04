@@ -71,7 +71,7 @@ csrhub: build
 	docker run -it \
 	$(ALL_FLAGS) \
 	--shm-size=2g $(IMAGE_NAME) \
-	python $(SCRAPERS_PATH)/csrhub.py
+	python $(SCRAPERS_PATH)/csrhub_nonthreaded.py
 
 # Create a sqlite database file and associated tables
 db_create: build

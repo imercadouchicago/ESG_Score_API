@@ -1,0 +1,5 @@
+SnP_ESG_Company,SnP_ESG_Score,SnP_ESG_Country,SnP_ESG_Industry,SnP_ESG_Ticker,ESG_environment,ESG_social,ESG_governance
+NVIDIA Corporation ESG Score,61,Location: United States of America,Industry: SEM Semiconductors & Semiconductor Equipment,Ticker: NVDA,57,64,64
+Apple Inc. ESG Score,45,Location: United States of America,Industry: THQ Computers & Peripherals and Office Electronics,Ticker: AAPL,54,44,37
+Microsoft Corporation ESG Score,56,Location: United States of America,Industry: SOF Software,Ticker: MSFT,73,44,58
+Alphabet Inc. ESG Score,47,Location: United States of America,"Industry: IMS Interactive Media, Services & Home Entertainment",Ticker: GOOGL,66,51,31

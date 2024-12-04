@@ -17,8 +17,14 @@ USER_AGENTS = [
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
 ]
 
+# Configure logging
+logging.basicConfig(
+    filename='parallel_scraping.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
 
-def Threader(website_function: Callable, export_path: str):
+def Threader(website_function: Callable, export_path: str, missing_companies: list = None):
     '''
     This function using multithreading for running webscraper functions in parallel 
     and aggregates and exports results from each thread to a csv.
@@ -34,12 +40,16 @@ def Threader(website_function: Callable, export_path: str):
     for agent in USER_AGENTS:
         user_agents.put(agent)
 
-    # Read dataframe with S&P500 companies
-    logging.info("Reading input data from: %s", import_path)
-    try:
-        df = pd.read_csv(import_path)
-        df = df.head(1)
-        logging.info("Data loaded successfully. Number of records: %d", len(df))
+    try: 
+        if missing_companies is not None:
+            # If missing_companies is provided, then just create a Dataframe from it
+            logging.info(f"Processing {len(missing_companies)} missing companies")
+            df = missing_companies
+        else: 
+            logging.info("Reading input data from: %s", import_path)
+            df = pd.read_csv(import_path)
+            df = df.head(4)
+            logging.info("Data loaded successfully. Number of records: %d", len(df))
     except FileNotFoundError as e:
         logging.error("Input file not found. Error: %s", e)
         return

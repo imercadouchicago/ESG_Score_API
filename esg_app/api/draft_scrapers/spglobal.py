@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from time import sleep
 from tqdm import tqdm
-from esg_app.utils.scraper_utils.original_scraper import  WebScraper
+from esg_app.api.draft_scrapers.original_scraper import  WebScraper
 import logging
 
 # Configure logging

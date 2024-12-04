@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 from time import sleep
-from esg_app.utils.scraper_utils.original_scraper import WebScraper
+from esg_app.api.draft_scrapers.original_scraper import WebScraper
 
 def clean_company_name(name: str) -> str:
     """Clean company name for comparison"""

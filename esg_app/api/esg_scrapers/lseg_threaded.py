@@ -15,17 +15,6 @@ from threading import Lock
 from time import sleep
 
 
-################################################################################
-#  LOGIC FOR Original VALUES - STARTS HERE
-################################################################################
-
-# After running original scraper, process missing companies
-
-# Simple retry logic for N/A values
-
-### Come back to this, not sure why it's not working... 
-    # Now process missing companies up to 3 times
-
 # Configure logging
 logging.basicConfig(
     filename='lseg_scraping.log',
@@ -34,9 +23,9 @@ logging.basicConfig(
 )
 URL = "https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores"
 headername = 'Longname'
-export_path = 'esg_app/api/data/lseg_esg_scores.csv'
+export_path = 'esg_app/api/data/lseg.csv'
 
-
+# cleaning company definition 
 def clean_company_name(name: str) -> str:
     """Simple cleaning of company names"""
     name = name.replace("the", "").strip()
@@ -45,7 +34,7 @@ def clean_company_name(name: str) -> str:
     name = name.replace("Corporation", "Corp")
     name = name.replace("Company", "Co")
     name = name.replace("Incorporated","Inc")
-    name = name.replace('"', '')  # This is the correct way to replace quotes
+    name = name.replace('"', '') 
     logging.debug(f"Original: {name} -> Cleaned: {name}")
     return name
 
@@ -104,16 +93,15 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents:
                 logging.info(f"Processing company: {company_name}")
 
                 # Search for company
-                # Search for company
                 search_bar = bot.locate_element(xpath='//*[@id="searchInput-1"]')
                 if search_bar:
                     search_bar.clear()
-                    sleep(1)  # Wait after clearing
-                    for char in company_name:  # Type character by character
+                    sleep(1) 
+                    for char in company_name: 
                         search_bar.send_keys(char)
-                        sleep(0.1)  # Brief pause between characters
+                        sleep(0.1)  
                     logging.info(f"Entered company name: {company_name}")
-                    sleep(2)  # Wait after typing complete
+                    sleep(2) 
                     
                     # Click search button
                     search_button = bot.locate_element(
@@ -122,29 +110,26 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents:
                     if search_button:
                         search_button.click()
                         logging.info("Clicked search button")
-                        sleep(7)  # Increased wait time for results to load
+                        sleep(7)
 
                         # Extract ESG scores
                         esg_score = bot.locate_element(
                             xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/h3/strong'
                         )
-                        sleep(2)  # Wait before getting other scores
-                        environment = bot.locate_element(
-                            xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[1]/div[2]/b'
-                        )
-                        social = bot.locate_element(
-                            xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[5]/div[2]/b'
-                        )
-                        governance = bot.locate_element(
-                            xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[10]/div[2]/b'
-                        )
+                        sleep(2) 
+
+                        # extract specific ESG scores for sub categories 
+                        environment = bot.locate_element(xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[1]/div[2]/b')
+                        social = bot.locate_element(xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[5]/div[2]/b')
+                        governance = bot.locate_element(xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[10]/div[2]/b')
                         
+                        # appends everything to results
                         results.append({
                             "LSEG_ESG_Company": row[headername],
-                            "LSEG_ESG_Score": esg_score.text if esg_score else "N/A",
-                            "LSEG_Environment": environment.text if environment else "N/A",
-                            "LSEG_Social": social.text if social else "N/A",
-                            "LSEG_Governance": governance.text if governance else "N/A"
+                            "LSEG_ESG_Score": esg_score.text, 
+                            "LSEG_Environment": environment.text, 
+                            "LSEG_Social": social.text, 
+                            "LSEG_Governance": governance.text
                         })
                         logging.info(f"Successfully scraped data for {company_name}")
                     else:
@@ -154,13 +139,6 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents:
 
             except Exception as e:
                 logging.error(f"Error processing company {row[headername]}: {e}")
-                results.append({
-                    "LSEG_ESG_Company": row[headername],
-                    "LSEG_ESG_Score": "N/A",
-                    "LSEG_Environment": "N/A",
-                    "LSEG_Social": "N/A",
-                    "LSEG_Governance": "N/A"
-                })
 
             # Refresh page for next company
             bot.driver.get(URL)
@@ -174,187 +152,29 @@ def lseg_scraper(company_data: pd.DataFrame, user_agents:
     finally:
         if bot and hasattr(bot, 'driver'):
             logging.info("Closing browser")
-            bot.driver.quit() '
-if __name__ == "__main__":
+            bot.driver.quit()
+
+if __name__ == "__main__": 
     # Initialize user agents queue
     user_agents = Queue()
     user_agents.put("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 
     # Run scraper
     Threader(lseg_scraper, export_path) 
+    logging.info("Checking for missing companies")
+    try: 
+        lseg_df = pd.read_csv(export_path)
+        sp500_df = pd.read_csv('esg_app/api/data/SP500.csv') 
+        sp500_df = sp500_df.head(4)# # Needs to match number of inputs in the threader class 
 
+        lseg_companies = set(lseg_df['LSEG_ESG_Company']) 
+        sp500_companies = set(sp500_df['Longname'])
 
-################################################################################
-# RETRY LOGIC FOR MISSING VALUES - STARTS HERE
-################################################################################
-
-# After running original scraper, process missing companies
-
-# Simple retry logic for N/A values
-
-### Come back to this, not sure why it's not working... 
-    # Now process missing companies up to 3 times
-
-def clean_company_name(name: str) -> str:
-    """Improved company name cleaning"""
-    print(f"Starting name: {name}")
-    
-    # Convert to lowercase first
-    name = name.lower()
-    
-    # Define replacements with word boundaries
-    replacements = {
-        ' the ': ' ',
-        'corporation': 'corp',
-        'company': 'co',
-        'incorporated': 'inc',
-        'limited': 'ltd',
-        ',': '',
-        '.': '',
-        '"': '',
-        "'": ''
-    }
-    
-    # Apply replacements
-    for old, new in replacements.items():
-        name = name.replace(old.lower(), new)
-    
-    # Fix multiple spaces
-    name = ' '.join(name.split())
-    
-    print(f"Final cleaned name: {name}")
-    return name.strip()
-
-for attempt in range(3):
-    try:
-        # Read current data
-        print("\nLoading current data from CSV...")
-        df = pd.read_csv('esg_app/api/data/lseg_esg_scores.csv', dtype=str)
+        missing_companies = list(sp500_companies - sp500_companies)
+        logging.info(f"Found {len(missing_companies)} missing companies")
         
-        # Find missing companies
-        missing_companies = []
-        for _, row in df.iterrows():
-            if pd.isna(row['LSEG_ESG_Score']):
-                missing_companies.append(row['LSEG_ESG_Company'])
-        
-        print(f"\nAttempt {attempt + 1}: Found {len(missing_companies)} companies with missing data")
-        print("First few missing companies:", missing_companies[:5])
-        
-        if not missing_companies:
-            break
-            
-        # Initialize WebScraper
-        print("\nInitializing WebScraper...")
-        logging.info("Initializing WebScraper...")
-        user_agents = Queue()
-        user_agents.put("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-        
-        bot = WebScraper(URL, user_agents)
-        if not bot or not hasattr(bot, 'driver'):
-            print("Failed to initialize WebScraper")
-            logging.error("Failed to initialize WebScraper")
-            continue
-            
-        print("WebScraper initialized successfully")
-        logging.info("WebScraper initialized successfully")
-        
-        # Accept cookies
-        try:
-            bot.accept_cookies(id_name="onetrust-accept-btn-handler")
-            print("Successfully accepted cookies")
-            logging.info("Cookies accepted")
-        except Exception as e:
-            print(f"Error accepting cookies: {e}")
-            logging.error(f"Error accepting cookies: {e}")
-        
-        # Process each missing company
-        for company_name in missing_companies:
-            company_name1 = company_name
-            try:
-                company_name = clean_company_name(company_name)
-                print(f"\nProcessing company: {company_name}")
-                logging.info(f"Processing company: {company_name}")
-                
-                # Search for company using exact same logic
-                search_bar = bot.locate_element(xpath='//*[@id="searchInput-1"]')
-                if search_bar:
-                    search_bar.clear()
-                    sleep(1)
-                    print("Typing company name...")
-                    for char in company_name:
-                        search_bar.send_keys(char)
-                        sleep(0.1)
-                    print(f"Entered company name: {company_name}")
-                    logging.info(f"Entered company name: {company_name}")
-                    sleep(2)
-                    
-                    search_button = bot.locate_element(
-                        xpath='//*[@id="esg-data-body"]/div[1]/div/div/div[1]/div/button[2]'
-                    )
-                    if search_button:
-                        search_button.click()
-                        print("Clicked search button")
-                        logging.info("Clicked search button")
-                        sleep(7)
-                        
-                        print("Attempting to extract ESG scores...")
-                        # Extract ESG scores using exact same xpaths
-                        esg_score = bot.locate_element(
-                            xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/h3/strong'
-                        )
-                        sleep(2)
-                        environment = bot.locate_element(
-                            xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[1]/div[2]/b'
-                        )
-                        social = bot.locate_element(
-                            xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[5]/div[2]/b'
-                        )
-                        governance = bot.locate_element(
-                            xpath='//*[@id="esg-data-body"]/div[2]/div/div/div/div/div/div[1]/div/div/div[1]/div[10]/div[2]/b'
-                        )
-                        
-                        print("Found ESG scores:")
-                        print(f"ESG Score: {esg_score.text if esg_score else 'N/A'}")
-                        print(f"Environment: {environment.text if environment else 'N/A'}")
-                        print(f"Social: {social.text if social else 'N/A'}")
-                        print(f"Governance: {governance.text if governance else 'N/A'}")
-                        
-                        # Update DataFrame
-                        mask = df['LSEG_ESG_Company'] == company_name1
-                        df.loc[mask, 'LSEG_ESG_Score'] = esg_score.text if esg_score else "N/A"
-                        df.loc[mask, 'LSEG_Environment'] = environment.text if environment else "N/A"
-                        df.loc[mask, 'LSEG_Social'] = social.text if social else "N/A"
-                        df.loc[mask, 'LSEG_Governance'] = governance.text if governance else "N/A"
-                        
-                        # Save progress
-                        df.to_csv('esg_app/api/data/lseg_esg_scores.csv', index=False)
-                        print(f"Successfully updated data for {company_name}")
-                        logging.info(f"Successfully scraped data for {company_name}")
-                    else:
-                        print(f"Search button not found for {company_name}")
-                        logging.error(f"Search button not found for {company_name}")
-                else:
-                    print(f"Search bar not found for {company_name}")
-                    logging.error(f"Search bar not found for {company_name}")
-                    
-            except Exception as e:
-                print(f"Error processing company {company_name}: {e}")
-                logging.error(f"Error processing company {company_name}: {e}")
-                continue
-                
-            # Refresh page for next company
-            print("Refreshing page for next company...")
-            bot.driver.get(URL)
-            sleep(2)
-            
-        if bot and hasattr(bot, 'driver'):
-            print("Closing browser")
-            logging.info("Closing browser")
-            bot.driver.quit()
-            
-    except Exception as e:
-        print(f"Error in retry attempt {attempt + 1}: {e}")
-        logging.error(f"Error in retry attempt {attempt + 1}: {e}")
-        if 'bot' in locals() and bot and hasattr(bot, 'driver'):
-            bot.driver.quit()
-
+        # if there are missing companies, it runs csrhub for the missing companies 
+        if missing_companies is not None: 
+            Threader(missing_companies, lseg_scraper, export_path)
+    except: 
+        logging.error("Error processing missing companies")

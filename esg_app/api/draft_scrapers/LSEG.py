@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from time import sleep
-from esg_app.utils.scraper_utils.original_scraper import WebScraper
+from esg_app.api.draft_scrapers.original_scraper import WebScraper
 import pandas as pd
 
 def clean_company_name(name: str) -> str:

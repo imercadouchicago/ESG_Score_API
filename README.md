@@ -50,7 +50,7 @@ esg_app/
 │   │   └── yahoo_esg_scores.csv
 │   ├── draft_scrapers/
 │   ├── esg_scrapers/
-│   │   ├── csrhub.py
+│   │   ├── csrhub_nonthreaded.py
 │   │   ├── lseg_threaded.py
 │   │   ├── msci_threaded.py
 │   │   ├── spglobal_threaded.py
@@ -65,8 +65,8 @@ esg_app/
 │   │   ├── route_utils/
 │   │   │   └── route_utils.py
 │   │   └── scraper_utils/
+│   │   │   ├── csrhub_utils.py
 │   │   │   ├── msci_utils.py
-│   │   │   ├── original_scraper.py
 │   │   │   ├── scraper.py
 │   │   │   └── threader.py
 ├── app.py
@@ -110,7 +110,7 @@ esg_score_api $ make interactive
 ### Scraper Commands
 Each ESG provider has its own scraper module that can be run independently using the following commands.
 The export paths in each of the scraper modules has already been changed so that the existing data will not be overwritten. 
-The dataframe number of rows has been set to 1 in the Threader function so the scrapers can be tested efficiently. 
+The dataframe number of rows has been set to 4 in the Threader function so the scrapers can be tested efficiently. 
 If you would like to test the scrapers, then feel free to run the following commands.
 
 ```bash
@@ -169,9 +169,6 @@ If running on port 5001, the base URL will be http://0.0.0.0:5001/.
 ## Acknowledgments
 The sp500.csv data was sourced from:
 - https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?resource=download&select=sp500_companies.csv
-
-The original_scraper.py file was adapted from:
-- https://github.com/shweta-29/Companies_ESG_Scraper
 
 ## Contact
 Isabella Mercado - imercado@uchicago.edu
