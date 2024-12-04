@@ -150,6 +150,7 @@ def csrhub_scraper(df, output_path='esg_app/api/data/csrhub.csv'):
 
 if __name__ == "__main__":
     df = pd.read_csv('esg_app/api/data/SP500.csv')
+    df = df.head(4)
     results_df = csrhub_scraper(df)
 
     logging.info("Checking for missing companies")
@@ -158,6 +159,7 @@ if __name__ == "__main__":
     try: 
         csrhub_df = pd.read_csv('esg_app/api/data/csrhub.csv')
         sp500_df = pd.read_csv('esg_app/api/data/SP500.csv')
+        sp500_df = sp500_df.head(4)
 
         csrhub_companies = set(csrhub_df['Company']) 
         sp500_companies = set(sp500_df['Shortname'])

@@ -30,7 +30,8 @@ class WebScraper():
 
     Attributes:
         URL: [str] The website URL.
-        user_agent: [str] The selected user agent. 
+        user_agent: [str] The selected user agent (optional). 
+        threaded: [bool] True if multithreading is used; False otherwise.
     '''
 
     def __init__(self, URL: str, user_agents: Queue = None, threaded: bool = True):
@@ -60,7 +61,6 @@ class WebScraper():
                 self.user_agent = random_user_agent
             else:
                 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36")
-                print("using default user agent")
             
             self.driver = webdriver.Chrome(options=options)
             print(f"driver initialized")
