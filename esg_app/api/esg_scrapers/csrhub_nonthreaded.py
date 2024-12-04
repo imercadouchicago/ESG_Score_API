@@ -157,7 +157,7 @@ if __name__ == "__main__":
         sp500_df = sp500_df.head(4)
 
         csrhub_companies = set(csrhub_df['Company']) 
-        sp500_companies = set(sp500_df['Shortname'])
+        sp500_companies = set(sp500_df['Longname'])
 
         missing_companies = list(sp500_companies - csrhub_companies)
         logging.info(f"Found {len(missing_companies)} missing companies")
