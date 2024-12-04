@@ -1,31 +1,23 @@
 ''' This module contains helper functions used within msci_threaded.py.'''
 
 def clean_company_name(name: str) -> str:
-    """Clean a company name.
+    """Simple cleaning of company names"""
+    print(f"Cleaning name: {name}")
+    original = name
     
-    Args:
-        name: [str] The name of the company to be cleaned.
-
-    Returns:
-        [str] : The cleaned company name.
-    """
-    replacements = {
-        'Incorporated': 'Inc',
-        'Limited': 'Ltd',
-        'PLC': 'Public Limited Company',
-        ',' : '',
-        '.': '',
-        '&': 'and',
-        ' Inc': '',
-        ' Corp': '',
-        ' Ltd': ''
-    }
+    # Convert to title case first to standardize
+    name = name.title()
     
-    name = name.lower().strip()
-    for old, new in replacements.items():
-        name = name.replace(old.lower(), new.lower())
+    # Do replacements with case variations
+    name = name.replace("The", "").strip()
+    name = name.replace(".", "").replace(",", "")
+    name = " ".join(name.split())
+    name = name.replace("Corporation", "Corp").replace("CORPORATION", "Corp")
+    name = name.replace("Company", "Co").replace("COMPANY", "Co")
+    name = name.replace("Incorporated", "Inc").replace("INCORPORATED", "Inc")
+    name = name.replace('"', '')
     
-    return ' '.join(name.split())
+    return name
 
 def clean_flag_element(element) -> str:
     """Clean a flag's web element.

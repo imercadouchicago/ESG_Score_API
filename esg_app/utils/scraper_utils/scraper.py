@@ -30,32 +30,33 @@ class WebScraper():
 
     Attributes:
         URL: [str] The website URL.
-        user_agent: [str] The selected user agent. 
+        user_agent: [str] The selected user agent (optional).
     '''
 
-    def __init__(self, URL: str, user_agents: Queue):
+    def __init__(self, URL: str, user_agents: Queue = None):
         '''
         This function initializes a Chrome Webdriver and accesses the
         specified URL.
         '''
         logging.info("Initializing WebScraper for URL: %s", URL)
         self.URL = URL
-        
         try:
             options = webdriver.ChromeOptions()
             options.add_argument("--headless")
             options.add_argument("--no-sandbox")
             options.add_argument("--disable-dev-shm-usage")
 
-            # Randomly select a user agent
-            if user_agents.empty():
-                raise ValueError("No more user agents available")
-            random_user_agent = user_agents.get()
-            options.add_argument(f"user-agent={random_user_agent}")
-            
-            # Log which user agent was selected (helpful for debugging)
-            logging.info(f"Using user agent: {random_user_agent}")
-            self.user_agent = random_user_agent
+            # Only handle user agents if provided
+            if user_agents is not None:
+                if user_agents.empty():
+                    raise ValueError("No more user agents available")
+                random_user_agent = user_agents.get()
+                options.add_argument(f"user-agent={random_user_agent}")
+                logging.info(f"Using user agent: {random_user_agent}")
+                self.user_agent = random_user_agent
+            else:
+                self.user_agent = None
+                logging.info("No user agent specified, using default")
 
             self.driver = webdriver.Chrome(options=options)
             self.driver.get(URL)

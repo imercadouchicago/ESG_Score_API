@@ -1,0 +1,1135 @@
+2024-12-04 00:47:37,312 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 00:47:40,009 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 00:50:50,739 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/e8d9ca1159b888213a3e5cee645f0621
+2024-12-04 00:50:50,739 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff7b4d2490>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e8d9ca1159b888213a3e5cee645f0621
+2024-12-04 00:50:50,740 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff7b568050>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e8d9ca1159b888213a3e5cee645f0621
+2024-12-04 00:50:54,006 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 00:50:56,866 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 00:51:09,499 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 00:51:12,199 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 00:51:25,419 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 00:51:28,465 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:03:01,868 - INFO - Starting scraping process for 503 companies
+2024-12-04 01:03:01,869 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:03:04,748 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:03:06,749 - INFO - 
+Processing company 1: NVIDIA Corporation
+2024-12-04 01:03:08,082 - INFO - Accepted cookies
+2024-12-04 01:03:10,177 - INFO - No popup found
+2024-12-04 01:03:10,315 - INFO - Searching for: NVIDIA Corporation
+2024-12-04 01:03:12,190 - INFO - Found 1 results
+2024-12-04 01:03:12,212 - INFO - Single result found, clicking directly
+2024-12-04 01:03:16,975 - INFO - Extracted Data for NVIDIA Corporation:
+2024-12-04 01:03:16,975 - INFO - ESG Score: 98
+2024-12-04 01:03:16,975 - INFO - Number of Sources: 
+                  65
+                
+2024-12-04 01:03:16,977 - INFO - Closing browser for NVIDIA Corporation
+2024-12-04 01:03:18,048 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:03:20,779 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:03:22,777 - INFO - 
+Processing company 2: Apple Inc.
+2024-12-04 01:03:23,843 - INFO - Accepted cookies
+2024-12-04 01:03:25,931 - INFO - No popup found
+2024-12-04 01:03:26,059 - INFO - Searching for: Apple Inc.
+2024-12-04 01:03:28,340 - INFO - Found 1 results
+2024-12-04 01:03:28,359 - INFO - Single result found, clicking directly
+2024-12-04 01:03:28,599 - INFO - Closing browser for Apple Inc.
+2024-12-04 01:03:28,600 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87a4f4d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/66b6e1cfe4c75af8ffcce7d0432c47bb
+2024-12-04 01:03:28,600 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87dbbce0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/66b6e1cfe4c75af8ffcce7d0432c47bb
+2024-12-04 01:03:28,601 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff87aec510>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/66b6e1cfe4c75af8ffcce7d0432c47bb
+2024-12-04 01:05:01,840 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:05:04,415 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:05:18,131 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:05:21,052 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:05:34,662 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:05:37,570 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:05:46,482 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/2baf3f1d4bff2d7341d25dac7dae8c4e
+2024-12-04 01:05:46,483 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9c8183e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/2baf3f1d4bff2d7341d25dac7dae8c4e
+2024-12-04 01:05:46,484 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9c818050>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/2baf3f1d4bff2d7341d25dac7dae8c4e
+2024-12-04 01:06:44,532 - INFO - Starting scraping process for 503 companies
+2024-12-04 01:06:44,532 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:06:47,584 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:06:49,586 - INFO - 
+Processing company 1: NVIDIA Corporation
+2024-12-04 01:06:50,758 - INFO - Accepted cookies
+2024-12-04 01:06:52,848 - INFO - No popup found
+2024-12-04 01:06:52,983 - INFO - Searching for: NVIDIA Corporation
+2024-12-04 01:06:55,287 - INFO - Found 1 results
+2024-12-04 01:06:55,297 - INFO - Single result found, clicking directly
+2024-12-04 01:06:59,774 - INFO - Extracted Data for NVIDIA Corporation:
+2024-12-04 01:06:59,775 - INFO - ESG Score: 98
+2024-12-04 01:06:59,775 - INFO - Number of Sources: 
+                  65
+                
+2024-12-04 01:06:59,778 - INFO - Closing browser for NVIDIA Corporation
+2024-12-04 01:07:00,848 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:07:04,340 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:07:06,342 - INFO - 
+Processing company 2: Apple Inc.
+2024-12-04 01:07:07,457 - INFO - Accepted cookies
+2024-12-04 01:07:09,562 - INFO - No popup found
+2024-12-04 01:07:09,701 - INFO - Searching for: Apple Inc.
+2024-12-04 01:07:11,742 - INFO - Found 1 results
+2024-12-04 01:07:11,839 - INFO - Single result found, clicking directly
+2024-12-04 01:07:16,690 - INFO - Extracted Data for Apple Inc.:
+2024-12-04 01:07:16,690 - INFO - ESG Score: 91
+2024-12-04 01:07:16,691 - INFO - Number of Sources: 
+                  92
+                
+2024-12-04 01:07:16,693 - INFO - Closing browser for Apple Inc.
+2024-12-04 01:07:17,758 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:07:20,454 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:07:22,457 - INFO - 
+Processing company 3: Microsoft Corporation
+2024-12-04 01:07:23,599 - INFO - Accepted cookies
+2024-12-04 01:07:25,683 - INFO - No popup found
+2024-12-04 01:07:25,812 - INFO - Searching for: Microsoft Corporation
+2024-12-04 01:07:27,519 - INFO - Found 1 results
+2024-12-04 01:07:27,529 - INFO - Single result found, clicking directly
+2024-12-04 01:07:32,019 - INFO - Extracted Data for Microsoft Corporation:
+2024-12-04 01:07:32,019 - INFO - ESG Score: 99
+2024-12-04 01:07:32,019 - INFO - Number of Sources: 
+                  101
+                
+2024-12-04 01:07:32,021 - INFO - Closing browser for Microsoft Corporation
+2024-12-04 01:07:33,086 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:07:36,069 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:07:38,071 - INFO - 
+Processing company 4: Alphabet Inc.
+2024-12-04 01:07:39,090 - INFO - Accepted cookies
+2024-12-04 01:07:41,185 - INFO - No popup found
+2024-12-04 01:07:41,342 - INFO - Searching for: Alphabet Inc.
+2024-12-04 01:07:43,281 - INFO - Found 1 results
+2024-12-04 01:07:43,305 - INFO - Single result found, clicking directly
+2024-12-04 01:07:47,856 - INFO - Extracted Data for Alphabet Inc.:
+2024-12-04 01:07:47,857 - INFO - ESG Score: 89
+2024-12-04 01:07:47,857 - INFO - Number of Sources: 
+                  99
+                
+2024-12-04 01:07:47,858 - INFO - Closing browser for Alphabet Inc.
+2024-12-04 01:07:48,925 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:07:51,643 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:07:53,648 - INFO - 
+Processing company 5: Alphabet Inc.
+2024-12-04 01:07:54,646 - INFO - Accepted cookies
+2024-12-04 01:07:56,731 - INFO - No popup found
+2024-12-04 01:07:56,867 - INFO - Searching for: Alphabet Inc.
+2024-12-04 01:07:58,927 - INFO - Found 1 results
+2024-12-04 01:07:58,937 - INFO - Single result found, clicking directly
+2024-12-04 01:08:03,645 - INFO - Extracted Data for Alphabet Inc.:
+2024-12-04 01:08:03,646 - INFO - ESG Score: 89
+2024-12-04 01:08:03,646 - INFO - Number of Sources: 
+                  99
+                
+2024-12-04 01:08:03,648 - INFO - Closing browser for Alphabet Inc.
+2024-12-04 01:08:04,710 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:08:08,600 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:08:10,601 - INFO - 
+Processing company 6: Amazon.com, Inc.
+2024-12-04 01:08:11,536 - INFO - Accepted cookies
+2024-12-04 01:08:13,731 - INFO - No popup found
+2024-12-04 01:08:13,858 - INFO - Searching for: Amazon.com, Inc.
+2024-12-04 01:08:16,246 - INFO - Found 1 results
+2024-12-04 01:08:16,257 - INFO - Single result found, clicking directly
+2024-12-04 01:08:20,809 - INFO - Extracted Data for Amazon.com, Inc.:
+2024-12-04 01:08:20,809 - INFO - ESG Score: 70
+2024-12-04 01:08:20,809 - INFO - Number of Sources: 
+                  92
+                
+2024-12-04 01:08:20,811 - INFO - Closing browser for Amazon.com, Inc.
+2024-12-04 01:08:21,872 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:08:25,648 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:08:27,655 - INFO - 
+Processing company 7: Meta Platforms, Inc.
+2024-12-04 01:08:28,812 - INFO - Accepted cookies
+2024-12-04 01:08:30,933 - INFO - No popup found
+2024-12-04 01:08:31,079 - INFO - Searching for: Meta Platforms, Inc.
+2024-12-04 01:08:32,988 - INFO - Found 1 results
+2024-12-04 01:08:33,003 - INFO - Single result found, clicking directly
+2024-12-04 01:08:37,805 - INFO - Extracted Data for Meta Platforms, Inc.:
+2024-12-04 01:08:37,805 - INFO - ESG Score: 76
+2024-12-04 01:08:37,805 - INFO - Number of Sources: 
+                  79
+                
+2024-12-04 01:08:37,807 - INFO - Closing browser for Meta Platforms, Inc.
+2024-12-04 01:08:38,870 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:08:41,882 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:08:43,884 - INFO - 
+Processing company 8: Tesla, Inc.
+2024-12-04 01:08:44,754 - INFO - Accepted cookies
+2024-12-04 01:08:46,873 - INFO - No popup found
+2024-12-04 01:08:47,008 - INFO - Searching for: Tesla, Inc.
+2024-12-04 01:08:48,898 - INFO - Found 1 results
+2024-12-04 01:08:48,908 - INFO - Single result found, clicking directly
+2024-12-04 01:08:53,342 - INFO - Extracted Data for Tesla, Inc.:
+2024-12-04 01:08:53,342 - INFO - ESG Score: 47
+2024-12-04 01:08:53,342 - INFO - Number of Sources: 
+                  70
+                
+2024-12-04 01:08:53,343 - INFO - Closing browser for Tesla, Inc.
+2024-12-04 01:08:54,410 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:08:57,588 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:08:59,590 - INFO - 
+Processing company 9: Berkshire Hathaway Inc. New
+2024-12-04 01:09:00,494 - INFO - Accepted cookies
+2024-12-04 01:09:02,594 - INFO - No popup found
+2024-12-04 01:09:02,731 - INFO - Searching for: Berkshire Hathaway Inc. New
+2024-12-04 01:09:06,611 - ERROR - Error processing company: Message: 
+
+2024-12-04 01:09:06,612 - INFO - Closing browser for Berkshire Hathaway Inc. New
+2024-12-04 01:09:07,681 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:09:11,028 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:09:13,030 - INFO - 
+Processing company 10: Broadcom Inc.
+2024-12-04 01:09:14,146 - INFO - Accepted cookies
+2024-12-04 01:09:16,239 - INFO - No popup found
+2024-12-04 01:09:16,385 - INFO - Searching for: Broadcom Inc.
+2024-12-04 01:09:18,099 - INFO - Found 1 results
+2024-12-04 01:09:18,116 - INFO - Single result found, clicking directly
+2024-12-04 01:19:34,471 - INFO - Closing browser for Broadcom Inc.
+2024-12-04 01:19:34,473 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff89c0b240>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/7d2909da70f3766d89f2f57d992ad1a9
+2024-12-04 01:19:34,475 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff89c09e10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/7d2909da70f3766d89f2f57d992ad1a9
+2024-12-04 01:19:34,476 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff89c0a690>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/7d2909da70f3766d89f2f57d992ad1a9
+2024-12-04 01:19:39,366 - INFO - Starting scraping process for 503 companies
+2024-12-04 01:19:39,366 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:19:42,093 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:19:44,096 - INFO - 
+Processing company 1: NVIDIA Corporation
+2024-12-04 01:19:45,067 - INFO - Accepted cookies
+2024-12-04 01:19:47,177 - INFO - No popup found
+2024-12-04 01:19:47,322 - INFO - Searching for: NVIDIA Corporation
+2024-12-04 01:19:49,389 - INFO - Found 1 results
+2024-12-04 01:19:49,399 - INFO - Single result found, clicking directly
+2024-12-04 01:19:55,776 - INFO - Extracted Data for NVIDIA Corporation:
+2024-12-04 01:19:55,776 - INFO - ESG Score: 98
+2024-12-04 01:19:55,776 - INFO - Number of Sources: 
+                  65
+                
+2024-12-04 01:19:55,778 - INFO - Closing browser for NVIDIA Corporation
+2024-12-04 01:19:56,849 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:19:59,724 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:20:01,735 - INFO - 
+Processing company 2: Apple Inc.
+2024-12-04 01:20:03,099 - INFO - Accepted cookies
+2024-12-04 01:20:05,202 - INFO - No popup found
+2024-12-04 01:20:05,339 - INFO - Searching for: Apple Inc.
+2024-12-04 01:20:07,252 - INFO - Found 1 results
+2024-12-04 01:20:07,262 - INFO - Single result found, clicking directly
+2024-12-04 01:20:12,417 - INFO - Extracted Data for Apple Inc.:
+2024-12-04 01:20:12,417 - INFO - ESG Score: 91
+2024-12-04 01:20:12,417 - INFO - Number of Sources: 
+                  92
+                
+2024-12-04 01:20:12,419 - INFO - Closing browser for Apple Inc.
+2024-12-04 01:20:13,484 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:20:16,506 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:20:18,510 - INFO - 
+Processing company 3: Microsoft Corporation
+2024-12-04 01:20:19,825 - INFO - Accepted cookies
+2024-12-04 01:20:21,924 - INFO - No popup found
+2024-12-04 01:20:22,059 - INFO - Searching for: Microsoft Corporation
+2024-12-04 01:20:24,036 - INFO - Found 1 results
+2024-12-04 01:20:24,046 - INFO - Single result found, clicking directly
+2024-12-04 01:20:28,765 - INFO - Extracted Data for Microsoft Corporation:
+2024-12-04 01:20:28,766 - INFO - ESG Score: 99
+2024-12-04 01:20:28,766 - INFO - Number of Sources: 
+                  101
+                
+2024-12-04 01:20:28,768 - INFO - Closing browser for Microsoft Corporation
+2024-12-04 01:20:29,835 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:20:32,753 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:20:34,755 - INFO - 
+Processing company 4: Alphabet Inc.
+2024-12-04 01:20:35,866 - INFO - Accepted cookies
+2024-12-04 01:20:37,960 - INFO - No popup found
+2024-12-04 01:20:38,099 - INFO - Searching for: Alphabet Inc.
+2024-12-04 01:20:40,229 - INFO - Found 1 results
+2024-12-04 01:20:40,240 - INFO - Single result found, clicking directly
+2024-12-04 01:20:44,909 - INFO - Extracted Data for Alphabet Inc.:
+2024-12-04 01:20:44,909 - INFO - ESG Score: 89
+2024-12-04 01:20:44,910 - INFO - Number of Sources: 
+                  99
+                
+2024-12-04 01:20:44,911 - INFO - Closing browser for Alphabet Inc.
+2024-12-04 01:20:45,978 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:20:48,911 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:20:50,914 - INFO - 
+Processing company 5: Alphabet Inc.
+2024-12-04 01:20:51,820 - INFO - Accepted cookies
+2024-12-04 01:20:53,909 - INFO - No popup found
+2024-12-04 01:20:54,033 - INFO - Searching for: Alphabet Inc.
+2024-12-04 01:20:56,067 - INFO - Found 1 results
+2024-12-04 01:20:56,077 - INFO - Single result found, clicking directly
+2024-12-04 01:21:01,089 - INFO - Extracted Data for Alphabet Inc.:
+2024-12-04 01:21:01,090 - INFO - ESG Score: 89
+2024-12-04 01:21:01,090 - INFO - Number of Sources: 
+                  99
+                
+2024-12-04 01:21:01,091 - INFO - Closing browser for Alphabet Inc.
+2024-12-04 01:21:02,154 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:21:05,484 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:21:07,486 - INFO - 
+Processing company 6: Amazon.com, Inc.
+2024-12-04 01:21:08,453 - INFO - Accepted cookies
+2024-12-04 01:21:10,543 - INFO - No popup found
+2024-12-04 01:21:10,681 - INFO - Searching for: Amazon.com, Inc.
+2024-12-04 01:21:12,648 - INFO - Found 1 results
+2024-12-04 01:21:12,658 - INFO - Single result found, clicking directly
+2024-12-04 01:21:18,059 - INFO - Extracted Data for Amazon.com, Inc.:
+2024-12-04 01:21:18,059 - INFO - ESG Score: 70
+2024-12-04 01:21:18,059 - INFO - Number of Sources: 
+                  92
+                
+2024-12-04 01:21:18,061 - INFO - Closing browser for Amazon.com, Inc.
+2024-12-04 01:21:19,125 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:21:21,854 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:21:23,854 - INFO - 
+Processing company 7: Meta Platforms, Inc.
+2024-12-04 01:21:24,989 - INFO - Accepted cookies
+2024-12-04 01:21:27,071 - INFO - No popup found
+2024-12-04 01:21:27,212 - INFO - Searching for: Meta Platforms, Inc.
+2024-12-04 01:21:29,047 - INFO - Found 1 results
+2024-12-04 01:21:29,057 - INFO - Single result found, clicking directly
+2024-12-04 01:21:33,798 - INFO - Extracted Data for Meta Platforms, Inc.:
+2024-12-04 01:21:33,798 - INFO - ESG Score: 76
+2024-12-04 01:21:33,798 - INFO - Number of Sources: 
+                  79
+                
+2024-12-04 01:21:33,800 - INFO - Closing browser for Meta Platforms, Inc.
+2024-12-04 01:21:34,865 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:21:37,776 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:21:39,779 - INFO - 
+Processing company 8: Tesla, Inc.
+2024-12-04 01:21:41,137 - INFO - Accepted cookies
+2024-12-04 01:21:43,226 - INFO - No popup found
+2024-12-04 01:21:43,360 - INFO - Searching for: Tesla, Inc.
+2024-12-04 01:21:45,286 - INFO - Found 1 results
+2024-12-04 01:21:45,296 - INFO - Single result found, clicking directly
+2024-12-04 01:21:50,133 - INFO - Extracted Data for Tesla, Inc.:
+2024-12-04 01:21:50,133 - INFO - ESG Score: 47
+2024-12-04 01:21:50,133 - INFO - Number of Sources: 
+                  70
+                
+2024-12-04 01:21:50,135 - INFO - Closing browser for Tesla, Inc.
+2024-12-04 01:21:51,199 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:21:53,884 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:21:55,887 - INFO - 
+Processing company 9: Berkshire Hathaway Inc.
+2024-12-04 01:21:56,912 - INFO - Accepted cookies
+2024-12-04 01:21:59,009 - INFO - No popup found
+2024-12-04 01:21:59,164 - INFO - Searching for: Berkshire Hathaway Inc.
+2024-12-04 01:22:01,441 - INFO - Found 1 results
+2024-12-04 01:22:01,451 - INFO - Single result found, clicking directly
+2024-12-04 01:22:05,969 - INFO - Extracted Data for Berkshire Hathaway Inc.:
+2024-12-04 01:22:05,969 - INFO - ESG Score: 6
+2024-12-04 01:22:05,969 - INFO - Number of Sources: 
+                  62
+                
+2024-12-04 01:22:05,970 - INFO - Closing browser for Berkshire Hathaway Inc.
+2024-12-04 01:22:07,036 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:22:10,082 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:22:12,088 - INFO - 
+Processing company 10: Broadcom Inc.
+2024-12-04 01:22:13,137 - INFO - Accepted cookies
+2024-12-04 01:22:15,232 - INFO - No popup found
+2024-12-04 01:22:15,391 - INFO - Searching for: Broadcom Inc.
+2024-12-04 01:22:17,642 - INFO - Found 1 results
+2024-12-04 01:22:17,660 - INFO - Single result found, clicking directly
+2024-12-04 01:22:22,049 - INFO - Extracted Data for Broadcom Inc.:
+2024-12-04 01:22:22,049 - INFO - ESG Score: 81
+2024-12-04 01:22:22,049 - INFO - Number of Sources: 
+                  47
+                
+2024-12-04 01:22:22,051 - INFO - Closing browser for Broadcom Inc.
+2024-12-04 01:22:23,117 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:22:26,334 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:22:28,338 - INFO - 
+Processing company 11: Eli Lilly and Company
+2024-12-04 01:22:29,202 - INFO - Accepted cookies
+2024-12-04 01:22:31,390 - INFO - No popup found
+2024-12-04 01:22:31,526 - INFO - Searching for: Eli Lilly and Company
+2024-12-04 01:22:33,481 - INFO - Found 1 results
+2024-12-04 01:22:33,491 - INFO - Single result found, clicking directly
+2024-12-04 01:22:38,419 - INFO - Extracted Data for Eli Lilly and Company:
+2024-12-04 01:22:38,419 - INFO - ESG Score: 94
+2024-12-04 01:22:38,419 - INFO - Number of Sources: 
+                  75
+                
+2024-12-04 01:22:38,420 - INFO - Closing browser for Eli Lilly and Company
+2024-12-04 01:22:39,486 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:22:42,591 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:22:44,594 - INFO - 
+Processing company 12: Walmart Inc.
+2024-12-04 01:22:45,895 - INFO - Accepted cookies
+2024-12-04 01:22:47,999 - INFO - No popup found
+2024-12-04 01:22:48,137 - INFO - Searching for: Walmart Inc.
+2024-12-04 01:22:50,261 - INFO - Found 1 results
+2024-12-04 01:22:50,272 - INFO - Single result found, clicking directly
+2024-12-04 01:22:54,633 - INFO - Extracted Data for Walmart Inc.:
+2024-12-04 01:22:54,633 - INFO - ESG Score: 86
+2024-12-04 01:22:54,633 - INFO - Number of Sources: 
+                  92
+                
+2024-12-04 01:22:54,636 - INFO - Closing browser for Walmart Inc.
+2024-12-04 01:22:55,702 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:22:58,603 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:23:00,606 - INFO - 
+Processing company 13: JPMorgan Chase & Co.
+2024-12-04 01:23:01,890 - INFO - Accepted cookies
+2024-12-04 01:23:03,976 - INFO - No popup found
+2024-12-04 01:23:04,129 - INFO - Searching for: JPMorgan Chase & Co.
+2024-12-04 01:23:05,978 - INFO - Found 1 results
+2024-12-04 01:23:05,988 - INFO - Single result found, clicking directly
+2024-12-04 01:23:10,604 - INFO - Extracted Data for JPMorgan Chase & Co.:
+2024-12-04 01:23:10,604 - INFO - ESG Score: 89
+2024-12-04 01:23:10,604 - INFO - Number of Sources: 
+                  94
+                
+2024-12-04 01:23:10,605 - INFO - Closing browser for JPMorgan Chase & Co.
+2024-12-04 01:23:11,672 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:23:14,648 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:23:16,654 - INFO - 
+Processing company 14: Visa Inc.
+2024-12-04 01:23:17,736 - INFO - Accepted cookies
+2024-12-04 01:23:19,903 - INFO - No popup found
+2024-12-04 01:23:20,035 - INFO - Searching for: Visa Inc.
+2024-12-04 01:23:21,954 - INFO - Found 1 results
+2024-12-04 01:23:21,964 - INFO - Single result found, clicking directly
+2024-12-04 01:43:24,465 - ERROR - Error processing company: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=131.0.6778.85)
+
+2024-12-04 01:43:24,466 - INFO - Closing browser for Visa Inc.
+2024-12-04 01:43:25,538 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:43:30,558 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:43:32,565 - INFO - 
+Processing company 15: UnitedHealth Group Incorporated
+2024-12-04 01:43:33,607 - INFO - Accepted cookies
+2024-12-04 01:43:35,715 - INFO - No popup found
+2024-12-04 01:43:35,870 - INFO - Searching for: UnitedHealth Group Incorporated
+2024-12-04 01:43:37,936 - INFO - Found 1 results
+2024-12-04 01:43:37,947 - INFO - Single result found, clicking directly
+2024-12-04 01:43:42,695 - INFO - Extracted Data for UnitedHealth Group Incorporated:
+2024-12-04 01:43:42,696 - INFO - ESG Score: 95
+2024-12-04 01:43:42,696 - INFO - Number of Sources: 
+                  54
+                
+2024-12-04 01:43:42,699 - INFO - Closing browser for UnitedHealth Group Incorporated
+2024-12-04 01:43:43,761 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:43:46,783 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:43:48,784 - INFO - 
+Processing company 16: Exxon Mobil Corporation
+2024-12-04 01:43:49,847 - INFO - Accepted cookies
+2024-12-04 01:43:51,944 - INFO - No popup found
+2024-12-04 01:43:52,086 - INFO - Searching for: Exxon Mobil Corporation
+2024-12-04 01:43:54,062 - INFO - Found 1 results
+2024-12-04 01:43:54,072 - INFO - Single result found, clicking directly
+2024-12-04 01:43:58,459 - INFO - Extracted Data for Exxon Mobil Corporation:
+2024-12-04 01:43:58,459 - INFO - ESG Score: 53
+2024-12-04 01:43:58,459 - INFO - Number of Sources: 
+                  70
+                
+2024-12-04 01:43:58,461 - INFO - Closing browser for Exxon Mobil Corporation
+2024-12-04 01:43:59,523 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:44:02,404 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:44:04,411 - INFO - 
+Processing company 17: Oracle Corporation
+2024-12-04 01:44:05,583 - INFO - Accepted cookies
+2024-12-04 01:44:07,696 - INFO - No popup found
+2024-12-04 01:44:07,832 - INFO - Searching for: Oracle Corporation
+2024-12-04 01:44:10,003 - INFO - Found 2 results
+2024-12-04 01:44:10,025 - INFO - Found exact match: Oracle Corporation
+2024-12-04 01:44:12,071 - INFO - Extracted Data for Oracle Corporation:
+2024-12-04 01:44:12,071 - INFO - ESG Score: 92
+2024-12-04 01:44:12,071 - INFO - Number of Sources: 
+                  59
+                
+2024-12-04 01:44:12,073 - INFO - Closing browser for Oracle Corporation
+2024-12-04 01:44:13,139 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:44:16,250 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:44:18,256 - INFO - 
+Processing company 18: Mastercard Incorporated
+2024-12-04 01:44:19,340 - INFO - Accepted cookies
+2024-12-04 01:44:21,430 - INFO - No popup found
+2024-12-04 01:44:21,570 - INFO - Searching for: Mastercard Incorporated
+2024-12-04 01:44:23,672 - INFO - Found 1 results
+2024-12-04 01:44:23,682 - INFO - Single result found, clicking directly
+2024-12-04 01:44:28,029 - INFO - Extracted Data for Mastercard Incorporated:
+2024-12-04 01:44:28,029 - INFO - ESG Score: 98
+2024-12-04 01:44:28,029 - INFO - Number of Sources: 
+                  85
+                
+2024-12-04 01:44:28,031 - INFO - Closing browser for Mastercard Incorporated
+2024-12-04 01:44:29,098 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:44:32,283 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:44:34,289 - INFO - 
+Processing company 19: Costco Wholesale Corporation
+2024-12-04 01:44:35,682 - INFO - Accepted cookies
+2024-12-04 01:44:37,800 - INFO - No popup found
+2024-12-04 01:44:37,942 - INFO - Searching for: Costco Wholesale Corporation
+2024-12-04 01:44:39,998 - INFO - Found 1 results
+2024-12-04 01:44:40,007 - INFO - Single result found, clicking directly
+2024-12-04 01:44:44,611 - INFO - Extracted Data for Costco Wholesale Corporation:
+2024-12-04 01:44:44,611 - INFO - ESG Score: 71
+2024-12-04 01:44:44,611 - INFO - Number of Sources: 
+                  69
+                
+2024-12-04 01:44:44,613 - INFO - Closing browser for Costco Wholesale Corporation
+2024-12-04 01:44:45,673 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:44:49,049 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:44:51,052 - INFO - 
+Processing company 20: The Home Depot, Inc.
+2024-12-04 01:44:52,068 - INFO - Accepted cookies
+2024-12-04 01:44:54,176 - INFO - No popup found
+2024-12-04 01:44:54,320 - INFO - Searching for: The Home Depot, Inc.
+2024-12-04 01:44:56,165 - INFO - Found 1 results
+2024-12-04 01:44:56,175 - INFO - Single result found, clicking directly
+2024-12-04 01:45:00,601 - INFO - Extracted Data for The Home Depot, Inc.:
+2024-12-04 01:45:00,601 - INFO - ESG Score: 87
+2024-12-04 01:45:00,601 - INFO - Number of Sources: 
+                  65
+                
+2024-12-04 01:45:00,603 - INFO - Closing browser for The Home Depot, Inc.
+2024-12-04 01:45:01,669 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:45:04,782 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:45:06,783 - INFO - 
+Processing company 21: The Procter & Gamble Company
+2024-12-04 01:45:07,888 - INFO - Accepted cookies
+2024-12-04 01:45:10,006 - INFO - No popup found
+2024-12-04 01:45:10,159 - INFO - Searching for: The Procter & Gamble Company
+2024-12-04 01:45:12,402 - INFO - Found 1 results
+2024-12-04 01:45:12,412 - INFO - Single result found, clicking directly
+2024-12-04 01:45:16,951 - INFO - Extracted Data for The Procter & Gamble Company:
+2024-12-04 01:45:16,951 - INFO - ESG Score: 95
+2024-12-04 01:45:16,951 - INFO - Number of Sources: 
+                  95
+                
+2024-12-04 01:45:16,953 - INFO - Closing browser for The Procter & Gamble Company
+2024-12-04 01:45:18,016 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:45:21,331 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:45:23,333 - INFO - 
+Processing company 22: Johnson & Johnson
+2024-12-04 01:45:24,509 - INFO - Accepted cookies
+2024-12-04 01:45:26,604 - INFO - No popup found
+2024-12-04 01:45:26,748 - INFO - Searching for: Johnson & Johnson
+2024-12-04 01:45:28,524 - INFO - Found 2 results
+2024-12-04 01:45:28,556 - INFO - Found exact match: Johnson & Johnson
+2024-12-04 01:45:30,865 - INFO - Extracted Data for Johnson & Johnson:
+2024-12-04 01:45:30,865 - INFO - ESG Score: 97
+2024-12-04 01:45:30,865 - INFO - Number of Sources: 
+                  97
+                
+2024-12-04 01:45:30,867 - INFO - Closing browser for Johnson & Johnson
+2024-12-04 01:45:31,928 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:45:34,745 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:45:36,747 - INFO - 
+Processing company 23: Bank of America Corporation
+2024-12-04 01:45:37,904 - INFO - Accepted cookies
+2024-12-04 01:45:40,080 - INFO - No popup found
+2024-12-04 01:45:40,209 - INFO - Searching for: Bank of America Corporation
+2024-12-04 01:45:42,000 - INFO - Found 1 results
+2024-12-04 01:45:42,013 - INFO - Single result found, clicking directly
+2024-12-04 01:45:46,612 - INFO - Extracted Data for Bank of America Corporation:
+2024-12-04 01:45:46,612 - INFO - ESG Score: 95
+2024-12-04 01:45:46,612 - INFO - Number of Sources: 
+                  98
+                
+2024-12-04 01:45:46,614 - INFO - Closing browser for Bank of America Corporation
+2024-12-04 01:45:47,680 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:45:50,521 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:45:52,523 - INFO - 
+Processing company 24: Netflix, Inc.
+2024-12-04 01:45:53,579 - INFO - Accepted cookies
+2024-12-04 01:45:55,683 - INFO - No popup found
+2024-12-04 01:45:55,825 - INFO - Searching for: Netflix, Inc.
+2024-12-04 01:45:57,917 - INFO - Found 1 results
+2024-12-04 01:45:57,927 - INFO - Single result found, clicking directly
+2024-12-04 01:46:02,327 - INFO - Extracted Data for Netflix, Inc.:
+2024-12-04 01:46:02,328 - INFO - ESG Score: 50
+2024-12-04 01:46:02,328 - INFO - Number of Sources: 
+                  57
+                
+2024-12-04 01:46:02,329 - INFO - Closing browser for Netflix, Inc.
+2024-12-04 01:46:03,394 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:46:06,820 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:46:08,826 - INFO - 
+Processing company 25: Salesforce, Inc.
+2024-12-04 01:46:09,873 - INFO - Accepted cookies
+2024-12-04 01:46:11,971 - INFO - No popup found
+2024-12-04 01:46:12,111 - INFO - Searching for: Salesforce, Inc.
+2024-12-04 01:46:14,039 - INFO - Found 1 results
+2024-12-04 01:46:14,050 - INFO - Single result found, clicking directly
+2024-12-04 01:46:18,879 - INFO - Extracted Data for Salesforce, Inc.:
+2024-12-04 01:46:18,879 - INFO - ESG Score: 97
+2024-12-04 01:46:18,879 - INFO - Number of Sources: 
+                  83
+                
+2024-12-04 01:46:18,881 - INFO - Closing browser for Salesforce, Inc.
+2024-12-04 01:46:19,947 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:46:22,794 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:46:24,796 - INFO - 
+Processing company 26: AbbVie Inc.
+2024-12-04 01:46:25,873 - INFO - Accepted cookies
+2024-12-04 01:46:27,980 - INFO - No popup found
+2024-12-04 01:46:28,098 - INFO - Searching for: AbbVie Inc.
+2024-12-04 01:46:30,096 - INFO - Found 1 results
+2024-12-04 01:46:30,106 - INFO - Single result found, clicking directly
+2024-12-04 01:46:34,870 - INFO - Extracted Data for AbbVie Inc.:
+2024-12-04 01:46:34,870 - INFO - ESG Score: 95
+2024-12-04 01:46:34,870 - INFO - Number of Sources: 
+                  77
+                
+2024-12-04 01:46:34,871 - INFO - Closing browser for AbbVie Inc.
+2024-12-04 01:46:35,935 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:46:38,966 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:46:40,968 - INFO - 
+Processing company 27: T-Mobile US, Inc.
+2024-12-04 01:46:42,435 - INFO - Accepted cookies
+2024-12-04 01:46:44,539 - INFO - No popup found
+2024-12-04 01:46:44,676 - INFO - Searching for: T-Mobile US, Inc.
+2024-12-04 01:46:46,634 - INFO - Found 1 results
+2024-12-04 01:46:46,649 - INFO - Single result found, clicking directly
+2024-12-04 01:46:51,275 - INFO - Extracted Data for T-Mobile US, Inc.:
+2024-12-04 01:46:51,275 - INFO - ESG Score: 99
+2024-12-04 01:46:51,276 - INFO - Number of Sources: 
+                  78
+                
+2024-12-04 01:46:51,277 - INFO - Closing browser for T-Mobile US, Inc.
+2024-12-04 01:46:52,344 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:46:55,260 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:46:57,264 - INFO - 
+Processing company 28: Chevron Corporation
+2024-12-04 01:46:58,379 - INFO - Accepted cookies
+2024-12-04 01:47:00,465 - INFO - No popup found
+2024-12-04 01:47:00,621 - INFO - Searching for: Chevron Corporation
+2024-12-04 01:47:02,602 - INFO - Found 1 results
+2024-12-04 01:47:02,613 - INFO - Single result found, clicking directly
+2024-12-04 01:47:07,177 - INFO - Extracted Data for Chevron Corporation:
+2024-12-04 01:47:07,178 - INFO - ESG Score: 74
+2024-12-04 01:47:07,178 - INFO - Number of Sources: 
+                  76
+                
+2024-12-04 01:47:07,179 - INFO - Closing browser for Chevron Corporation
+2024-12-04 01:47:08,247 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:47:11,149 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:47:13,150 - INFO - 
+Processing company 29: The Coca-Cola Company
+2024-12-04 01:47:14,239 - INFO - Accepted cookies
+2024-12-04 01:47:16,392 - INFO - No popup found
+2024-12-04 01:47:16,527 - INFO - Searching for: The Coca-Cola Company
+2024-12-04 01:47:18,873 - INFO - Found 1 results
+2024-12-04 01:47:18,883 - INFO - Single result found, clicking directly
+2024-12-04 01:47:23,404 - INFO - Extracted Data for The Coca-Cola Company:
+2024-12-04 01:47:23,404 - INFO - ESG Score: 95
+2024-12-04 01:47:23,404 - INFO - Number of Sources: 
+                  89
+                
+2024-12-04 01:47:23,406 - INFO - Closing browser for The Coca-Cola Company
+2024-12-04 01:47:24,471 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:47:27,667 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:47:29,671 - INFO - 
+Processing company 30: Merck & Co., Inc.
+2024-12-04 01:47:31,060 - INFO - Accepted cookies
+2024-12-04 01:47:33,164 - INFO - No popup found
+2024-12-04 01:47:33,328 - INFO - Searching for: Merck & Co., Inc.
+2024-12-04 01:47:35,304 - INFO - Found 1 results
+2024-12-04 01:47:35,314 - INFO - Single result found, clicking directly
+2024-12-04 01:47:39,931 - INFO - Extracted Data for Merck & Co., Inc.:
+2024-12-04 01:47:39,931 - INFO - ESG Score: 98
+2024-12-04 01:47:39,931 - INFO - Number of Sources: 
+                  88
+                
+2024-12-04 01:47:39,934 - INFO - Closing browser for Merck & Co., Inc.
+2024-12-04 01:47:40,999 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:47:44,158 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:47:46,159 - INFO - 
+Processing company 31: Wells Fargo & Company
+2024-12-04 01:47:47,266 - INFO - Accepted cookies
+2024-12-04 01:47:49,429 - INFO - No popup found
+2024-12-04 01:47:49,570 - INFO - Searching for: Wells Fargo & Company
+2024-12-04 01:47:51,578 - INFO - Found 1 results
+2024-12-04 01:47:51,587 - INFO - Single result found, clicking directly
+2024-12-04 01:47:55,986 - INFO - Extracted Data for Wells Fargo & Company:
+2024-12-04 01:47:55,986 - INFO - ESG Score: 86
+2024-12-04 01:47:55,986 - INFO - Number of Sources: 
+                  86
+                
+2024-12-04 01:47:55,989 - INFO - Closing browser for Wells Fargo & Company
+2024-12-04 01:47:57,054 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:47:59,906 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:48:01,908 - INFO - 
+Processing company 32: Cisco Systems, Inc.
+2024-12-04 01:48:03,047 - INFO - Accepted cookies
+2024-12-04 01:48:05,158 - INFO - No popup found
+2024-12-04 01:48:05,306 - INFO - Searching for: Cisco Systems, Inc.
+2024-12-04 01:48:07,372 - INFO - Found 1 results
+2024-12-04 01:48:07,382 - INFO - Single result found, clicking directly
+2024-12-04 01:48:12,240 - INFO - Extracted Data for Cisco Systems, Inc.:
+2024-12-04 01:48:12,240 - INFO - ESG Score: 99
+2024-12-04 01:48:12,240 - INFO - Number of Sources: 
+                  102
+                
+2024-12-04 01:48:12,241 - INFO - Closing browser for Cisco Systems, Inc.
+2024-12-04 01:48:13,307 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:48:16,005 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:48:18,006 - INFO - 
+Processing company 33: Advanced Micro Devices, Inc.
+2024-12-04 01:48:19,116 - INFO - Accepted cookies
+2024-12-04 01:48:21,210 - INFO - No popup found
+2024-12-04 01:48:21,386 - INFO - Searching for: Advanced Micro Devices, Inc.
+2024-12-04 01:48:23,291 - INFO - Found 1 results
+2024-12-04 01:48:23,300 - INFO - Single result found, clicking directly
+2024-12-04 01:48:28,726 - INFO - Extracted Data for Advanced Micro Devices, Inc.:
+2024-12-04 01:48:28,726 - INFO - ESG Score: 97
+2024-12-04 01:48:28,727 - INFO - Number of Sources: 
+                  69
+                
+2024-12-04 01:48:28,729 - INFO - Closing browser for Advanced Micro Devices, Inc.
+2024-12-04 01:48:29,791 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:48:33,029 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:48:35,029 - INFO - 
+Processing company 34: Adobe Inc.
+2024-12-04 01:48:36,110 - INFO - Accepted cookies
+2024-12-04 01:48:38,230 - INFO - No popup found
+2024-12-04 01:48:38,365 - INFO - Searching for: Adobe Inc.
+2024-12-04 01:48:40,861 - INFO - Found 1 results
+2024-12-04 01:48:40,874 - INFO - Single result found, clicking directly
+2024-12-04 01:48:45,544 - INFO - Extracted Data for Adobe Inc.:
+2024-12-04 01:48:45,544 - INFO - ESG Score: 97
+2024-12-04 01:48:45,544 - INFO - Number of Sources: 
+                  78
+                
+2024-12-04 01:48:45,546 - INFO - Closing browser for Adobe Inc.
+2024-12-04 01:48:46,612 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:48:50,250 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:48:52,256 - INFO - 
+Processing company 35: PepsiCo, Inc.
+2024-12-04 01:48:53,380 - INFO - Accepted cookies
+2024-12-04 01:48:55,487 - INFO - No popup found
+2024-12-04 01:48:55,620 - INFO - Searching for: PepsiCo, Inc.
+2024-12-04 01:48:57,606 - INFO - Found 1 results
+2024-12-04 01:48:57,616 - INFO - Single result found, clicking directly
+2024-12-04 01:49:02,170 - INFO - Extracted Data for PepsiCo, Inc.:
+2024-12-04 01:49:02,171 - INFO - ESG Score: 96
+2024-12-04 01:49:02,171 - INFO - Number of Sources: 
+                  100
+                
+2024-12-04 01:49:02,172 - INFO - Closing browser for PepsiCo, Inc.
+2024-12-04 01:49:03,235 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:49:06,362 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:49:08,365 - INFO - 
+Processing company 36: Accenture plc
+2024-12-04 01:49:09,447 - INFO - Accepted cookies
+2024-12-04 01:49:11,562 - INFO - No popup found
+2024-12-04 01:49:11,699 - INFO - Searching for: Accenture plc
+2024-12-04 01:49:13,670 - INFO - Found 1 results
+2024-12-04 01:49:13,679 - INFO - Single result found, clicking directly
+2024-12-04 01:49:18,197 - INFO - Extracted Data for Accenture plc:
+2024-12-04 01:49:18,197 - INFO - ESG Score: 99
+2024-12-04 01:49:18,197 - INFO - Number of Sources: 
+                  92
+                
+2024-12-04 01:49:18,199 - INFO - Closing browser for Accenture plc
+2024-12-04 01:49:19,262 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:49:22,085 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:49:24,087 - INFO - 
+Processing company 37: Blackstone Inc.
+2024-12-04 01:49:25,519 - INFO - Accepted cookies
+2024-12-04 01:49:27,624 - INFO - No popup found
+2024-12-04 01:49:27,758 - INFO - Searching for: Blackstone Inc.
+2024-12-04 01:49:29,585 - INFO - Found 1 results
+2024-12-04 01:49:29,595 - INFO - Single result found, clicking directly
+2024-12-04 01:49:33,990 - INFO - Extracted Data for Blackstone Inc.:
+2024-12-04 01:49:33,990 - INFO - ESG Score: 86
+2024-12-04 01:49:33,990 - INFO - Number of Sources: 
+                  46
+                
+2024-12-04 01:49:33,992 - INFO - Closing browser for Blackstone Inc.
+2024-12-04 01:49:35,057 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:49:37,816 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:49:39,819 - INFO - 
+Processing company 38: Linde plc
+2024-12-04 01:49:40,907 - INFO - Accepted cookies
+2024-12-04 01:49:43,004 - INFO - No popup found
+2024-12-04 01:49:43,119 - INFO - Searching for: Linde plc
+2024-12-04 01:49:45,133 - INFO - Found 1 results
+2024-12-04 01:49:45,143 - INFO - Single result found, clicking directly
+2024-12-04 01:49:49,395 - INFO - Extracted Data for Linde plc:
+2024-12-04 01:49:49,396 - INFO - ESG Score: 98
+2024-12-04 01:49:49,396 - INFO - Number of Sources: 
+                  61
+                
+2024-12-04 01:49:49,397 - INFO - Closing browser for Linde plc
+2024-12-04 01:49:50,466 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:49:53,761 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:49:55,765 - INFO - 
+Processing company 39: ServiceNow, Inc.
+2024-12-04 01:49:56,818 - INFO - Accepted cookies
+2024-12-04 01:49:59,005 - INFO - No popup found
+2024-12-04 01:49:59,141 - INFO - Searching for: ServiceNow, Inc.
+2024-12-04 01:50:01,678 - INFO - Found 1 results
+2024-12-04 01:50:01,688 - INFO - Single result found, clicking directly
+2024-12-04 01:50:06,279 - INFO - Extracted Data for ServiceNow, Inc.:
+2024-12-04 01:50:06,279 - INFO - ESG Score: 95
+2024-12-04 01:50:06,279 - INFO - Number of Sources: 
+                  57
+                
+2024-12-04 01:50:06,280 - INFO - Closing browser for ServiceNow, Inc.
+2024-12-04 01:50:07,346 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:50:10,955 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:50:12,961 - INFO - 
+Processing company 40: McDonald's Corporation
+2024-12-04 01:50:14,069 - INFO - Accepted cookies
+2024-12-04 01:50:16,181 - INFO - No popup found
+2024-12-04 01:50:16,339 - INFO - Searching for: McDonald's Corporation
+2024-12-04 01:50:18,323 - INFO - Found 1 results
+2024-12-04 01:50:18,344 - INFO - Single result found, clicking directly
+2024-12-04 01:50:23,734 - INFO - Extracted Data for McDonald's Corporation:
+2024-12-04 01:50:23,735 - INFO - ESG Score: 83
+2024-12-04 01:50:23,735 - INFO - Number of Sources: 
+                  84
+                
+2024-12-04 01:50:23,737 - INFO - Closing browser for McDonald's Corporation
+2024-12-04 01:50:24,806 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:50:27,905 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:50:29,907 - INFO - 
+Processing company 41: Morgan Stanley
+2024-12-04 01:50:30,834 - INFO - Accepted cookies
+2024-12-04 01:50:32,926 - INFO - No popup found
+2024-12-04 01:50:33,061 - INFO - Searching for: Morgan Stanley
+2024-12-04 01:50:35,754 - INFO - Found 1 results
+2024-12-04 01:50:35,764 - INFO - Single result found, clicking directly
+2024-12-04 01:50:40,818 - INFO - Extracted Data for Morgan Stanley:
+2024-12-04 01:50:40,819 - INFO - ESG Score: 89
+2024-12-04 01:50:40,819 - INFO - Number of Sources: 
+                  81
+                
+2024-12-04 01:50:40,820 - INFO - Closing browser for Morgan Stanley
+2024-12-04 01:50:41,884 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:50:44,829 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:50:46,830 - INFO - 
+Processing company 42: Thermo Fisher Scientific Inc.
+2024-12-04 01:50:47,833 - INFO - Accepted cookies
+2024-12-04 01:50:49,929 - INFO - No popup found
+2024-12-04 01:50:50,069 - INFO - Searching for: Thermo Fisher Scientific Inc.
+2024-12-04 01:50:52,105 - INFO - Found 1 results
+2024-12-04 01:50:52,115 - INFO - Single result found, clicking directly
+2024-12-04 01:50:56,783 - INFO - Extracted Data for Thermo Fisher Scientific Inc.:
+2024-12-04 01:50:56,784 - INFO - ESG Score: 92
+2024-12-04 01:50:56,784 - INFO - Number of Sources: 
+                  62
+                
+2024-12-04 01:50:56,785 - INFO - Closing browser for Thermo Fisher Scientific Inc.
+2024-12-04 01:50:57,851 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:51:00,761 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:51:02,769 - INFO - 
+Processing company 43: American Express Company
+2024-12-04 01:51:04,579 - INFO - Accepted cookies
+2024-12-04 01:51:06,675 - INFO - No popup found
+2024-12-04 01:51:06,817 - INFO - Searching for: American Express Company
+2024-12-04 01:51:08,895 - INFO - Found 1 results
+2024-12-04 01:51:08,905 - INFO - Single result found, clicking directly
+2024-12-04 01:51:13,332 - INFO - Extracted Data for American Express Company:
+2024-12-04 01:51:13,332 - INFO - ESG Score: 92
+2024-12-04 01:51:13,332 - INFO - Number of Sources: 
+                  74
+                
+2024-12-04 01:51:13,333 - INFO - Closing browser for American Express Company
+2024-12-04 01:51:14,405 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:51:17,055 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:51:19,058 - INFO - 
+Processing company 44: Abbott Laboratories
+2024-12-04 01:51:20,159 - INFO - Accepted cookies
+2024-12-04 01:51:22,364 - INFO - No popup found
+2024-12-04 01:51:22,496 - INFO - Searching for: Abbott Laboratories
+2024-12-04 01:51:24,566 - INFO - Found 1 results
+2024-12-04 01:51:24,577 - INFO - Single result found, clicking directly
+2024-12-04 01:51:29,006 - INFO - Extracted Data for Abbott Laboratories:
+2024-12-04 01:51:29,006 - INFO - ESG Score: 96
+2024-12-04 01:51:29,006 - INFO - Number of Sources: 
+                  88
+                
+2024-12-04 01:51:29,008 - INFO - Closing browser for Abbott Laboratories
+2024-12-04 01:51:30,074 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:51:33,775 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:51:35,776 - INFO - 
+Processing company 45: GE Aerospace
+2024-12-04 01:51:37,015 - INFO - Accepted cookies
+2024-12-04 01:51:39,103 - INFO - No popup found
+2024-12-04 01:51:39,261 - INFO - Searching for: GE Aerospace
+2024-12-04 01:51:41,403 - INFO - Found 1 results
+2024-12-04 01:51:41,412 - INFO - Single result found, clicking directly
+2024-12-04 01:51:45,979 - INFO - Extracted Data for GE Aerospace:
+2024-12-04 01:51:45,979 - INFO - ESG Score: 90
+2024-12-04 01:51:45,979 - INFO - Number of Sources: 
+                  75
+                
+2024-12-04 01:51:45,981 - INFO - Closing browser for GE Aerospace
+2024-12-04 01:51:47,046 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:51:50,441 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:51:52,445 - INFO - 
+Processing company 46: Intuit Inc.
+2024-12-04 01:51:53,528 - INFO - Accepted cookies
+2024-12-04 01:51:55,630 - INFO - No popup found
+2024-12-04 01:51:55,766 - INFO - Searching for: Intuit Inc.
+2024-12-04 01:51:57,495 - INFO - Found 1 results
+2024-12-04 01:51:57,516 - INFO - Single result found, clicking directly
+2024-12-04 01:52:02,416 - INFO - Extracted Data for Intuit Inc.:
+2024-12-04 01:52:02,416 - INFO - ESG Score: 95
+2024-12-04 01:52:02,416 - INFO - Number of Sources: 
+                  63
+                
+2024-12-04 01:52:02,418 - INFO - Closing browser for Intuit Inc.
+2024-12-04 01:52:03,483 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:52:06,305 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:52:08,306 - INFO - 
+Processing company 47: International Business Machines Corporation
+2024-12-04 01:52:09,474 - INFO - Accepted cookies
+2024-12-04 01:52:11,570 - INFO - No popup found
+2024-12-04 01:52:11,727 - INFO - Searching for: International Business Machines Corporation
+2024-12-04 01:52:13,759 - INFO - Found 1 results
+2024-12-04 01:52:13,863 - INFO - Single result found, clicking directly
+2024-12-04 01:52:18,808 - INFO - Extracted Data for International Business Machines Corporation:
+2024-12-04 01:52:18,809 - INFO - ESG Score: 97
+2024-12-04 01:52:18,809 - INFO - Number of Sources: 
+                  95
+                
+2024-12-04 01:52:18,810 - INFO - Closing browser for International Business Machines Corporation
+2024-12-04 01:52:19,877 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:52:22,941 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:52:24,949 - INFO - 
+Processing company 48: Texas Instruments Incorporated
+2024-12-04 01:52:26,486 - INFO - Accepted cookies
+2024-12-04 01:52:28,577 - INFO - No popup found
+2024-12-04 01:52:28,718 - INFO - Searching for: Texas Instruments Incorporated
+2024-12-04 01:52:30,622 - INFO - Found 1 results
+2024-12-04 01:52:30,632 - INFO - Single result found, clicking directly
+2024-12-04 01:52:35,005 - INFO - Extracted Data for Texas Instruments Incorporated:
+2024-12-04 01:52:35,005 - INFO - ESG Score: 97
+2024-12-04 01:52:35,005 - INFO - Number of Sources: 
+                  62
+                
+2024-12-04 01:52:35,007 - INFO - Closing browser for Texas Instruments Incorporated
+2024-12-04 01:52:36,075 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:52:39,308 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:52:41,312 - INFO - 
+Processing company 49: Philip Morris International Inc.
+2024-12-04 01:52:42,220 - INFO - Accepted cookies
+2024-12-04 01:52:44,405 - INFO - No popup found
+2024-12-04 01:52:44,560 - INFO - Searching for: Philip Morris International Inc.
+2024-12-04 01:52:46,331 - INFO - Found 1 results
+2024-12-04 01:52:46,342 - INFO - Single result found, clicking directly
+2024-12-04 01:52:50,655 - INFO - Extracted Data for Philip Morris International Inc.:
+2024-12-04 01:52:50,655 - INFO - ESG Score: 96
+2024-12-04 01:52:50,656 - INFO - Number of Sources: 
+                  61
+                
+2024-12-04 01:52:50,657 - INFO - Closing browser for Philip Morris International Inc.
+2024-12-04 01:52:51,723 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:52:54,691 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:52:56,694 - INFO - 
+Processing company 50: Intuitive Surgical, Inc.
+2024-12-04 01:52:57,709 - INFO - Accepted cookies
+2024-12-04 01:52:59,810 - INFO - No popup found
+2024-12-04 01:52:59,937 - INFO - Searching for: Intuitive Surgical, Inc.
+2024-12-04 01:53:02,187 - INFO - Found 1 results
+2024-12-04 01:53:02,196 - INFO - Single result found, clicking directly
+2024-12-04 01:53:07,092 - INFO - Extracted Data for Intuitive Surgical, Inc.:
+2024-12-04 01:53:07,092 - INFO - ESG Score: 79
+2024-12-04 01:53:07,092 - INFO - Number of Sources: 
+                  37
+                
+2024-12-04 01:53:07,094 - INFO - Closing browser for Intuitive Surgical, Inc.
+2024-12-04 01:53:08,157 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:53:11,468 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:53:13,474 - INFO - 
+Processing company 51: Caterpillar Inc.
+2024-12-04 01:53:14,633 - INFO - Accepted cookies
+2024-12-04 01:53:16,738 - INFO - No popup found
+2024-12-04 01:53:16,878 - INFO - Searching for: Caterpillar Inc.
+2024-12-04 01:53:18,679 - INFO - Found 1 results
+2024-12-04 01:53:18,689 - INFO - Single result found, clicking directly
+2024-12-04 01:53:23,363 - INFO - Extracted Data for Caterpillar Inc.:
+2024-12-04 01:53:23,363 - INFO - ESG Score: 86
+2024-12-04 01:53:23,363 - INFO - Number of Sources: 
+                  63
+                
+2024-12-04 01:53:23,364 - INFO - Closing browser for Caterpillar Inc.
+2024-12-04 01:53:24,430 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:53:27,320 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:53:29,323 - INFO - 
+Processing company 52: The Goldman Sachs Group, Inc.
+2024-12-04 01:53:30,231 - INFO - Accepted cookies
+2024-12-04 01:53:32,412 - INFO - No popup found
+2024-12-04 01:53:32,554 - INFO - Searching for: The Goldman Sachs Group, Inc.
+2024-12-04 01:53:34,310 - INFO - Found 1 results
+2024-12-04 01:53:34,320 - INFO - Single result found, clicking directly
+2024-12-04 01:53:38,811 - INFO - Extracted Data for The Goldman Sachs Group, Inc.:
+2024-12-04 01:53:38,812 - INFO - ESG Score: 86
+2024-12-04 01:53:38,812 - INFO - Number of Sources: 
+                  79
+                
+2024-12-04 01:53:38,813 - INFO - Closing browser for The Goldman Sachs Group, Inc.
+2024-12-04 01:53:39,878 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:53:42,639 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:53:44,640 - INFO - 
+Processing company 53: The Walt Disney Company
+2024-12-04 01:53:45,876 - INFO - Accepted cookies
+2024-12-04 01:53:47,966 - INFO - No popup found
+2024-12-04 01:53:48,117 - INFO - Searching for: The Walt Disney Company
+2024-12-04 01:53:49,921 - INFO - Found 1 results
+2024-12-04 01:53:49,931 - INFO - Single result found, clicking directly
+2024-12-04 01:53:54,511 - INFO - Extracted Data for The Walt Disney Company:
+2024-12-04 01:53:54,512 - INFO - ESG Score: 85
+2024-12-04 01:53:54,512 - INFO - Number of Sources: 
+                  77
+                
+2024-12-04 01:53:54,513 - INFO - Closing browser for The Walt Disney Company
+2024-12-04 01:53:55,579 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:53:58,556 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:54:00,561 - INFO - 
+Processing company 54: QUALCOMM Incorporated
+2024-12-04 01:54:01,689 - INFO - Accepted cookies
+2024-12-04 01:54:03,794 - INFO - No popup found
+2024-12-04 01:54:03,931 - INFO - Searching for: QUALCOMM Incorporated
+2024-12-04 01:54:06,170 - INFO - Found 1 results
+2024-12-04 01:54:06,182 - INFO - Single result found, clicking directly
+2024-12-04 01:54:10,687 - INFO - Extracted Data for QUALCOMM Incorporated:
+2024-12-04 01:54:10,688 - INFO - ESG Score: 98
+2024-12-04 01:54:10,688 - INFO - Number of Sources: 
+                  72
+                
+2024-12-04 01:54:10,689 - INFO - Closing browser for QUALCOMM Incorporated
+2024-12-04 01:54:11,753 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:54:15,511 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:54:17,517 - INFO - 
+Processing company 55: Danaher Corporation
+2024-12-04 01:54:18,598 - INFO - Accepted cookies
+2024-12-04 01:54:20,683 - INFO - No popup found
+2024-12-04 01:54:20,811 - INFO - Searching for: Danaher Corporation
+2024-12-04 01:54:22,677 - INFO - Found 1 results
+2024-12-04 01:54:22,687 - INFO - Single result found, clicking directly
+2024-12-04 01:54:27,517 - INFO - Extracted Data for Danaher Corporation:
+2024-12-04 01:54:27,517 - INFO - ESG Score: 89
+2024-12-04 01:54:27,518 - INFO - Number of Sources: 
+                  52
+                
+2024-12-04 01:54:27,519 - INFO - Closing browser for Danaher Corporation
+2024-12-04 01:54:28,583 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:54:32,258 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:54:34,264 - INFO - 
+Processing company 56: Verizon Communications Inc.
+2024-12-04 01:54:35,508 - INFO - Accepted cookies
+2024-12-04 01:54:37,604 - INFO - No popup found
+2024-12-04 01:54:37,744 - INFO - Searching for: Verizon Communications Inc.
+2024-12-04 01:54:39,593 - INFO - Found 1 results
+2024-12-04 01:54:39,602 - INFO - Single result found, clicking directly
+2024-12-04 01:54:44,643 - INFO - Extracted Data for Verizon Communications Inc.:
+2024-12-04 01:54:44,643 - INFO - ESG Score: 96
+2024-12-04 01:54:44,643 - INFO - Number of Sources: 
+                  84
+                
+2024-12-04 01:54:44,645 - INFO - Closing browser for Verizon Communications Inc.
+2024-12-04 01:54:45,714 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:54:48,732 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:54:50,735 - INFO - 
+Processing company 57: Comcast Corporation
+2024-12-04 01:54:51,937 - INFO - Accepted cookies
+2024-12-04 01:54:54,040 - INFO - No popup found
+2024-12-04 01:54:54,186 - INFO - Searching for: Comcast Corporation
+2024-12-04 01:54:56,141 - INFO - Found 1 results
+2024-12-04 01:54:56,151 - INFO - Single result found, clicking directly
+2024-12-04 01:55:00,525 - INFO - Extracted Data for Comcast Corporation:
+2024-12-04 01:55:00,526 - INFO - ESG Score: 89
+2024-12-04 01:55:00,526 - INFO - Number of Sources: 
+                  74
+                
+2024-12-04 01:55:00,527 - INFO - Closing browser for Comcast Corporation
+2024-12-04 01:55:01,591 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:55:04,406 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:55:06,407 - INFO - 
+Processing company 58: Booking Holdings Inc.
+2024-12-04 01:55:07,651 - INFO - Accepted cookies
+2024-12-04 01:55:09,750 - INFO - No popup found
+2024-12-04 01:55:09,888 - INFO - Searching for: Booking Holdings Inc.
+2024-12-04 01:55:11,917 - INFO - Found 1 results
+2024-12-04 01:55:11,933 - INFO - Single result found, clicking directly
+2024-12-04 01:55:16,353 - INFO - Extracted Data for Booking Holdings Inc.:
+2024-12-04 01:55:16,353 - INFO - ESG Score: 75
+2024-12-04 01:55:16,354 - INFO - Number of Sources: 
+                  49
+                
+2024-12-04 01:55:16,355 - INFO - Closing browser for Booking Holdings Inc.
+2024-12-04 01:55:17,419 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:55:20,173 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:55:22,175 - INFO - 
+Processing company 59: RTX Corporation
+2024-12-04 01:55:23,097 - INFO - Accepted cookies
+2024-12-04 01:55:25,188 - INFO - No popup found
+2024-12-04 01:55:25,325 - INFO - Searching for: RTX Corporation
+2024-12-04 01:55:27,444 - INFO - Found 1 results
+2024-12-04 01:55:27,454 - INFO - Single result found, clicking directly
+2024-12-04 01:55:31,870 - INFO - Extracted Data for RTX Corporation:
+2024-12-04 01:55:31,870 - INFO - ESG Score: 84
+2024-12-04 01:55:31,870 - INFO - Number of Sources: 
+                  68
+                
+2024-12-04 01:55:31,872 - INFO - Closing browser for RTX Corporation
+2024-12-04 01:55:32,935 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:55:36,360 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:55:38,364 - INFO - 
+Processing company 60: Amgen Inc.
+2024-12-04 01:55:39,551 - INFO - Accepted cookies
+2024-12-04 01:55:41,650 - INFO - No popup found
+2024-12-04 01:55:41,793 - INFO - Searching for: Amgen Inc.
+2024-12-04 01:55:43,749 - INFO - Found 1 results
+2024-12-04 01:55:43,761 - INFO - Single result found, clicking directly
+2024-12-04 01:55:48,634 - INFO - Extracted Data for Amgen Inc.:
+2024-12-04 01:55:48,634 - INFO - ESG Score: 97
+2024-12-04 01:55:48,635 - INFO - Number of Sources: 
+                  63
+                
+2024-12-04 01:55:48,637 - INFO - Closing browser for Amgen Inc.
+2024-12-04 01:55:49,702 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:55:52,687 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:55:54,688 - INFO - 
+Processing company 61: AT&T Inc.
+2024-12-04 01:55:55,625 - INFO - Accepted cookies
+2024-12-04 01:55:57,736 - INFO - No popup found
+2024-12-04 01:55:57,878 - INFO - Searching for: AT&T Inc.
+2024-12-04 01:56:00,019 - INFO - Found 1 results
+2024-12-04 01:56:00,029 - INFO - Single result found, clicking directly
+2024-12-04 01:56:04,709 - INFO - Extracted Data for AT&T Inc.:
+2024-12-04 01:56:04,709 - INFO - ESG Score: 96
+2024-12-04 01:56:04,709 - INFO - Number of Sources: 
+                  80
+                
+2024-12-04 01:56:04,711 - INFO - Closing browser for AT&T Inc.
+2024-12-04 01:56:05,778 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:56:08,752 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:56:10,755 - INFO - 
+Processing company 62: S&P Global Inc.
+2024-12-04 01:56:12,171 - INFO - Accepted cookies
+2024-12-04 01:56:14,258 - INFO - No popup found
+2024-12-04 01:56:14,403 - INFO - Searching for: S&P Global Inc.
+2024-12-04 01:56:16,196 - INFO - Found 1 results
+2024-12-04 01:56:16,206 - INFO - Single result found, clicking directly
+2024-12-04 01:56:20,752 - INFO - Extracted Data for S&P Global Inc.:
+2024-12-04 01:56:20,752 - INFO - ESG Score: 98
+2024-12-04 01:56:20,752 - INFO - Number of Sources: 
+                  64
+                
+2024-12-04 01:56:20,754 - INFO - Closing browser for S&P Global Inc.
+2024-12-04 01:56:21,819 - INFO - Initializing WebScraper for URL: https://www.csrhub.com/search/name/
+2024-12-04 01:56:24,963 - INFO - WebDriver initialized and URL accessed successfully.
+2024-12-04 01:56:26,965 - INFO - 
+Processing company 63: Applied Materials, Inc.
+2024-12-04 01:56:27,861 - INFO - Accepted cookies
+2024-12-04 01:56:29,978 - INFO - No popup found
+2024-12-04 01:56:30,121 - INFO - Searching for: Applied Materials, Inc.
+2024-12-04 01:56:32,107 - INFO - Found 1 results
+2024-12-04 01:56:32,117 - INFO - Single result found, clicking directly
+2024-12-04 02:02:12,765 - INFO - Closing browser for Applied Materials, Inc.
+2024-12-04 02:02:12,769 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff7df5f020>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8b29d1cbe5dda4bcef06f72280db48a9
+2024-12-04 02:02:12,769 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff7df5ecf0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8b29d1cbe5dda4bcef06f72280db48a9
+2024-12-04 02:02:12,770 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff7df5dbf0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8b29d1cbe5dda4bcef06f72280db48a9

@@ -40,25 +40,23 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
     # Helper function for resetting queue and initalizing webscraper
     def reset_and_initialize(list_of_agents: list, first_attempt: bool = False):
         '''
-        Helper function for resetting queue and initalizing webscraper.
-
-        Args:
-            list_of_agents: [list] List of user agents.
-            first_attempt: [bool] Whether this is the first attempt at initializing the webscraper.
-
-        Returns:
-            bot: [webscraper] Webscraper object.
+        Helper function for resetting queue and initializing webscraper.
         '''
+        # Clear and refill user agents queue... not sure why this isn't working
+        while not user_agents.empty():
+            user_agents.get()
+        
         for agent in list_of_agents:
             user_agents.put(agent)
+            user_agents.put()
         
         bot = WebScraper(URL, user_agents)
-        if not hasattr(bot, 'driver') and first_attempt == True:
+        if not hasattr(bot, 'driver') and first_attempt:
             logging.error("Failed to initialize WebDriver")
-            return None    
+            return None
         sleep(5)
         return bot
-    
+
     output = []
     companies_processed = 0
     
@@ -114,15 +112,23 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
                 # Send request to search bar
                 bot.send_request_to_search_bar(cleaned_name, id_name="_esgratingsprofile_keywords")
 
+                sleep(4)
+
                 # Record results from dropdown menu
                 dropdown = bot.locate_element(class_name="ui-autocomplete")
+
+                # debugging code... 
+                if dropdown:
+                    print("Dropdown found")
+                    results = bot.locate_element_within_element(dropdown, class_name="msci-ac-search-section-title", multiple=True)
+                    print(f"Number of results found: {len(results) if results else 0}")
+                # debugging code
+
                 results = bot.locate_element_within_element(dropdown, class_name="msci-ac-search-section-title", multiple=True)
 
                 # Iterate through results from dropdown menu
                 for result in results:
                     result_name = result.get_attribute('data-value')
-                    
-                    # Clean company name of result
                     cleaned_result = clean_company_name(result_name)
                     
                     # If the result matches the company being searched for, then try 
@@ -205,13 +211,9 @@ def msci_scraper(company_data: pd.DataFrame, user_agents: Queue,
         if 'bot' in locals() and hasattr(bot, 'driver'):
             bot.driver.quit()
 
-# If file is run, applies Threader function to msci_scraper function 
-# and outputs results to export_path
+# If file is run, applies Threader function to msci_scraper function and outputs results to export_path runs the files directly such 
 if __name__ == "__main__":
     Threader(msci_scraper, export_path)
-
-# Isa to change this code here, so that we can identify more companies. Not exactly sure how to change the company_df input which Isa can change slightly 
-'''
     try:
         msci_df = pd.read_csv('esg_app/api/data/msci_esg_scores.csv')
         sp500_df = pd.read_csv('esg_app/api/data/SP500.csv')
@@ -224,7 +226,7 @@ if __name__ == "__main__":
         missing_companies = list(sp500_companies - msci_companies)
         
         # Create DataFrame in correct format
-        company_data = pd.DataFrame({
+        missing_companies = pd.DataFrame({
             'Longname': missing_companies  # This matches the headername used in msci_scraper
         })
         
@@ -233,7 +235,7 @@ if __name__ == "__main__":
         headername = 'Longname'
         export_path = 'esg_app/api/data/msci_esg_scores_missing.csv'
         
-        Threader(msci_scraper, export_path, company_data)  # Pass company_data directly
+        Threader(msci_scraper, export_path, missing_companies)  # Pass missing_companies directly
         
         # Combine results
         try:
@@ -248,4 +250,3 @@ if __name__ == "__main__":
             
     except Exception as e:
         print(f"Error processing missing companies: {e}")
-'''
