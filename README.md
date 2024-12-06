@@ -164,9 +164,18 @@ If running on port 5001, the base URL will be http://0.0.0.0:5001/.
 
     URL: `esg_api/all_tables/<string:ticker>`
 
-## Acknowledgments
-The sp500.csv data was sourced from:
-- https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?resource=download&select=sp500_companies.csv
+## Data Sources
+The sp500.csv file: https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?resource=download&select=sp500_companies.csv
+
+CSRHub data: https://www.csrhub.com/search/name/
+
+LSEG data: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+
+MSCI data: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+
+SP Global data: https://www.spglobal.com/esg/scores/
+
+Yahoo Finance data: https://finance.yahoo.com/lookup/
 
 ## Contact
 Isabella Mercado - imercado@uchicago.edu
