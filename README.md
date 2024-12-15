@@ -10,7 +10,7 @@ A comprehensive web application for collecting, aggregating, and querying Enviro
 
 ## Features
 
-The folder 'esg_backend' contains the backend of the web application. The backend is built using Flask, runs on a Gunicorn server, and is containerized with Docker. The backend contains its own Dockerfile and Makefile.
+The folder 'esg_backend' contains the backend of the web application, which contains its own Dockerfile and Makefile. The backend is built using Flask, runs on a Gunicorn server, and is containerized with Docker.
 
 The folder 'esg_scrapers' contains a scraper module for each of the 5 ESG score providers above.
 These modules rely on the util files within the 'scraper_utils' folder and contain the following features:
@@ -31,8 +31,6 @@ within the SQLite database.
 
 The folder 'esg_frontend' contains the React frontend for the web application and its own Dockerfile.
 
-The docker-compose.yml file within the root of the repository contains the instructions to run the web application.
-
 ## Technology Stack
 - Python
 - Makefile
@@ -46,7 +44,7 @@ The docker-compose.yml file within the root of the repository contains the instr
 
 ## Project Structure
 ```
-esg_score_api/
+ESG_SCORE_API/
 ├── esg_backend/
 │   ├── api/
 │   │   ├── data/
@@ -84,7 +82,9 @@ esg_score_api/
 │   ├── public/
 │   ├── src/
 │   │   ├── Components/
+│   │   │   ├── CompanyTableDataFetcher.js
 │   │   │   ├── ESGDataFetcher.js
+│   │   │   └── TableFetcher.js
 │   │   ├── App.js
 │   │   ├── index.css
 │   │   └── index.js
@@ -109,7 +109,7 @@ esg_score_api/
 git clone https://github.com/yourusername/esg_score_api.git
 ```
 
-3. Interact with the Docker container using the make commands contained in the Makefiles. See the section below for more information.
+3. Interact with the Docker containers using the make commands contained in the Makefiles. See the section below for more information.
 
 ## Interacting with the Web Application
 The Makefile within the root of the repository contains a command to run the web application. The make command "make prod" will run the docker-compose.yml file, which will build the backend and frontend containers and run the web application on port 3000.
