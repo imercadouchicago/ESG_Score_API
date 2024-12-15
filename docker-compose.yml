@@ -1,0 +1,21 @@
+services:
+  frontend:
+    build:
+      context: .
+      target: frontend-build
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./esg_frontend:/app/frontend
+    command: npm start
+    working_dir: /app/frontend
+
+  backend:
+    build:
+      context: .
+      target: backend
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./src:/app/src
+    command: gunicorn -b 0.0.0.0:5001 app:app

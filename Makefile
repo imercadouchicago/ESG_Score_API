@@ -2,14 +2,14 @@
 IMAGE_NAME = project_image
 LOCAL_HOST_DIR = $(shell pwd)
 CONTAINER_SRC_DIR = /app/src
-DATA_DIR = /app/src/esg_app/api/data
+DATA_DIR = /app/src/esg_backend/api/data
 DB_PATH=$(DATA_DIR)/esg_scores.db
-DB_MANAGE_PATH=/app/src/esg_app/utils/data_utils/db_manage.py
-SCRAPERS_PATH=/app/src/esg_app/api/esg_scrapers
+DB_MANAGE_PATH=/app/src/esg_backend/utils/data_utils/db_manage.py
+SCRAPERS_PATH=/app/src/esg_backend/api/esg_scrapers
 
 # Environment Variables
 ENV_VARS = \
-	-e FLASK_APP=/app/src/app.py \
+	-e FLASK_APP=/app/src/esg_backend/app.py \
 	-e FLASK_DEBUG='1' \
 	-e FLASK_ENV='development' \
 	-e PYTHONPATH='/app/src' \
@@ -24,7 +24,7 @@ ALL_FLAGS = \
 	$(ENV_VARS)
 
 # Phony Targets
-.PHONY = build interactive flask \
+.PHONY = build interactive flask docker-compose-build prod \
 	lseg msci spglobal yahoo csrhub \
 	db_create db_load db_rm db_clean db_interactive
 
@@ -103,3 +103,14 @@ flask: build
 	docker run -p 5001:5001 \
 	$(ALL_FLAGS) \
 	$(IMAGE_NAME)
+
+docker-compose-build:
+	docker-compose build
+
+prod: docker-compose-build
+	docker-compose up -d \
+	$(ALL_FLAGS)
+
+# # Run React frontend and Flask backend in production
+# prod: build
+# 	docker run -p 5001:5001 $(ALL_FLAGS) $(IMAGE_NAME)

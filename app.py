@@ -1,12 +1,16 @@
 """This module creates a flask app by registering routes."""
 
 from flask import Flask
-from esg_app.api.routes.routes import all_routes
+from flask_cors import CORS
+from esg_backend.api.routes.routes import all_routes
 
 
 def create_app():
     """Create a Flask Application with default parameters and a name."""
     app = Flask(__name__)
+
+    # Enable CORS for all routes
+    CORS(app)
 
     # Register routes
     all_routes(app)

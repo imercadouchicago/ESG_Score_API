@@ -1,5 +1,11 @@
-FROM python:3.13.0-alpine AS base
+# Frontend build stage
+FROM node:20-alpine AS frontend-build
+WORKDIR /app/frontend
+COPY esg_frontend/package*.json ./
+RUN npm install
 
+# Backend stage
+FROM python:3.13.0-alpine AS backend
 WORKDIR /app/src
 
 #  Add Selenium dependencies
@@ -43,8 +49,8 @@ COPY requirements.txt /app/src
 RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Copy the built frontend to the backend
+COPY --from=frontend-build /app/frontend/build /app/src/static
+
 # Switch to the non-privileged user to run the application.
 USER appuser
-
-# Run Flask app on Gunicorn server
-CMD ["gunicorn", "-b", "0.0.0.0:5001", "app:app"]
