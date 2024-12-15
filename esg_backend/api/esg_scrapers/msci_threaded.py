@@ -1,9 +1,9 @@
 ''' This module contains a function 'msci_scraper' for webscraping MSCI. 
     When this module is run, it uses multithreading to scrape MSCI. '''
 
-from esg_backend.utils.scraper_utils.scraper import WebScraper
-from esg_backend.utils.scraper_utils.threader import Threader
-from esg_backend.utils.scraper_utils.cleaning_utils import (clean_company_name,
+from utils.scraper_utils.scraper import WebScraper
+from utils.scraper_utils.threader import Threader
+from utils.scraper_utils.cleaning_utils import (clean_company_name,
                                                     clean_flag_element)
 import logging
 import pandas as pd
@@ -21,7 +21,7 @@ logging.basicConfig(
 
 URL = "https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool"
 headername = 'Longname'
-export_path = 'esg_backend/api/data/msci.csv'
+export_path = 'api/data/msci.csv'
 
 def msci_scraper(company_data: pd.DataFrame, user_agents: Queue, 
                  processed_tickers: set, lock: Lock) -> list[dict]:
@@ -214,7 +214,7 @@ if __name__ == "__main__":
     try:
         logging.info("Checking for missing companies") 
         msci_df = pd.read_csv(export_path)
-        sp500_df = pd.read_csv('esg_backend/api/data/SP500.csv')
+        sp500_df = pd.read_csv('api/data/SP500.csv')
         sp500_df = sp500_df.head(4)  # Needs to match number of inputs in the threader function 
 
         msci_companies = set(msci_df['MSCI_company']) 

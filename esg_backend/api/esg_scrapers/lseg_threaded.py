@@ -1,9 +1,9 @@
 ''' This module contains a function 'lseg_scraper' for webscraping LSEG. 
     When this module is run, it uses multithreading to scrape LSEG. '''
 
-from esg_backend.utils.scraper_utils.scraper import WebScraper
-from esg_backend.utils.scraper_utils.threader import Threader
-from esg_backend.utils.scraper_utils.cleaning_utils import clean_company_name
+from utils.scraper_utils.scraper import WebScraper
+from utils.scraper_utils.threader import Threader
+from utils.scraper_utils.cleaning_utils import clean_company_name
 import logging
 import pandas as pd
 from queue import Queue
@@ -20,7 +20,7 @@ logging.basicConfig(
 
 URL = "https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores"
 headername = 'Longname'
-export_path = 'esg_backend/api/data/lseg.csv'
+export_path = 'api/data/lseg.csv'
 
 def lseg_scraper(company_data: pd.DataFrame, user_agents: 
                  Queue, processed_tickers: set, lock: Lock) -> list[dict]:
@@ -140,7 +140,7 @@ if __name__ == "__main__":
     try: 
         logging.info("Checking for missing companies")
         lseg_df = pd.read_csv(export_path)
-        sp500_df = pd.read_csv('esg_backend/api/data/SP500.csv') 
+        sp500_df = pd.read_csv('api/data/SP500.csv') 
         sp500_df = sp500_df.head(4)  # Needs to match number of inputs in the threader function 
 
         lseg_companies = set(lseg_df['LSEG_ESG_Company']) 

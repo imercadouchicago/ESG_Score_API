@@ -1,6 +1,0 @@
-pandas==2.2.3
-Flask==3.0.3
-gunicorn==21.2.0
-selenium==4.15.2
-tqdm==4.66.1
-flask-cors==4.0.1

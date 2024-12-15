@@ -56,7 +56,7 @@ const ESGDataFetcher = () => {
             <div key={source} className="mb-3">
               <h4 className="font-medium">{source}</h4>
               <pre className="bg-gray-100 p-2 rounded text-sm">
-                {JSON.stringify(scores, null, 2)}
+                {scores}
               </pre>
             </div>
           ))}

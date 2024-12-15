@@ -2,8 +2,8 @@
     This module does not use multithreaded webscraping. '''
 
 from selenium.webdriver.common.keys import Keys
-from esg_backend.utils.scraper_utils.scraper import WebScraper
-from esg_backend.utils.scraper_utils.cleaning_utils import csrhub_clean_company_name
+from utils.scraper_utils.scraper import WebScraper
+from utils.scraper_utils.cleaning_utils import csrhub_clean_company_name
 import logging
 import pandas as pd
 from tqdm import tqdm
@@ -19,7 +19,7 @@ logging.basicConfig(
 
 URL = "https://www.csrhub.com/search/name/"
 headername = 'Longname'
-export_path = 'esg_backend/api/data/csrhub.csv'
+export_path = 'api/data/csrhub.csv'
 
 def csrhub_scraper(df, export_path):
 
@@ -145,7 +145,7 @@ def csrhub_scraper(df, export_path):
 # If file is run, runs csrhub_scraper function 
 # and outputs results to export_path
 if __name__ == "__main__":
-    df = pd.read_csv('esg_backend/api/data/SP500.csv')
+    df = pd.read_csv('api/data/SP500.csv')
     df = df.head(4)
     results_df = csrhub_scraper(df, export_path)
 
@@ -153,7 +153,7 @@ if __name__ == "__main__":
     try: 
         logging.info("Checking for missing companies")
         csrhub_df = pd.read_csv(export_path)
-        sp500_df = pd.read_csv('esg_backend/api/data/SP500.csv')
+        sp500_df = pd.read_csv('api/data/SP500.csv')
         sp500_df = sp500_df.head(4)
 
         csrhub_companies = set(csrhub_df['Company']) 

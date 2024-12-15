@@ -1,8 +1,8 @@
 ''' This module contains a function 'yahoo_scraper' for webscraping Yahoo Finance. 
     When this module is run, it uses multithreading to scrape Yahoo Finance. '''
 
-from esg_backend.utils.scraper_utils.scraper import WebScraper
-from esg_backend.utils.scraper_utils.threader import Threader
+from utils.scraper_utils.scraper import WebScraper
+from utils.scraper_utils.threader import Threader
 import logging
 import pandas as pd
 from queue import Queue
@@ -18,7 +18,7 @@ logging.basicConfig(
 )
 
 URL = "https://finance.yahoo.com/lookup/"
-export_path = 'esg_backend/api/data/yahoo.csv'
+export_path = 'api/data/yahoo.csv'
 headername = 'Symbol'
 
 def yahoo_scraper(company_data: pd.DataFrame, user_agents: Queue, 

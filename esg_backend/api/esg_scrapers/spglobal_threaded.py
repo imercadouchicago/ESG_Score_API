@@ -1,8 +1,8 @@
 ''' This module contains a function 'spglobal_scraper' for webscraping SP Global. 
     When this module is run, it uses multithreading to scrape SP Global. '''
 
-from esg_backend.utils.scraper_utils.scraper import  WebScraper
-from esg_backend.utils.scraper_utils.threader import Threader
+from utils.scraper_utils.scraper import  WebScraper
+from utils.scraper_utils.threader import Threader
 from selenium.webdriver.common.keys import Keys
 import logging
 import pandas as pd
@@ -20,7 +20,7 @@ logging.basicConfig(
 
 URL = "https://www.spglobal.com/esg/scores/"
 headername = 'Longname'
-export_path = 'esg_backend/api/data/spglobal.csv'
+export_path = 'api/data/spglobal.csv'
 
 def spglobal_scraper(company_data: pd.DataFrame, user_agents: Queue, 
                     processed_tickers: set, lock: Lock) -> list[dict]:

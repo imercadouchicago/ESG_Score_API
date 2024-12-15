@@ -1,7 +1,7 @@
 ''' This module contains utility functions for the routes. '''
 
 from flask import jsonify
-from esg_backend.utils.data_utils.loading_utils import create_db_connection
+from utils.data_utils.loading_utils import create_db_connection
 
 def execute_query_return_list_of_dicts_lm(conn, sql_query, params):
     """Executes SQL query with parameters and returns result
@@ -112,8 +112,16 @@ def get_company_scores(ticker):
     result = {}
 
     conn = create_db_connection()
+    cursor = conn.cursor()
     for table in tables:
         query = f"SELECT esg_score FROM {table} WHERE company = ?"
-        result[table] = execute_query_return_list_of_dicts_lm(conn, query, (ticker,))
+        cursor.execute(query, (ticker,))
+        
+        while True:
+            single_result = cursor.fetchone()
+            if not single_result:
+                break
+            result[table] = single_result[0]
+
     return jsonify(result), 200
     

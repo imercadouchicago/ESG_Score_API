@@ -1,8 +1,8 @@
 ''' This module contains the routes for the ESG API. '''
 
-from esg_backend.utils.route_utils.route_utils import (get_table,
-                                                   get_company_from_table,
-                                                   get_company_scores)
+from utils.route_utils.route_utils import (get_table,
+                                            get_company_from_table,
+                                            get_company_scores)
 
 BASE_URL="/esg_api"
 
