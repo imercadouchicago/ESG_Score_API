@@ -17,5 +17,15 @@ services:
     ports:
       - "5001:5001"
     volumes:
-      - ./src:/app/src
+      - ./:/app/src
+      - ./esg_frontend/build:/app/src/static
+    environment:
+      - FLASK_APP=/app/src/esg_backend/app.py
+      - FLASK_DEBUG=1
+      - FLASK_ENV=development
+      - PYTHONPATH=/app/src
+      - PYTHONDONTWRITEBYTECODE=1
+      - DATA_DIR=/app/src/esg_backend/api/data
+      - DB_PATH=/app/src/esg_backend/api/data/esg_scores.db
+      - DB_MANAGE_PATH=/app/src/esg_backend/utils/data_utils/db_manage.py
     command: gunicorn -b 0.0.0.0:5001 app:app

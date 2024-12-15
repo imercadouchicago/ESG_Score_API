@@ -38,16 +38,17 @@ within the SQLite database.
 
 ## Project Structure
 ```
-esg_app/
-├── api/
-│   ├── data/
-│   │   ├── esg_scores.db
-│   │   ├── SP500.csv
-│   │   ├── lseg_esg_scores.csv
-│   │   ├── msci_esg_scores.csv
-│   │   ├── spglobal_esg_scores.csv
-│   │   ├── csrhub_esg_scores.csv
-│   │   └── yahoo_esg_scores.csv
+esg_score_api/
+├── esg_backend/
+│   ├── api/
+│   │   ├── data/
+│   │   │   ├── esg_scores.db
+│   │   │   ├── SP500.csv
+│   │   │   ├── lseg_esg_scores.csv
+│   │   │   ├── msci_esg_scores.csv
+│   │   │   ├── spglobal_esg_scores.csv
+│   │   │   ├── csrhub_esg_scores.csv
+│   │   │   └── yahoo_esg_scores.csv
 │   ├── esg_scrapers/
 │   │   ├── csrhub_nonthreaded.py
 │   │   ├── lseg_threaded.py
@@ -67,7 +68,23 @@ esg_app/
 │   │   │   ├── cleaning_utils.py
 │   │   │   ├── scraper.py
 │   │   │   └── threader.py
+├── esg_frontend/
+│   ├── build/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   │   ├── Components/
+│   │   │   ├── ESGDataFetcher.js
+│   │   ├── App.js
+│   │   ├── index.css
+│   │   └── index.js
+│   ├── .env
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   └── tailwind.config.js
 ├── app.py
+├── docker-compose.yml
 ├── Dockerfile
 ├── Makefile
 ├── README.md

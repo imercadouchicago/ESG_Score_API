@@ -108,8 +108,7 @@ docker-compose-build:
 	docker-compose build
 
 prod: docker-compose-build
-	docker-compose up -d \
-	$(ALL_FLAGS)
+	docker-compose up -d
 
 # # Run React frontend and Flask backend in production
 # prod: build

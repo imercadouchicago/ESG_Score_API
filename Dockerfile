@@ -49,8 +49,5 @@ COPY requirements.txt /app/src
 RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the built frontend to the backend
-COPY --from=frontend-build /app/frontend/build /app/src/static
-
 # Switch to the non-privileged user to run the application.
 USER appuser
