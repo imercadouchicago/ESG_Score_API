@@ -1,7 +1,7 @@
 # ESG Score API
 
 ## Overview
-A comprehensive Docker-based API for collecting, aggregating, and querying Environmental, Social, and Governance (ESG) scores from multiple major providers:
+A comprehensive web application for collecting, aggregating, and querying Environmental, Social, and Governance (ESG) scores from multiple major providers:
 - CSRHub
 - LSEG
 - MSCI
@@ -9,6 +9,9 @@ A comprehensive Docker-based API for collecting, aggregating, and querying Envir
 - Yahoo Finance
 
 ## Features
+
+The folder 'esg_backend' contains the backend of the web application, which contains its own Dockerfile and Makefile. The backend is built using Flask, runs on a Gunicorn server, and is containerized with Docker.
+
 The folder 'esg_scrapers' contains a scraper module for each of the 5 ESG score providers above.
 These modules rely on the util files within the 'scraper_utils' folder and contain the following features:
 - Multi-threaded Selenium web scraping for efficient data collection
@@ -26,10 +29,13 @@ The file 'app.py' builds a Flask app with the api endpoints located in 'routes/r
 associated with these endpoints located in 'route_utils/route_utils.py'. These endpoint helper functions query the SQL tables 
 within the SQLite database. 
 
+The folder 'esg_frontend' contains the React frontend for the web application and its own Dockerfile.
+
 ## Technology Stack
 - Python
 - Makefile
 - Docker
+- React
 - Flask
 - Selenium WebDriver
 - Concurrent Futures 
@@ -38,16 +44,17 @@ within the SQLite database.
 
 ## Project Structure
 ```
-esg_app/
-├── api/
-│   ├── data/
-│   │   ├── esg_scores.db
-│   │   ├── SP500.csv
-│   │   ├── lseg_esg_scores.csv
-│   │   ├── msci_esg_scores.csv
-│   │   ├── spglobal_esg_scores.csv
-│   │   ├── csrhub_esg_scores.csv
-│   │   └── yahoo_esg_scores.csv
+ESG_SCORE_API/
+├── esg_backend/
+│   ├── api/
+│   │   ├── data/
+│   │   │   ├── esg_scores.db
+│   │   │   ├── SP500.csv
+│   │   │   ├── lseg_esg_scores.csv
+│   │   │   ├── msci_esg_scores.csv
+│   │   │   ├── spglobal_esg_scores.csv
+│   │   │   ├── csrhub_esg_scores.csv
+│   │   │   └── yahoo_esg_scores.csv
 │   ├── esg_scrapers/
 │   │   ├── csrhub_nonthreaded.py
 │   │   ├── lseg_threaded.py
@@ -67,11 +74,29 @@ esg_app/
 │   │   │   ├── cleaning_utils.py
 │   │   │   ├── scraper.py
 │   │   │   └── threader.py
-├── app.py
-├── Dockerfile
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── Makefile
+│   └── requirements.txt
+├── esg_frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── Components/
+│   │   │   ├── CompanyTableDataFetcher.js
+│   │   │   ├── ESGDataFetcher.js
+│   │   │   └── TableFetcher.js
+│   │   ├── App.js
+│   │   ├── index.css
+│   │   └── index.js
+│   ├── Dockerfile
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   └── tailwind.config.js
+├── docker-compose.yml
 ├── Makefile
-├── README.md
-└── requirements.txt
+├── Methodology
+└── README.md
 ```
 
 ## Setup
@@ -82,27 +107,30 @@ esg_app/
 
 ```bash
 git clone https://github.com/yourusername/esg_score_api.git
-cd esg_score_api
 ```
 
-3. Interact with the Docker container using the make commands contained in the Makefile:
+3. Interact with the Docker containers using the make commands contained in the Makefiles. See the section below for more information.
+
+## Interacting with the Web Application
+The Makefile within the root of the repository contains a command to run the web application. The make command "make prod" will run the docker-compose.yml file, which will build the backend and frontend containers and run the web application on port 3000.
 
 ```bash
-esg_score_api $ make <command>
+cd ESG_SCORE_API
+ESG_SCORE_API $ make prod
 ```
 
-## Usage
-The Makefile contains commands that can be used to test, replicate, and interact with every aspect of the API. 
+## Interacting with the API and Scrapers
+The Makefile within the 'esg_backend' folder contains commands that can be used to test, replicate, and interact with every aspect of the API and scrapers. 
 All make commands include a dependency on the make build command, which allows the user to run every command without having to first run `make build`.
 
 ### Docker Commands
 
 ```bash
 # Build the Docker container
-esg_score_api $ make build 
+esg_backend $ make build 
 
 # Run the container interactively
-esg_score_api $ make interactive 
+esg_backend $ make interactive 
 ```
 
 ### Scraper Commands
@@ -112,37 +140,37 @@ The dataframe number of rows has been set to 4 in the Threader function so the s
 If you would like to test the scrapers, then feel free to run the following commands.
 
 ```bash
-esg_score_api $ make csrhub
-esg_score_api $ make lseg
-esg_score_api $ make msci
-esg_score_api $ make spglobal
-esg_score_api $ make yahoo
+esg_backend $ make csrhub
+esg_backend $ make lseg
+esg_backend $ make msci
+esg_backend $ make spglobal
+esg_backend $ make yahoo
 ```
 
 ### Database Commands
 
 ```bash
 # Create a sqlite database file and associated tables
-esg_score_api $ make db_create 
+esg_backend $ make db_create 
 
 # Load data into the created sqlite database
-esg_score_api $ make db_load 
+esg_backend $ make db_load 
 
 # Delete the created database file
-esg_score_api $ make db_rm 
+esg_backend $ make db_rm 
 
 # Delete the created database file and reload data
-esg_score_api $ make db_clean 
+esg_backend $ make db_clean 
 
 # Create interactive sqlite session with database
-esg_score_api $ make db_interactive 
+esg_backend $ make db_interactive 
 ```
 
 ### Flask Command
 To build the Flask app and run on port 5001:
 
 ```bash
-esg_score_api $ make flask
+esg_backend $ make flask
 ```
 
 ## Flask API Routes
@@ -165,17 +193,29 @@ If running on port 5001, the base URL will be http://0.0.0.0:5001/.
     URL: `esg_api/all_tables/<string:ticker>`
 
 ## Data Sources
-The sp500.csv file: https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?resource=download&select=sp500_companies.csv
+The sp500.csv file: 
 
-CSRHub data: https://www.csrhub.com/search/name/
+- https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?resource=download&select=sp500_companies.csv
 
-LSEG data: https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+CSRHub data: 
 
-MSCI data: https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+- https://www.csrhub.com/search/name/
 
-SP Global data: https://www.spglobal.com/esg/scores/
+LSEG data: 
 
-Yahoo Finance data: https://finance.yahoo.com/lookup/
+- https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+
+MSCI data: 
+
+- https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool
+
+SP Global data: 
+
+- https://www.spglobal.com/esg/scores/
+
+Yahoo Finance data: 
+
+- https://finance.yahoo.com/lookup/
 
 ## Contact
 Isabella Mercado - imercado@uchicago.edu
